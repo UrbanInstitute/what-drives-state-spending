@@ -1,0 +1,56 @@
+body{
+	font-family: Lato;
+}
+p{
+	width: 800px;
+	margin: 0 auto;
+	line-height: 2em;
+	text-indent: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.equation{
+	font-family: Georgia;
+	width: 910px;
+	margin: 0 auto;
+}
+
+hr{
+	width: 100px;
+}
+.s2{
+	opacity: 0;
+}
+
+#t1{
+	margin-left: 422px;
+}
+#t2{
+	margin-left: 432px;
+}
+#h2{
+	position: absolute;
+    margin-left: 305px;
+    margin-top: -28px;
+}
+#h3{
+	position: absolute;
+    margin-left: 508px;
+    margin-top: -28px;
+}
+#t3{
+	position: absolute;
+    margin-left: -53px;
+    margin-top: -38px;
+}
+#t4{
+    margin-left: 151px;
+    margin-top: 0px;
+    position: absolute;
+}
+#t5{
+	margin-left: 81px;
+    position: absolute;
+    margin-top: -19px;
+
+}

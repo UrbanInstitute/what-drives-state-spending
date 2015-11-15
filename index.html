@@ -1,0 +1,55 @@
+<html>
+<head>
+<link type="text/css" rel="stylesheet" href="css/main.css" media="all" />
+</head>
+<body>
+<p>
+State spending per capita is both a function of how many people receive a service and how much that service costs the state for every one recipient.
+</p>
+
+<div class = "equation e1">
+<span id = "t1">spending</span>
+<hr id = "h1">
+<span id = "t2">capita</span>
+<span id = "t3" class="s2">recipients</span>
+<span id = "t4" class="s2">recipient</span>
+<span id = "t5" class="s2">x</span>
+<hr id = "h2" class="s2">
+<hr id = "h3" class="s2">
+</div>
+
+<p>
+We’ll break down recipients per  capita first. Not every resident of a state is eligible for every service—a disproportionately young population, for example, means more K-12 students in schools and fewer drivers on highways, while a disproportionately impoverished population means more recipients of public welfare. Furthermore, not every eligible person chooses to receive every service—not everyone with a drivers license drives on highways, and not every student enrolls in a public school. So we break recipients per capita down into eligible people per capita and recipients per eligible people.
+</p>
+
+(recipients )/capita×spending/recipient→eligible/capita×recipients/█(eligible@(take up rate))×spending/recipient
+
+
+<p>
+Going one step further, the number of eligible people per capita is both a function of demographics and policy decisions—the number of people eligible for Medicaid is both a function of poverty rates and state Medicaid eligibility laws, and the number of drivers is a function of age as well as drivers license eligibility laws.
+</p>
+
+→(potentially eligible)/█(capita@(demographics))×(actually eligble)/█(potentially eligible@(eligibility))×recipients/█(eligible@(take up rate))×spending/recipient
+
+<p>
+Now let’s back up and look at the other major set of factors driving spending per capita. While demographics, eligibility, and take up rate determine the proportion of a state’s residents who receive a given service, states also spend different amounts of money on services per every one recipient. Spending per recipient can be broken down into “units” per recipient (where a unit might be a school, a prison, a mile of highway, or a public park) and spending per unit.
+</p>
+
+→(potentially eligible)/█(capita@(demographics))×(actually eligble)/█(potentially eligible@(eligibility))×recipients/█(eligible@(take up rate))×unit/recipient×spending/unit
+
+<p>
+Finally, states spend money both on humans and things (teachers and books, doctors and medicine, prison guards and prisons), so we divide spending per unit into salaries (payroll spending) and everything else (non payroll spending)
+</p>
+
+→(potentially eligible)/█(capita@(demographics))×(actually eligble)/█(potentially eligible@(eligibility))×recipients/█(eligible@(take up rate))×unit/recipient×(payroll/unit \+ (non payroll)/unit)
+
+<p>
+Looking at the full picture, we can start to see how spending per capita is a flawed metric, since it can be heavily influenced by a state’s demographics, by its policy decisions, and by the choices of its residents. A state like Colorado, for example, pays its college and university teachers more than all other states but one, but its relatively old population means it’s only ranked 26th in secondary education spending per capita. While a state like [another example goes here]. In the graphic below……
+</p>
+
+→(potentially eligible)/█(capita@(demographics))×(actually eligble)/█(potentially eligible@(eligibility))×recipients/█(eligible@(take up rate))×unit/recipient×(payroll/unit \+ (non payroll)/unit)
+
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.8/d3.js"></script>
+<script src = "js/main.js"></script>
+</body>
+</html>
