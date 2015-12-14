@@ -7,7 +7,7 @@ var COLUMNS = {
 	"tanf": ["spending","demographics","eligibility","takeup","spending"],
 	"ccdf": ["spending","demographics","eligibility","takeup","units","spending"],
 	"housing": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
-	 // "admin": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
+	"admin": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"resources": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"parks": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"utilities": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
