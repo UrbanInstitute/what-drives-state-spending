@@ -1,0 +1,88 @@
+body{
+	font-family: Lato;
+}
+#temp{
+	font-size: 22px;
+}
+/*******************************************************/
+/******************* HEATMAP  **************************/
+/*******************************************************/
+.decile-1{
+	background: #fdbf11;
+}
+.decile-2{
+	background: #fccb41;
+}
+.decile-3{
+	background: #fdd870;
+}
+.decile-4{
+	background:  #fce39e;
+}
+.decile-5{
+	background:  #fff2cf;
+}
+.decile-6{
+	background: #cfe8f3;
+}
+.decile-7{
+	background: #a2d4ec;
+}
+.decile-8{
+	background: #73bfe2;
+}
+.decile-9{
+	background:  #46abdb;
+}
+.decile-10{
+	background: #1696d2;
+}
+.decile-11{
+	background: #1696d2;
+}
+
+#heatmap{
+	position: relative;
+}
+.row{
+	position: absolute;
+	height: 20px;
+	clear: both;
+}
+.headerCell{
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 50px;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.cell, .headerCell{
+	width: 150px;
+	float: left;
+}
+.blankCell{
+	opacity: 0;
+}
+.errorCell{
+	background: #db2b27;
+	color: white;
+}
+
+/*******************************************************/
+/******************* MENU ******************************/
+/*******************************************************/
+.navButton{
+    width: 113px;
+    margin: 10px;
+    padding: 9px;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    background: #333;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+}
+.navButton:hover, .navButton.active{
+	background: #1696d2
+}
