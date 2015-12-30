@@ -1,4 +1,4 @@
-state,spending_value,spending_rank,demographics_value,demographics_rank,eligibility_value,eligibility_rank,takeup_value,takeup_rank,spendingPer_value,spendingPer_rank
+state,spending_value,spending_rank,demographics_value,demographics_rank,eligibility_value,eligibility_rank,takeup_value,takeup_rank,spending-per_value,spending-per_rank
 WA,1030.2387212964338,35,0.6024180179111186,20,0.39100160583703947,26,0.6224655520760306,41,7026.613289317008,37
 WI,1244.9146369921004,25,0.6262069033328759,12,0.34889230527269394,31,0.8207153525182072,7,6942.849854407325,39
 WV,1524.6243314933918,13,0.5305043474116375,40,0.6167179734091144,2,0.5378233842985081,47,8664.581925358565,17
