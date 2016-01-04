@@ -36,12 +36,15 @@ function drawMenu(){
 
 }
 function renderHeatmap(category){
-	d3.selectAll(".cell").remove();
-	d3.selectAll(".headercell").remove();
+	d3.selectAll(".cell").classed("garbage", true);
 	d3.csv("data/" + category + ".csv", function(data){
 		var heatmap = d3.select("#heatmap")
 		var header = heatmap.append("div")
 			.attr("class", "header")
+		d3.selectAll(".headercell").remove();
+		d3.selectAll(".stateCell").remove()
+
+
 		header.append("div")
 				.attr("class","state headerCell")
 				.text("state")
@@ -77,7 +80,7 @@ function renderHeatmap(category){
 				return ((d.spending_rank * ROW_HEIGHT) + headerHeight)  +"px"
 			})
 		row.append("div")
-			.classed("cell state", true)
+			.classed("stateCell", true)
 			.text(function(d){ return d.state})
 		COLUMNS[category].map(function(column){
 			row.append("div")
@@ -96,6 +99,13 @@ function renderHeatmap(category){
 		})
 
 	})
+	d3.selectAll(".garbage")
+		.transition()
+		.duration(500)
+		.style("opacity",0)
+	setTimeout(function(){
+		d3.selectAll(".garbage").remove()
+	}, 500)
 }
 
 function mouseover(datum, column, category){

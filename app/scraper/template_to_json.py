@@ -58,18 +58,18 @@ def parseSection(section, output):
 
 
 with open("templates/template_out.txt") as f:
-    lines = f.readlines()
-    output = {}
-    sections = []
-    section = []
-    for line in lines:
-    	section.append(line)
-    	if line.find("END_SECTION") != -1:
-    		sections.append(section)
-    		section = []
-    for section in sections:
-    	parseSection(section, output)
+	lines = f.readlines()
+	output = {}
+	sections = []
+	section = []
+	for line in lines:
+		section.append(line)
+		if line.find("END_SECTION") != -1:
+			sections.append(section)
+			section = []
+	for section in sections:
+		parseSection(section, output)
 
-    with open('../data/blurbs/blurbs.json', 'w') as fp:
+	with open('../data/blurbs/blurbs.js', 'w') as fp:
 		fp.write("var blurbs = ")
 		json.dump(output, fp, indent=2, sort_keys=True)
