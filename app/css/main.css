@@ -1,6 +1,9 @@
 body{
 	font-family: Lato;
 }
+*:focus{
+   outline: 0;
+}
 #temp{
 	font-size: 22px;
 }
@@ -71,6 +74,36 @@ body{
 /*******************************************************/
 /******************* MENU ******************************/
 /*******************************************************/
+.styled-select.filter select{
+  pointer-events: none;
+}
+.styled-select select {
+   background: transparent;
+   width: 330px;
+   height: 45px;
+   padding-left: 10px;
+   font: 26px Lato;
+   color: #1696d2;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   -webkit-appearance: none;
+   pointer-events: none;
+}
+.styled-select select::-ms-expand {
+ display: none !important;
+}
+.styled-select {
+   width: 274px;
+   height: 44px;
+   overflow: hidden;
+   background: url(../img/urban-select.png) no-repeat right #fff;
+   background-size: 274px 44px;
+   border: none;
+   z-index: 2;
+   overflow: hidden;
+}
+
 .navButton{
     width: 113px;
     margin: 10px;
