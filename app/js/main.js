@@ -65,7 +65,8 @@ function hideSubcontainer(){
 		.style("margin-top","0")
 		.style("padding-top", "0")
 }
-function renderHeatmap(category){
+function renderHeatmap(category, location){
+	console.log(location)
 	d3.selectAll(".cell").classed("garbage", true);
 	d3.selectAll(".row").classed("garbage", true);
 	d3.selectAll(".header").classed("garbage", true);
@@ -193,9 +194,11 @@ function renderHeatmap(category){
 		.style("opacity",0)
 	setTimeout(function(){
 		drawBlurbs(category, "spending")
+		if(typeof(location != "undefined")){
+			stickyState({"state": location})
+		}
 		d3.selectAll(".garbage").remove()
 	}, 200)
-
 }
 
 function stickyState(state){
@@ -256,7 +259,6 @@ function stickyState(state){
 				var box_left = d3.select(this).node().getBoundingClientRect().left
 				var box_top = d3.select(this).node().getBoundingClientRect().top
 				var box_height = d3.select(this).node().getBoundingClientRect().height
-				console.log(cell_top-box_top, box_height - (cell_top-box_top))
 				if(Math.abs(cell_left-box_left) <= 10 && cell_top-box_top > 0 && box_height - (cell_top-box_top) > 10 ){
 					return (parseInt(d3.select(this).style("left").replace("px","")) - 15) + "px";
 				}else{return d3.select(this).style("left")}
@@ -269,7 +271,6 @@ function stickyState(state){
 				var box_left = d3.select(this).node().getBoundingClientRect().left
 				var box_top = d3.select(this).node().getBoundingClientRect().top
 				var box_height = d3.select(this).node().getBoundingClientRect().height
-				console.log(cell_top-box_top, box_height - (cell_top-box_top))
 				if(Math.abs(cell_left-box_left) <= 10 && cell_top-box_top > 0 && box_height - (cell_top-box_top) > 10 ){
 					return (parseInt(d3.select(this).style("width").replace("px","")) + 15) + "px";
 				}else{return d3.select(this).style("width")}				
@@ -311,7 +312,6 @@ function stickyState(state){
 				var box_left = d3.select(this).node().getBoundingClientRect().left
 				var box_top = d3.select(this).node().getBoundingClientRect().top
 				var box_height = d3.select(this).node().getBoundingClientRect().height
-				console.log(cell_top-box_top, box_height - (cell_top-box_top))
 				if(Math.abs(cell_left-box_left) <= 10 && cell_top-box_top > 0 && box_height - (cell_top-box_top) > 10 ){
 					return (parseInt(d3.select(this).style("left").replace("px","")) + 15) + "px";
 				}else{return d3.select(this).style("left")}
@@ -324,7 +324,6 @@ function stickyState(state){
 				var box_left = d3.select(this).node().getBoundingClientRect().left
 				var box_top = d3.select(this).node().getBoundingClientRect().top
 				var box_height = d3.select(this).node().getBoundingClientRect().height
-				console.log(cell_top-box_top, box_height - (cell_top-box_top))
 				if(Math.abs(cell_left-box_left) <= 10 && cell_top-box_top > 0 && box_height - (cell_top-box_top) > 10 ){
 					return (parseInt(d3.select(this).style("width").replace("px","")) - 15) + "px";
 				}else{return d3.select(this).style("width")}				
@@ -348,10 +347,25 @@ function getCellClass(datum, column, category){
 		return "errorCell"
 	}else{ return "decile-" + (Math.floor((datum[column + "_rank"]-1)/5)+1) }
 }
+var promise = new Promise(function(resolve, reject){
+	// var USER_STATE_CODE;
+	var onSuccess = function(location){
+	  location.subdivisions[0].iso_code
+	  resolve(location.subdivisions[0].iso_code);
+	};
+	 
+	var onError = function(error){
+	  resolve(false)
+	};
+	geoip2.city(onSuccess, onError);
+})
 
 
 drawMenu();
-renderHeatmap("housing");
+promise.then(function(result){
+	renderHeatmap("housing", result);
+})
+
 // drawBlurbs("housing","spending")
 d3.select(".navButton.higher").classed("active",true)
 
@@ -381,43 +395,43 @@ if (isFirefox){
 }
 
 function drawBlurbs(category, column){
-	console.log(category, column)
 	var bs = blurbs[category][column]
 	for (var i = 0; i < bs.length; i++){
+
 		blurb = bs[i]
-		var topD = d3.select(".row." + blurb.top_left.state).datum()
-		var bottomD = d3.select(".row." + blurb.bottom_right.state).datum()
-		// console.log(tl)
 
-		var top_rank = (topD[column + "_rank"] == 99) ? 52:topD[column + "_rank"]
-		var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
-		// console.log(topD, category, top_rank)
-		// return ((top_rank * ROW_HEIGHT) + headerHeight)  +"px"
+		if(blurb.top_left.state.indexOf(",") != -1){
+			// console.log(blurb.top_left)
 
-		var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
-		// top_left.style("background","red")
-		
-		var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
-		// bottom_right.style("background","orange")
+		}
+		else{
+			var topD = d3.select(".row." + blurb.top_left.state).datum()
+			var bottomD = d3.select(".row." + blurb.bottom_right.state).datum()
 
-		// var tl_rect = top_left.node().getBoundingClientRect()
-		// var tl_rect = top_left.node().getBoundingClientRect()
-		console.log(((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10), ((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10))
-		d3.select("#heatmap").append("div")
-			.attr("class","blurbBox")
-			.style("position","absolute")
-			.style("left",(top_left.left-2) + "px")
-			.style("top", ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) + "px")
-			.style("width", (bottom_right.left - top_left.left + 103) + "px")
-			.style("height", (((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
-					 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) + "px")
-			// .transition()
-			.style("opacity",0)
-			.style("border","4px solid #eb3f1c")
-			.transition()
-			.style("opacity",1)
+			var top_rank = (topD[column + "_rank"] == 99) ? 52:topD[column + "_rank"]
+			var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
+
+			var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
+			
+			var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
+
+			d3.select("#heatmap").append("div")
+				.attr("class","blurbBox")
+				.style("position","absolute")
+				.style("left",(top_left.left-2) + "px")
+				.style("top", ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) + "px")
+				.style("width", (bottom_right.left - top_left.left + 103) + "px")
+				.style("height", (((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
+						 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) + "px")
+				.style("opacity",0)
+				.style("border","4px solid #eb3f1c")
+				.transition()
+				.style("opacity",1)
+		}
 	}
 }
+
+// function drawBlurb()
 
 function showMenu(parentCategory){
 	var container = d3.select(".container." + parentCategory)

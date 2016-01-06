@@ -1146,6 +1146,23 @@ Curae felis a diam. Augue netus condimentum suscipit cubilia. Massa velit per di
 
 ### Blurb text ends here ###
 
+Top left State: DC, MA
+
+Top left Column: takeup, payroll
+
+
+
+Bottom right State: LA, ME
+
+Bottom right Column: takeup, payroll
+
+
+
+### Blurb text starts here ###
+
+Fames proin neque varius nisi. Massa donec. Fusce lorem sit neque etiam sagittis. Augue dolor magnis elementum litora faucibus eu velit litora ligula nulla. Curae vitae tempus urna suspendisse quisque donec mi aptent. Risus ipsum tortor. Curae lacus nascetur mi lacus non quam odio. Fusce augue luctus ac arcu eleifend felis ante euismod eget. Justo metus sem parturient. Velit vitae.
+
+### Blurb text ends here ###
 
 
 ####### END_SECTION #######
