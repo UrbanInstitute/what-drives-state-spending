@@ -1128,15 +1128,15 @@ Sorted by: spending
 
 
 
-Top left State: VT
+Top left State: AK
 
 Top left Column: spending
 
 
 
-Bottom right State: DE
+Bottom right State: OH
 
-Bottom right Column: spending
+Bottom right Column: demographics
 
 
 
@@ -1162,15 +1162,15 @@ Sorted by: demographics
 
 
 
-Top left State: VT
+Top left State: DC
 
-Top left Column: spending
+Top left Column: takeup
 
 
 
-Bottom right State: DE
+Bottom right State: LA
 
-Bottom right Column: spending
+Bottom right Column: takeup
 
 
 

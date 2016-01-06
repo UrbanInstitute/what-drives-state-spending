@@ -453,13 +453,13 @@ var blurbs = {
     "demographics": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
+          "column": "takeup", 
+          "state": "LA"
         }, 
         "text": "Fames proin neque varius nisi. Massa donec. Fusce lorem sit neque etiam sagittis. Augue dolor magnis elementum litora faucibus eu velit litora ligula nulla. Curae vitae tempus urna suspendisse quisque donec mi aptent. Risus ipsum tortor. Curae lacus nascetur mi lacus non quam odio. Fusce augue luctus ac arcu eleifend felis ante euismod eget. Justo metus sem parturient. Velit vitae.\n", 
         "top_left": {
-          "column": "spending", 
-          "state": "VT"
+          "column": "takeup", 
+          "state": "DC"
         }
       }
     ], 
@@ -492,13 +492,13 @@ var blurbs = {
     "spending": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
+          "column": "demographics", 
+          "state": "OH"
         }, 
         "text": "Curae felis a diam. Augue netus condimentum suscipit cubilia. Massa velit per dictumst ridiculus at suspendisse ante litora pulvinar fringilla class facilisis malesuada. Metus augue congue curae leo justo elementum rutrum. Risus curae pretium fringilla hac aliquet. Lorem purus risus volutpat. Lacus nulla tempor taciti venenatis parturient eni vestibulum parturient et ante. Fusce risus. Donec metus malesuada elementum nisl integer ligula duis vivamus nunc maecenas ve. Ipsum curae primis feugiat.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "AK"
         }
       }
     ], 

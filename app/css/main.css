@@ -5,6 +5,7 @@
 
 body{
 	font-family: Lato;
+	margin: 0;
 }
 *:focus{
    outline: 0;
@@ -16,37 +17,37 @@ body{
 /******************* HEATMAP  **************************/
 /*******************************************************/
 .decile-1{
-	background: #fdbf11;
+	background: #f9f8c5;
 }
 .decile-2{
-	background: #fccb41;
+	background: #f0f7aa;
 }
 .decile-3{
-	background: #fdd870;
+	background: #b7e0a6;
 }
 .decile-4{
-	background:  #fce39e;
+	background:  #9fd67c;
 }
 .decile-5{
-	background:  #fff2cf;
+	background:  #77c987;
 }
 .decile-6{
-	background: #cfe8f3;
+	background: #5eb78f;
 }
 .decile-7{
-	background: #a2d4ec;
+	background: #31afa3;
 }
 .decile-8{
-	background: #73bfe2;
+	background: #1696d2;
 }
 .decile-9{
-	background:  #46abdb;
+	background:  #263a8c;
 }
 .decile-10{
-	background: #1696d2;
+	background: #142854;
 }
 .decile-11{
-	background: #1696d2;
+	background: #142854;
 }
 
 #heatmap{
@@ -54,8 +55,12 @@ body{
 }
 .row{
 	position: absolute;
-	height: 20px;
+	height: 30px;
 	clear: both;
+	left: calc(50% - 365px);
+}
+.header{
+	margin-left: calc(50% - 365px);
 }
 .headerCell{
 	font-weight: bold;
@@ -64,9 +69,40 @@ body{
 	vertical-align: middle;
 	cursor: pointer;
 }
-.cell, .headerCell, .stateCell{
-	width: 150px;
+
+.cell, .headerCell{
+	width: 103px;
+	height: 30px;
 	float: left;
+	border-left: 2px solid white;
+}
+.stateCell{
+	width: 71px;
+    z-index: 6;
+    left: 36px;
+    position: relative;
+    /* color: white; */
+    border: none;
+    top: 28px;
+    font-size: 21px;
+}
+.stateCell svg{
+    position: relative;
+    right: 11px;
+    top: -1.5px;
+    float: right;
+}
+.stateCell svg circle{
+	fill: #666;
+}
+.stateCell svg circle:hover{
+	fill: #333;
+}
+.stateCell svg.checked circle{
+	fill: #eb3f1c
+}
+.stateCell.whiteText{
+	color: white;
 }
 .blankCell{
 	opacity: 0;
@@ -75,10 +111,20 @@ body{
 	background: #db2b27;
 	color: white;
 }
-
+.rankLabel{
+	width: 25px;
+    height: 19px;
+    background: #666666;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
 /*******************************************************/
 /******************* MENU ******************************/
 /*******************************************************/
+.menuItem{
+	margin-left: calc(50% - 365px)
+}
 .styled-select.filter select{
   pointer-events: none;
 }
@@ -87,9 +133,9 @@ body{
    width: 330px;
    height: 45px;
    padding-left: 10px;
-   font: 26px Lato;
+   font: 26px crimson_textsemibold;
    color: #1696d2;
-   line-height: 1;
+   line-height: 1.2;
    border: 0;
    border-radius: 0;
    -webkit-appearance: none;
@@ -99,19 +145,30 @@ body{
  display: none !important;
 }
 .styled-select {
-   width: 274px;
+   width: 374px;
    height: 44px;
    overflow: hidden;
    background: url(../img/urban-select.png) no-repeat right #fff;
-   background-size: 274px 44px;
+   background-size: 374px 44px;
    border: none;
    z-index: 2;
    overflow: hidden;
 }
-
+.catDescription{
+	width: 730px;
+	font: 18px crimson_textitalic;
+	color: #666666;
+	margin-top: 23px;
+}
+#navMenu{
+	background-color: #E6E6E6;
+	width: 100%;
+	padding-top: 33px;
+}
 .navButton{
-    width: 113px;
-    margin: 10px;
+    /*width: 113px;*/
+    font: 17px Lato;
+    margin-right: 20px;
     padding: 9px;
     text-align: center;
     vertical-align: middle;
@@ -122,5 +179,42 @@ body{
     cursor: pointer;
 }
 .navButton:hover, .navButton.active{
-	background: #1696d2
+	background: #eb3f1c;
+}
+
+#containers{
+	border-bottom: 28px solid #E6E6E6;
+}
+.container{
+	height: 0px;
+	margin-top: 0px;
+	overflow: hidden;
+}
+.container.environment{
+	height: 39px;
+	margin-top: 60px;
+}
+.subcontainer{
+    width: 730px;
+    height: 0px; 
+    margin-top: 0px; 
+    overflow: hidden;
+    border-top: none;
+    /*height: 28px;*/
+    /*margin-top: 18px;*/
+    /*padding-top: 13px;*/
+    /*border-top: 1px solid white;*/
+}
+.subcontainer .navButton{
+	font-size: 13px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: #e6e6e6;
+	color: #666666;
+	border: 1px solid #666666;
+}
+.subcontainer .navButton:hover{
+	background: #eb3f1c;
+	color: white;
+	border: 1px solid white;
 }
