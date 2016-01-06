@@ -17,37 +17,37 @@ body{
 /******************* HEATMAP  **************************/
 /*******************************************************/
 .decile-1{
-	background: #f9f8c5;
-}
-.decile-2{
-	background: #f0f7aa;
-}
-.decile-3{
 	background: #b7e0a6;
 }
+.decile-2{
+	background: #9fd67c;
+}
+.decile-3{
+	background: #77c987;
+}
 .decile-4{
-	background:  #9fd67c;
+	background:  #5eb78f;
 }
 .decile-5{
-	background:  #77c987;
+	background:  #31afa3;
 }
 .decile-6{
-	background: #5eb78f;
-}
-.decile-7{
-	background: #31afa3;
-}
-.decile-8{
 	background: #1696d2;
 }
+.decile-7{
+	background: #2e66ac;
+}
+.decile-8{
+	background: #263a8c;
+}
 .decile-9{
-	background:  #263a8c;
+	background:  #142854;
 }
 .decile-10{
-	background: #142854;
+	background: #02112d;
 }
 .decile-11{
-	background: #142854;
+	background: #02112d;
 }
 
 #heatmap{
@@ -81,7 +81,7 @@ body{
     z-index: 6;
     left: 36px;
     position: relative;
-    /* color: white; */
+     color: white; 
     border: none;
     top: 28px;
     font-size: 21px;

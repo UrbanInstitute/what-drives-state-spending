@@ -101,14 +101,15 @@ function renderHeatmap(category){
 							var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
 							return ((rank * ROW_HEIGHT) + headerHeight)  +"px"
 						})
-						.each("end",function(d){
-							// console.log(d)
-							var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
-							// console.log(rank/52)
-							if(rank/52 ==1){
-								drawBlurbs(category, column)
-							}
-						})
+						// .each("end",function(d){
+						// 	// console.log(d)
+						// 	var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
+						// 	// console.log(rank/52)
+						// 	if(rank/52 ==1){
+						// 		drawBlurbs(category, column)
+						// 	}
+						// })
+				drawBlurbs(category, column)
 					// setTimeout(, 2000)
 					
 				})
@@ -152,13 +153,13 @@ function renderHeatmap(category){
 //draw checkboxes
 	var checkRadius = 9
 	var svg = d3.selectAll(".stateCell")
-		.classed("whiteText", function(){
-			var parentRow = d3.select(d3.select(this).node().parentNode)
-			var spending = parentRow.select(".cell.spending");
-			if (spending.classed("decile-6") || spending.classed("decile-7") || spending.classed("decile-8") || spending.classed("decile-9") || spending.classed("decile-10") || spending.classed("decile-11")){
-				return true
-			}else{ return false }
-		})
+		// .classed("whiteText", function(){
+		// 	var parentRow = d3.select(d3.select(this).node().parentNode)
+		// 	var spending = parentRow.select(".cell.spending");
+		// 	if (spending.classed("decile-6") || spending.classed("decile-7") || spending.classed("decile-8") || spending.classed("decile-9") || spending.classed("decile-10") || spending.classed("decile-11")){
+		// 		return true
+		// 	}else{ return false }
+		// })
 		.append("svg")
 			.attr("class","stateCheck")
 		svg.append("circle")
@@ -384,6 +385,15 @@ function drawBlurbs(category, column){
 	var bs = blurbs[category][column]
 	for (var i = 0; i < bs.length; i++){
 		blurb = bs[i]
+		var topD = d3.select(".row." + blurb.top_left.state).datum()
+		var bottomD = d3.select(".row." + blurb.bottom_right.state).datum()
+		// console.log(tl)
+
+		var top_rank = (topD[column + "_rank"] == 99) ? 52:topD[column + "_rank"]
+		var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
+		// console.log(topD, category, top_rank)
+		// return ((top_rank * ROW_HEIGHT) + headerHeight)  +"px"
+
 		var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
 		// top_left.style("background","red")
 		
@@ -392,14 +402,15 @@ function drawBlurbs(category, column){
 
 		// var tl_rect = top_left.node().getBoundingClientRect()
 		// var tl_rect = top_left.node().getBoundingClientRect()
-		console.log(bottom_right, top_left)
-		d3.select("body").append("div")
+		console.log(((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10), ((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10))
+		d3.select("#heatmap").append("div")
 			.attr("class","blurbBox")
 			.style("position","absolute")
 			.style("left",(top_left.left-2) + "px")
-			.style("top", (top_left.top-4) + "px")
+			.style("top", ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) + "px")
 			.style("width", (bottom_right.left - top_left.left + 103) + "px")
-			.style("height", (bottom_right.top - top_left.top + ROW_HEIGHT-2) + "px")
+			.style("height", (((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
+					 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) + "px")
 			// .transition()
 			.style("opacity",0)
 			.style("border","4px solid #eb3f1c")
