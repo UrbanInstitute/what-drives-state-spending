@@ -355,6 +355,7 @@ var promise = new Promise(function(resolve, reject){
 	};
 	 
 	var onError = function(error){
+		console.log(error)
 	  resolve(false)
 	};
 	geoip2.city(onSuccess, onError);
