@@ -9,9 +9,28 @@
 
 <script type="text/javascript">
   console.log("Your IP is :", userip);
-  var url = "http://api.db-ip.com/addrinfo?addr=" + userip +"&api_key=054b2937c15ddbaa95ad8864d3212023be5102ed"
-  console.log(url)
-  $.getJSON(url, function(resp){
-    console.log(resp)
-  })
+  // var url = "http://api.db-ip.com/addrinfo?addr=" + userip +"&api_key=054b2937c15ddbaa95ad8864d3212023be5102ed"
+  // console.log(url)
+  // $.getJSON(url, function(resp){
+  //   console.log(resp)
+  // })
+
+
+$(document).ready(function(){
+    $.ajax({
+        url: 'http://freegeoip.net/json/' + userip,
+        dataType: 'jsonp',
+        success: function(data){
+            // var text = '';
+            // var len = dataWeGotViaJsonp.length;
+            // for(var i=0;i<len;i++){
+            //     twitterEntry = dataWeGotViaJsonp[i];
+            //     text += '<p><img src = "' + twitterEntry.user.profile_image_url_https +'"/>' + twitterEntry['text'] + '</p>'
+            // }
+            // $('#twitterFeed').html(text);
+            console.log(data)
+        }
+    });
+})
+
 </script>
