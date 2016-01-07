@@ -349,16 +349,25 @@ function getCellClass(datum, column, category){
 }
 var promise = new Promise(function(resolve, reject){
 	// var USER_STATE_CODE;
-	var onSuccess = function(location){
-	  location.subdivisions[0].iso_code
-	  resolve(location.subdivisions[0].iso_code);
-	};
+	// var onSuccess = function(location){
+	//   location.subdivisions[0].iso_code
+	//   resolve(location.subdivisions[0].iso_code);
+	// };
 	 
-	var onError = function(error){
-		console.log(error)
-	  resolve(false)
-	};
-	geoip2.city(onSuccess, onError);
+	// var onError = function(error){
+	// 	console.log(error)
+	//   resolve(false)
+	// };
+	// geoip2.city(onSuccess, onError);
+	$.ajax({
+	    url: 'http://freegeoip.net/json/' + userip,
+	    dataType: 'jsonp',
+	    success: function(data){
+	      console.log("located")
+	      // foo=data
+	      resolve(data.region_code)
+	    }
+	});
 })
 
 
