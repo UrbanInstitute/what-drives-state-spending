@@ -18,7 +18,12 @@ var COLUMNS = {
 	"transit": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"]
 }
 var ROW_HEIGHT = 32;
-var headerHeight = 30;
+var COLUMN_WIDTH = 99;
+var headerHeight = 116-56;
+
+d3.select("#heatmap")
+	.style("height", ((ROW_HEIGHT * 54) + headerHeight) + "px");
+
 var CHECKED = [];
 
 function drawMenu(){
@@ -37,18 +42,49 @@ function drawMenu(){
 	d3.selectAll(".navButton")
 		.on("click", function(){
 			var category = d3.select(this).attr("class").replace("navButton","").replace("active","").replace(/\s/g,"")
+			if(category == "utilities"){
 			d3.selectAll(".navButton.active").classed("active",false)
 			d3.select(this).classed("active",true)
-			if(category == "utilities"){
+
     			d3.select(".subcontainer.utilities")
     				.style("border-top", "1px solid white")
     				.transition()
     				.style("height", "28px")
     				.style("margin-top","18px")
     				.style("padding-top", "13px")
+    			d3.selectAll(".container .navButton:not(.utilities)")
+    				.transition()
+    				.style("border-color","#808080")
+    				.style("color","#666666")
+    				.style("background","#e6e6e6")
+    			d3.select(".container .utilities")
+    				.transition()
+    				.style("border-color","#eb3f1c")
+    				.style("color","#eb3f1c")
+    				.style("background","#e6e6e6")
 			}else {
 				var utilities = ["gas","electric","sewage","solid","water"]
 				if(utilities.indexOf(category) == -1){
+					if( d3.select(".navButton.utilities").classed("active")){
+		    			d3.selectAll(".container .navButton:not(." + category + ")")
+		    				.transition()
+		    				.duration(400)
+		    				.style("border-color","#fff")
+		    				.style("color","#333")
+		    				.style("background","#fff")
+		    			d3.selectAll(".container .navButton." + category)
+		    				.transition()
+		    				.duration(400)
+		    				.style("border-color","#eb3f1c")
+		    				.style("color","#fff")
+		    				.style("background","#eb3f1c")
+		    			setTimeout(function(){
+		    				$(".container .navButton").removeAttr('style');
+		    			},500)
+		    		}
+					d3.selectAll(".navButton.active").classed("active",false)
+					d3.select(this).classed("active",true)
+
 					hideSubcontainer();
 				}
 				return renderHeatmap(category)
@@ -66,11 +102,15 @@ function hideSubcontainer(){
 		.style("padding-top", "0")
 }
 function renderHeatmap(category, location){
-	console.log(location)
+	// var promise2 = new Promise(function(resolve, reject){
 	d3.selectAll(".cell").classed("garbage", true);
 	d3.selectAll(".row").classed("garbage", true);
 	d3.selectAll(".header").classed("garbage", true);
 	d3.selectAll(".blurbBox").classed("garbage", true);
+	d3.selectAll(".blurbText").classed("garbage", true);
+	// d3.selectAll(".minimap").classed("garbage", true);
+
+
 
 	d3.csv("data/" + category + ".csv", function(data){
 		var heatmap = d3.select("#heatmap")
@@ -102,15 +142,13 @@ function renderHeatmap(category, location){
 							var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
 							return ((rank * ROW_HEIGHT) + headerHeight)  +"px"
 						})
-						// .each("end",function(d){
-						// 	// console.log(d)
-						// 	var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
-						// 	// console.log(rank/52)
-						// 	if(rank/52 ==1){
-						// 		drawBlurbs(category, column)
-						// 	}
-						// })
 				drawBlurbs(category, column)
+				d3.selectAll(".blurbBox")
+					.transition()
+					.duration(1000)
+					.style("opacity",1)
+			// resolve({"category":category, "column":column})
+
 					// setTimeout(, 2000)
 					
 				})
@@ -194,11 +232,20 @@ function renderHeatmap(category, location){
 		.style("opacity",0)
 	setTimeout(function(){
 		drawBlurbs(category, "spending")
-		if(typeof(location != "undefined")){
+		if(typeof(location) != "undefined"){
 			stickyState({"state": location})
 		}
 		d3.selectAll(".garbage").remove()
+		d3.selectAll(".blurbBox:not(.garbage)")
+				.transition()
+				.duration(400)
+				.style("opacity",1)
+
 	}, 200)
+// })
+	// promise2.then(function(result){
+	// 	drawBlurbs(result.category, result.column)
+	// })
 }
 
 function stickyState(state){
@@ -210,7 +257,7 @@ function stickyState(state){
 		d3.select(cell.node().parentNode).select(".spending")
 			.transition()
 			.style("margin-left","-15px")
-			.style("width","118px")
+			.style("width",(COLUMN_WIDTH + 15) + "px")
 		
 		// d3.select(cell.node().parentNode).select(".spending").select(".rankLabel")
 		// 	.transition()
@@ -281,7 +328,7 @@ function stickyState(state){
 		d3.select(cell.node().parentNode).select(".spending")
 			.transition()
 			.style("margin-left","0px")
-			.style("width","103px")
+			.style("width",COLUMN_WIDTH + "px")
 
 		// d3.select(cell.node().parentNode).select(".spending").select(".rankLabel")
 		// 	.transition()
@@ -348,25 +395,16 @@ function getCellClass(datum, column, category){
 	}else{ return "decile-" + (Math.floor((datum[column + "_rank"]-1)/5)+1) }
 }
 var promise = new Promise(function(resolve, reject){
-	// var USER_STATE_CODE;
-	// var onSuccess = function(location){
-	//   location.subdivisions[0].iso_code
-	//   resolve(location.subdivisions[0].iso_code);
-	// };
-	 
-	// var onError = function(error){
-	// 	console.log(error)
-	//   resolve(false)
-	// };
-	// geoip2.city(onSuccess, onError);
 	$.ajax({
 	    url: 'http://freegeoip.net/json/' + userip,
 	    dataType: 'jsonp',
 	    success: function(data){
-	      console.log("located")
-	      // foo=data
-	      resolve(data.region_code)
-	    }
+	      	resolve(data.region_code)
+	    },
+        error: function(error){
+    		console.log(error)
+    		resolve("")
+    	}
 	});
 })
 
@@ -405,43 +443,159 @@ if (isFirefox){
 }
 
 function drawBlurbs(category, column){
+	MINIBLURB_INDEX = 0;
+	var numCols = (category == "ssi" || category == "ccdf" || category == "tanf") ? 6 : 7;
+
 	var bs = blurbs[category][column]
 	for (var i = 0; i < bs.length; i++){
 
-		blurb = bs[i]
+		// blurb = bs[i]
+		var blurbList = [];
+		if(bs[i].top_left.state.indexOf(",") != -1){
+			// console.log(bs[i])
+		// var blurbPromise = new Promise(function(resolve, reject){
+			var br_cols = bs[i].bottom_right.column.replace(/\s/g,"").split(",")
+			var br_states = bs[i].bottom_right.state.replace(/\s/g,"").split(",")
+			var tl_cols = bs[i].top_left.column.replace(/\s/g,"").split(",")
+			var tl_states = bs[i].top_left.state.replace(/\s/g,"").split(",")
+			var text = bs[i].text;
+			var num = br_cols.length
+			// console.log(num, br_cols)
+			for(var k = 0; k < num; k++){
+				var b = {
+					"bottom_right":{
+						"column": br_cols[k],
+						"state": br_states[k]
+					},
+					"top_left":{
+						"column": tl_cols[k],
+						"state": tl_states[k]
+					},
+					"text": text,
+					"index": i
+				}
+				blurbList.push(b)
+				// if( k == num-1){
+				// 	console.log("foo")
+				// 	resolve(blurbList)
+				// }
+			}
 
-		if(blurb.top_left.state.indexOf(",") != -1){
-			// console.log(blurb.top_left)
-
+		// })
+		// blurbPromise.then(function(result){
+			// console.log(result, column)
+			drawBlurb(blurbList, column, numCols)
+		// })
+			// console.log(blurbList, column)
+			// drawBlurb(blurbList, column)
 		}
 		else{
-			var topD = d3.select(".row." + blurb.top_left.state).datum()
-			var bottomD = d3.select(".row." + blurb.bottom_right.state).datum()
-
-			var top_rank = (topD[column + "_rank"] == 99) ? 52:topD[column + "_rank"]
-			var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
-
-			var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
-			
-			var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
-
-			d3.select("#heatmap").append("div")
-				.attr("class","blurbBox")
-				.style("position","absolute")
-				.style("left",(top_left.left-2) + "px")
-				.style("top", ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) + "px")
-				.style("width", (bottom_right.left - top_left.left + 103) + "px")
-				.style("height", (((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
-						 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) + "px")
-				.style("opacity",0)
-				.style("border","4px solid #eb3f1c")
-				.transition()
-				.style("opacity",1)
+			var b = bs[i]
+			b["index"] = i
+			blurbList.push(b)
+			drawBlurb(blurbList, column, numCols)
 		}
 	}
-}
 
-// function drawBlurb()
+	d3.selectAll(".map").transition()
+		.style("width", ((numCols * COLUMN_WIDTH + 20) * 138 / (52 * ROW_HEIGHT)) + "px")
+		.style("height", "138px")
+	for(var mb = MINIBLURB_INDEX; mb < 5; mb++){
+		// console.log("mb",mb)
+		d3.select("#mb" + mb)
+			.transition()
+			.style("width",0)
+			.style("height",0)
+			.style("left","111px")
+			.style("top",0)
+	}
+	// d3.select(".minimap")
+	// 	.append("div")
+	// 	.style("background","red")
+	// 	.style("width","10px")
+	// 	.style("height","10px")
+	// console.log("width", d3.select(".row").node().getBoundingClientRect().width)
+}
+//    <line x1="40" x2="560" y1="100" y2="600" stroke="#5184AF" stroke-width="10" stroke-linecap="round" stroke-dasharray="0, 20"/>
+function drawBlurb(blurbList, column, numCols){
+	if(blurbList.length > 1){
+		console.log(blurbList)
+	}
+	for (var j = 0; j < blurbList.length; j++){
+		var blurb = blurbList[j]
+
+		var topD = d3.select(".row." + blurb.top_left.state + ":not(.garbage)").datum()
+		var bottomD = d3.select(".row." + blurb.bottom_right.state+ ":not(.garbage)").datum()
+
+		var top_rank = (topD[column + "_rank"] == 99) ? 52:topD[column + "_rank"]
+		var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
+
+		var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
+		
+		var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
+		var indChar = String.fromCharCode(97 + blurb.index)
+
+		if(indChar == "a"){
+			if(d3.select(".blurbText.index_" + indChar + ":not(.garbage)").node() == null){
+				d3.select(".left.gutter").append("div")
+					.attr("class", "blurbText index_" + indChar)
+					.html(
+						"<div class = blurbMarker>" + indChar + "</div>" +
+						"<div class = innerText>" + blurb.text + "</div>"
+						)
+			}
+		}else{
+			if(d3.select(".blurbText.index_" + indChar + ":not(.garbage)").node() == null){
+				d3.select(".right.gutter").append("div")
+					.attr("class", "blurbText index_" + indChar)
+					.html(
+						"<div class = blurbMarker>" + indChar + "</div>" +
+						"<div class = innerText>" + blurb.text + "</div>"
+						)
+			}	
+		}
+
+		var blurbBox = d3.select("#heatmap").append("div")
+			.attr("class","blurbBox index_" + indChar)
+			.style("position","absolute")
+			.style("left",(top_left.left-2) + "px")
+			.style("top", ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) + "px")
+			.style("width", (bottom_right.left - top_left.left + COLUMN_WIDTH) + "px")
+			.style("height", (((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
+					 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) + "px")
+			.style("opacity",0)
+			.style("border","4px solid #eb3f1c")
+		blurbBox.append("div")
+			.attr("class", "boxLabel")
+			.style("position","absolute")
+			.style("bottom","0px")
+			.style("right","0px")
+			.style("height",(ROW_HEIGHT-6) + "px")
+			.text(indChar)
+			// .style("")
+
+		// d3.selectAll(".map").transition()
+		var W = (numCols * COLUMN_WIDTH + 20)
+		var H = (52 * ROW_HEIGHT)
+		var h = 138
+		var w = h * W/ H
+
+		var L = top_left.left - d3.select(".row").node().getBoundingClientRect().left
+		var T = ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) - (headerHeight + ROW_HEIGHT + 10)
+		console.log(T,  ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) , d3.select("#heatmap").node().getBoundingClientRect().top)
+		d3.select("#mb" + MINIBLURB_INDEX)
+			.transition()
+			.style("left", (L * (w/W) + 111) + "px")
+			.style("top", (T * h/H) + "px")
+			.style("width",((bottom_right.left - top_left.left + COLUMN_WIDTH) * w/W) + "px")
+			.style("height",((((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
+					 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) * h/H) + "px")
+		MINIBLURB_INDEX += 1;
+			
+
+		}
+
+}
 
 function showMenu(parentCategory){
 	var container = d3.select(".container." + parentCategory)
@@ -489,4 +643,66 @@ function showMenu(parentCategory){
 			.style("margin-top","0px")
 	}
 }
+
+
+
+$(window).scroll(function(e){ 
+	var heatTop = d3.select("#heatmap").node().getBoundingClientRect().top
+	var heatBottom = d3.select("#heatmap").node().getBoundingClientRect().bottom
+
+	var leftTop = d3.select(".left.gutter").node().getBoundingClientRect().top
+	var leftBottom = d3.select(".left.gutter").node().getBoundingClientRect().bottom
+
+	var leftStick = d3.select("#heatmap").node().getBoundingClientRect().height - d3.select(".left.gutter").node().getBoundingClientRect().height
+	var leftPositionFixed = (d3.select(".left.gutter").style("position") == "fixed")
+
+	if (heatTop < 0 && !leftPositionFixed){
+		$('.left.gutter').css({'position': 'fixed', 'top': '116px'}); 
+	}
+	if (heatTop > 0 && leftPositionFixed)
+	{
+		$('.left.gutter').css({'position': 'absolute', 'top': '116px'}); 
+	}
+	if (heatBottom <= leftBottom && leftTop <= 116){
+		$('.left.gutter').css({'position': 'absolute', 'top': leftStick}); 
+	}
+
+	var heatTop = d3.select("#heatmap").node().getBoundingClientRect().top
+	var heatBottom = d3.select("#heatmap").node().getBoundingClientRect().bottom
+
+	var rightTop = d3.select(".right.gutter").node().getBoundingClientRect().top
+	var rightBottom = d3.select(".right.gutter").node().getBoundingClientRect().bottom
+
+	var rightStick = d3.select("#heatmap").node().getBoundingClientRect().height - d3.select(".right.gutter").node().getBoundingClientRect().height
+	var rightPositionFixed = (d3.select(".right.gutter").style("position") == "fixed")
+	
+	if (heatTop < 0 && !rightPositionFixed){
+		$('.right.gutter').css({'position': 'fixed', 'top': '116px'}); 
+	}
+	if (heatTop > 0 && rightPositionFixed)
+	{
+		$('.right.gutter').css({'position': 'absolute', 'top': '116px'}); 
+	}
+	if (heatBottom <= rightBottom && rightTop <= 116){
+		$('.right.gutter').css({'position': 'absolute', 'top': rightStick}); 
+	}
+
+
+
+	$(".blurbBox")
+		.each(function(){
+			// console.log(this)
+			var bottom = d3.select(this).node().getBoundingClientRect().bottom
+			// console.log(bottom)
+			if(bottom <= 0){
+				var ind = d3.select(this).attr("class").replace("blurbBox","").replace(/\s/g,"")
+				// d3.select(".blurbText." + ind + " .blurbMarker")
+					// .style("background","blue")
+			}
+		})
+
+
+
+
+});
 

@@ -57,10 +57,13 @@ body{
 	position: absolute;
 	height: 30px;
 	clear: both;
-	left: calc(50% - 365px);
+	left: calc(50% - 356px);
+}
+.row.US .rankLabel{
+	background: #eb3f1c;
 }
 .header{
-	margin-left: calc(50% - 365px);
+	margin-left: calc(50% - 356px);
 }
 .headerCell{
 	font-weight: bold;
@@ -71,10 +74,13 @@ body{
 }
 
 .cell, .headerCell{
-	width: 103px;
+	width: 99px;
 	height: 30px;
 	float: left;
 	border-left: 2px solid white;
+}
+.spending.cell{
+	border-right: 6px solid white;	
 }
 .stateCell{
 	width: 71px;
@@ -100,7 +106,7 @@ body{
 	fill: #333;
 }
 .stateCell svg.checked circle{
-	fill: #eb3f1c
+	fill: #eb3f1c;
 }
 .stateCell.whiteText{
 	color: white;
@@ -124,7 +130,7 @@ body{
 /******************* MENU ******************************/
 /*******************************************************/
 .menuItem{
-	margin-left: calc(50% - 365px)
+	margin-left: calc(50% - 356px)
 }
 .styled-select.filter select{
   pointer-events: none;
@@ -135,7 +141,7 @@ body{
    height: 45px;
    padding-left: 10px;
    font: 26px crimson_textsemibold;
-   color: #1696d2;
+   color: #eb3f1c;
    line-height: 1.2;
    border: 0;
    border-radius: 0;
@@ -174,13 +180,21 @@ body{
     text-align: center;
     vertical-align: middle;
     text-transform: uppercase;
-    background: #333;
-    color: white;
+    background: #fff;
+    color: #666;
     display: inline-block;
     cursor: pointer;
+    border: 1px solid #fff;
 }
-.navButton:hover, .navButton.active{
+.navButton.active{
 	background: #eb3f1c;
+	border-color: #eb3f1c;
+	color: #fff;
+}
+.navButton:hover{
+	background: #333;
+	border-color: #333;
+	color: #fff;
 }
 
 #containers{
@@ -192,7 +206,7 @@ body{
 	overflow: hidden;
 }
 .container.environment{
-	height: 39px;
+	height: 42px;
 	margin-top: 60px;
 }
 .subcontainer{
@@ -210,12 +224,92 @@ body{
 	font-size: 13px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	background: #e6e6e6;
-	color: #666666;
-	border: 1px solid #666666;
+	/*background: #e6e6e6;*/
+
+	/*color: #666666;*/
+	/*border: 1px solid #666666;*/
 }
-.subcontainer .navButton:hover{
+/*.subcontainer .navButton:hover{
 	background: #eb3f1c;
 	color: white;
 	border: 1px solid white;
+}*/
+
+/*******************************************************/
+/******************* BLURBS ****************************/
+/*******************************************************/
+.gutter{
+	/*width: 165px;*/
+	max-width: 165px;
+	top: 116px;
+	position: absolute;
 }
+.left.gutter{
+	left: calc(50% - 554px);
+    text-align: right;
+}
+.right.gutter{
+	right: calc(50% - 554px);
+}
+.blurbMarker{
+	width: 24px;
+	height: 29px;
+    font: 26px crimson_textsemibolditalic;
+    background: #eb3f1c;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}
+.index_a .blurbMarker{
+	line-height: 25px;
+	text-indent: 1px;
+}
+.boxLabel{
+	width: 23px;
+	padding-top: 4px;
+	text-indent: 5px;
+	font: 20px crimson_textitalic;
+    background: #eb3f1c;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    z-index: 6;
+
+}
+.innerText{
+	font:14px crimson_textitalic;
+	color: #666666;
+	line-height: 1.3;
+}
+.left.gutter .blurbMarker{
+	right: 0px;
+    position: absolute;
+}
+.left.gutter .innerText{
+	padding-top: 40px;
+}
+.right.gutter .innerText{
+	padding-top: 11px;
+}
+.minimap{
+	margin-bottom: 55px;
+	margin-left: 110px;
+	height: 138px;
+	width: 59px;
+}
+.minimap img{
+	z-index: 1;
+	height: 138px;
+	width: 59px;
+}
+.miniBlurb{
+	z-index: -1;
+	position: absolute;
+	background: #eb3f1c;
+	opacity: 
+	top: 0;
+	left: 111px;
+	width: 0px;
+	height: 0px;
+}
+
