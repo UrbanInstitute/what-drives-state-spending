@@ -516,11 +516,8 @@ function drawBlurbs(category, column){
 	// 	.style("height","10px")
 	// console.log("width", d3.select(".row").node().getBoundingClientRect().width)
 }
-//    <line x1="40" x2="560" y1="100" y2="600" stroke="#5184AF" stroke-width="10" stroke-linecap="round" stroke-dasharray="0, 20"/>
 function drawBlurb(blurbList, column, numCols){
-	if(blurbList.length > 1){
-		console.log(blurbList)
-	}
+	var centers = []
 	for (var j = 0; j < blurbList.length; j++){
 		var blurb = blurbList[j]
 
@@ -555,14 +552,28 @@ function drawBlurb(blurbList, column, numCols){
 			}	
 		}
 
+		var W = (numCols * COLUMN_WIDTH + 20)
+		var H = (52 * ROW_HEIGHT)
+		var h = 138
+		var w = h * W/ H
+
+		var left = (top_left.left-2)
+		var top = ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
+		var width = (bottom_right.left - top_left.left + COLUMN_WIDTH)
+		var height = (((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
+					 - ((top_rank * ROW_HEIGHT) + headerHeight-7))
+
+		if(blurbList.length > 1){
+			centers.push( {"x": left + width/2, "y" : top + height/2})
+		}
+
 		var blurbBox = d3.select("#heatmap").append("div")
 			.attr("class","blurbBox index_" + indChar)
 			.style("position","absolute")
-			.style("left",(top_left.left-2) + "px")
-			.style("top", ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) + "px")
-			.style("width", (bottom_right.left - top_left.left + COLUMN_WIDTH) + "px")
-			.style("height", (((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
-					 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) + "px")
+			.style("left",left + "px")
+			.style("top", top + "px")
+			.style("width", width + "px")
+			.style("height", height + "px")
 			.style("opacity",0)
 			.style("border","4px solid #eb3f1c")
 		blurbBox.append("div")
@@ -575,23 +586,81 @@ function drawBlurb(blurbList, column, numCols){
 			// .style("")
 
 		// d3.selectAll(".map").transition()
-		var W = (numCols * COLUMN_WIDTH + 20)
-		var H = (52 * ROW_HEIGHT)
-		var h = 138
-		var w = h * W/ H
 
 		var L = top_left.left - d3.select(".row").node().getBoundingClientRect().left
-		var T = ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) - (headerHeight + ROW_HEIGHT + 10)
-		console.log(T,  ((top_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10) , d3.select("#heatmap").node().getBoundingClientRect().top)
+		var T = top - (headerHeight + ROW_HEIGHT + 10)
 		d3.select("#mb" + MINIBLURB_INDEX)
 			.transition()
 			.style("left", (L * (w/W) + 111) + "px")
 			.style("top", (T * h/H) + "px")
-			.style("width",((bottom_right.left - top_left.left + COLUMN_WIDTH) * w/W) + "px")
-			.style("height",((((bottom_rank * ROW_HEIGHT) + ROW_HEIGHT + headerHeight-10)
-					 - ((top_rank * ROW_HEIGHT) + headerHeight-7)) * h/H) + "px")
+			.style("width",(width * w/W) + "px")
+			.style("height",(height * h/H) + "px")
 		MINIBLURB_INDEX += 1;
 			
+
+		}
+		if(centers.length == blurbList.length){
+			console.log(centers)
+			//for 2 blurbs
+
+			var left = (centers[0]["x"] < centers[1]["x"]) ? 0 : 1
+			var right = (left == 0) ? 1 : 0
+
+			var top = (centers[0]["y"] < centers[1]["y"]) ? 0 : 1
+			var bottom = (top == 0) ? 1 : 0
+
+
+			console.log(left, right)
+			console.log(top, bottom)
+			console.log(centers)
+
+			var svg  = d3.select("#heatmap")
+				.append("svg")
+				.attr("width", centers[right]["x"] - centers[left]["x"])
+				.attr("height", centers[bottom]["y"] - centers[top]["y"])
+				.style("position","absolute")
+				.style("left",centers[left]["x"])
+				.style("top",centers[top]["y"])
+
+
+			if(top == left){
+			//upper right to lower left
+				svg.append("line")
+					.attr("x1", 0)
+					.attr("x2", centers[right]["x"] - centers[left]["x"])
+					.attr("y1", 0)
+					.attr("y2", centers[bottom]["y"] - centers[top]["y"])
+					.attr("stroke", "#eb3f1c")
+					.attr("stroke-width",10)
+					.attr("stroke-linecap","round")
+					.attr("stroke-dasharray","0,20")
+			}else{
+				svg.append("line")
+					.attr("x1", 0)
+					.attr("x2", centers[right]["x"] - centers[left]["x"])
+					.attr("y1", centers[bottom]["y"] - centers[top]["y"])
+					.attr("y2", 0)
+					.attr("stroke", "#eb3f1c")
+					.attr("stroke-width",10)
+					.attr("stroke-linecap","round")
+					.attr("stroke-dasharray","0,20")
+
+				svg.append("circle")
+					.attr("cx", centers[left]["x"])
+					.attr("cy", centers[left]["y"])
+					.attr("r",10)
+			}
+
+//    <line x1="40" x2="560" y1="100" y2="600" stroke="#5184AF" stroke-width="10" stroke-linecap="round" stroke-dasharray="0, 20"/>
+
+			//for non vertical/horizontal, svg goes center->center
+
+
+
+			//handle case for vertical stack
+
+
+			//handle case for horizontal stack
 
 		}
 
