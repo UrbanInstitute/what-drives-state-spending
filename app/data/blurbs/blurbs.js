@@ -503,13 +503,13 @@ var blurbs = {
       }, 
       {
         "bottom_right": {
-          "column": "takeup, payroll", 
-          "state": "IN, ME"
+          "column": "units, nonpayroll", 
+          "state": "DE, IN"
         }, 
         "text": "Fames proin neque varius nisi. Massa donec. Fusce lorem sit neque etiam sagittis. Augue dolor magnis elementum litora faucibus eu velit litora ligula nulla. Curae vitae tempus urna suspendisse quisque donec mi aptent. Risus ipsum tortor. Curae lacus nascetur mi lacus non quam odio. Fusce augue luctus ac arcu eleifend felis ante euismod eget. Justo metus sem parturient. Velit vitae.\n", 
         "top_left": {
-          "column": "takeup, payroll", 
-          "state": "NY, MA"
+          "column": "takeup, nonpayroll", 
+          "state": "CT, DC"
         }
       }
     ], 

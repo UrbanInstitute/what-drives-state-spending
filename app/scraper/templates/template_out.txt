@@ -1146,15 +1146,15 @@ Curae felis a diam. Augue netus condimentum suscipit cubilia. Massa velit per di
 
 ### Blurb text ends here ###
 
-Top left State: NY, MA
+Top left State: CT, DC
 
-Top left Column: takeup, payroll
+Top left Column: takeup, nonpayroll
 
 
 
-Bottom right State: IN, ME
+Bottom right State: DE, IN
 
-Bottom right Column: takeup, payroll
+Bottom right Column: units, nonpayroll
 
 
 

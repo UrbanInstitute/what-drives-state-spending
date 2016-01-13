@@ -108,6 +108,7 @@ function renderHeatmap(category, location){
 	d3.selectAll(".header").classed("garbage", true);
 	d3.selectAll(".blurbBox").classed("garbage", true);
 	d3.selectAll(".blurbText").classed("garbage", true);
+	d3.selectAll(".connector").classed("garbage", true);
 	// d3.selectAll(".minimap").classed("garbage", true);
 
 
@@ -126,10 +127,15 @@ function renderHeatmap(category, location){
 		COLUMNS[category].map(function(column){
 			header.append("div")
 				.attr("class",function(){ return column + " headerCell"})
+				.classed("active", function(){ return column == "spending"})
 				.text(function(){ return column})
 				.on("click", function(){
+					d3.selectAll(".headerCell").classed("active",false)
+					d3.select(this).classed("active",true)
+
 					d3.selectAll(".blurbBox").remove()
-					var cat = d3.select(this).attr("class").replace(" headerCell","")
+					d3.selectAll(".connector").remove()
+					var cat = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
 					var duration = 1000;
 					d3.selectAll(".row")
 						.transition()
@@ -142,7 +148,7 @@ function renderHeatmap(category, location){
 							var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
 							return ((rank * ROW_HEIGHT) + headerHeight)  +"px"
 						})
-				drawBlurbs(category, column)
+				drawBlurbs(category, column, false)
 				d3.selectAll(".blurbBox")
 					.transition()
 					.duration(1000)
@@ -177,7 +183,8 @@ function renderHeatmap(category, location){
 				.attr("class", function(d){
 					return "cell " + column + " " + getCellClass(d, column, category)
 				})
-				.on("mouseover", function(d){ mouseover(d, column, category)})
+				.on("mouseover", function(d){ mouseover(this, d, column, category)})
+				.on("mouseout", function(){ mouseout(this) })
 				.append("div")
 				.attr("class","rankLabel")
 					.text(function(d){
@@ -231,7 +238,7 @@ function renderHeatmap(category, location){
 		.duration(200)
 		.style("opacity",0)
 	setTimeout(function(){
-		drawBlurbs(category, "spending")
+		drawBlurbs(category, "spending", false)
 		if(typeof(location) != "undefined"){
 			stickyState({"state": location})
 		}
@@ -247,6 +254,8 @@ function renderHeatmap(category, location){
 	// 	drawBlurbs(result.category, result.column)
 	// })
 }
+
+
 
 function stickyState(state){
 	var cell = d3.select(".stateCell." + state.state)
@@ -266,7 +275,8 @@ function stickyState(state){
 		svg.select("circle")
 			.transition()
 			.duration(500)
-			.style("fill","#eb3f1c")
+			.style("fill","#333")
+			.style("opacity",1)
 
 		var lineData = [ { "x": 6,   "y": 11},
 						 { "x":9,  "y": 15},
@@ -337,7 +347,8 @@ function stickyState(state){
 		svg.select("circle")
 			.transition()
 			.duration(500)
-			.style("fill","#666")
+			.style("fill","#fff")
+			.style("opacity",.45)
 		var path = svg.select("path")
 		
 		var totalLength = path.node().getTotalLength();
@@ -381,9 +392,42 @@ function stickyState(state){
 	}
 }
 
-function mouseover(datum, column, category){
-	var temp = d3.format(".3f")
-	d3.select("#temp span").text(temp(datum[column + "_value"]))
+function mouseover(cell, datum, column, category){
+	d3.select(cell)
+		.classed("hover",true)
+	var format = mouseoverText[category][column]["format"]
+	var label = mouseoverText[category][column]["label"].replace("{{STATE}}", datum.state)
+	var value = datum[column + "_value"]
+	
+	var formatter;
+	switch (format){
+		case "dollars":
+			formatter = d3.format("$,.0f");
+			break;
+		case "percent":
+			formatter = d3.format("%");
+			break;
+		case "number":
+			formatter = d3.format(".3f");
+			break;
+		case "foo":
+			formatter = d3.format("");
+			break;
+	}
+	d3.select(cell)
+		.append("div")
+		.attr("class","cellTooltip")
+		.attr("width",COLUMN_WIDTH)
+		.html("<div class = \"tooltipWrapper\">" + "<span class = \"tooltipValue\">" + formatter(value) + "</span> " + label + "</div>")
+			// console.log(d3.selectAll(".hover")[0].length)
+}
+function mouseout(cell){
+
+	d3.select(cell)
+		.classed("hover",false)
+		.select(".cellTooltip")
+		.remove()
+
 }
 
 function getCellClass(datum, column, category){
@@ -442,7 +486,12 @@ if (isFirefox){
   $(".styled-select select").css("pointer-events","visible");
 }
 
-function drawBlurbs(category, column){
+function drawBlurbs(category, column, resize){
+	if(resize){
+		d3.selectAll(".blurbBox").classed("garbage", true);
+		d3.selectAll(".blurbText").classed("garbage", true);
+		d3.selectAll(".connector").classed("garbage", true);
+	}
 	MINIBLURB_INDEX = 0;
 	var numCols = (category == "ssi" || category == "ccdf" || category == "tanf") ? 6 : 7;
 
@@ -503,11 +552,13 @@ function drawBlurbs(category, column){
 	for(var mb = MINIBLURB_INDEX; mb < 5; mb++){
 		// console.log("mb",mb)
 		d3.select("#mb" + mb)
+			.attr("data-ind","hidden")
 			.transition()
 			.style("width",0)
 			.style("height",0)
 			.style("left","111px")
 			.style("top",0)
+
 	}
 	// d3.select(".minimap")
 	// 	.append("div")
@@ -515,6 +566,25 @@ function drawBlurbs(category, column){
 	// 	.style("width","10px")
 	// 	.style("height","10px")
 	// console.log("width", d3.select(".row").node().getBoundingClientRect().width)
+
+	if(resize){
+		d3.selectAll(".garbage")
+			.transition()
+			.duration(200)
+			.style("opacity",0)
+		setTimeout(function(){
+		// drawBlurbs(category, "spending", false)
+		// if(typeof(location) != "undefined"){
+		// stickyState({"state": location})
+		// }
+		d3.selectAll(".garbage").remove()
+		d3.selectAll(".blurbBox:not(.garbage)")
+			.transition()
+			.duration(400)
+			.style("opacity",1)
+
+		}, 200)
+	}
 }
 function drawBlurb(blurbList, column, numCols){
 	var centers = []
@@ -564,7 +634,7 @@ function drawBlurb(blurbList, column, numCols){
 					 - ((top_rank * ROW_HEIGHT) + headerHeight-7))
 
 		if(blurbList.length > 1){
-			centers.push( {"x": left + width/2, "y" : top + height/2})
+			centers.push( {"x": left + width/2, "y" : top + height/2, "top": top, "left": left, "width": width, "height": height})
 		}
 
 		var blurbBox = d3.select("#heatmap").append("div")
@@ -576,6 +646,7 @@ function drawBlurb(blurbList, column, numCols){
 			.style("height", height + "px")
 			.style("opacity",0)
 			.style("border","4px solid #eb3f1c")
+
 		blurbBox.append("div")
 			.attr("class", "boxLabel")
 			.style("position","absolute")
@@ -590,6 +661,7 @@ function drawBlurb(blurbList, column, numCols){
 		var L = top_left.left - d3.select(".row").node().getBoundingClientRect().left
 		var T = top - (headerHeight + ROW_HEIGHT + 10)
 		d3.select("#mb" + MINIBLURB_INDEX)
+			.attr("data-ind",indChar)
 			.transition()
 			.style("left", (L * (w/W) + 111) + "px")
 			.style("top", (T * h/H) + "px")
@@ -612,56 +684,217 @@ function drawBlurb(blurbList, column, numCols){
 
 			console.log(left, right)
 			console.log(top, bottom)
-			console.log(centers)
 
-			var svg  = d3.select("#heatmap")
+			console.log(centers)
+		var svg
+		if(centers[0].y == centers[1].y){
+//horizontal connecting line
+			svg = d3.select("#heatmap")
 				.append("svg")
+				.attr("class", "connector")
 				.attr("width", centers[right]["x"] - centers[left]["x"])
-				.attr("height", centers[bottom]["y"] - centers[top]["y"])
+				.attr("height", ROW_HEIGHT)
+				.style("position","absolute")
+				.style("left",centers[left]["x"])
+				.style("top",centers[top]["y"] - ROW_HEIGHT/2)	
+			svg
+				.append("defs")
+					.append("clipPath")
+						.attr("id", "clip1")
+						.append("rect")
+						.attr("x",centers[left]["width"]/2 + 8)
+						.attr("y",0)
+						.attr("width",0)
+						.attr("height",ROW_HEIGHT)
+						.transition()
+						.duration(1500)
+						.attr("width", (centers[right]["x"] - centers[left]["x"]) - (centers[left]["width"]/2 + centers[right]["width"]/2) - 7)
+			svg.append("line")
+				.attr("x1", 0)
+				.attr("x2", centers[right]["x"] - centers[left]["x"])
+				.attr("y1", ROW_HEIGHT/2)
+				.attr("y2", ROW_HEIGHT/2)
+				.attr("class","connector connectorBg")
+				.attr("stroke", "rgba(255,255,255,.5")
+				.attr("stroke-width",20)
+				.attr("clip-path", "url(#clip1)")
+
+			svg.append("line")
+				.attr("x1", 0)
+				.attr("x2", centers[right]["x"] - centers[left]["x"])
+				.attr("y1", ROW_HEIGHT/2)
+				.attr("y2", ROW_HEIGHT/2)
+				.attr("stroke", "#eb3f1c")
+				.attr("stroke-width",10)
+				.attr("stroke-linecap","round")
+				.attr("stroke-dasharray","0,20")
+				.attr("clip-path", "url(#clip1)")
+
+
+		}else{
+			svg = d3.select("#heatmap")
+				.append("svg")
+				.attr("class", "connector")
+				.attr("width", (centers[right]["x"] - centers[left]["x"]))
+				.attr("height", (centers[bottom]["y"] - centers[top]["y"]))
 				.style("position","absolute")
 				.style("left",centers[left]["x"])
 				.style("top",centers[top]["y"])
+				var mask = svg
+					.append("defs")
+						.append("mask")
+							.attr("id", "mask1")
+
+							// .attr("fill","white")
+							// .transition()
+							// .duration(1500)
+							// .attr("width", (centers[right]["x"] - centers[left]["x"]) - (centers[left]["width"]/2 + centers[right]["width"]/2) - 7)
+				if( centers[right]["x"] - centers[left]["x"] <= (centers[bottom]["y"] - centers[top]["y"])){
+//connecting line more vertical
+					mask.append("rect")
+						.attr("x",0)
+						.attr("y",0)
+						.attr("fill","white")
+						.attr("width", centers[right]["x"] - centers[left]["x"])
+						.attr("height",0)
+						.transition()
+						.duration(2500)
+						.attr("height",(centers[bottom]["y"] - centers[top]["y"]))
+				}else{
+//connecting line more horizontal
+					mask.append("rect")
+						.attr("x",0)
+						.attr("y",0)
+						.attr("fill","white")
+						.attr("width", 0)
+						.attr("height",(centers[bottom]["y"] - centers[top]["y"]))
+						.transition()
+						.duration(2500)
+						.attr("width", centers[right]["x"] - centers[left]["x"])
+
+				}
+
+	
+
+			// if(((centers[right]["x"] - centers[left]["x"]) - (centers[left]["width"]/2 + centers[right]["width"]/2) - 7) <= 0){
+			// 	svg
+			// 		.append("defs")
+			// 			.append("clipPath")
+			// 				.attr("id", "clip1")
+			// 				.append("rect")
+			// 				.attr("x",0)
+			// 				.attr("y",centers[top]["height"]/2 + 7)
+			// 				.attr("width", (centers[left]["width"]/2 + centers[right]["width"]/2) - 7)
+			// 				.attr("height",0)
+			// 				.transition()
+			// 				.duration(1500)
+			// 				.attr("height",(centers[bottom]["y"] - centers[top]["y"]) - (centers[bottom]["height"]/2 + centers[top]["height"]/2) - 7)
 
 
-			if(top == left){
-			//upper right to lower left
-				svg.append("line")
-					.attr("x1", 0)
-					.attr("x2", centers[right]["x"] - centers[left]["x"])
-					.attr("y1", 0)
-					.attr("y2", centers[bottom]["y"] - centers[top]["y"])
-					.attr("stroke", "#eb3f1c")
-					.attr("stroke-width",10)
-					.attr("stroke-linecap","round")
-					.attr("stroke-dasharray","0,20")
-			}else{
-				svg.append("line")
-					.attr("x1", 0)
-					.attr("x2", centers[right]["x"] - centers[left]["x"])
-					.attr("y1", centers[bottom]["y"] - centers[top]["y"])
-					.attr("y2", 0)
-					.attr("stroke", "#eb3f1c")
-					.attr("stroke-width",10)
-					.attr("stroke-linecap","round")
-					.attr("stroke-dasharray","0,20")
+			// }else{
+			// 	svg
+			// 		.append("defs")
+			// 			.append("clipPath")
+			// 				.attr("id", "clip1")
+			// 				.append("rect")
+			// 				.attr("x",centers[left]["width"]/2 + 8)
+			// 				.attr("y",0)
+			// 				.attr("width",0)
+			// 				.attr("height",(centers[bottom]["y"] - centers[top]["y"]))
+			// 				.transition()
+			// 				.duration(1500)
+			// 				.attr("width", (centers[right]["x"] - centers[left]["x"]) - (centers[left]["width"]/2 + centers[right]["width"]/2) - 7)
+			// }
 
-				svg.append("circle")
-					.attr("cx", centers[left]["x"])
-					.attr("cy", centers[left]["y"])
-					.attr("r",10)
+				if(top == left){
+				//upper left to lower right
+
+					mask.append("rect")
+							.attr("x",0)
+							.attr("y",0)
+							.attr("width",centers[left]["width"]/2 + 7)
+							.attr("height",centers[left]["height"]/2 + 7)
+					mask.append("rect")
+							.attr("x", centers[right]["x"] - centers[left]["x"] - centers[right]["width"]/2)
+							.attr("y",centers[bottom]["y"] - centers[top]["y"] - centers[bottom]["height"]/2)
+							.attr("width",centers[right]["width"]/2 + 7)
+							.attr("height",centers[right]["height"]/2 + 7)
+
+					svg.append("line")
+						.attr("x1", 0)
+						.attr("x2", centers[right]["x"] - centers[left]["x"])
+						.attr("y1", 0)
+						.attr("y2", centers[bottom]["y"] - centers[top]["y"])
+						.attr("class","connector connectorBg")
+						.attr("stroke", "rgba(255,255,255,.5")
+						.attr("stroke-width",20)
+						.attr("mask", "url(#mask1)")
+
+					svg.append("line")
+						.attr("x1", 0)
+						.attr("x2", centers[right]["x"] - centers[left]["x"])
+						.attr("y1", 0)
+						.attr("y2", centers[bottom]["y"] - centers[top]["y"])
+						.attr("stroke", "#eb3f1c")
+						.attr("stroke-width",10)
+						.attr("stroke-linecap","round")
+						.attr("stroke-dasharray","0,20")
+						.attr("mask", "url(#mask1)")
+
+				}else{
+				//lower left to upper right
+					mask.append("rect")
+						.attr("x",0)
+						.attr("y",centers[bottom]["y"] - centers[top]["y"] - centers[bottom]["height"]/2)
+						.attr("width",centers[left]["width"]/2 + 7)
+						.attr("height",centers[left]["height"]/2 + 7)
+					mask.append("rect")
+						.attr("x", centers[right]["x"] - centers[left]["x"] - centers[right]["width"]/2)
+						.attr("y",0)
+						.attr("width",centers[right]["width"]/2 + 7)
+						.attr("height",centers[right]["height"]/2 + 7)
+
+
+					svg.append("line")
+						.attr("x1", 0)
+						.attr("x2", centers[right]["x"] - centers[left]["x"])
+						.attr("y1", centers[bottom]["y"] - centers[top]["y"])
+						.attr("y2", 0)
+						.attr("class","connector connectorBg")
+						.attr("stroke", "rgba(255,255,255,.5")
+						.attr("stroke-width",20)
+						.attr("mask", "url(#mask1)")
+					svg.append("line")
+						.attr("x1", 0)
+						.attr("x2", centers[right]["x"] - centers[left]["x"])
+						.attr("y1", centers[bottom]["y"] - centers[top]["y"])
+						.attr("y2", 0)
+						.attr("class","connector connectorLine")
+						.attr("stroke", "#eb3f1c")
+						.attr("stroke-width",10)
+						.attr("stroke-linecap","round")
+						.attr("stroke-dasharray","0,20")
+						.attr("mask", "url(#mask1)")
+
+
+				}
+
+				// connector
+					// .attr("clip-path", "url(.clipPath)")
+
+
+	//    <line x1="40" x2="560" y1="100" y2="600" stroke="#5184AF" stroke-width="10" stroke-linecap="round" stroke-dasharray="0, 20"/>
+
+				//for non vertical/horizontal, svg goes center->center
+
+
+
+				//handle case for vertical stack
+
+
+				//handle case for horizontal stack
+
 			}
-
-//    <line x1="40" x2="560" y1="100" y2="600" stroke="#5184AF" stroke-width="10" stroke-linecap="round" stroke-dasharray="0, 20"/>
-
-			//for non vertical/horizontal, svg goes center->center
-
-
-
-			//handle case for vertical stack
-
-
-			//handle case for horizontal stack
-
 		}
 
 }
@@ -775,3 +1008,9 @@ $(window).scroll(function(e){
 
 });
 
+$(window).resize(function(e){
+	var category = d3.select(".navButton.active").attr("class").replace("navButton","").replace("active","").replace(/\s/g,"")
+	var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+
+	drawBlurbs(category, column, true)
+})
