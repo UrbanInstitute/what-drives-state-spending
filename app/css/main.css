@@ -73,6 +73,7 @@ body{
 	margin-top: 43px;
 	font: 14px crimson_textsemibold;
 	text-align: center;
+	color: #333;
 }
 .headerCell span{
 	font: 19px Lato;
@@ -86,6 +87,28 @@ body{
 	width: 99px;
 	height: 30px;
 	background: #E6E6E6;
+}
+.headerCell.active .headerArrow{
+	background: #333
+}
+.headerCell.active .arrowDown{
+    border-top: 8px solid #fff;
+}
+.headerCell:hover .headerArrow{
+	background: #808080
+}
+.headerCell:hover .arrowDown{
+    border-top: 8px solid #fff;
+}
+.arrowDown {
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 8px solid #ccc;
+    left: 43px;
+    top: 14px;
+    position: relative;
 }
 
 

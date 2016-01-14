@@ -173,6 +173,8 @@ function renderHeatmap(category, location){
 		d3.selectAll(".headerCell")
 					.append("div")
 				.attr("class","headerArrow")
+				.append("div")
+				.attr("class","arrowDown")
 
 
 
