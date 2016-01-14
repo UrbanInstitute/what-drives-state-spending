@@ -9,85 +9,73 @@ var mouseoverText	 = {
 	},
 	"corrections": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"takeup":{"format": "number", "label" : "prisoners or parolees per resident"},
+		"units":{"format": "number", "label" : "employees per prisoner or parolee"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"medicaid": {
-		"spending":{"format": "dollars", "label" : "per  non-institutionalized {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"spending-per":{"format": "foo", "label" : "bar"}
+		"spending":{"format": "dollars", "label" : "per non-institutionalized {{STATE}} resident"},
+		"demographics":{"format": "number", "label" : "people below 200% poverty line per resident"},
+		"eligibility":{"format": "number", "label" : "eligible per person below 200% poverty line"},
+		"takeup":{"format": "number", "label" : "enrollees per eligible resident"},
+		"spending-per":{"format": "dollars", "label" : "spent per person below 200% poverty line"}
 	},
 	"ssi": {
-		"spending":{"format": "dollars", "label" : "per  non-institutionalized {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"spending-per":{"format": "foo", "label" : "bar"}
+		"spending":{"format": "dollars", "label" : "per non-institutionalized {{STATE}} resident"},
+		"demographics":{"format": "number", "label" : "elderly/disabled people below 200% poverty line per resident"},
+		"eligibility":{"format": "number", "label" : "eligible per elderly/disabled person below 200% poverty line"},
+		"takeup":{"format": "number", "label" : "recipients per eligible resident"},
+		"spending-per":{"format": "dollars", "label" : "spent per elderly/disabled person below 200% poverty line"}
 	},
 	"tanf": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"spending-per":{"format": "foo", "label" : "bar"}
+		"demographics":{"format": "number", "label" : "low income people with children per resident"},
+		"eligibility":{"format": "number", "label" : "eligible per low income person with children"},
+		"takeup":{"format": "number", "label" : "recipients per eligible resident"},
+		"spending-per":{"format": "dollars", "label" : "spent per recipient"}
 	},
 	"ccdf": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"spending-per":{"format": "foo", "label" : "bar"}
+		"demographics":{"format": "number", "label" : "low income people with children per resident"},
+		"eligibility":{"format": "number", "label" : "eligible per low income person with children"},
+		"takeup":{"format": "number", "label" : "recipients per eligible resident"},
+		"units":{"format": "number", "label" : "funded providers per recipient"},
+		"spending-per":{"format": "dollars", "label" : "spent per low income family"}
 	},	
 	"housing": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"demographics":{"format": "number", "label" : "low income individuals per resident"},
+		"takeup":{"format": "percent", "label" : "low income residents receiving housing support"},
+		"units":{"format": "number", "label" : "employees per resident receiving housing support"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"admin": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"resources": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"parks": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"takeup":{"format": "number", "label" : "park acres per resident"},
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"utilities": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"k12": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
@@ -99,38 +87,32 @@ var mouseoverText	 = {
 	},
 	"fire": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"police": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"takeup":{"format": "number", "label" : "crimes per resident"},
+		"units":{"format": "number", "label" : "police employees per crime"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"highway": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"demographics":{"format": "percent", "label" : "driving age"},
+		"eligibility":{"format": "percent", "label" : "of driving age with license"},
+		"takeup":{"format": "number", "label" : "miles driven per driver"},
+		"units":{"format": "number", "label" : "lane miles per driver"},
+		"payroll":{"format": "dollars", "label" : "on employees per lane mile"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per lane mile"}
 	},
 	"transit": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"eligibility":{"format": "foo", "label" : "bar"},
-		"takeup":{"format": "foo", "label" : "bar"},
-		"units":{"format": "foo", "label" : "bar"},
-		"payroll":{"format": "foo", "label" : "bar"},
-		"nonpayroll":{"format": "foo", "label" : "bar"}
+		"demographics":{"format": "number", "label" : "transit trips per resident"},
+		"takeup":{"format": "number", "label" : "miles, average trip"},
+		"units":{"format": "number", "label" : "transit miles per resident"},
+		"payroll":{"format": "dollars", "label" : "on employees per transit mile"},
+		"nonpayroll":{"format": "foo", "label" : "on other costs per transit mile"}
 	}
 }
