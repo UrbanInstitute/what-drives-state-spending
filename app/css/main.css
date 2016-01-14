@@ -67,13 +67,82 @@ body{
 	margin-left: calc(50% - 356px);
 }
 .headerCell{
-	font-weight: bold;
-	text-transform: uppercase;
-	height: 50px;
+	height: 70px;
 	vertical-align: middle;
 	cursor: pointer;
+	margin-top: 43px;
+	font: 14px crimson_textsemibold;
+	text-align: center;
+}
+.headerCell span{
+	font: 19px Lato;
+	font-weight: 900;
+	color: #BBBFC1;
+	top: 2.5px;
+    position: relative;
+}
+.headerArrow{
+	margin-top: 19px;
+	width: 99px;
+	height: 30px;
+	background: #E6E6E6;
 }
 
+
+.spending.headerCell .headerArrow{
+	margin-top: 8px;
+}
+.demographics.headerCell{
+	text-indent: -10px;
+	margin-left: 6px;
+}
+.demographics.headerCell .headerArrow{
+	/*margin-top: 8px;*/
+}
+.demographics.headerCell span{
+	left: -3px;
+}
+.eligibility.headerCell{
+	text-indent: -6px;
+}
+.eligibility.headerCell span{
+    position: relative;
+    top: 2.5px;
+    left: -14px;
+}
+.takeup.headerCell{
+	text-indent: -12px;
+}
+.takeup.headerCell span{
+	left: -6px;
+}
+.units.headerCell .headerArrow{
+	margin-top: 7px;
+}
+.units.headerCell{
+	margin-top: 38px;
+	text-indent: -12px;
+}
+.units.headerCell span{
+	top: 7.5px;
+	left: -18px;
+}
+.payroll.headerCell{
+	text-indent: -21px;
+}
+.payroll.headerCell span{
+	letter-spacing: 5px;
+	left: -9px;
+}
+.nonpayroll.headerCell{
+	text-indent: -9px;
+}
+.nonpayroll.headerCell span#left{
+	left: -6px;
+}
+.nonpayroll.headerCell span#right{
+	left: 11px;
+}
 .cell, .headerCell{
 	width: 99px;
 	height: 30px;
@@ -209,6 +278,10 @@ body{
 	font: 18px crimson_textitalic;
 	color: #666666;
 	margin-top: 23px;
+}
+.spacer{
+	display: block;
+	height: 20px;
 }
 #navMenu{
 	background-color: #E6E6E6;

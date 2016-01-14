@@ -17,6 +17,17 @@ var COLUMNS = {
 	"highway": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"transit": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"]
 }
+
+var HEADERS ={
+	"spending": "spending<br/>per capita",
+	"demographics":"<span>=</span>demographics",
+	"eligibility":"<span>&times;</span>eligibility",
+	"takeup":"<span>&times;</span>take-up rate",
+	"units":"<span>&times;</span>unit per<br/>&nbsp;recipient",
+	"payroll":"<span>&times;(</span>payroll",
+	"nonpayroll":"<span id = \"left\">+</span>non payroll<span id = \"right\">)</span>",
+	"spending-per":"<span>&times;</span>spending per<br/>recipient"
+}
 var ROW_HEIGHT = 32;
 var COLUMN_WIDTH = 99;
 var headerHeight = 116-56;
@@ -128,7 +139,7 @@ function renderHeatmap(category, location){
 			header.append("div")
 				.attr("class",function(){ return column + " headerCell"})
 				.classed("active", function(){ return column == "spending"})
-				.text(function(){ return column})
+				.html(function(){ return HEADERS[column]})
 				.on("click", function(){
 					d3.selectAll(".headerCell").classed("active",false)
 					d3.select(this).classed("active",true)
@@ -159,6 +170,11 @@ function renderHeatmap(category, location){
 					
 				})
 		})
+		d3.selectAll(".headerCell")
+					.append("div")
+				.attr("class","headerArrow")
+
+
 
 		var row = heatmap.selectAll("row")
 			.data(data)
@@ -900,6 +916,9 @@ function drawBlurb(blurbList, column, numCols){
 }
 
 function showMenu(parentCategory){
+	d3.select(".catDescription")
+		.html(CAT_DESCRIPTIONS[parentCategory])
+
 	var container = d3.select(".container." + parentCategory)
 	hideSubcontainer();
 	if(container.node() != null){
