@@ -433,7 +433,7 @@ body{
 	text-indent: 1px;
 }
 .blurbBox, .connector{
-	pointer-events: none;
+	/*pointer-events: none;*/
 }
 .boxLabel{
 	width: 23px;

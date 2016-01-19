@@ -1,3 +1,4 @@
 fix expanding left blurbbox for multiple checks
-move blurbs on resize
 utilities -> menu (eg safety)
+button memory on menu nav
+vertical connector

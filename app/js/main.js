@@ -37,6 +37,25 @@ d3.select("#heatmap")
 
 var CHECKED = [];
 
+function allElementsFromPoint(x, y) {
+    var element, elements = [];
+    var old_visibility = [];
+    while (true) {
+        element = document.elementFromPoint(x, y);
+        if (!element || element === document.documentElement) {
+            break;
+        }
+        elements.push(element);
+        old_visibility.push(element.style.visibility);
+        element.style.visibility = 'hidden'; // Temporarily hide the element (without changing the layout)
+    }
+    for (var k = 0; k < elements.length; k++) {
+        elements[k].style.visibility = old_visibility[k];
+    }
+    elements.reverse();
+    return elements;
+}
+
 function drawMenu(){
 	var menu = d3.select("#navMenu")
 	// for(var category in COLUMNS){
@@ -502,6 +521,8 @@ function stickyState(state){
 }
 
 function mouseover(cell, datum, column, category){
+	d3.selectAll(".cellTooltip").remove()
+
 	d3.select(cell)
 		.classed("hover",true)
 	var format = mouseoverText[category][column]["format"]
@@ -693,6 +714,7 @@ function drawBlurbs(category, column, resize){
 			.style("opacity",1)
 
 		}, 200)
+
 	}
 }
 function drawBlurb(blurbList, column, numCols){
@@ -755,6 +777,21 @@ function drawBlurb(blurbList, column, numCols){
 			.style("height", height + "px")
 			.style("opacity",0)
 			.style("border","4px solid #eb3f1c")
+			.on("mousemove", function(){
+				var x = event.clientX, y = event.clientY,
+    			elements = allElementsFromPoint(x, y);
+    			elements.forEach(function(obj){
+    				if (d3.select(obj).classed("cell")){
+    					var category = getCategory();
+						var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+						d3.selectAll(".cellTooltip").remove()
+    					mouseover(obj, d3.select(obj).datum(), column, category)
+    				}
+    			})
+			})
+			.on("mouseout", function(){
+				d3.selectAll(".cellTooltip").remove()
+			})
 
 		blurbBox.append("div")
 			.attr("class", "boxLabel")
@@ -763,6 +800,10 @@ function drawBlurb(blurbList, column, numCols){
 			.style("right","0px")
 			.style("height",(ROW_HEIGHT-6) + "px")
 			.text(indChar)
+			.on("mouseover",function(){
+				breathe("text",indChar)
+				breathe("mini",indChar)
+			})
 			// .style("")
 
 		// d3.selectAll(".map").transition()
@@ -806,6 +847,7 @@ function drawBlurb(blurbList, column, numCols){
 				.style("position","absolute")
 				.style("left",centers[left]["x"])
 				.style("top",centers[top]["y"] - ROW_HEIGHT/2)	
+
 			svg
 				.append("defs")
 					.append("clipPath")
@@ -827,6 +869,7 @@ function drawBlurb(blurbList, column, numCols){
 				.attr("stroke", "rgba(255,255,255,.5")
 				.attr("stroke-width",20)
 				.attr("clip-path", "url(#clip1)")
+
 
 			svg.append("line")
 				.attr("x1", 0)
@@ -987,6 +1030,19 @@ function drawBlurb(blurbList, column, numCols){
 
 
 				}
+				svg.on("mousemove", function(){
+					var x = event.clientX, y = event.clientY,
+	    			elements = allElementsFromPoint(x, y);
+	    			elements.forEach(function(obj){
+	    				if (d3.select(obj).classed("cell")){
+	    					var category = getCategory();
+							var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+							d3.selectAll(".cellTooltip").remove()
+	    					mouseover(obj, d3.select(obj).datum(), column, category)
+	    				}
+	    			})
+				})
+
 
 				// connector
 					// .attr("clip-path", "url(.clipPath)")
@@ -1055,6 +1111,36 @@ function showMenu(parentCategory){
 			.transition()
 			.style("height","0px")
 			.style("margin-top","0px")
+	}
+}
+
+function breathe(type, ind){
+	if(type == "text"){
+		d3.select(".blurbText.index_" + ind + " .blurbMarker")
+			.style("box-shadow", "0px 0px 0px #eb3f1c")
+			.transition()
+			.duration(1000)
+			.style("width","28px")
+			.style("height","33px")
+			.style("box-shadow", "0px 0px 3px #eb3f1c")
+			.transition()
+			.style("width","24px")
+			.style("height","29px")
+			.style("box-shadow", "0px 0px 0px #eb3f1c")
+	}
+	else if(type == "mini"){
+		d3.selectAll(".miniblurb[data-ind=" + ind + "]")
+			.style("border","0px solid #eb3f1c")
+			.style("box-shadow", "0px 0px 0px #eb3f1c")
+			.transition()
+			.duration(1000)
+			.style("border-width","1px")
+			.style("box-shadow", "0px 0px 3px #eb3f1c")
+			.transition()
+			.style("border-width","0px")
+			.style("box-shadow", "0px 0px 0px #eb3f1c")
+			// .style("left",function(){ return (parseFloat(d3.select(this).style("left").replace("px",""))+2) + "px"})
+
 	}
 }
 
