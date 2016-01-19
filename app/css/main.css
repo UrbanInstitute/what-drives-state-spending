@@ -73,7 +73,14 @@ body{
 	margin-top: 43px;
 	font: 14px crimson_textsemibold;
 	text-align: center;
+	color: #666666;
+}
+.headerCell.active{
 	color: #333;
+}
+.headerCell.inactive{
+	opacity: .3 !important;
+	pointer-events: none;
 }
 .headerCell span{
 	font: 19px Lato;
@@ -94,10 +101,10 @@ body{
 .headerCell.active .arrowDown{
     border-top: 8px solid #fff;
 }
-.headerCell:hover .headerArrow{
+.headerCell:hover:not(.inactive) .headerArrow{
 	background: #808080
 }
-.headerCell:hover .arrowDown{
+.headerCell:hover:not(.inactive) .arrowDown{
     border-top: 8px solid #fff;
 }
 .arrowDown {
@@ -111,9 +118,8 @@ body{
     position: relative;
 }
 
-
 .spending.headerCell .headerArrow{
-	margin-top: 8px;
+	margin-top: 9px;
 }
 .demographics.headerCell{
 	text-indent: -10px;
@@ -166,11 +172,34 @@ body{
 .nonpayroll.headerCell span#right{
 	left: 11px;
 }
+.spending-per span{
+	left: -10px;
+	top: 7.5px;
+}
+.spending-per.headerCell{
+	margin-top: 38px;
+}
+.spending-per.headerCell .headerArrow{
+	margin-top: 8px;
+}
 .cell, .headerCell{
 	width: 99px;
 	height: 30px;
 	float: left;
 	border-left: 2px solid white;
+}
+#info{
+	font: 13px crimson_textsemibolditalic;
+	text-align: center;
+	color: #666666;
+    width: 99;
+    height: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top:10px;
+    border-top: none;
+    pointer-events: none;
 }
 .spending.cell{
 	border-right: 6px solid white;	

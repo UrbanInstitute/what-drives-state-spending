@@ -19,14 +19,14 @@ var COLUMNS = {
 }
 
 var HEADERS ={
-	"spending": "spending<br/>per capita",
-	"demographics":"<span>=</span>demographics",
-	"eligibility":"<span>&times;</span>eligibility",
-	"takeup":"<span>&times;</span>take-up rate",
-	"units":"<span>&times;</span>unit per<br/>&nbsp;recipient",
-	"payroll":"<span>&times;(</span>payroll",
-	"nonpayroll":"<span id = \"left\">+</span>non payroll<span id = \"right\">)</span>",
-	"spending-per":"<span>&times;</span>spending per<br/>recipient"
+	"spending": "<div class = \"innerHeader\">spending<br/>per capita</div>",
+	"demographics": "<div class = \"innerHeader\"><span>=</span>demographics</div>",
+	"eligibility": "<div class = \"innerHeader\"><span>&times;</span>eligibility</div>",
+	"takeup": "<div class = \"innerHeader\"><span>&times;</span>take-up rate</div>",
+	"units": "<div class = \"innerHeader\"><span>&times;</span>unit per<br/>&nbsp;recipient</div>",
+	"payroll": "<div class = \"innerHeader\"><span>&times;(</span>payroll</div>",
+	"nonpayroll": "<div class = \"innerHeader\"><span id = \"left\">+</span>non payroll<span id = \"right\">)</span></div>",
+	"spending-per":"<div class = \"innerHeader\"><span>&times;</span>spending per<br/>recipient</div>"
 }
 var ROW_HEIGHT = 32;
 var COLUMN_WIDTH = 99;
@@ -147,6 +147,10 @@ function renderHeatmap(category, location){
 					d3.selectAll(".blurbBox").remove()
 					d3.selectAll(".connector").remove()
 					var cat = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+
+					var isBlank = d3.select(".cell." + cat).classed("blankCell")
+					if (isBlank){ return false}
+
 					var duration = 1000;
 					d3.selectAll(".row")
 						.transition()
@@ -159,6 +163,7 @@ function renderHeatmap(category, location){
 							var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
 							return ((rank * ROW_HEIGHT) + headerHeight)  +"px"
 						})
+
 				drawBlurbs(category, column, false)
 				d3.selectAll(".blurbBox")
 					.transition()
@@ -169,9 +174,85 @@ function renderHeatmap(category, location){
 					// setTimeout(, 2000)
 					
 				})
+				.on("mouseover", function(){
+					var thisClass = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+					var category = getCategory();
+					var isBlank = d3.select(".cell." + thisClass).classed("blankCell")
+					if (isBlank){ return false}
+
+					var infoHeight = "80px";
+					switch (category){
+						case "medicaid":
+							infoHeight = "180px"
+							break;
+						case "ssi":
+							infoHeight = "90px"
+							break;
+					}
+
+					var left = d3.select(this).node().getBoundingClientRect().left
+					var info = HEADER_INFO[category][thisClass]
+
+					d3.selectAll(".headerCell:not(." + thisClass + "):not(.inactive) .innerHeader")
+						.transition()
+						.style("opacity",.4)
+						.transition()
+						.style("color",function(){
+							if(d3.select(this).classed("active")){
+								return "#333"
+							}else return "#666666"
+						})
+					d3.select(".headerCell." + thisClass + " .innerHeader")
+						.transition()
+						.style("opacity",1)
+						.style("color","#eb3f1c")
+					d3.selectAll(".headerCell:not(.inactive)." + thisClass + " span")
+						.transition()
+						.style("opacity",.4)
+					d3.select("#navMenu")
+						.transition()
+						.style("margin-top","-" + infoHeight)
+						.style("margin-bottom",infoHeight)
+					// d3.selectAll(".headerArrow")
+					// 	.style("opacity",1)
+					d3.select("#info")
+						.text(info)
+						.style("left", left)
+						.style("top","-" + infoHeight)
+						.style("border-top","3px solid #eb3f1c")
+
+				})
+				.on("mouseout", function(){
+					var thisClass = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+					var isBlank = d3.select(".cell." + thisClass).classed("blankCell")
+					if (isBlank){ return false}
+
+					d3.selectAll(".headerCell:not(." + thisClass + ") .innerHeader")
+						.transition()
+						.style("opacity",1)
+					d3.select(".headerCell." + thisClass + " .innerHeader")
+						.transition()
+						.style("color",function(){
+							if(d3.select(this).classed("active")){
+								return "#333"
+							}else return "#666666"
+						})
+					d3.selectAll(".headerCell." + thisClass + " span")
+						.transition()
+						.style("opacity",1)
+					d3.select("#navMenu")
+						.transition()
+						.style("margin-top","0px")
+						.style("margin-bottom","0px")
+					d3.select("#info")
+						.text("")
+						.style("height",0)
+						.style("border-top","none")
+
+				})
 		})
 		d3.selectAll(".headerCell")
-					.append("div")
+				.append("div")
 				.attr("class","headerArrow")
 				.append("div")
 				.attr("class","arrowDown")
@@ -265,9 +346,17 @@ function renderHeatmap(category, location){
 				.transition()
 				.duration(400)
 				.style("opacity",1)
+	d3.selectAll(".headerCell")
+		.classed("inactive",function(){
+			var thisClass = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+			var isBlank = d3.select(".cell." + thisClass).classed("blankCell")
+			return isBlank
+
+		})
 
 	}, 200)
 // })
+
 	// promise2.then(function(result){
 	// 	drawBlurbs(result.category, result.column)
 	// })
@@ -276,7 +365,9 @@ function renderHeatmap(category, location){
 
 
 function stickyState(state){
-	var cell = d3.select(".stateCell." + state.state)
+	var defaultState = (state.state == "") ? "DC" : state.state;
+
+	var cell = d3.select(".stateCell." + defaultState)
 	var svg = cell.select("svg")
 	var name = cell.text()
 	var checked = svg.classed("checked")
@@ -967,6 +1058,15 @@ function showMenu(parentCategory){
 	}
 }
 
+function getCategory(){
+	var menuItem = d3.select("#navMenu select").node().value
+	var singles = ["medicaid","admin","higher","k12",""]
+	if (singles.indexOf(menuItem) != -1){ return menuItem}
+	else{
+		var category = d3.select(".navButton.active").attr("class").replace("navButton","").replace("active","").replace(/\s/g,"")
+		return category
+	}
+}
 
 
 $(window).scroll(function(e){ 
@@ -1030,7 +1130,7 @@ $(window).scroll(function(e){
 });
 
 $(window).resize(function(e){
-	var category = d3.select(".navButton.active").attr("class").replace("navButton","").replace("active","").replace(/\s/g,"")
+	var category = getCategory();
 	var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
 
 	drawBlurbs(category, column, true)

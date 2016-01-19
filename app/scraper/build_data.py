@@ -5,7 +5,9 @@ from operator import itemgetter
 def collect(l, index):
    return map(itemgetter(index), l)
 
-BASE_PATH = "/Users/bchartof/Box Sync/TPC_StateSpendingDrivers"
+user = "bchartoff"
+
+BASE_PATH = "/Users/%s/Box Sync/COMM/**Project Folders**/Spending Drivers/Data Files"%user
 FILENAMES = {
 	"higher":"higher/Data_higher_2012.xlsx",
 	"corrections":"saftey/Corrections/Data_corrections_2012.xlsx",
@@ -18,7 +20,7 @@ FILENAMES = {
 	"resources": "env/natural resources/Data_resource_2012.xlsx",
 	"parks": "env/parks/Data_parks_2012.xlsx",
 	"utilities": "env/utilities/Data_utilities_2012.xlsx",
-	"k12": "k12/Data_k12_2012.xlsx",
+	"k12": "k12/Data_k12_2012_v2.xlsx",
 	"fire": "saftey/Fire/Data_fire_2012.xlsx",
 	"police": "saftey/Police/Data_police_2012.xlsx",
 	"highway": "transport/Highway/Data_highway_2012.xlsx",
@@ -73,6 +75,8 @@ def parseBook(category):
 	for i in range(2, xl_sheet.nrows):
 		row = xl_sheet.row(i)
 		state = xl_sheet.cell_value(rowx=i, colx=0)
+		if state == "":
+			break;
 		data[state] = {}
 		for c in columns:
 			if(c[1]):
