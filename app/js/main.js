@@ -1,4 +1,4 @@
-
+// 
 var COLUMNS = {
 	"higher": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"corrections": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
@@ -42,6 +42,7 @@ function allElementsFromPoint(x, y) {
     var old_visibility = [];
     while (true) {
         element = document.elementFromPoint(x, y);
+        console.log(element)
         if (!element || element === document.documentElement) {
             break;
         }
@@ -712,6 +713,9 @@ function drawBlurbs(category, column, resize){
 			.transition()
 			.duration(400)
 			.style("opacity",1)
+		d3.selectAll("svg.connector").forEach(function(obj){
+			d3.select("#heatmap").node().insertBefore(obj[0], d3.select(".blurbBox").node())
+		})
 
 		}, 200)
 
@@ -741,6 +745,10 @@ function drawBlurb(blurbList, column, numCols){
 						"<div class = blurbMarker>" + indChar + "</div>" +
 						"<div class = innerText>" + blurb.text + "</div>"
 						)
+					.on("mouseover",function(){
+						breathe("mini",indChar);
+						breathe("blurb",indChar)
+					})
 			}
 		}else{
 			if(d3.select(".blurbText.index_" + indChar + ":not(.garbage)").node() == null){
@@ -750,6 +758,10 @@ function drawBlurb(blurbList, column, numCols){
 						"<div class = blurbMarker>" + indChar + "</div>" +
 						"<div class = innerText>" + blurb.text + "</div>"
 						)
+					.on("mouseover",function(){
+						breathe("mini",indChar);
+						breathe("blurb",indChar)
+					})
 			}	
 		}
 
@@ -778,9 +790,9 @@ function drawBlurb(blurbList, column, numCols){
 			.style("opacity",0)
 			.style("border","4px solid #eb3f1c")
 			.on("mousemove", function(){
-				var x = event.clientX, y = event.clientY,
-    			elements = allElementsFromPoint(x, y);
-    			elements.forEach(function(obj){
+				var x = event.clientX, y = event.clientY;
+    			var elems = allElementsFromPoint(x, y);
+    			elems.forEach(function(obj){
     				if (d3.select(obj).classed("cell")){
     					var category = getCategory();
 						var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
@@ -1140,6 +1152,23 @@ function breathe(type, ind){
 			.style("border-width","0px")
 			.style("box-shadow", "0px 0px 0px #eb3f1c")
 			// .style("left",function(){ return (parseFloat(d3.select(this).style("left").replace("px",""))+2) + "px"})
+
+	}
+	else if(type == "blurb"){
+		d3.selectAll(".blurbBox.index_" + ind)
+			.style("box-shadow", "0px 0px 0px #eb3f1c")
+			.transition()
+			.duration(1000)
+			.style("margin-left","-4px")
+			.style("margin-top","-4px")
+			.style("border-width","8px")
+			.style("box-shadow", "0px 0px 3px #eb3f1c")
+
+			.transition()
+			.style("margin-left","0px")
+			.style("margin-top","0px")
+			.style("border-width","4px")
+			.style("box-shadow", 	"0px 0px 0px #eb3f1c")
 
 	}
 }
