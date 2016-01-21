@@ -445,7 +445,11 @@ body{
     text-align: center;
     vertical-align: middle;
     z-index: 6;
+    cursor: pointer;
 
+}
+.blurbText{
+	cursor: pointer;
 }
 .innerText{
 	font:14px crimson_textitalic;
@@ -469,18 +473,28 @@ body{
 	width: 59px;
 }
 .minimap img{
-	z-index: 1;
+	z-index: 2;
 	height: 138px;
 	width: 59px;
+	pointer-events: none;
 }
 .miniBlurb{
 	z-index: -1;
 	position: absolute;
 	background: #eb3f1c;
-	opacity: 
 	top: 0;
 	left: 111px;
 	width: 0px;
 	height: 0px;
+}
+.miniBlurb_hover{
+	z-index: 2;
+	position: absolute;
+	background: none;
+	top: 0;
+	left: 111px;
+	width: 0px;
+	height: 0px;
+	cursor: pointer;
 }
 
