@@ -9,7 +9,11 @@ cats = [("higher",[("spending",True),("demographics",True),("eligibility",True),
 ("admin",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
 ("resources",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
 ("parks",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
-("utilities",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
+("electric",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
+("gas",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
+("water",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
+("sewage",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
+("waste",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
 ("k12",[("spending",True),("demographics",True),("eligibility",True),("takeup",True),("units",True),("payroll",True),("nonpayroll",True)]),
 ("fire",[("spending",True),("demographics",False),("eligibility",False),("takeup",False),("units",True),("payroll",True),("nonpayroll",True)]),
 ("police",[("spending",True),("demographics",False),("eligibility",False),("takeup",True),("units",True),("payroll",True),("nonpayroll",True)]),
@@ -32,11 +36,11 @@ with open("templates/template.txt", "w") as f:
 				f.write("Category: %s\n"%cat)
 				f.write("Sorted by: %s\n\n"%col[0])
 
-				f.write("Top left State:\n")
-				f.write("Top left Column:\n\n")
+				f.write("Top left State: DC\n")
+				f.write("Top left Column: spending\n\n")
 
-				f.write("Bottom right State:\n")
-				f.write("Bottom right Column:\n\n")
+				f.write("Bottom right State: MD\n")
+				f.write("Bottom right Column: spending\n\n")
 
 				f.write("### Blurb text starts here ###\n")
 				f.write("%s\n"%lorem[2])

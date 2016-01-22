@@ -70,13 +70,57 @@ var mouseoverText	 = {
 		"payroll":{"format": "dollars", "label" : "per each employee"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
-	"utilities": {
+	"resources": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
 		"units":{"format": "number", "label" : "employees per resident"},
 		"payroll":{"format": "dollars", "label" : "per each employee"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
+	"parks": {
+		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
+		"demographics":{"format": "foo", "label" : "bar"},
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
+	},
+	"electric": {
+		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
+		"demographics":{"format": "foo", "label" : "bar"},
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
+	},
+	"gas": {
+		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
+		"demographics":{"format": "foo", "label" : "bar"},
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
+	},
+	"sewage": {
+		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
+		"demographics":{"format": "foo", "label" : "bar"},
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
+	},
+	"waste": {
+		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
+		"demographics":{"format": "foo", "label" : "bar"},
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
+	},
+
+	"water": {
+		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
+		"demographics":{"format": "foo", "label" : "bar"},
+		"units":{"format": "number", "label" : "employees per resident"},
+		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
+	},
+
 	"k12": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "percent", "label" : "school age children"},

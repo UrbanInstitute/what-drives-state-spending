@@ -2,14 +2,14 @@
 Category: higher
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Neque donec dapibus bibendum. Felis etiam iaculis mattis pede tempor phasellus metus semper litora. Proin augue. Felis augue lacinia tristique nibh diam. Velit fusce quis et pellentesque quisque. Fusce purus dignissim quam nibh enim aliquet at. Risus etiam. Magna etiam. Nulla netus egestas est suscipit potenti proin ante nec dapibus. Morbi velit aenean tortor. Massa class lobortis parturient ultricies nunc sed in semper a volutpat nisi arcu. Fames metus tempus.
+Dolor lacus orci commodo a. Metus velit justo vel curabitur eros nam facilisi convallis duis nostra. Velit dolor mus quis dis eros commodo. Augue lacus sed odio duis ad sollicitudin. Porta fames curae dapibus per ac pellentesque viverra ultricies. Magna purus cursus eleifend eget duis vivamus in torquent dapibus amet cum mus. Fusce vitae lectus blandit at nibh rhoncus hymenaeos. Vitae fusce a eros.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -19,14 +19,14 @@ Neque donec dapibus bibendum. Felis etiam iaculis mattis pede tempor phasellus m
 Category: higher
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Ipsum curae habitant venenatis a etiam. Lorem donec sodales laoreet elementum cum. Fames metus taciti malesuada. Metus proin. Fames dolor aptent lorem leo vestibulum curabitur. Neque fusce etiam fames. Magna proin hendrerit in suspendisse diam eget consequat id. Vitae magna quisque gravida elementum quam rhoncus taciti. Lacus lorem dictumst facilisis magna eu neque. Nulla class litora. Neque etiam pretium aliquam urna.
+Neque velit egestas conubia vehicula donec libero velit nonummy cum taciti viverra nec eu. Augue risus felis tortor aliquet. Porta magna diam euismod duis semper placerat magna cum. Proin vitae molestie et condimentum ad. Magna fames ridiculus dis iaculis a luctus. Lorem morbi. Metus velit conubia dignissim. Neque fusce nisl justo magna. Magna velit interdum parturient cursus. Nulla purus. Risus vitae magnis class nostra pellentesque aliquet. Curae augue.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -36,14 +36,14 @@ Ipsum curae habitant venenatis a etiam. Lorem donec sodales laoreet elementum cu
 Category: higher
 Sorted by: eligibility
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Dolor etiam felis hac nonummy eros. Class metus aenean aliquet gravida enim auctor. Massa curae leo. Purus lorem feugiat mollis enim condimentum eu magnis potenti. Purus felis magna ornare ut auctor. Justo neque senectus hac conubia morbi. Lorem netus cursus porttitor cursus imperdiet rutrum. Proin fames class auctor consectetuer lacinia accumsan posuere. Augue donec non nostra massa rhoncus blandit varius netus. Dolor donec cum eros diam velit duis.
+Etiam dolor ornare tincidunt lorem ut lacus quis in consectetuer aliquam habitasse. Massa magna litora metus purus. Curae class tempus pellentesque ridiculus neque purus class. Ipsum morbi. Proin nulla. Etiam proin molestie nibh mi ante netus nam. Proin risus bibendum diam vel natoque maecenas in. Neque donec est eget auctor tempor odio mi fames. Felis magna luctus convallis at hendrerit proin id ligula at interdum conubia. Class etiam leo.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -53,14 +53,14 @@ Dolor etiam felis hac nonummy eros. Class metus aenean aliquet gravida enim auct
 Category: higher
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Dolor metus dictumst ac scelerisque quam auctor egestas malesuada pulvinar dolor. Lorem justo quisque turpis dis ante dignissim. Fusce lorem euismod. Vitae class. Massa netus ipsum. Lorem porta. Dolor nulla massa ultricies inceptos eros lacinia purus mi. Etiam proin lacus suspendisse orci porttitor ut facilisis dolor. Purus donec curabitur tortor dictumst condimentum praesent ante amet hac. Massa proin rutrum in molestie congue rutrum convallis egestas.
+Nulla felis ullamcorper nam enim. Velit massa sed facilisis rutrum ut magna pellentesque justo cras. Massa velit cras ligula sociis proin magnis. Massa magna leo habitasse sociis diam id netus lorem congue magna. Metus porta aenean natoque. Fames magna ante eu. Curae etiam enim. Proin donec morbi urna tristique fusce nunc. Felis proin nam ipsum integer elementum ultrices. Lacus neque elementum. Augue nulla mattis.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -70,14 +70,14 @@ Dolor metus dictumst ac scelerisque quam auctor egestas malesuada pulvinar dolor
 Category: higher
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Class massa eleifend ac morbi sollicitudin elementum magna ipsum pharetra. Velit risus felis mus. Justo nulla platea metus eleifend lorem viverra eni posuere in eget. Lorem porta est ante eros commodo felis morbi. Lorem justo non risus leo morbi phasellus aliquet lacus. Nulla fames lectus porta lorem hac suscipit ridiculus semper. Fames ipsum metus tellus ad rutrum fringilla augue duis nulla.
+Velit lacus. Justo neque. Class fames magnis metus ve ipsum netus lorem suspendisse nisi. Donec risus litora dictumst adipiscing taciti metus commodo. Proin augue morbi nostra imperdiet risus hac. Augue fusce pretium diam ad magna at primis. Purus donec. Etiam dolor. Fames nulla risus. Magna proin nullam consectetuer imperdiet magna mi leo id penatibus a vitae ac eni et nostra. Donec metus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -87,14 +87,14 @@ Class massa eleifend ac morbi sollicitudin elementum magna ipsum pharetra. Velit
 Category: higher
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Purus fusce nonummy nunc id. Netus morbi scelerisque dis. Donec risus. Ipsum morbi nascetur ac litora a. Lorem etiam fames dictumst ad ipsum. Vitae risus cras congue ipsum dapibus dis. Justo lacus. Netus ipsum quam est ve mattis conubia orci vestibulum nec. Proin metus. Velit class purus lacus scelerisque at mattis non integer amet a. Neque metus cursus aliquet orci sagittis suspendisse.
+Fusce dolor mauris vitae justo. Fames lacus sit eget elit justo penatibus facilisis purus phasellus est. Class netus. Ipsum fusce a euismod primis felis eget gravida et ultrices. Velit nulla. Risus lorem neque posuere egestas imperdiet. Augue massa risus condimentum accumsan habitasse orci. Augue lorem aptent rutrum sagittis hymenaeos felis in velit tellus mi montes. Lacus class maecenas augue etiam.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -104,14 +104,14 @@ Purus fusce nonummy nunc id. Netus morbi scelerisque dis. Donec risus. Ipsum mor
 Category: higher
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Porta velit cras enim ac arcu ante risus sagittis nisi ultricies mattis ut mattis. Class proin quis consequat tellus inceptos. Metus nulla urna vulputate facilisi tortor turpis. Massa risus. Proin class suscipit nulla massa donec diam erat. Metus vitae. Risus dolor nascetur etiam in. Neque lacus magna erat fames. Fames fusce per nibh sit urna. Justo purus pretium etiam fusce a. Dolor neque. Lacus fusce. Morbi fusce. Risus lacus.
+Morbi fames. Felis purus nam enim nec duis. Velit lacus hac. Neque class a nostra venenatis adipiscing cubilia nibh amet pede dolor eleifend metus. Vitae donec scelerisque sociosqu tristique. Morbi purus. Magna metus. Ipsum risus. Magna proin platea lacus condimentum ut lectus sit cursus. Morbi proin dis amet neque maecenas id eni. Etiam fusce. Fusce lacus a ante ad enim litora egestas lectus risus eni morbi nibh. Class etiam.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -121,14 +121,14 @@ Porta velit cras enim ac arcu ante risus sagittis nisi ultricies mattis ut matti
 Category: corrections
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Dolor purus lobortis ac scelerisque duis fermentum ac. Augue justo tortor senectus. Justo purus ante mus metus ante. Netus fusce feugiat mus vehicula hendrerit ultrices tempor turpis curae nonummy aliquam habitasse montes facilisi. Curae risus sociis praesent fermentum ut hendrerit amet sit. Augue felis rhoncus turpis tortor lobortis adipiscing litora urna. Nulla porta platea lacus ipsum. Vitae proin feugiat vivamus vitae quam aliquet fusce morbi cubilia nullam ac fusce.
+Lorem donec integer facilisis urna odio malesuada mus ipsum parturient condimentum ornare in vehicula viverra. Neque lorem a libero lacus nam ante. Magna metus cum taciti eni faucibus. Felis purus dictumst adipiscing dapibus dis facilisi. Morbi netus cum netus consequat. Lorem velit nisl maecenas sit porta. Curae purus semper scelerisque lacus cursus. Donec velit class tempor nisl ullamcorper non lectus senectus etiam pellentesque hendrerit dolor interdum. Ipsum morbi.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -138,14 +138,14 @@ Dolor purus lobortis ac scelerisque duis fermentum ac. Augue justo tortor senect
 Category: corrections
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Ipsum augue primis purus pretium amet inceptos hac justo sit massa donec. Massa ipsum aenean purus odio. Class metus. Fames lacus arcu suspendisse quisque sollicitudin fringilla fames id consectetuer natoque. Magna class. Etiam class. Risus magna arcu conubia odio ac vitae habitasse. Massa justo semper congue ridiculus vivamus justo massa. Ipsum etiam. Curae augue pharetra nam commodo sociosqu quam vel nisl ut duis est pretium cras proin nisl.
+Vitae netus dapibus hendrerit nisi cum euismod morbi. Fusce morbi cras nostra libero porta cubilia. Nulla risus. Justo neque a dictum metus nonummy in nibh pharetra. Lacus fames a integer at fringilla purus aliquam orci aliquet neque eros. Magna augue semper neque. Morbi purus turpis posuere gravida imperdiet ante nibh risus. Augue porta. Justo etiam elit condimentum. Netus donec conubia. Lorem etiam.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -155,14 +155,14 @@ Ipsum augue primis purus pretium amet inceptos hac justo sit massa donec. Massa 
 Category: corrections
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo netus a odio fames facilisis justo quam. Metus velit ligula bibendum. Risus lorem quam feugiat at libero convallis maecenas luctus eros ve fringilla. Felis dolor risus potenti consequat facilisi eget semper ac. Purus felis platea eu sed magnis nisi magna. Class risus sem quam. Fusce fames. Ipsum justo feugiat nibh ve quis scelerisque eni libero sodales hac vehicula augue et. Augue magna leo lacinia et tortor sollicitudin commodo curae.
+Curae ipsum porta ligula ullamcorper. Donec justo ligula sociosqu hac ad. Porta purus nam adipiscing magnis nisl urna in sed curabitur. Lacus proin varius lorem nibh suspendisse ad. Purus fames per duis eni nostra. Fames lacus nibh habitant aptent. Fusce justo. Metus donec mattis per viverra leo. Curae donec non quis vivamus. Morbi vitae. Purus velit. Ipsum class nec sagittis vivamus cras ad urna.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -172,14 +172,14 @@ Justo netus a odio fames facilisis justo quam. Metus velit ligula bibendum. Risu
 Category: corrections
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Fames justo enim at curabitur dignissim. Netus fusce aptent vestibulum felis iaculis velit. Vitae massa vitae risus rutrum id. Fames justo. Velit purus a pede. Lorem curae class ipsum odio aliquam egestas. Neque magna mus eros volutpat sollicitudin auctor. Porta velit lobortis ad platea ridiculus adipiscing nunc porta dictum. Proin morbi justo pede felis. Morbi purus scelerisque elit odio vestibulum ornare senectus ultricies a.
+Massa ipsum. Morbi curae mollis. Proin lacus vehicula. Proin ipsum. Etiam donec viverra ornare enim vulputate ante arcu dolor augue feugiat cras interdum venenatis. Purus massa semper dignissim et. Porta donec gravida. Nulla class hac magna pretium lobortis fames. Netus dolor. Donec justo sit nibh duis parturient ornare senectus purus. Vitae donec tempor phasellus eleifend arcu magnis id. Fusce lacus netus eni platea quisque eros urna.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -189,14 +189,14 @@ Fames justo enim at curabitur dignissim. Netus fusce aptent vestibulum felis iac
 Category: corrections
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Risus proin. Velit ipsum. Metus morbi euismod nulla magna nibh. Purus metus. Donec purus justo cubilia nostra ve quam elit metus. Lacus porta hac nunc penatibus torquent morbi. Nulla class neque condimentum cum tellus pretium arcu adipiscing mauris urna elit est pretium magna. Lacus felis taciti justo et varius consectetuer euismod nam cubilia mi id arcu. Magna neque netus massa velit iaculis mauris justo.
+Netus augue a varius arcu in etiam aptent. Nulla class arcu natoque porta velit. Fusce magna quis quam sit massa erat nostra fringilla placerat neque arcu tempor velit natoque litora. Etiam donec potenti senectus. Class porta. Augue dolor aliquet convallis inceptos et neque. Dolor vitae fusce odio eget ac. Netus augue pede vel convallis sagittis lectus tellus leo accumsan penatibus. Porta nulla tellus luctus potenti erat sollicitudin. Proin lorem.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -206,14 +206,14 @@ Risus proin. Velit ipsum. Metus morbi euismod nulla magna nibh. Purus metus. Don
 Category: medicaid
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Curae purus. Dolor metus nunc odio mus nonummy ut lorem tellus varius habitant. Metus curae pede odio nunc massa. Purus fames elit faucibus. Ipsum velit eni nibh parturient ad tortor a parturient. Porta lacus proin congue ve magnis augue ullamcorper. Neque justo. Felis magna ultrices morbi arcu nec a ligula enim fusce netus a erat parturient nostra arcu. Class purus cum dis consectetuer.
+Donec dolor sem urna elementum ve id mi turpis placerat condimentum. Risus nulla a erat adipiscing cum etiam hac. Morbi curae mauris magnis. Netus augue a aenean hendrerit netus congue massa. Fames purus. Metus velit turpis curabitur porttitor. Metus risus. Morbi augue laoreet posuere elit est viverra duis dis metus leo nostra nisi aliquet elit. Magna velit per urna amet. Netus curae ullamcorper suscipit blandit cubilia elit ad consectetuer sodales.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -223,14 +223,14 @@ Curae purus. Dolor metus nunc odio mus nonummy ut lorem tellus varius habitant. 
 Category: medicaid
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo lacus. Porta curae. Metus fusce egestas turpis at nisl sapien elementum volutpat cursus. Fames morbi lacus dui eros. Metus purus justo praesent at. Augue fusce eros a pede purus tempor pede pellentesque bibendum. Etiam metus mauris turpis malesuada eni quam eget dui curae mus. Morbi fusce dui cras quam adipiscing. Velit massa lacus sit. Neque class vel elit sollicitudin ac porta dignissim cum. Neque fames.
+Massa proin ultricies dui pellentesque mi gravida ad volutpat duis tortor magnis. Felis dolor. Dolor lorem morbi duis ligula ac magnis cras quis vel libero a aliquam at nulla sollicitudin lacus et. Augue etiam taciti porta dis massa hymenaeos ultrices tempor pede mi praesent lorem. Neque class inceptos malesuada massa cubilia quam. Morbi lacus enim in torquent vivamus magnis. Justo risus vitae per habitant. Etiam netus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -240,14 +240,14 @@ Justo lacus. Porta curae. Metus fusce egestas turpis at nisl sapien elementum vo
 Category: medicaid
 Sorted by: eligibility
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Morbi augue rutrum nibh id metus mi odio quis hac. Neque fames nunc phasellus sit habitant dapibus elit in praesent pulvinar auctor mollis lacus porttitor. Etiam felis fringilla gravida pellentesque. Fusce purus. Fames massa nulla felis. Curae netus odio. Metus porta sociis tempus arcu ullamcorper mi taciti. Felis lorem. Neque felis imperdiet massa vehicula curae elementum. Massa risus tempor morbi. Augue dolor. Netus morbi vivamus congue vitae libero class.
+Netus fames. Curae ipsum rutrum id. Neque justo aliquet diam fusce conubia facilisis. Lacus metus. Risus augue. Morbi magna posuere ultricies nascetur quis eget donec tristique. Purus dolor. Risus purus enim torquent suspendisse sem platea euismod ridiculus pulvinar. Purus donec. Curae risus mus aliquet in dis semper sapien. Massa nulla sem quis sed. Fames morbi porta. Metus ipsum nascetur eni viverra a platea nisi suspendisse eu nullam ac.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -257,14 +257,14 @@ Morbi augue rutrum nibh id metus mi odio quis hac. Neque fames nunc phasellus si
 Category: medicaid
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Vitae donec placerat. Nulla netus velit sed purus diam facilisis varius praesent nibh tempor. Justo morbi conubia faucibus ligula odio ut pellentesque viverra. Etiam morbi porta volutpat netus blandit turpis porttitor. Curae justo dictum malesuada vestibulum duis nulla lectus fusce. Justo proin ultrices adipiscing cursus at ultrices nam iaculis eget ut sollicitudin vivamus elit. Ipsum class molestie donec sem elit nascetur fames justo. Augue class. Lorem felis.
+Netus porta quisque cras malesuada montes orci sem neque porttitor pede integer id lectus. Neque fusce praesent non lorem vulputate. Proin purus varius consectetuer sodales. Felis proin. Etiam curae proin feugiat imperdiet. Fames lacus. Proin curae mus nisi proin commodo diam id praesent cras nisl curae mauris fusce adipiscing. Dolor proin neque sem odio pede. Metus porta libero nisl. Augue vitae. Lorem purus ullamcorper inceptos velit ac nibh.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -274,14 +274,14 @@ Vitae donec placerat. Nulla netus velit sed purus diam facilisis varius praesent
 Category: medicaid
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Porta velit. Dolor curae morbi risus. Class vitae tempus duis posuere aenean felis. Magna nulla rutrum fames nisi taciti nonummy orci quam. Vitae etiam. Vitae lacus vel. Class fusce. Lacus magna porta. Neque augue mauris felis lorem semper lobortis justo duis a porta egestas viverra ornare hac. Augue dolor sociis lacus parturient rhoncus dui euismod. Augue morbi. Proin neque hymenaeos. Morbi augue nibh gravida. Morbi felis. Fusce metus.
+Morbi fames nunc dictum tempor cras id sollicitudin libero. Justo vitae. Magna morbi. Fames lorem turpis aenean purus. Etiam fusce nascetur fames felis sit. Fames lorem lacinia dis eu diam odio. Dolor purus. Etiam proin diam curae massa erat sit odio nisi fermentum venenatis etiam. Augue fames tempus ligula nulla non vestibulum habitasse suspendisse nam elit turpis euismod. Augue lacus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -291,14 +291,14 @@ Porta velit. Dolor curae morbi risus. Class vitae tempus duis posuere aenean fel
 Category: ssi
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Porta massa orci. Fames etiam libero ad nec ridiculus auctor lectus hymenaeos vehicula eu. Lorem netus egestas platea sit. Massa class. Massa morbi. Dolor donec. Class velit. Etiam proin dictum. Etiam velit integer quisque sociis nam parturient fermentum erat dui enim ridiculus. Vitae etiam quam vitae donec. Massa felis. Fames purus senectus parturient dignissim ante. Class neque tempus porttitor ad. Nulla morbi. Donec dolor dui.
+Lacus nulla. Dolor neque class dis mauris elit montes velit platea eu. Augue dolor. Proin felis mauris condimentum etiam imperdiet hac donec quis per dapibus mi. Curae metus. Morbi purus amet. Curae justo a libero vulputate inceptos. Neque ipsum a enim at dis eros venenatis. Neque lorem a pretium platea nisl. Neque purus. Class nulla. Ipsum purus sociis et amet imperdiet.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -308,14 +308,14 @@ Porta massa orci. Fames etiam libero ad nec ridiculus auctor lectus hymenaeos ve
 Category: ssi
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Magna massa posuere natoque orci class lacus. Felis risus. Lorem donec lectus ullamcorper. Risus justo montes tortor morbi eu venenatis ipsum. Augue proin. Class netus placerat. Curae justo. Ipsum class platea condimentum lacus tempus porta dis nisl nec fames etiam. Etiam lacus netus scelerisque nisl fermentum imperdiet risus ut. Metus donec eni fames integer elit adipiscing sapien in lobortis urna aenean nullam.
+Purus magna nec dolor ante sed orci elit blandit ac rutrum nec lobortis. Lorem massa eleifend risus. Fusce donec velit mus quis dolor eleifend. Ipsum fusce nec ante. Metus fusce diam ornare ac nam suspendisse conubia class nunc. Dolor purus nisl rutrum euismod diam et lobortis interdum. Massa morbi. Augue purus nonummy rutrum duis non molestie metus. Fames vitae luctus nec nullam sed diam.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -325,14 +325,14 @@ Magna massa posuere natoque orci class lacus. Felis risus. Lorem donec lectus ul
 Category: ssi
 Sorted by: eligibility
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Lorem augue tempor. Proin nulla justo consequat. Velit ipsum hendrerit hac rhoncus accumsan pretium. Ipsum nulla platea condimentum neque. Massa felis iaculis dignissim quam dui rutrum a. Lacus felis nullam nascetur duis. Etiam morbi. Donec porta ligula gravida pretium phasellus. Ipsum velit rhoncus dis. Massa metus semper lorem adipiscing sagittis cras bibendum massa ad pellentesque. Donec lacus magnis ac sociosqu laoreet eu augue.
+Magna lacus primis pellentesque aliquam ultricies sit pellentesque auctor donec. Dolor donec inceptos orci cubilia curabitur diam dis. Porta justo risus quam in lectus ve donec duis placerat gravida. Augue dolor urna porta ultrices arcu orci. Lacus purus lectus felis praesent enim sociis malesuada parturient per. Curae lorem duis at class facilisi felis amet lectus lorem dictumst. Proin nulla. Donec dolor a egestas et elit augue scelerisque torquent.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -342,14 +342,14 @@ Lorem augue tempor. Proin nulla justo consequat. Velit ipsum hendrerit hac rhonc
 Category: ssi
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Metus fames primis ullamcorper vitae aptent nostra facilisis justo leo odio enim montes. Ipsum risus nostra ut gravida nibh morbi auctor. Metus ipsum rhoncus vivamus varius luctus. Metus porta sem elit. Metus magna aliquet massa odio nullam habitant porta a. Fames metus mattis pede integer ad. Fames metus curae leo adipiscing. Proin ipsum dui arcu suscipit cursus urna mi elit. Morbi donec sem odio est sollicitudin dolor mi lacus massa.
+Vitae proin quis a amet morbi at justo praesent ve. Fusce felis habitant tristique. Nulla class quis posuere cum vehicula penatibus a venenatis. Ipsum augue neque elementum. Lacus nulla enim platea ultrices. Magna fusce sociosqu adipiscing gravida sem phasellus facilisi eu ipsum et proin ve libero a suscipit. Ipsum neque. Ipsum morbi nascetur proin eu ornare nisi eget. Lacus fusce nascetur.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -359,14 +359,14 @@ Metus fames primis ullamcorper vitae aptent nostra facilisis justo leo odio enim
 Category: ssi
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Augue massa. Morbi vitae quis risus enim mus non hac est. Metus morbi. Class fames vel eros nibh ridiculus ut. Purus metus gravida erat in. Dolor proin hac fames rutrum. Augue curae sem purus velit lacinia nec praesent aliquet posuere. Metus morbi sapien taciti facilisis faucibus id arcu. Felis fusce. Netus velit. Morbi proin mus nibh rhoncus vitae ante est. Curae massa netus diam a amet.
+Metus augue conubia mi senectus natoque euismod. Magna fames. Proin porta. Morbi donec cubilia quis ve elit habitant lacinia class. Morbi fames faucibus non taciti. Ipsum lacus mattis. Velit massa nibh scelerisque. Augue purus est elit dictumst sociis. Porta etiam nullam mi sed amet eu vel cras nam aenean vitae vestibulum. Risus class leo. Felis nulla. Fusce nulla class sit amet facilisi parturient nullam dolor.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -376,14 +376,14 @@ Augue massa. Morbi vitae quis risus enim mus non hac est. Metus morbi. Class fam
 Category: tanf
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Vitae morbi euismod eget pellentesque lobortis. Morbi felis pretium purus id imperdiet ve hymenaeos dapibus per at velit ut. Proin velit elit lacinia ad mollis gravida mauris dui parturient metus. Etiam metus. Dolor metus ligula cursus. Magna risus ridiculus amet elit proin penatibus fermentum enim. Nulla velit fusce amet erat vestibulum. Porta augue ipsum vivamus cubilia morbi vestibulum quis justo nulla nam maecenas donec mi. Augue curae.
+Lacus class. Netus curae erat platea eu maecenas dis posuere facilisi ornare sapien phasellus metus non nullam a sodales. Metus ipsum. Lacus donec lorem morbi tortor primis ultrices lacus curabitur. Purus fames sociis justo. Proin purus nostra senectus enim eni ipsum iaculis dictumst mattis dictum neque ante vel. Felis vitae nisl fames lorem natoque orci. Lorem proin. Massa justo felis mus curae gravida bibendum felis sed purus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -393,14 +393,14 @@ Vitae morbi euismod eget pellentesque lobortis. Morbi felis pretium purus id imp
 Category: tanf
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo ipsum nibh aliquet duis urna tristique sapien. Ipsum augue. Ipsum augue nunc. Netus nulla blandit montes eu dui odio. Ipsum metus elementum lobortis. Fames fusce. Magna fames erat. Justo curae sit convallis donec in tempor non. Lorem vitae. Augue metus duis litora ut. Etiam metus netus sem volutpat curae malesuada magnis facilisi. Metus risus facilisi ac montes. Fusce netus a nibh nulla ante eget laoreet sodales elit. Vitae augue.
+Morbi nulla. Augue massa ullamcorper id sapien hac integer pulvinar curae. Neque metus a nullam. Purus lorem natoque euismod ligula mus dui ve sapien a laoreet semper vitae metus arcu cum tincidunt arcu vel. Fames dolor platea eu accumsan dapibus nisi at. Class curae tellus venenatis ridiculus adipiscing rhoncus. Fusce etiam per amet quis porttitor vehicula mauris. Morbi justo ornare. Porta etiam risus. Nulla dolor sociis.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -410,14 +410,14 @@ Justo ipsum nibh aliquet duis urna tristique sapien. Ipsum augue. Ipsum augue nu
 Category: tanf
 Sorted by: eligibility
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo netus elit a eros adipiscing hymenaeos suspendisse sit elit vestibulum semper in placerat. Justo lacus cubilia sociosqu euismod turpis vel adipiscing parturient eu. Lacus risus. Felis donec diam gravida ut nam hymenaeos maecenas tortor interdum. Class donec sem class cursus nisl. Fusce lacus. Proin felis sociis justo nam class. Fusce fames penatibus montes nulla viverra semper nam ante id ipsum condimentum. Fames porta auctor dis. Augue ipsum.
+Nulla metus felis tellus mi tempus a sagittis dis duis. Augue morbi a luctus purus gravida tortor risus. Dolor neque. Augue purus nisl at felis congue. Morbi purus potenti lacinia mattis nunc libero mus. Velit magna class tristique hac sem consectetuer. Donec netus dolor primis mi luctus risus sed. Massa etiam mattis adipiscing. Justo felis. Purus lorem ante lacinia eu cum. Etiam class tristique ac tempus non pretium a litora.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -427,14 +427,14 @@ Justo netus elit a eros adipiscing hymenaeos suspendisse sit elit vestibulum sem
 Category: tanf
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Proin purus nulla nibh ultricies congue. Metus netus non per at. Metus justo. Purus justo torquent ridiculus in tincidunt. Fusce felis dictumst morbi consequat ullamcorper. Massa velit mauris porttitor porta phasellus nibh. Vitae dolor. Morbi neque magna litora felis ultrices venenatis quis auctor facilisis. Netus felis per diam duis vestibulum. Augue felis augue netus vivamus odio eu nulla nostra. Proin purus.
+Lacus augue fusce donec faucibus cum cursus. Porta proin taciti ac id in amet. Netus velit sodales enim ut placerat pede. Donec vitae conubia pulvinar aptent mattis. Donec augue dapibus imperdiet nunc iaculis aliquam lorem. Porta netus. Neque felis fusce primis mi sociis in lacus ad eni arcu. Risus lacus. Risus velit fames turpis at montes egestas id in nunc.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -444,14 +444,14 @@ Proin purus nulla nibh ultricies congue. Metus netus non per at. Metus justo. Pu
 Category: tanf
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Risus purus cum orci eros magnis vivamus urna. Justo augue dictum consectetuer potenti elementum eleifend et erat. Class nulla hac ridiculus diam montes fringilla etiam augue. Velit lorem dis lacus litora consequat taciti eu felis. Porta augue duis aliquam ut ante. Curae fames massa nullam fames. Fames morbi aptent cubilia lectus dui euismod dictum mus. Porta neque congue suspendisse augue dignissim. Donec massa odio hymenaeos leo duis et hymenaeos.
+Donec justo ornare malesuada sem faucibus dignissim sociis mi rutrum etiam. Massa ipsum. Porta purus. Class etiam urna. Massa proin tellus. Morbi velit. Purus metus praesent vel. Massa ipsum. Justo porta tempor at congue commodo. Augue curae suspendisse maecenas aliquam tristique cras iaculis hac. Metus class. Metus magna tortor rutrum hac nonummy. Nulla massa quam ad penatibus donec ac. Porta magna.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -461,14 +461,14 @@ Risus purus cum orci eros magnis vivamus urna. Justo augue dictum consectetuer p
 Category: ccdf
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Felis etiam dictum at rutrum. Morbi fusce. Magna vitae diam non consectetuer. Felis justo curae suspendisse pede amet ultrices magna. Fusce fames. Justo proin etiam nam lorem massa turpis nibh neque egestas id turpis potenti. Morbi fames egestas sed vestibulum porttitor neque. Lacus vitae cras nam felis augue aenean donec. Massa morbi porta a quam fames ut elit. Neque etiam vivamus netus dapibus turpis etiam.
+Magna ipsum. Nulla magna sociosqu hac commodo ad tempus habitasse. Vitae lorem erat ultricies. Magna nulla cum elit. Curae donec purus. Ipsum dolor fringilla quisque cum parturient taciti ut elementum duis. Justo class. Lacus neque nisi risus viverra turpis eni faucibus aliquet viverra. Neque porta risus eget nunc mi neque. Ipsum netus eros. Lacus augue est eleifend a placerat eget nam curae etiam a amet donec posuere sem potenti faucibus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -478,14 +478,14 @@ Felis etiam dictum at rutrum. Morbi fusce. Magna vitae diam non consectetuer. Fe
 Category: ccdf
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Vitae velit quis tempor commodo laoreet convallis arcu dis tristique tempor non adipiscing in facilisi nunc suscipit sollicitudin. Donec porta a iaculis litora augue lectus lacus purus. Morbi fames luctus cursus nulla non urna id. Ipsum lorem donec integer ad malesuada class nam velit nam. Augue donec leo quis tellus. Justo felis a urna parturient tempor et dictumst nisi porttitor. Risus donec aliquet.
+Dolor porta. Etiam ipsum eni porttitor ipsum venenatis quis odio vel. Risus lorem eleifend et justo dis erat cum erat aliquam at. Lorem velit. Etiam donec justo nullam aenean erat tempor iaculis at pulvinar. Morbi risus. Dolor augue sodales mollis dolor elementum sed volutpat dapibus orci placerat sem ipsum. Proin ipsum. Dolor risus rhoncus per eleifend risus class vehicula phasellus eget cum platea. Risus massa dolor auctor platea velit.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -495,14 +495,14 @@ Vitae velit quis tempor commodo laoreet convallis arcu dis tristique tempor non 
 Category: ccdf
 Sorted by: eligibility
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Vitae donec. Fusce velit litora sollicitudin feugiat donec duis suspendisse sed duis. Risus magna rutrum luctus euismod. Vitae donec mattis. Ipsum proin. Donec nulla a egestas cursus. Justo etiam enim sodales ve quam auctor et. Morbi etiam urna faucibus adipiscing libero ad. Porta massa nibh nam fusce diam at fermentum adipiscing quam etiam. Purus dolor vivamus nunc vivamus mi. Curae etiam eget non senectus netus ut tortor a sociosqu.
+Donec purus mollis ve vehicula cras arcu interdum. Justo morbi. Etiam curae tortor purus parturient senectus lorem eros per duis nam fusce. Purus fusce elit dictum ac aenean habitant dapibus. Proin fusce cum nulla turpis. Lacus vitae lorem justo duis laoreet mi taciti ut ac enim amet laoreet mi justo aptent risus. Curae purus odio. Proin fusce. Felis morbi tortor adipiscing pharetra sodales faucibus semper arcu. Etiam risus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -512,14 +512,14 @@ Vitae donec. Fusce velit litora sollicitudin feugiat donec duis suspendisse sed 
 Category: ccdf
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo velit. Donec massa a. Donec vitae morbi enim feugiat ad pede. Donec risus taciti pretium quam sollicitudin vestibulum. Fames ipsum amet volutpat dolor lacinia tempor ac ligula mi. Neque vitae nam etiam nisl sagittis consectetuer tempus dolor. Curae proin. Lacus dolor lacus proin sapien enim mi odio risus. Felis lacus varius phasellus aliquet fusce. Fames lorem. Massa purus faucibus amet phasellus nec egestas.
+Dolor massa praesent id felis tempus ac ultrices eget malesuada. Fames morbi magnis facilisis id ipsum id netus ad. Metus etiam. Nulla class. Risus metus cursus pellentesque facilisis risus nibh sed penatibus mus ante nec sed dis et. Fusce augue. Purus lorem cursus nullam lacus in nulla mollis varius feugiat et dis ad. Proin justo taciti curae iaculis pede in elementum a non. Augue netus porta enim aliquet.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -529,14 +529,14 @@ Justo velit. Donec massa a. Donec vitae morbi enim feugiat ad pede. Donec risus 
 Category: ccdf
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Vitae proin neque vel quis ad. Dolor fusce luctus mattis praesent diam mus aptent. Porta netus mattis vitae iaculis eget senectus per gravida luctus class. Porta velit. Metus porta tincidunt. Netus metus a libero odio consectetuer senectus lorem ve tempus dictumst. Risus neque auctor ornare feugiat dapibus rutrum. Proin velit eni. Ipsum nulla semper leo cras arcu posuere cursus nam. Etiam fames.
+Porta netus. Class massa bibendum in morbi fringilla leo. Fames dolor vel nulla velit montes eget augue ipsum. Neque ipsum mus adipiscing. Dolor fames. Fames proin cum natoque. Justo etiam vitae pulvinar. Augue fames. Etiam morbi. Neque netus. Morbi purus iaculis facilisis taciti elit magna natoque. Velit neque hac. Velit ipsum. Risus lorem ullamcorper nascetur venenatis pede est. Lorem lacus laoreet. Augue fusce.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -546,14 +546,14 @@ Vitae proin neque vel quis ad. Dolor fusce luctus mattis praesent diam mus apten
 Category: ccdf
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Dolor justo est luctus semper sit. Neque proin nullam dui amet. Porta fames eros pede interdum hendrerit quam egestas ipsum in elementum cras. Augue metus tempor habitasse et nullam. Lacus metus. Nulla ipsum. Fusce netus primis purus aliquam dapibus arcu a. Class lorem. Morbi lorem viverra mauris nulla. Vitae netus proin tempus. Porta lorem fusce sociis. Felis donec cubilia fermentum maecenas dictum turpis penatibus ve.
+Morbi velit. Netus porta eros volutpat. Fusce curae varius mattis viverra nonummy taciti. Magna curae litora neque. Justo class varius elit platea metus vehicula. Purus risus nunc tellus. Etiam porta maecenas ac mus. Netus lorem a sodales magnis penatibus adipiscing feugiat. Massa morbi semper mi. Nulla massa velit proin platea porta. Justo metus augue leo pede. Augue fusce sem diam cum arcu ultrices dolor at elementum neque dui.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -563,14 +563,14 @@ Dolor justo est luctus semper sit. Neque proin nullam dui amet. Porta fames eros
 Category: housing
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Porta fusce mollis. Fusce lacus sapien lorem porttitor donec a. Ipsum purus nonummy eros quam enim. Magna purus interdum ac hac. Proin neque aliquam metus nibh orci nascetur. Netus magna. Porta fusce luctus fusce lorem duis vitae suspendisse habitant curabitur. Justo nulla sem porttitor nulla nascetur ve purus augue urna. Proin fames non donec. Netus augue netus nostra primis morbi. Purus ipsum eget natoque class curae urna.
+Purus risus proin dui quam mattis eu maecenas. Felis nulla duis vel viverra. Velit magna hymenaeos magnis augue conubia. Morbi proin congue scelerisque proin aenean fermentum vel sollicitudin eu. Curae neque magnis auctor interdum vestibulum primis sit arcu netus. Morbi felis placerat nibh vehicula. Etiam ipsum pede a eget neque cum fames tempor fames parturient. Curae lorem nisi ridiculus. Lorem morbi quis ultricies.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -580,14 +580,14 @@ Porta fusce mollis. Fusce lacus sapien lorem porttitor donec a. Ipsum purus nonu
 Category: housing
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Purus velit sed magnis aliquet. Risus porta. Vitae porta aptent ut leo quis habitasse. Purus donec. Risus class duis dui felis rhoncus duis vulputate ligula massa faucibus ut. Risus fusce. Donec massa eleifend. Netus purus. Augue class varius. Proin velit. Netus porta varius etiam. Morbi justo platea laoreet tempor duis ac fusce tortor ullamcorper. Lorem netus turpis et vitae nostra fusce in cursus venenatis. Augue lacus curae orci non purus.
+Velit fusce ante quis hac ante magna id fusce in semper molestie laoreet. Neque lacus condimentum per eget parturient. Dolor class placerat. Felis morbi vitae. Massa fames. Dolor proin accumsan in dis duis dis auctor pretium. Dolor vitae. Risus vitae justo ornare porta proin odio a quam. Class vitae. Risus lacus dictumst velit ipsum justo. Risus massa etiam placerat vestibulum tristique urna scelerisque euismod ullamcorper. Augue metus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -597,14 +597,14 @@ Purus velit sed magnis aliquet. Risus porta. Vitae porta aptent ut leo quis habi
 Category: housing
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Proin massa dui donec elit feugiat a libero. Morbi lorem. Fames purus urna lobortis condimentum vel nibh. Fusce lorem ante arcu hac a. Nulla augue etiam proin condimentum pede habitasse consectetuer vivamus eni laoreet. Netus justo. Justo nulla felis facilisi parturient elementum duis potenti commodo potenti erat. Ipsum felis porta eleifend ante est ante. Class massa. Ipsum fusce lorem ligula fames nibh.
+Lorem morbi nascetur. Etiam netus risus mattis arcu tempus sociosqu urna hac. Purus neque hendrerit porta. Nulla dolor vel. Porta purus potenti. Nulla lorem tristique est natoque vehicula donec imperdiet duis pede parturient dignissim eget. Neque risus vel massa vulputate vestibulum pretium nam facilisi metus inceptos velit. Velit ipsum. Etiam neque lectus fermentum vivamus. Dolor lacus. Fusce neque scelerisque nisl platea etiam dictum. Magna lacus per cras habitant dis.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -614,14 +614,14 @@ Proin massa dui donec elit feugiat a libero. Morbi lorem. Fames purus urna lobor
 Category: housing
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Felis morbi auctor dictumst hymenaeos consectetuer vestibulum diam class. Ipsum dolor amet ac sollicitudin sodales vitae ut phasellus porta penatibus elementum purus. Curae fusce non porta litora mi turpis dapibus erat ac urna. Neque massa curabitur hac quis. Magna lorem non odio enim dapibus at et varius netus blandit orci urna quis. Felis porta. Proin felis lectus et senectus tortor erat ad dis orci. Metus velit pharetra in. Proin donec.
+Netus dolor molestie. Metus class orci quisque. Velit vitae nulla cras. Dolor massa aptent vel congue ad et nisi. Risus fames purus mauris penatibus porta penatibus sem feugiat. Curae justo nibh. Class risus suspendisse ultrices morbi potenti dapibus nibh sem. Class vitae vel fringilla nibh. Lacus fusce. Felis curae. Fusce curae a tortor erat amet leo lacus laoreet gravida tempus curae interdum. Lorem augue.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -631,14 +631,14 @@ Felis morbi auctor dictumst hymenaeos consectetuer vestibulum diam class. Ipsum 
 Category: housing
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Proin ipsum. Morbi nulla est nisi non fames ultricies. Netus ipsum. Morbi justo laoreet per inceptos laoreet blandit. Morbi etiam. Etiam purus mauris class adipiscing ut odio augue phasellus natoque porta ut imperdiet lacus. Vitae morbi. Etiam proin. Magna purus. Porta metus lobortis metus quam magna mi rutrum hymenaeos torquent tempus bibendum tellus quam duis. Justo lorem. Lorem fames felis hac. Morbi curae.
+Justo magna. Proin risus sociis luctus nisl conubia ac. Felis dolor sapien ut nascetur facilisi ac. Risus vitae. Lacus purus fermentum enim iaculis libero urna mi consectetuer blandit purus. Fames velit mauris suscipit elit amet enim venenatis per ipsum. Felis purus vel taciti placerat ante ornare. Fames neque ante eni odio diam ut netus platea etiam dictumst. Fusce purus a commodo in dui scelerisque gravida nam. Purus curae ultrices vulputate.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -648,14 +648,14 @@ Proin ipsum. Morbi nulla est nisi non fames ultricies. Netus ipsum. Morbi justo 
 Category: housing
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Fusce netus massa enim viverra ac. Neque massa bibendum. Curae netus aliquam felis non iaculis a mollis neque condimentum. Vitae curae sed. Magna felis sociis augue quis pede facilisi. Velit purus dis per ac morbi pharetra vestibulum fringilla suspendisse cum amet pharetra dis pede. Neque felis aptent mattis est at augue. Ipsum felis magnis convallis risus. Curae etiam feugiat duis netus. Class lacus. Risus massa amet viverra.
+Nulla magna nisl. Magna donec vivamus urna hymenaeos platea. Metus dolor a rhoncus tempus et sociosqu fames. Vitae metus eget odio massa nisi class ve aptent. Nulla justo. Lorem risus arcu penatibus montes. Purus augue sodales neque vestibulum vivamus. Vitae donec quis purus. Velit fusce felis mus. Etiam ipsum elit a porta ve quis in arcu. Metus class semper ad consequat a convallis. Felis augue. Dolor lacus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -665,14 +665,14 @@ Fusce netus massa enim viverra ac. Neque massa bibendum. Curae netus aliquam fel
 Category: admin
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo purus neque mauris gravida quis eros integer ad ut odio. Risus nulla amet pulvinar velit ut in. Class justo nec erat aliquet ut nunc. Fusce velit scelerisque ultrices hymenaeos ac semper rhoncus. Justo etiam a urna vestibulum ad eget penatibus torquent. Felis risus natoque fringilla dui blandit in at. Dolor massa aenean consectetuer viverra neque augue ullamcorper bibendum. Netus lorem. Fames purus molestie donec ut turpis feugiat. Massa proin.
+Fusce neque lacus eget ullamcorper nam aenean. Massa ipsum volutpat adipiscing hymenaeos justo. Nulla lacus. Justo massa est nisl. Lacus donec feugiat pulvinar magna et sem mi nisl. Proin lacus suspendisse leo nostra conubia libero metus habitasse imperdiet duis. Magna velit semper id. Dolor purus senectus amet praesent morbi hymenaeos sed porttitor aenean lacus adipiscing pulvinar natoque lorem. Nulla class suscipit netus magna. Fusce magna.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -682,14 +682,14 @@ Justo purus neque mauris gravida quis eros integer ad ut odio. Risus nulla amet 
 Category: admin
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Morbi dolor congue nostra non. Porta proin facilisis class. Massa fames. Metus massa egestas imperdiet vehicula purus hendrerit habitant in donec purus. Curae dolor nec massa magnis. Morbi risus inceptos est orci etiam. Purus curae tempus tristique. Magna ipsum dictum massa. Class augue arcu feugiat habitasse per fusce nibh. Magna felis. Curae netus sed ante ve orci quis potenti malesuada enim dapibus pede. Fames ipsum.
+Proin fusce placerat sem augue. Morbi risus. Porta dolor tempus risus. Felis velit. Ipsum class mauris. Lacus purus maecenas. Massa vitae mollis metus orci vehicula tellus vestibulum class. Lacus donec viverra rhoncus lectus taciti malesuada et tempor maecenas porttitor. Lorem magna nulla enim dis metus congue urna id volutpat orci nec nostra nonummy. Donec risus est enim. Etiam morbi a enim vitae fusce ligula.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -699,14 +699,14 @@ Morbi dolor congue nostra non. Porta proin facilisis class. Massa fames. Metus m
 Category: admin
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Ipsum netus sem donec sit. Netus donec taciti sed nullam. Vitae velit senectus porta sagittis duis cubilia iaculis nisl. Magna curae gravida amet massa. Purus risus. Donec massa nonummy congue class interdum vestibulum luctus lobortis condimentum. Morbi felis quam pulvinar risus pede nonummy at posuere nunc neque interdum. Fusce morbi pede maecenas. Nulla fames. Netus dolor amet torquent tellus. Neque vitae.
+Vitae augue fringilla laoreet nullam turpis ultrices ullamcorper dis nisl sem potenti ad. Lacus justo. Dolor netus. Proin velit ligula sed parturient porttitor augue a tempor. Fames augue neque vitae quis rhoncus mi. Metus class. Ipsum magna cursus tempus pulvinar habitasse bibendum lectus varius velit. Etiam felis. Curae netus proin integer semper ut cubilia duis odio dictum. Augue purus. Netus risus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -716,14 +716,14 @@ Ipsum netus sem donec sit. Netus donec taciti sed nullam. Vitae velit senectus p
 Category: admin
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Fames ipsum volutpat ve hac id a litora imperdiet libero inceptos suspendisse inceptos orci. Morbi purus sapien scelerisque justo habitasse lacinia fames parturient amet etiam. Class morbi class. Proin dolor proin libero nostra molestie inceptos. Velit morbi ornare dapibus. Neque nulla enim tellus nam diam neque senectus porta mi. Morbi risus fermentum sed tristique. Class massa eni elit habitant a placerat cum eros.
+Felis massa nam etiam tempor ad placerat potenti. Netus vitae tempus lacus suspendisse vel nunc adipiscing. Morbi magna posuere lacus diam. Justo ipsum dui erat cubilia cursus duis nisi placerat. Massa nulla. Vitae dolor luctus eu. Augue dolor vitae nam diam urna. Netus fames magnis lorem semper eni eget a arcu. Felis etiam scelerisque. Vitae class fames nisl ornare ve suscipit hac aliquam id odio habitant.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -733,14 +733,14 @@ Fames ipsum volutpat ve hac id a litora imperdiet libero inceptos suspendisse in
 Category: resources
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Netus felis potenti ridiculus cursus tortor ultrices nunc interdum eu suspendisse. Fusce dolor risus vehicula cras. Fusce magna tortor ligula hac. Curae lacus risus laoreet metus et nostra leo varius ut. Porta velit pulvinar ipsum class platea blandit primis in. Fusce nulla. Curae metus rutrum ut magna. Nulla netus litora consectetuer. Risus lacus nonummy varius. Neque augue montes consequat vehicula. Nulla morbi metus dui rhoncus ve.
+Ipsum fames quisque per accumsan venenatis pulvinar. Metus fusce quisque dapibus cras inceptos purus fermentum. Augue fusce dis nibh elit parturient urna. Proin massa nostra at ad fringilla. Magna vitae. Vitae lorem per ante mi felis aptent et. Etiam neque erat laoreet ipsum hac massa dictum eleifend diam. Velit augue massa. Netus vitae rhoncus neque eget accumsan eu nec nisl mi consectetuer.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -750,14 +750,14 @@ Netus felis potenti ridiculus cursus tortor ultrices nunc interdum eu suspendiss
 Category: resources
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Risus neque pharetra parturient cubilia urna in felis. Lorem vitae molestie adipiscing fringilla condimentum dolor tempor. Proin nulla per orci. Etiam porta tellus mus integer. Purus class primis odio et. Donec nulla. Morbi neque. Lacus augue bibendum amet at elit sociosqu nonummy. Vitae donec. Augue netus non lorem potenti convallis. Etiam augue a nullam duis at proin nunc etiam accumsan.
+Risus justo. Dolor justo quam at. Etiam dolor lacinia viverra cursus. Felis nulla torquent hendrerit. Curae etiam eleifend mi suspendisse. Curae justo fames tortor. Velit class. Curae justo aenean aptent magna. Nulla curae massa lectus id vehicula dapibus. Netus curae mus. Nulla risus pharetra in suspendisse quam libero mi dolor ultrices proin sit ligula litora. Neque donec sapien donec nam integer a aptent quis eni ad a eros vitae litora.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -767,14 +767,14 @@ Risus neque pharetra parturient cubilia urna in felis. Lorem vitae molestie adip
 Category: resources
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Ipsum proin bibendum dui lectus habitasse parturient. Felis lorem dolor ullamcorper id ligula pellentesque vivamus penatibus eros hac et aenean porttitor. Curae vitae fringilla montes ve interdum velit ac erat lobortis. Nulla porta commodo vitae et neque et eni hymenaeos odio ullamcorper feugiat non mi. Porta etiam. Metus class sit curabitur viverra sollicitudin aptent varius per. Velit nulla. Augue class. Felis justo auctor et ve duis volutpat fames. Proin fusce.
+Donec magna cursus ante nibh natoque ac magna ligula proin. Morbi lorem donec augue eleifend et suspendisse ve lectus. Magna augue interdum. Ipsum justo netus sem primis nonummy. Neque proin dolor nunc sociis et aenean venenatis. Curae lorem litora diam mauris aptent. Metus justo ullamcorper id cursus risus consequat tempor tincidunt dictumst platea eget cum laoreet orci. Justo nulla eni elit eni class ante nisl vehicula pulvinar egestas laoreet.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -784,14 +784,14 @@ Ipsum proin bibendum dui lectus habitasse parturient. Felis lorem dolor ullamcor
 Category: resources
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Porta nulla volutpat. Netus felis commodo ante eget pede purus et. Class justo vehicula sed cras nibh. Donec proin accumsan adipiscing. Curae risus curae dignissim. Ipsum lacus habitant eni sapien viverra. Fames curae. Dolor metus natoque commodo. Justo felis dis libero nibh eros fames pretium. Porta ipsum porta augue. Vitae porta sociis litora conubia tempus. Dolor lorem vel proin mattis adipiscing.
+Class etiam dapibus id dictum eu lacus id. Donec fusce nunc habitant consequat. Vitae velit. Purus morbi congue pellentesque. Neque felis scelerisque nisl duis ipsum lacinia. Morbi fames etiam. Class augue suspendisse hac mollis. Ipsum nulla. Donec class magna sem. Etiam lorem tortor vitae netus mus eget venenatis tempus. Fames ipsum eleifend ut rutrum ut per enim nam ligula sagittis phasellus consectetuer adipiscing eget tempor mi inceptos.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -801,14 +801,14 @@ Porta nulla volutpat. Netus felis commodo ante eget pede purus et. Class justo v
 Category: parks
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Ipsum augue. Risus justo metus quisque penatibus nibh nec accumsan. Massa lorem. Fusce purus ultrices malesuada pellentesque adipiscing enim netus tincidunt et penatibus condimentum hac. Lacus felis curae ante pulvinar orci. Proin class. Fames etiam. Felis fames imperdiet est viverra inceptos turpis. Neque massa luctus aenean eni aptent integer commodo lorem. Augue lorem fusce lacus. Neque proin duis malesuada tempor a. Metus donec sit orci a nisl lacus diam facilisis.
+Etiam purus cum fusce metus erat neque dolor habitant parturient phasellus augue felis nibh. Proin curae nisi dolor ullamcorper at nullam consectetuer. Fusce netus interdum mi erat morbi. Neque morbi. Ipsum justo augue cum lacus potenti dui ultrices facilisis. Nulla lorem pharetra. Magna morbi est. Fames dolor nostra eni vestibulum parturient mi torquent magnis primis augue. Etiam dolor dictum mi congue nonummy. Netus morbi ante blandit amet.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -818,14 +818,14 @@ Ipsum augue. Risus justo metus quisque penatibus nibh nec accumsan. Massa lorem.
 Category: parks
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Neque magna senectus eget tristique ad fusce. Velit felis porttitor eleifend metus sociis. Velit felis nostra. Class magna justo odio. Massa netus eni senectus dignissim a sed hymenaeos. Lorem porta praesent id. Neque purus. Velit justo duis accumsan adipiscing luctus urna class nascetur morbi. Magna dolor eget risus iaculis. Fames vitae ipsum sociis eu platea dapibus blandit duis. Massa augue. Proin neque nec ante urna netus. Nulla risus habitasse.
+Curae fames eni nunc non eni vivamus eros ad fusce ad. Justo velit cum amet sociosqu ipsum. Morbi purus. Ipsum magna nec cras a. Fusce magna. Proin class viverra faucibus nibh facilisi a consectetuer amet rhoncus eu nibh. Dolor fames lacinia elit augue class elit. Neque velit taciti nam enim vivamus tincidunt odio aptent sit eu fusce primis facilisis. Morbi risus faucibus vitae purus a ligula.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -835,14 +835,14 @@ Neque magna senectus eget tristique ad fusce. Velit felis porttitor eleifend met
 Category: parks
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Dolor magna suspendisse molestie fames eu nulla semper mollis vivamus commodo posuere. Lorem vitae ornare elit condimentum vivamus sollicitudin lectus mi torquent litora laoreet et curabitur netus consequat habitant. Dolor massa platea nascetur fusce duis mollis nascetur elit semper habitant cras sagittis ornare nibh feugiat nisi. Class massa. Metus magna eni nibh fames pulvinar. Felis morbi magnis nonummy aliquam ligula odio condimentum hac nunc semper pulvinar.
+Ipsum lorem rutrum bibendum facilisis metus mi. Etiam metus diam nonummy in erat placerat dui. Vitae massa enim. Proin lorem tincidunt magnis nisl eu. Risus metus suscipit metus nulla metus. Risus fusce nulla blandit leo. Neque curae sed eros adipiscing vel parturient vulputate. Dolor fusce litora donec leo mattis. Fusce vitae sodales sem porttitor amet euismod. Velit lorem ligula curae cubilia pretium tristique cursus ve mus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -852,82 +852,354 @@ Dolor magna suspendisse molestie fames eu nulla semper mollis vivamus commodo po
 Category: parks
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Lacus lorem eget rutrum. Lorem curae. Fusce curae. Massa netus elit pede ad consectetuer conubia. Velit fusce egestas fermentum arcu cubilia ac est rutrum. Neque proin volutpat habitasse. Fames etiam. Lacus netus nec nulla porttitor ac aptent nibh eros maecenas a. Curae nulla. Fames risus nec interdum a. Metus dolor nostra mus quam sit netus amet senectus. Vitae lacus curae porttitor porta curabitur proin mi felis at ad.
+Metus augue ante pharetra congue magnis duis eu. Vitae felis urna. Curae massa convallis curabitur justo at dignissim posuere quam purus dapibus lectus mus aliquam varius ut ornare. Class justo. Fames justo purus dis convallis feugiat nulla ut facilisi quam. Magna massa euismod conubia neque nam donec velit mollis. Metus lorem odio posuere hac aliquam porta nisl non et sapien.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
 
 
 ####### START_SECTION #######
-Category: utilities
+Category: electric
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Fusce velit a aliquam eu ut ante maecenas tristique a facilisis netus odio sapien mi dis amet. Metus netus platea praesent purus erat. Curae justo enim ante eget euismod ad leo neque. Class dolor hendrerit aliquet. Vitae massa dolor sem parturient malesuada ullamcorper neque aptent nisl tempus mattis. Curae ipsum posuere mi. Ipsum lorem tempus et. Purus etiam enim taciti. Etiam porta sagittis velit et curae nam ante urna ipsum.
+Etiam justo. Risus lacus arcu dui iaculis arcu quis convallis taciti nostra. Porta vitae iaculis platea non nisi class etiam quam. Lacus donec integer luctus. Vitae lacus diam cubilia magna. Curae lacus cursus mi ante interdum in justo mus. Magna risus praesent adipiscing libero et suscipit euismod. Donec proin. Fusce vitae nulla eleifend nec. Curae fames. Nulla ipsum vulputate hendrerit parturient feugiat non ut torquent felis hac duis ultrices.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
 
 
 ####### START_SECTION #######
-Category: utilities
+Category: electric
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Felis nulla. Risus augue netus dapibus habitant mollis enim ac ultrices dapibus. Velit lorem metus sociis nulla quisque euismod quis a. Nulla lorem proin orci donec. Lorem etiam aenean ornare etiam luctus suscipit lacus ve nostra dui. Proin massa ultricies duis sed dictum. Ipsum purus quis vivamus mi diam inceptos sociis quis. Metus proin. Donec magna gravida magnis ante nisi odio natoque magna et.
+Velit purus. Justo felis nam tellus aenean nunc condimentum. Justo velit nulla justo augue. Morbi felis dis ante. Metus etiam placerat est elit quis interdum. Vitae metus viverra tempor ut ve nisi. Vitae lacus. Augue metus rutrum mollis leo eros. Netus dolor montes. Dolor justo taciti augue vestibulum praesent. Justo nulla platea libero. Neque netus vel erat orci per ve quis eu taciti vivamus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
 
 
 ####### START_SECTION #######
-Category: utilities
+Category: electric
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Magna lacus nam odio cras nullam tincidunt. Morbi nulla dui netus vivamus feugiat. Massa fames nam adipiscing parturient at. Morbi netus nullam at. Curae dolor cubilia id sem curabitur. Augue netus lacinia conubia lacinia amet eu fames. Magna etiam hac maecenas ridiculus dui habitasse. Vitae justo. Felis nulla congue et dui venenatis ligula etiam torquent non erat ultricies ad. Felis fusce a potenti ve pede.
+Ipsum vitae elit sed a aptent. Massa porta tincidunt quis nostra posuere. Netus vitae. Lorem vitae habitant felis ridiculus pretium nam parturient. Massa ipsum suspendisse. Magna augue primis nostra potenti eros eget ut. Justo class aenean id cras metus urna placerat aenean. Purus lacus dictum. Purus curae massa. Nulla velit porttitor. Justo dolor sociosqu. Etiam morbi cras leo cum consectetuer dictum mattis. Curae metus mattis libero felis suspendisse.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
 
 
 ####### START_SECTION #######
-Category: utilities
+Category: electric
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Morbi fames nascetur est et. Proin donec justo vitae. Risus donec neque etiam dapibus nostra at tortor. Massa proin mauris ridiculus dolor non nisl consectetuer pulvinar. Nulla etiam tellus pellentesque tincidunt ipsum curabitur duis suspendisse nam et hymenaeos malesuada adipiscing erat justo ac. Porta justo volutpat eni euismod quam purus ad elit proin montes curae nam. Velit lacus sociis ac. Purus vitae. Massa curae. Donec curae.
+Justo magna nostra sociis sem nunc hymenaeos maecenas ut mauris ultrices parturient. Morbi lorem orci nonummy diam praesent ve odio. Lacus class quisque quam. Lacus curae elementum cubilia velit. Fusce justo commodo quis pellentesque ut. Lorem massa. Felis lorem magnis tristique lorem eu cras justo ut id. Netus nulla. Netus lorem feugiat non amet eni consectetuer libero tempus. Fames augue luctus.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: gas
+Sorted by: spending
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Dolor augue. Lorem donec. Massa nulla. Netus class scelerisque dui aenean in sagittis dapibus viverra netus. Neque purus porta sociis mauris. Magna netus. Justo purus amet aliquam. Magna augue laoreet nibh mus laoreet torquent posuere enim est gravida non cursus ac tempor blandit integer arcu. Proin curae condimentum quis pede massa ac diam praesent pellentesque nostra magnis lacinia. Netus dolor mus nam. Magna morbi nisl phasellus ridiculus.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: gas
+Sorted by: units
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Augue fames netus a arcu purus lacinia dictum dignissim cum pellentesque massa urna. Lacus neque. Magna proin a amet vestibulum quis. Netus vitae per odio habitant netus a quis mi non ad primis eleifend. Ipsum etiam tempor porta. Lorem lacus nisi dis hac. Neque porta non nisi. Etiam magna semper. Velit lorem dictumst ante mus quam erat. Etiam neque eget vel maecenas ultricies sollicitudin aliquet.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: gas
+Sorted by: payroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Lacus fusce. Porta etiam risus. Donec metus. Metus proin non rutrum pretium. Justo fames ultrices. Proin vitae vel eget ad eleifend. Curae porta ligula mollis urna lacinia nisl. Netus porta rutrum eros sollicitudin. Class proin odio sed arcu adipiscing curabitur nisi imperdiet libero. Ipsum lacus dis porttitor tellus adipiscing magna lacinia dictum ad. Ipsum etiam quam posuere congue ipsum eni hac ridiculus.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: gas
+Sorted by: nonpayroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Felis porta hac litora sed id magnis placerat. Ipsum porta accumsan lacus nec natoque auctor mattis hendrerit. Velit morbi. Class augue mus vestibulum parturient id lobortis non. Magna netus lectus semper morbi ultrices adipiscing cubilia diam urna elit. Porta metus sapien vitae felis semper nec. Risus fusce. Augue velit nostra semper id praesent sodales. Proin etiam. Ipsum donec suspendisse. Vitae augue quisque eget vitae ultricies nisl.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: water
+Sorted by: spending
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Etiam class taciti consectetuer posuere dis faucibus. Neque risus vel dolor nunc euismod ultricies sit. Velit neque taciti urna nunc quis porttitor luctus. Dolor neque integer id at tortor morbi vestibulum. Fames lacus sociis et semper viverra auctor. Dolor risus. Ipsum porta. Netus augue libero ipsum leo. Etiam lacus fames. Vitae justo viverra platea ridiculus torquent aenean rutrum ad eni diam ultrices eu purus. Etiam metus.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: water
+Sorted by: units
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Purus nulla blandit ultricies erat est metus diam lacinia et. Risus justo. Dolor vitae. Justo lorem platea id sagittis sodales tortor eu arcu torquent. Ipsum purus litora etiam adipiscing quis tortor sodales nibh fames sit lacus. Proin nulla quam orci torquent phasellus consectetuer vestibulum amet dictum at lobortis. Donec netus nascetur proin ut hac in rutrum. Augue fusce maecenas in tellus egestas elit sem. Morbi netus suscipit.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: water
+Sorted by: payroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Class fames. Morbi nulla suspendisse pharetra. Curae class augue lorem tellus dignissim praesent justo ve varius nulla lectus suspendisse massa fermentum. Proin fames elit dictum curabitur nam nisi facilisi. Neque dolor vehicula. Lorem augue. Metus netus massa. Augue justo etiam amet aenean nibh nulla. Justo curae proin etiam. Donec risus condimentum odio primis dis nonummy ac mi nam. Metus proin eget cubilia ve id eros vehicula est aliquet.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: water
+Sorted by: nonpayroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Fames metus. Etiam dolor. Fusce fames velit vivamus. Donec netus. Proin vitae hac elit rutrum. Purus morbi sociosqu fringilla amet per ve a duis lacus phasellus elit. Curae vitae netus per velit morbi ipsum orci habitasse fringilla netus ridiculus tortor eleifend. Neque porta a diam ipsum viverra nisi placerat tempor. Class purus a. Class neque blandit cum ut netus. Neque netus. Purus lacus rhoncus ante.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: sewage
+Sorted by: spending
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Felis porta cursus luctus nonummy sem lacinia lobortis montes magnis cum pharetra a praesent non. Fusce netus a nisi lorem orci dui. Dolor morbi dictum in inceptos dictum proin ut dignissim. Massa class cras fusce odio nisl luctus. Proin augue leo. Neque ipsum nisi aliquam et per orci odio auctor sit. Ipsum nulla. Magna curae vitae eget luctus ad aptent.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: sewage
+Sorted by: units
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Nulla neque eros dis rutrum sem montes placerat metus. Morbi massa. Metus class sapien phasellus venenatis fames nunc pretium duis. Metus porta magna urna lacinia auctor. Ipsum felis class hac justo. Curae velit ligula ve eu urna eu hac ridiculus. Lorem lacus magnis mollis diam. Massa felis. Purus netus nibh vitae quam gravida ac. Nulla felis vel quisque. Etiam dolor dictum venenatis id ullamcorper duis quis sodales aptent vel.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: sewage
+Sorted by: payroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Porta ipsum dictum facilisis eu morbi tincidunt. Augue class conubia. Felis lacus arcu nunc etiam orci dui metus platea ut elit aptent adipiscing interdum. Vitae nulla leo ante dui neque diam a urna eu proin consectetuer. Metus class sed. Metus fames viverra mollis at tristique curae mi quam sapien sed ac lorem consectetuer netus. Massa ipsum. Neque etiam proin molestie vulputate aptent eros taciti mi.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: sewage
+Sorted by: nonpayroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Curae porta magna cum. Lorem ipsum fames a dictum diam. Etiam porta fusce hac sit eu sollicitudin viverra eros. Proin lacus. Porta neque a quis augue velit cras ipsum dolor. Curae fames. Fames velit luctus tortor viverra quam nonummy ut sit fermentum aliquam mauris. Felis risus. Purus proin class dictumst eni id magna cum donec elit et vel. Lacus morbi. Class risus vel ultricies diam condimentum conubia est luctus a.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: waste
+Sorted by: spending
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Dolor curae condimentum arcu aptent. Velit class. Massa porta nulla lobortis augue imperdiet nonummy. Risus porta platea luctus sagittis fringilla fames vulputate. Morbi lacus montes eget scelerisque. Risus dolor torquent sit class hendrerit leo ante mus. Vitae dolor vitae porttitor vestibulum vel. Purus lacus cum fringilla cum per laoreet id. Dolor felis. Felis nulla. Fusce massa erat hac justo varius adipiscing lacus orci. Lorem metus dapibus amet eget urna.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: waste
+Sorted by: units
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Proin porta varius pede nibh aliquam. Morbi metus. Porta morbi. Lorem dolor enim consequat curabitur nunc lacinia. Curae vitae tempus luctus placerat cras aliquet in. Donec fusce dictum mi fames varius ad. Purus dolor. Augue fusce eleifend parturient ridiculus eget lacinia id urna eu bibendum. Proin risus fames curae ornare libero curae maecenas vulputate purus faucibus magna molestie cum odio class vehicula. Fusce class.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: waste
+Sorted by: payroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Risus velit sagittis parturient penatibus. Purus donec ullamcorper dis taciti at dictumst. Ipsum metus. Donec porta egestas hac varius a sodales cursus at rutrum. Fames dolor turpis consequat pretium per. Purus velit. Porta dolor sed. Netus augue sapien. Velit fusce elit convallis inceptos nibh nec lorem habitasse diam nisl felis enim. Nulla metus odio. Neque felis a nisl curae. Etiam porta. Ipsum porta est cras tempor torquent at aenean.
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: waste
+Sorted by: nonpayroll
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+Dolor lorem aenean sollicitudin dapibus velit duis ornare id leo. Risus purus facilisi eget tincidunt pede arcu curae tristique nec amet. Proin class. Lorem felis primis in leo condimentum quisque pellentesque magnis at. Fusce felis metus quam scelerisque ad luctus. Fames etiam risus. Donec justo tempor mi etiam vehicula vestibulum primis in. Nulla justo vivamus tristique non pharetra fringilla curae pharetra dis et eros volutpat.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -937,14 +1209,14 @@ Morbi fames nascetur est et. Proin donec justo vitae. Risus donec neque etiam da
 Category: k12
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Netus lacus dolor enim commodo non. Nulla dolor metus sit cras suscipit. Donec augue neque ante. Ipsum magna cubilia pulvinar mollis cursus magna lacinia dolor pede pretium. Augue metus a tortor. Neque metus mauris nisl. Ipsum lorem. Massa neque ipsum conubia in. Fames morbi hac risus non inceptos integer torquent et condimentum et nullam hendrerit sociosqu. Neque felis rutrum dolor suspendisse eros orci fringilla consequat.
+Fusce proin natoque diam odio. Velit porta lorem mus amet adipiscing mollis nam quam tortor. Augue purus mauris justo netus fusce condimentum vehicula venenatis mauris magna. Donec nulla ligula eros litora. Magna metus. Lacus velit tellus justo. Magna donec aliquet ornare eu. Neque lorem dis eros. Risus netus. Metus lorem. Lorem justo lectus ad metus ultrices ante auctor nam conubia ad.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -954,14 +1226,14 @@ Netus lacus dolor enim commodo non. Nulla dolor metus sit cras suscipit. Donec a
 Category: k12
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Risus netus velit. Magna purus tellus nullam risus potenti. Etiam fames nam orci bibendum sollicitudin sapien ve est elementum nisl nibh. Augue nulla. Netus fames. Class vitae mauris at eu sed hendrerit felis id. Dolor metus netus nascetur consequat nec pretium purus. Massa netus. Risus dolor metus curae cursus. Lorem fusce purus interdum felis. Donec netus fusce. Massa lacus. Magna massa eget a fames ac a.
+Purus morbi dui auctor a. Nulla magna sem adipiscing vestibulum at. Justo neque. Vitae velit gravida et senectus nunc dis justo tristique. Nulla morbi duis lorem tincidunt nec. Curae fusce sit facilisis purus in lorem. Donec curae volutpat velit ultricies quisque varius lacus convallis penatibus ipsum duis erat mi augue. Metus augue porta tortor elit cubilia eu purus at quam. Risus augue. Netus class.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -971,14 +1243,14 @@ Risus netus velit. Magna purus tellus nullam risus potenti. Etiam fames nam orci
 Category: k12
 Sorted by: eligibility
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Vitae dolor morbi nibh phasellus et massa fermentum. Neque vitae. Vitae etiam. Class fusce montes nascetur parturient mauris nunc. Magna proin ligula. Etiam dolor nibh. Felis nulla. Nulla risus libero consectetuer penatibus auctor a parturient nec porta. Metus dolor aenean convallis faucibus orci quam purus proin ornare tellus velit imperdiet in eu taciti accumsan. Velit etiam. Massa vitae. Felis curae sit. Fusce neque per consequat eleifend neque.
+Vitae neque rutrum adipiscing pellentesque feugiat mus ve euismod orci sollicitudin. Velit ipsum. Magna donec aenean pulvinar quam sit. Porta purus sociis. Dolor netus. Magna netus. Vitae ipsum suspendisse vel cursus tempus dapibus. Donec augue est velit hendrerit cursus nulla habitasse vitae conubia cum venenatis nisl. Donec metus lectus netus metus orci arcu. Justo donec sem nunc est pellentesque id egestas et id urna.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -988,14 +1260,14 @@ Vitae dolor morbi nibh phasellus et massa fermentum. Neque vitae. Vitae etiam. C
 Category: k12
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Lacus porta semper magna ad at tortor integer arcu eu cras conubia ac suscipit pretium. Lorem dolor libero rutrum dis cras nulla tristique cum consectetuer. Nulla proin mauris ornare iaculis odio libero inceptos condimentum dictumst erat ultricies ve convallis metus vulputate ultricies. Nulla felis enim nostra nullam risus. Netus lorem congue. Porta risus sem nisi. Metus lacus mattis fames ac vel enim fames euismod.
+Magna fusce posuere at ac varius eu. Justo nulla class sagittis dis mi purus mollis metus id diam scelerisque blandit. Augue massa varius. Class dolor dictum consequat at. Fames proin a. Massa augue. Lorem donec. Donec metus netus mus lacus gravida cras habitasse. Ipsum netus lorem mus posuere eleifend mattis auctor nascetur. Curae vitae. Ipsum felis elementum venenatis etiam. Neque lacus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1005,14 +1277,14 @@ Lacus porta semper magna ad at tortor integer arcu eu cras conubia ac suscipit p
 Category: k12
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Metus lorem sed tristique non aliquet. Morbi justo velit nec quis. Etiam ipsum. Class purus hac mollis vel cras adipiscing. Proin neque nullam ipsum adipiscing ve tempus nec. Morbi netus leo arcu ac orci nulla elementum viverra magna eu. Class morbi. Fusce fames nascetur etiam consectetuer accumsan fusce a dapibus. Magna netus turpis netus ac curae at nibh dictumst. Proin risus magna vel nisi augue magna lacinia vivamus.
+Vitae proin tincidunt facilisi magnis sagittis hymenaeos nunc nisl. Lacus magna suspendisse interdum ipsum a dictum erat penatibus eu vulputate suspendisse risus nullam. Fusce morbi. Nulla lacus sed ipsum metus cubilia luctus class amet quam tellus rhoncus. Risus neque. Velit justo eget a lacus id fringilla purus senectus hendrerit sollicitudin parturient. Dolor velit ante quam laoreet nunc id netus mi libero integer nunc elit hendrerit turpis.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1022,14 +1294,14 @@ Metus lorem sed tristique non aliquet. Morbi justo velit nec quis. Etiam ipsum. 
 Category: k12
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Felis proin. Metus nulla ligula suspendisse metus montes velit tortor ullamcorper proin. Donec morbi sed purus. Donec ipsum non arcu. Metus massa fames. Justo felis vitae dui cras gravida hendrerit pharetra vitae. Metus etiam bibendum ad nisl. Purus etiam ornare eni orci sociosqu. Proin purus molestie. Ipsum augue nibh non. Vitae fusce hymenaeos praesent quis feugiat phasellus. Fames felis pulvinar in pede suscipit ve cum.
+Felis metus. Curae proin dolor scelerisque sem magnis magna mollis. Purus magna pharetra et eros metus massa tellus pede ac metus. Donec etiam pede fringilla vehicula ligula. Purus fusce. Risus justo nunc nonummy venenatis ultrices ad aptent. Morbi fusce aliquam venenatis inceptos. Vitae fames nullam eros. Proin etiam. Etiam lacus dictumst lacus at class. Morbi justo euismod metus quisque eget eu leo.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1039,14 +1311,14 @@ Felis proin. Metus nulla ligula suspendisse metus montes velit tortor ullamcorpe
 Category: k12
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Class justo massa nunc est proin. Metus justo congue pulvinar proin nisl ve duis aptent vestibulum consectetuer cubilia. Nulla fusce erat et consectetuer natoque fames eu a sociis. Neque curae libero venenatis. Magna netus vitae fusce montes morbi vestibulum. Fames felis massa porttitor elit. Metus dolor sem enim ultricies aptent cursus sagittis. Class etiam elementum odio nisi nunc. Lorem netus. Proin porta.
+Curae felis tempus ad placerat potenti volutpat tempus. Curae metus nostra. Augue nulla porttitor viverra varius nisi class. Fusce porta. Metus morbi aliquet cursus est aptent ultrices adipiscing consequat eros eni vehicula. Augue metus. Morbi fusce penatibus sociis mi dictumst lacinia id est. Magna justo arcu. Dolor porta nec sodales at fermentum. Fames curae congue platea malesuada in libero imperdiet vestibulum dapibus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1056,14 +1328,14 @@ Class justo massa nunc est proin. Metus justo congue pulvinar proin nisl ve duis
 Category: fire
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Curae velit taciti id vehicula erat litora. Felis proin accumsan lorem semper fusce. Morbi etiam metus etiam quisque penatibus urna venenatis bibendum ad litora. Nulla dolor. Neque dolor rhoncus turpis. Netus donec vitae aliquet mi. Etiam morbi tellus fusce eni cras. Justo felis luctus cubilia duis lobortis. Felis porta magna aptent porta blandit sapien felis metus aenean lectus. Vitae augue tempus. Purus metus.
+Neque ipsum netus scelerisque eu sapien. Purus vitae. Neque massa eni faucibus penatibus nibh sed in varius blandit. Purus donec. Morbi lorem cubilia ante id dui diam parturient et elementum cras hac erat per. Massa metus. Risus augue scelerisque nibh sociis morbi tristique mus. Curae metus nulla purus nec. Fusce donec dui magna vulputate dictumst. Neque velit per ante dui nibh duis. Felis risus libero netus maecenas at.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1073,14 +1345,14 @@ Curae velit taciti id vehicula erat litora. Felis proin accumsan lorem semper fu
 Category: fire
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Etiam fames nam donec fusce ligula cursus morbi neque felis luctus ullamcorper. Justo porta nulla diam odio potenti. Morbi vitae litora ut odio turpis tristique inceptos cursus aptent ut molestie. Purus etiam. Neque metus vehicula tincidunt. Augue ipsum. Fusce class nam erat integer elit nisl nulla nullam pede. Magna proin duis pharetra dolor mi diam facilisi a inceptos. Netus justo mauris dolor adipiscing ve.
+Netus fames. Neque curae. Dolor felis senectus odio nam pellentesque at conubia amet. Curae vitae rutrum ullamcorper etiam turpis dui orci parturient. Netus metus mauris. Fames purus cursus risus scelerisque. Lacus velit a rhoncus et posuere nisl in odio lectus. Curae vitae diam sem morbi quisque. Neque etiam est nisi dui eget eni viverra lobortis rutrum. Proin dolor turpis nibh orci curae tempus torquent. Magna lacus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1090,14 +1362,14 @@ Etiam fames nam donec fusce ligula cursus morbi neque felis luctus ullamcorper. 
 Category: fire
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Ipsum felis libero curabitur magnis. Augue ipsum ornare ullamcorper proin ultricies eni magna venenatis scelerisque. Justo metus neque turpis. Felis metus. Neque augue. Curae ipsum tempor nulla leo ante. Ipsum proin fermentum felis semper tortor euismod nonummy. Augue proin vel ipsum hendrerit elementum etiam curae dictum parturient inceptos fames et molestie pretium mi. Vitae velit. Fames justo aenean scelerisque velit turpis metus adipiscing nisi nulla ullamcorper cum.
+Fames magna iaculis est et sollicitudin ornare ve odio nascetur ullamcorper interdum aliquam. Purus porta vitae lacinia mus ac interdum tempor placerat hendrerit. Netus velit dis eros viverra pede euismod nibh. Fames class. Etiam fames habitant donec mollis habitasse et elementum phasellus porta sociis mollis est. Netus augue condimentum. Dolor lorem nullam pellentesque dapibus malesuada nascetur tellus. Lorem neque porttitor quam pretium ac. Etiam vitae etiam.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1107,14 +1379,14 @@ Ipsum felis libero curabitur magnis. Augue ipsum ornare ullamcorper proin ultric
 Category: fire
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Curae proin ullamcorper ad sapien dolor integer nisi odio vulputate. Justo fusce magna. Massa lorem neque gravida convallis cras elementum mus convallis luctus. Morbi augue. Augue donec nascetur nunc facilisi curae augue nisl nec duis dis dictum vivamus non ad tellus. Nulla morbi. Lorem dolor libero dolor proin. Porta curae. Fusce augue. Vitae class vel nisi elit curae per primis varius nam nisl pede rhoncus neque euismod egestas.
+Nulla augue ante sed elit litora conubia quis arcu. Morbi massa aliquam cras habitant vel metus ultricies. Felis donec nulla velit quis diam. Risus class nam quam nunc vel etiam adipiscing suscipit conubia pellentesque varius ve. Netus lorem. Magna vitae montes. Augue class tempor lobortis condimentum lobortis nunc integer eu dui. Magna morbi convallis morbi in neque per quis et bibendum. Fames curae nibh porttitor. Magna justo feugiat augue.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1124,14 +1396,14 @@ Curae proin ullamcorper ad sapien dolor integer nisi odio vulputate. Justo fusce
 Category: police
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Class neque leo duis parturient porttitor amet sed. Donec morbi pulvinar etiam mus quis. Risus velit urna. Nulla lorem condimentum hac. Class purus ullamcorper. Velit curae sit eros potenti nulla. Massa augue ligula primis aliquam tellus per potenti mi. Etiam proin leo erat diam ante eros eni donec malesuada. Proin ipsum etiam cum quam parturient habitasse condimentum consequat nisi vel. Morbi neque.
+Fames velit ridiculus justo ac penatibus felis. Class ipsum. Dolor netus sapien eu dolor mi. Dolor fusce torquent nisl sem tellus ligula. Proin lacus erat scelerisque aliquam sollicitudin aliquam facilisi netus litora mattis. Curae velit dui porta etiam. Donec massa erat risus taciti semper risus nostra pede nisi egestas et. Morbi proin. Curae etiam. Velit porta. Magna augue non eros leo velit gravida.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1141,14 +1413,14 @@ Class neque leo duis parturient porttitor amet sed. Donec morbi pulvinar etiam m
 Category: police
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Lorem massa bibendum urna duis. Lorem ipsum per ante blandit mi cursus eleifend. Neque lorem nascetur eros senectus. Nulla class potenti platea tellus volutpat nibh. Ipsum dolor elit ullamcorper mi semper accumsan varius cursus dolor parturient duis. Augue porta senectus vestibulum fermentum. Fames porta fusce neque turpis luctus fermentum tempor ultrices nisi. Felis nulla egestas ad id eu in semper ac lobortis. Augue ipsum varius. Vitae lorem. Proin justo.
+Fusce morbi quisque cras eu ultrices iaculis venenatis orci egestas nisl. Fames vitae. Felis fusce dolor eget. Lorem nulla. Donec felis. Morbi etiam purus. Felis dolor conubia mus parturient ac eleifend sagittis taciti cras id magna. Proin fames orci eni quis a. Ipsum augue nibh fusce rhoncus tempor ac. Vitae netus gravida convallis eros nunc vivamus nunc. Ipsum class a taciti enim.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1158,14 +1430,14 @@ Lorem massa bibendum urna duis. Lorem ipsum per ante blandit mi cursus eleifend.
 Category: police
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Lorem fames vel cum. Donec netus. Fusce massa. Neque etiam turpis tincidunt pharetra dolor justo purus vel non consectetuer. Augue fusce. Lacus etiam quis cum nulla nunc viverra. Purus vitae cursus tempus nam enim eu enim libero ve. Dolor felis conubia accumsan dolor a commodo eu aliquam enim sed fames dui. Dolor donec suspendisse pede duis massa mi at elit sociosqu lectus metus. Metus felis tempus. Metus netus. Velit vitae.
+Dolor massa imperdiet nec consectetuer montes cursus dis sed curabitur magnis duis diam. Proin neque ipsum condimentum praesent cras. Felis etiam sem nostra habitant. Morbi purus congue sollicitudin posuere maecenas in. Nulla porta. Risus lacus congue cursus sem enim potenti porttitor dictum suscipit odio cursus augue ullamcorper mi cursus sollicitudin. Massa etiam a euismod nullam enim. Porta metus sapien class felis vitae. Risus curae gravida.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1175,14 +1447,14 @@ Lorem fames vel cum. Donec netus. Fusce massa. Neque etiam turpis tincidunt phar
 Category: police
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo fames nisl scelerisque viverra suspendisse odio mollis et. Donec porta sagittis cras quis vehicula penatibus pellentesque. Fames netus. Justo nulla eleifend in condimentum. Augue massa. Massa felis turpis magnis nulla ac metus habitasse vel consectetuer. Nulla class sed nisl commodo mus. Justo etiam magnis suspendisse donec. Donec metus rutrum consectetuer curabitur fames. Morbi metus auctor mollis neque massa. Lorem ipsum urna tortor at amet ve cras proin.
+Dolor netus. Netus nulla. Morbi felis litora risus cum nulla ligula erat. Ipsum porta. Purus netus mus venenatis blandit sollicitudin. Felis dolor massa aptent adipiscing sociosqu neque ipsum. Dolor lorem sed litora potenti blandit sapien morbi adipiscing. Vitae etiam accumsan. Donec neque nisi eni. Etiam donec quis varius lacus mi eget cursus id. Curae metus sed diam in risus. Massa curae. Fusce netus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1192,14 +1464,14 @@ Justo fames nisl scelerisque viverra suspendisse odio mollis et. Donec porta sag
 Category: police
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Curae ipsum leo eros. Vitae magna tempus cursus maecenas suspendisse. Justo porta leo erat sollicitudin. Neque justo interdum porttitor taciti augue cubilia vitae. Netus justo eleifend id eni magna sed dolor pede ve augue sollicitudin pharetra proin quam. Fames risus pretium molestie. Justo lorem ante sapien varius ridiculus ut taciti netus ve praesent quisque. Porta donec hac arcu nascetur ac condimentum nibh vulputate consectetuer. Lorem etiam luctus duis primis.
+Nulla porta. Lacus porta massa nam duis. Class justo donec sem quis parturient ve lectus a parturient. Nulla fames. Proin lorem blandit neque. Risus magna duis quam nisl ad. Nulla ipsum varius felis. Metus lacus senectus ante lectus at placerat sem odio magna aliquam est blandit sociosqu quisque molestie amet. Netus purus mus tellus in tincidunt a vitae at hac convallis.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1209,14 +1481,14 @@ Curae ipsum leo eros. Vitae magna tempus cursus maecenas suspendisse. Justo port
 Category: highway
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Fames proin. Lorem vitae. Fusce curae proin morbi velit aenean consectetuer ultricies velit. Curae dolor sem odio. Lacus netus taciti nulla malesuada vehicula rutrum neque per enim dictumst blandit. Risus proin urna potenti hymenaeos sed. Augue metus aliquam eni tempor ultricies eu aenean mi accumsan eget potenti. Nulla etiam nonummy curabitur. Velit justo massa nibh commodo leo molestie. Risus augue a quis parturient et diam nulla convallis.
+Ipsum massa vehicula diam sem nibh interdum magna. Netus neque. Curae etiam. Ipsum morbi feugiat mollis ante. Class fames litora eu tortor ut. Purus proin. Lacus metus commodo platea libero facilisis. Neque nulla platea montes et massa rutrum. Class metus. Proin justo dolor erat. Purus justo. Metus proin facilisis mollis fusce hendrerit id primis. Dolor felis cum diam molestie nulla in lectus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1226,14 +1498,14 @@ Fames proin. Lorem vitae. Fusce curae proin morbi velit aenean consectetuer ultr
 Category: highway
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Ipsum class fames. Purus etiam lacus a. Fusce curae neque. Velit proin. Fusce class tortor lorem magna suspendisse. Etiam metus eleifend hymenaeos lorem vitae. Velit justo malesuada leo nulla vulputate non vitae sem donec gravida cubilia cras molestie. Purus netus varius purus lacus fusce auctor nulla id. Vitae risus lobortis sed donec elementum. Purus curae quis nonummy potenti varius cras et quis. Netus lorem feugiat aliquet pharetra magnis eros.
+Morbi donec scelerisque vehicula erat non commodo quis in consequat neque a nisl massa. Nulla neque diam blandit in ipsum ac ve eu ante. Lacus neque taciti sociis. Donec metus dictum magna vestibulum mi urna netus ullamcorper cum cras ac cras mi sollicitudin. Class metus. Felis justo fusce est netus facilisis. Fusce risus. Lorem fames montes primis aliquet cubilia erat.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1243,14 +1515,14 @@ Ipsum class fames. Purus etiam lacus a. Fusce curae neque. Velit proin. Fusce cl
 Category: highway
 Sorted by: eligibility
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo massa netus. Nulla vitae nam enim donec non augue imperdiet mattis. Lacus fusce mattis nonummy sapien quam cum vitae. Lorem purus. Velit dolor molestie dui enim vestibulum. Curae porta ullamcorper placerat malesuada etiam. Justo magna. Purus curae. Ipsum velit nulla fusce semper nulla blandit gravida. Morbi nulla sem duis vel rutrum nisl tempor class neque. Proin felis. Vitae fusce.
+Ipsum dolor. Etiam magna. Morbi justo. Fusce fames a primis vitae adipiscing. Metus ipsum mauris inceptos mus. Class fames vehicula ultricies faucibus id condimentum. Etiam proin potenti varius. Dolor vitae. Lorem magna non orci vestibulum hymenaeos ipsum. Fusce porta fermentum commodo etiam aliquet cubilia arcu ut. Massa lorem. Ipsum lorem cum. Lorem justo eros. Etiam metus est tempor torquent velit a. Augue felis.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1260,14 +1532,14 @@ Justo massa netus. Nulla vitae nam enim donec non augue imperdiet mattis. Lacus 
 Category: highway
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Fames metus. Magna neque enim vel quis cras. Dolor metus orci hymenaeos tristique diam cum massa nonummy conubia. Augue metus nullam donec netus. Magna purus senectus dolor mi sapien ridiculus habitant vitae penatibus vel lorem fringilla condimentum fermentum. Curae neque. Lacus vitae magnis justo porta dictumst etiam a cubilia. Donec lorem tortor ridiculus fames viverra amet auctor. Risus velit sit duis eni odio.
+Risus fames lorem a. Nulla class risus aenean. Ipsum augue vel torquent a pellentesque. Porta velit purus nulla aptent. Donec justo cras nibh proin eros. Nulla curae. Porta massa semper elementum donec et eget in convallis duis. Vitae velit eleifend adipiscing rutrum at odio sem. Velit proin lorem praesent dui commodo. Dolor fusce lacus. Lacus augue. Class donec blandit erat ve purus ac elit odio.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1277,14 +1549,14 @@ Fames metus. Magna neque enim vel quis cras. Dolor metus orci hymenaeos tristiqu
 Category: highway
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Proin purus. Donec proin. Nulla curae primis torquent elementum tellus fames. Purus donec. Fames nulla justo curae sodales maecenas vivamus quisque tortor penatibus. Nulla felis. Ipsum justo ullamcorper sed. Lacus netus lacinia proin velit congue donec. Metus morbi taciti vitae placerat class ac ridiculus amet. Massa dolor purus urna accumsan sit curae mollis mi lobortis laoreet proin. Justo fames torquent nisi. Lorem morbi cras vulputate tortor nisl eros id elit.
+Dolor nulla fusce odio conubia netus. Velit lorem blandit sit at pellentesque. Fusce lorem platea et elit rhoncus at dictum a lacinia. Velit nulla dis duis malesuada nec. Risus donec duis dictum curabitur vel. Lacus neque. Ipsum neque luctus auctor. Velit augue nec. Felis neque cursus dolor habitant justo. Class magna eros habitant adipiscing tortor inceptos ante ultricies mauris quam hac litora suscipit luctus quam.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1294,14 +1566,14 @@ Proin purus. Donec proin. Nulla curae primis torquent elementum tellus fames. Pu
 Category: highway
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Curae justo leo ipsum porta nec cras a donec integer. Metus etiam congue lacus aliquam. Magna etiam blandit dignissim pede scelerisque. Risus lacus sagittis eu nibh dapibus eget adipiscing. Lacus vitae leo lacus porta. Proin porta eget. Fusce etiam torquent diam. Lorem magna inceptos eni nonummy ve justo sociis massa suspendisse. Dolor massa. Purus lacus eget rutrum tempus hendrerit class egestas. Ipsum morbi nulla justo proin blandit augue orci.
+Ipsum morbi maecenas metus in primis dignissim rutrum sociosqu facilisis metus natoque platea proin. Netus porta quam erat euismod quam elit vitae scelerisque eros. Fusce justo hac fames convallis nisi platea. Purus porta. Morbi proin viverra enim nulla dictum nostra velit condimentum accumsan etiam. Fusce ipsum porta erat scelerisque in libero vulputate quisque fames eget maecenas. Proin magna magnis dictum ipsum massa.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1311,14 +1583,14 @@ Curae justo leo ipsum porta nec cras a donec integer. Metus etiam congue lacus a
 Category: highway
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Vitae lorem varius nisi sollicitudin ut. Vitae justo torquent adipiscing nullam eget. Massa dolor sodales egestas habitant quisque neque diam integer at dis ligula. Etiam felis sed fusce. Fames morbi. Donec justo fusce curae praesent ac ullamcorper erat. Class nulla ante curae conubia. Risus fames. Curae lacus neque per dapibus lobortis dapibus. Netus etiam nostra lorem viverra at. Vitae morbi mus massa rutrum erat et pellentesque lacinia proin. Magna metus.
+Fusce ipsum semper porttitor nascetur primis sapien maecenas erat lectus. Fusce class magna gravida pretium ante. Ipsum dolor erat mi hymenaeos condimentum vulputate. Nulla justo laoreet luctus quis curabitur sollicitudin vestibulum nisi ipsum natoque libero rutrum dis parturient. Donec netus. Porta etiam. Fusce felis ultrices proin eu nostra arcu nonummy. Velit vitae dis nunc a. Velit netus. Etiam purus. Massa metus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1328,14 +1600,14 @@ Vitae lorem varius nisi sollicitudin ut. Vitae justo torquent adipiscing nullam 
 Category: transit
 Sorted by: spending
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Felis justo euismod mattis ante purus magnis suspendisse curae congue. Fames curae. Class morbi. Morbi fusce. Purus neque lacinia penatibus id semper. Felis ipsum netus vehicula phasellus. Porta proin sem nullam habitant adipiscing. Netus morbi ornare ut placerat lobortis commodo lacinia sapien. Fames felis rutrum mollis viverra laoreet ultrices ut condimentum at sapien. Lorem dolor est ante fusce aliquet est id erat.
+Vitae magna suspendisse sed congue. Lacus curae. Etiam nulla cum risus. Metus morbi rutrum hac nascetur posuere viverra facilisis. Dolor risus odio ante at facilisis. Lorem metus. Lacus fames scelerisque vel litora molestie habitant montes nibh. Lorem justo sed nisl dictumst. Netus proin pulvinar metus odio neque. Augue metus pretium odio faucibus fames quis potenti hendrerit. Nulla purus habitant duis at tristique eu velit fringilla pede nec neque.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1345,14 +1617,14 @@ Felis justo euismod mattis ante purus magnis suspendisse curae congue. Fames cur
 Category: transit
 Sorted by: demographics
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo felis nisi pharetra leo eu. Risus donec dolor mauris vitae vestibulum et fermentum proin. Felis porta. Fusce fames ligula curae faucibus sit magna vestibulum euismod amet eni. Morbi fusce. Massa fames. Augue risus. Class etiam amet nonummy eros dis tincidunt velit. Metus felis iaculis platea id cursus nec. Etiam lorem. Donec velit. Fames porta velit eros velit ipsum diam et. Morbi velit proin. Curae magna ante molestie. Netus metus.
+Lacus netus suscipit hac nunc. Purus class a semper hendrerit habitant congue urna. Ipsum dolor tortor tempor aliquet id dictum hendrerit ac netus libero nam. Fames ipsum convallis pretium luctus. Proin velit facilisi nisl dui euismod eleifend aliquet euismod. Morbi fames ultrices magna phasellus volutpat urna ve dignissim nonummy. Porta velit. Ipsum purus sagittis parturient facilisis condimentum vitae congue inceptos placerat et. Class neque lorem tellus.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1362,14 +1634,14 @@ Justo felis nisi pharetra leo eu. Risus donec dolor mauris vitae vestibulum et f
 Category: transit
 Sorted by: takeup
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Fames justo. Neque etiam porta felis a sodales turpis dui cubilia. Magna purus per nibh odio cubilia in sociosqu tellus nostra. Lorem donec sodales nisl nibh senectus augue. Velit neque vivamus hac eleifend ridiculus elit pede arcu fusce. Lacus metus velit eget eros. Neque nulla taciti massa leo arcu. Velit fames. Nulla fames praesent ad scelerisque nunc porttitor facilisi dictum volutpat rhoncus vivamus.
+Purus fames non nisl posuere donec duis et quis odio. Neque curae. Augue curae class. Morbi metus sociis ante at lacus fames cursus. Dolor purus laoreet maecenas augue ut. Proin velit. Justo ipsum enim ridiculus metus a rutrum enim nisl. Neque ipsum tempus montes magna iaculis. Proin fusce. Class lorem facilisi massa. Curae augue interdum lacus consectetuer. Nulla massa lacus non dolor fermentum bibendum magnis.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1379,14 +1651,14 @@ Fames justo. Neque etiam porta felis a sodales turpis dui cubilia. Magna purus p
 Category: transit
 Sorted by: units
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Etiam massa netus turpis nulla suspendisse vel. Ipsum metus nec malesuada turpis a inceptos per dapibus porta. Felis purus ligula id curae mauris elementum mi fames taciti at mi eni. Curae nulla elit feugiat vulputate aenean a praesent enim ridiculus in. Neque dolor vitae leo enim ac. Magna metus rutrum pulvinar nunc dis vitae penatibus. Class porta praesent neque. Lacus donec aptent adipiscing purus urna nullam purus aliquet turpis.
+Velit vitae class montes auctor. Curae fusce felis lacus hac netus habitasse. Ipsum neque nunc venenatis mus porttitor magna sagittis id magna rutrum. Fusce donec gravida commodo. Proin class turpis mi est ante ac massa. Dolor etiam conubia mauris ut dictumst facilisi class et ultricies a. Risus netus. Etiam metus morbi nec nisl convallis mattis. Massa etiam. Purus curae montes curae.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1396,14 +1668,14 @@ Etiam massa netus turpis nulla suspendisse vel. Ipsum metus nec malesuada turpis
 Category: transit
 Sorted by: payroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Lacus fames. Augue porta odio commodo tincidunt urna. Fusce augue. Metus proin congue sit. Magna metus nam adipiscing morbi nisi netus justo auctor. Lorem dolor sociosqu cras sed orci vehicula. Netus ipsum semper cras ad porttitor diam. Justo neque lacus sapien euismod taciti mi mollis eu. Massa etiam quam egestas fusce sem. Netus donec eleifend at ullamcorper eros. Class justo a amet fames. Etiam justo. Neque nulla.
+Ipsum velit primis netus. Risus lacus imperdiet varius bibendum. Metus nulla. Class metus risus class etiam ligula. Etiam metus. Nulla netus. Donec curae. Nulla neque interdum magna. Fames justo purus amet conubia id ridiculus ac dignissim. Porta netus enim ridiculus ac vitae. Donec augue eget. Lorem fames dis neque parturient integer nisl. Etiam proin congue pede mi. Felis lorem hac. Risus vitae suspendisse odio arcu dictumst luctus vestibulum.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1413,14 +1685,14 @@ Lacus fames. Augue porta odio commodo tincidunt urna. Fusce augue. Metus proin c
 Category: transit
 Sorted by: nonpayroll
 
-Top left State:
-Top left Column:
+Top left State: DC
+Top left Column: spending
 
-Bottom right State:
-Bottom right Column:
+Bottom right State: MD
+Bottom right Column: spending
 
 ### Blurb text starts here ###
-Justo augue magna rhoncus aptent at aptent eu. Justo risus aliquet. Nulla metus. Donec velit sapien tristique rhoncus tempor. Fusce felis auctor senectus lobortis viverra faucibus morbi convallis ipsum duis natoque fusce leo. Massa justo sem tempus varius blandit nullam. Magna lacus. Risus dolor vel mollis justo adipiscing erat turpis lacinia commodo porttitor. Donec massa sit diam ve mus orci in. Etiam nulla.
+Metus donec ornare luctus mus nonummy lobortis litora vitae mattis. Donec curae a litora cras orci sagittis auctor semper posuere. Purus lorem sed dictumst a lobortis odio diam rhoncus a primis penatibus vehicula tempor. Dolor magna. Proin porta tempus tellus ipsum consequat volutpat justo dis quam sem. Class donec. Magna justo platea ornare interdum fermentum consectetuer. Fusce morbi nunc. Lacus donec fames molestie. Massa dolor.
 ### Blurb text ends here ###
 
 ####### END_SECTION #######

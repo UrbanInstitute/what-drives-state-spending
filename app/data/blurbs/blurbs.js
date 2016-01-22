@@ -4,23 +4,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Vitae justo erat. Ipsum porta sociis ipsum curae molestie est conubia mi mauris. Fames porta. Dolor lorem platea nibh arcu massa ve fusce habitant. Morbi augue dis elit laoreet ligula lorem non penatibus. Vitae curae. Neque magna interdum. Donec velit erat donec facilisis per. Justo purus scelerisque volutpat proin in donec consectetuer eleifend felis consequat. Justo fames aenean cras nam cubilia faucibus odio arcu malesuada. Velit proin. Risus purus a.\nTEST TEST TEST TEST\n", 
+        "text": "Metus risus magnis varius fames porttitor netus pulvinar nunc cum. Ipsum velit ligula enim pede fermentum varius facilisi purus felis magnis ornare. Etiam augue dui duis praesent gravida suscipit ve varius molestie parturient. Netus justo nibh bibendum varius aenean pretium egestas. Netus class nisl placerat sit potenti. Magna morbi. Neque felis. Lacus purus. Risus netus porta nostra dignissim. Velit fusce netus dictum pretium eu varius nam conubia.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
-        }
-      }, 
-      {
-        "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
-        }, 
-        "text": "Vitae justo erat. Ipsum porta sociis ipsum curae molestie est conubia mi mauris. Fames porta. Dolor lorem platea nibh arcu massa ve fusce habitant. Morbi augue dis elit laoreet ligula lorem non penatibus. Vitae curae. Neque magna interdum. Donec velit erat donec facilisis per. Justo purus scelerisque volutpat proin in donec consectetuer eleifend felis consequat. Justo fames aenean cras nam cubilia faucibus odio arcu malesuada. Velit proin. Risus purus a.\n", 
-        "top_left": {
-          "column": "spending", 
-          "state": "AK"
+          "state": "DC"
         }
       }
     ], 
@@ -28,12 +17,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Fames donec luctus. Neque fusce commodo. Curae porta blandit egestas. Fames metus. Dolor nulla massa magnis litora neque cum porta porttitor arcu. Vitae fames quis facilisi platea mattis nascetur habitant etiam et felis. Proin porta leo duis. Morbi porta dictum inceptos tincidunt. Velit lorem erat praesent fusce ad malesuada scelerisque. Metus donec lectus lorem non augue. Lorem neque primis lorem class aliquet.\n", 
+        "text": "Nulla curae massa nec accumsan magna imperdiet netus. Neque purus eni parturient nostra maecenas habitasse pellentesque parturient arcu habitasse suscipit. Proin risus. Class purus dolor aliquam nullam. Nulla fames non diam. Porta curae nonummy et platea. Neque massa sociis ac arcu pede metus bibendum tincidunt consectetuer. Felis justo nullam sollicitudin habitasse. Vitae lorem mus erat augue ac. Morbi etiam erat nonummy id vitae at.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -41,12 +30,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Velit augue lacinia senectus luctus adipiscing. Lorem massa vitae aptent justo condimentum arcu cursus nonummy posuere. Magna ipsum mollis augue ullamcorper id semper eu nullam senectus. Etiam porta duis dis felis tristique elit non. Class donec posuere laoreet aenean massa scelerisque sit lectus tristique curae. Magna netus euismod convallis semper a adipiscing. Magna vitae vel. Ipsum felis netus. Magna proin justo mus mauris enim eu risus tellus auctor.\n", 
+        "text": "Magna ipsum purus neque turpis dictumst suspendisse faucibus velit dolor ultricies praesent id porta non amet. Augue felis eros semper egestas at. Neque dolor ornare massa torquent magna proin fusce orci id cras nec nulla. Vitae morbi nibh magna aliquet justo porta a natoque sapien non. Lorem augue. Risus metus eleifend. Nulla fames. Netus fames senectus morbi id. Ipsum lorem primis lacus vehicula leo vivamus sem vivamus habitant.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -54,12 +43,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Lacus ipsum nonummy vehicula donec etiam morbi enim volutpat adipiscing aenean. Morbi fames non. Netus metus. Velit purus blandit hac pharetra imperdiet massa fringilla scelerisque donec tellus morbi id. Augue netus. Risus nulla magna duis gravida sodales eros ad erat purus ultricies. Lorem magna sem lacus vel. Donec proin conubia. Risus felis. Neque felis lobortis neque imperdiet est metus. Proin justo. Morbi lacus. Dolor magna tortor.\n", 
+        "text": "Porta donec nibh a augue dapibus posuere. Massa purus volutpat nam blandit risus nam litora. Netus nulla etiam vitae sed malesuada luctus etiam vulputate. Curae morbi hac tristique enim sed netus posuere sociis. Fames class quis potenti sem et fringilla a ridiculus porta purus. Purus curae torquent nam. Nulla ipsum proin magnis at ut porttitor nonummy pellentesque hymenaeos aptent a sociosqu nibh eleifend. Class vitae.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -69,12 +58,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Fusce metus tempor condimentum metus sapien inceptos vulputate consectetuer rhoncus dis in eleifend. Class lacus feugiat dui ultrices aliquet iaculis risus enim. Proin donec amet sed nulla nec lacus quisque sociis at. Porta augue facilisi sit nibh pede nisl placerat. Fusce nulla. Purus fames condimentum id magnis netus leo. Magna fusce ullamcorper nam quam. Fusce purus. Morbi fusce. Ipsum lorem.\n", 
+        "text": "Curae vitae taciti vestibulum. Morbi metus. Justo proin. Augue curae litora eu inceptos vel eu. Morbi augue justo morbi ultrices at proin ultrices sed id diam amet. Justo felis ultricies. Justo metus fames leo nulla est. Nulla lacus a ligula quis ut fusce. Massa magna. Donec morbi luctus nullam blandit at ad quis nulla at duis etiam ad. Porta massa rutrum porta aliquet dignissim.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -82,12 +71,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Morbi proin magna libero. Porta purus. Etiam netus a potenti at vehicula lacinia felis erat. Fusce lorem odio laoreet. Metus netus condimentum et libero pulvinar. Neque risus etiam leo class vel diam sagittis vestibulum quisque. Donec lorem morbi. Porta netus ligula mi elit. Class proin aenean at senectus turpis velit nonummy molestie. Etiam lorem mattis velit aliquam ornare id lorem. Ipsum fusce donec turpis nisi elementum ac proin imperdiet.\n", 
+        "text": "Ipsum porta. Porta velit. Metus risus. Netus justo. Velit risus lorem donec magna nulla. Donec vitae sapien conubia pretium quam dis augue class duis curae ridiculus quisque. Nulla fusce. Purus dolor. Lorem donec. Neque morbi lorem nascetur lacus malesuada nonummy luctus fames convallis ullamcorper. Magna etiam massa auctor ut sapien dis nam at justo sit nulla. Donec metus sapien ac vehicula. Ipsum neque tincidunt sem commodo nec. Morbi etiam suscipit.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -95,23 +84,23 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Felis etiam risus mauris scelerisque class auctor fusce neque fusce. Curae lacus fames sed. Vitae morbi nisi sem curae fusce mus netus. Lorem fames risus praesent. Ipsum metus maecenas dis amet vel sollicitudin cursus porta et tempus. Fusce velit. Magna justo a montes imperdiet. Vitae justo. Donec nulla. Nulla morbi a montes. Lacus massa neque aenean mi suscipit aenean metus viverra. Fames lorem vel accumsan curabitur pellentesque.\n", 
+        "text": "Velit etiam lobortis morbi aptent aenean. Donec morbi a. Magna netus mattis felis risus euismod sem faucibus porttitor augue vulputate fusce. Massa class. Dolor class sapien. Magna lorem aenean ac erat elit nisl litora ante duis arcu. Lacus dolor nibh integer in litora senectus parturient aptent amet mi. Risus massa. Purus etiam mollis at arcu nullam imperdiet lacus neque habitasse facilisi accumsan netus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }, 
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Netus ipsum. Porta netus feugiat dictumst. Ipsum morbi non. Vitae justo urna nascetur neque urna fusce id congue sed quam ut. Dolor curae sem ante magna vehicula fusce. Nulla proin porta maecenas metus magna eros facilisi habitant dictum. Netus velit sed neque mollis ipsum fames erat. Metus porta a nonummy in quis vivamus mi ante. Fusce lacus tellus dictum imperdiet proin ut eu urna arcu viverra hymenaeos litora.\n", 
+        "text": "Dolor proin orci. Risus augue enim sociosqu commodo in. Nulla lorem. Ipsum augue taciti fusce eleifend adipiscing ridiculus condimentum. Velit vitae justo nostra tincidunt ipsum quis cum a tempor. Metus ipsum mollis praesent quis litora ac mollis non arcu ve pellentesque euismod eros euismod a aptent arcu eu. Vitae augue a magnis velit aptent. Augue massa ullamcorper elit. Magna morbi magnis mollis urna elementum.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -119,12 +108,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Netus neque nulla est felis enim per donec. Ipsum neque tempus ve non eget. Proin morbi. Netus augue nunc proin at sociis sollicitudin aliquet netus eu ad nisi purus. Lacus massa mollis primis sed ultrices. Lacus felis leo eros placerat hendrerit netus est diam. Ipsum neque rhoncus habitant lacus aenean lacus vestibulum. Vitae morbi mattis. Ipsum metus cursus etiam et. Donec proin nibh.\n", 
+        "text": "Massa metus non curae non. Felis justo sit est eu netus. Vitae lacus etiam habitant mi ligula ultrices quam nostra ut ultrices. Dolor augue enim erat enim dapibus. Nulla lacus. Purus nulla mauris. Neque justo tortor suspendisse proin habitasse ultrices inceptos vivamus aenean litora. Nulla purus per nisi dapibus eu lobortis mollis. Velit magna quam ad nisi metus. Purus massa condimentum nascetur odio egestas natoque quam.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -132,12 +121,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Risus nulla dolor morbi tempus congue interdum ante. Donec nulla inceptos curae dictum duis consequat. Lorem metus. Lorem justo suspendisse per diam volutpat. Risus augue nostra ve pulvinar eleifend. Augue etiam tempus inceptos adipiscing. Donec etiam. Velit porta arcu pede id pellentesque lacinia arcu. Donec neque. Fames metus ipsum. Lacus velit. Dolor justo erat tempor adipiscing velit orci sit purus.\n", 
+        "text": "Donec purus vehicula vel natoque et dui. Justo donec cras commodo augue cum. Lacus donec euismod ante praesent adipiscing mauris. Dolor fames. Augue fames vitae. Porta lacus magnis scelerisque donec mattis fusce inceptos curabitur consectetuer. Class neque. Lacus neque natoque sapien nulla vestibulum praesent rhoncus lobortis aenean ante orci per iaculis. Ipsum proin enim. Lacus metus ipsum viverra imperdiet cras lacinia in fames. Vitae ipsum pede quam.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -147,12 +136,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Lacus etiam. Metus massa varius etiam vestibulum accumsan enim. Felis nulla euismod eu. Purus magna ante cubilia nulla metus velit ante. Lorem metus morbi libero dignissim. Porta purus iaculis ve pede quis. Justo curae. Lorem fames tempor ante enim magna tempus. Fusce fames cum nulla leo diam parturient. Lorem morbi nostra vehicula hymenaeos mi ullamcorper. Risus morbi orci. Magna purus justo magna ipsum libero id nisl.\n", 
+        "text": "Fames augue massa cubilia sagittis id congue elementum molestie duis. Ipsum proin inceptos lacus et magna ipsum varius ipsum ac. Ipsum risus nisl congue eu nullam inceptos. Class metus. Augue metus inceptos netus a nonummy. Justo risus. Class felis curae. Proin class venenatis ante eget ultricies nunc facilisis maecenas curae. Dolor nulla cursus luctus dolor nulla torquent diam commodo purus in fames. Dolor fusce.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -160,12 +149,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Netus ipsum. Neque velit elit lacus rhoncus conubia aenean. Netus curae ipsum feugiat sociosqu nostra varius. Magna purus ipsum augue platea at ac. Lorem magna natoque phasellus dictumst lorem. Curae felis dictum id. Dolor purus. Metus class netus inceptos. Donec class accumsan porta a montes quis nunc. Purus neque lorem natoque dignissim enim non ut eleifend duis fermentum rutrum a conubia tempus ac.\n", 
+        "text": "Etiam curae condimentum quis amet. Class curae ipsum cum netus nec amet urna tempus habitasse curae nam quam vel eu. Porta massa nullam dis mollis dignissim aliquet purus nunc sapien mi pulvinar aliquet nisi augue. Lacus vitae. Magna velit varius donec quisque at quam fusce. Purus vitae placerat elit blandit at. Justo class aliquam non in posuere cras at consectetuer gravida. Metus massa velit integer viverra nonummy.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -173,12 +162,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Metus class dis nunc sem interdum. Class felis ligula magna pretium viverra odio vestibulum sapien inceptos enim mus auctor nam mauris sociosqu pharetra. Massa porta. Massa class dictum. Nulla vitae non. Felis donec sociis ve primis a placerat. Magna felis. Felis fames. Morbi lacus. Purus class conubia pede dictumst consectetuer ligula at faucibus sit risus. Neque lorem. Felis augue primis scelerisque.\n", 
+        "text": "Nulla fames taciti tempor erat mi sollicitudin ligula. Vitae etiam sit. Metus velit nisl per. Lorem class suspendisse habitant hendrerit consectetuer viverra pharetra. Massa morbi ligula sollicitudin dignissim magna odio dictumst nascetur. Ipsum velit platea parturient class potenti felis. Morbi dolor. Morbi donec vel proin odio metus lectus. Etiam velit tempor posuere id magnis. Fames justo diam a quam eu. Massa neque.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -186,12 +175,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Proin risus fames nostra. Fames neque. Etiam neque suscipit eros et justo ligula. Class risus mattis ac duis mi duis dictum sapien habitasse curae. Ipsum vitae enim torquent. Magna felis nunc in. Nulla vitae. Fames porta sociosqu morbi. Fusce netus auctor sagittis felis mauris vehicula purus sollicitudin accumsan. Etiam augue iaculis diam lobortis non ut consectetuer commodo vitae leo laoreet pharetra urna.\n", 
+        "text": "Curae massa. Curae fusce condimentum volutpat proin penatibus vehicula fames. Donec augue a nisi felis tempor. Lorem netus. Lorem dolor vitae metus sed quam eros. Metus class. Ipsum purus est etiam sodales tempor ut inceptos turpis cursus netus suspendisse. Dolor curae ipsum vehicula vestibulum ligula suscipit. Augue fames. Curae morbi penatibus ridiculus massa netus. Curae augue urna et augue neque viverra non iaculis accumsan.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -199,12 +188,66 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Magna ipsum nascetur lacus nec interdum. Etiam augue condimentum dui luctus. Donec fames nullam hymenaeos augue et proin. Curae lorem auctor nulla vestibulum accumsan lacinia curabitur dis morbi. Dolor magna. Lorem morbi tortor vulputate sagittis ad condimentum. Risus ipsum sapien velit vestibulum volutpat enim fermentum litora odio etiam risus eleifend. Augue felis pulvinar dis rhoncus eleifend at netus id duis curae. Vitae curae.\n", 
+        "text": "Fusce morbi neque ultrices massa. Netus porta venenatis elementum arcu egestas ac. Fusce lorem. Netus justo pharetra proin ad curae. Risus netus. Lacus curae dis diam sed fusce malesuada interdum eros dis. Class fames. Class magna ornare bibendum. Netus fusce pharetra facilisis in rutrum. Nulla curae. Class augue. Augue velit est lacinia quam eu molestie nisi. Augue ipsum dis sapien quis id nam hendrerit rhoncus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
+        }
+      }
+    ]
+  }, 
+  "electric": {
+    "nonpayroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Dolor lacus a erat. Lacus porta dui nisi a. Massa morbi nostra ut porta. Morbi metus tempor fringilla dapibus nec elementum integer consectetuer sapien at lectus. Curae justo donec quis consequat eros dis. Massa justo pulvinar dis. Lorem class nascetur. Class justo primis mi magna. Metus purus auctor fermentum torquent netus at etiam. Curae dolor nulla a nostra nunc facilisis semper suscipit elit dui.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "payroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Lacus felis habitant facilisis mattis cras. Fames augue pretium mauris quis malesuada ut netus luctus. Vitae felis condimentum non in class habitasse quam velit vivamus. Fames velit lacus mollis montes aliquet integer. Curae augue. Class vitae congue vel torquent. Nulla velit ornare adipiscing fames. Nulla felis scelerisque ve cursus a adipiscing est. Vitae proin. Purus fusce nunc hymenaeos suscipit. Dolor felis urna a. Ipsum porta.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "spending": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Etiam lacus lorem. Lorem massa pede litora quisque ligula sit auctor. Dolor proin a. Massa fusce condimentum facilisi vitae semper leo turpis dolor iaculis posuere lobortis. Dolor fusce proin ultrices convallis a netus ad. Purus magna nunc lacinia id magna ad habitasse adipiscing quis ridiculus. Justo curae congue inceptos. Lacus vitae. Curae vitae eget ve consectetuer viverra felis enim sit. Class netus bibendum elementum senectus semper vestibulum pulvinar curae.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "units": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Magna nulla magna dignissim risus nunc semper venenatis curabitur orci sociis diam fringilla non pharetra pretium. Curae fames suscipit et risus. Etiam donec convallis ullamcorper hac turpis a pharetra nam. Justo nulla. Donec felis non amet. Class etiam accumsan felis a gravida at dis nunc sollicitudin adipiscing nibh netus. Donec morbi integer. Porta justo nullam fringilla parturient enim. Vitae magna a nisi.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
         }
       }
     ]
@@ -214,12 +257,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Metus class luctus cras eu ridiculus adipiscing nibh lorem lectus ve. Metus curae. Justo curae ligula justo porta erat eni. Nulla dolor nisl. Massa metus faucibus. Netus lacus cursus nulla at dui eget fringilla cum. Vitae lorem a commodo congue ve pulvinar. Etiam morbi. Curae purus orci lobortis ipsum arcu. Justo curae dis amet mus enim consequat montes parturient. Proin purus auctor porta eu tincidunt cubilia ligula ut quis.\n", 
+        "text": "Porta nulla leo est hac potenti accumsan platea elit nisi magna mi ad vel tellus a adipiscing vel. Velit donec. Fames dolor turpis purus commodo hac orci. Justo ipsum lectus elementum ve scelerisque. Fames massa sapien. Fames netus sem ante etiam laoreet semper sed potenti eleifend. Lorem curae. Etiam massa mauris pellentesque hendrerit dictum. Lacus vitae. Augue netus praesent fringilla. Metus porta amet convallis felis pulvinar ante vulputate ad risus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -227,12 +270,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Lacus nulla dapibus ad. Augue fames semper metus condimentum pulvinar etiam velit orci est volutpat hendrerit. Fusce ipsum. Donec ipsum augue netus aenean porta urna massa lectus. Augue class sed duis pellentesque ve gravida. Magna porta volutpat ipsum ac. Lacus magna suspendisse. Netus velit augue proin. Felis class a mollis arcu ac nisi. Purus netus laoreet lacinia diam nunc aenean phasellus ve pede senectus metus conubia class. Massa lorem.\n", 
+        "text": "Massa augue. Porta neque ligula tempus dapibus euismod litora fames in morbi nascetur eu. Fusce felis primis ac litora class cursus. Etiam lorem. Fames lacus. Purus risus. Class metus cum porta. Curae metus magnis. Neque morbi etiam litora platea morbi. Neque porta dui iaculis in pede sed felis risus euismod pretium dictum ad turpis. Donec velit. Lacus massa magna volutpat elementum at fringilla fusce dignissim.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -240,12 +283,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Velit nulla nec pede mus ultricies. Neque curae cubilia libero duis. Massa lorem a cras purus potenti ad ve platea ipsum velit a nullam. Vitae donec nec arcu a risus. Lorem massa. Lorem etiam. Magna risus. Nulla proin sem etiam habitasse enim sodales mi ultricies felis. Fames metus. Vitae purus. Proin netus sit nascetur penatibus erat integer ligula lacus suspendisse. Magna neque. Risus class facilisi ut. Dolor felis.\n", 
+        "text": "Etiam lorem quisque congue sed semper natoque laoreet eros nunc. Metus nulla ornare ipsum mi proin. Velit ipsum massa metus imperdiet posuere netus magna. Magna lacus enim orci integer et. Risus curae hac rutrum sodales lacinia quam. Velit augue praesent metus id tellus at sem malesuada aptent lobortis. Neque dolor risus cum. Augue massa turpis nisl elementum curabitur purus etiam lectus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -253,12 +296,66 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Fusce class condimentum est. Risus velit mauris ipsum. Magna fames urna a cras neque faucibus duis porttitor. Fusce lacus congue. Neque morbi. Purus neque cras nullam nam nibh ac senectus orci auctor ac eget suspendisse aliquam. Nulla etiam fames eros purus. Porta massa. Purus justo feugiat varius. Etiam netus auctor consectetuer potenti nibh et proin velit. Lacus curae. Morbi fames interdum ve nunc class porttitor dignissim class in lacus vulputate.\n", 
+        "text": "Neque magna turpis ac id ligula in proin elit. Neque etiam. Augue nulla dui ridiculus arcu suspendisse viverra suspendisse diam eget quisque etiam. Magna proin blandit ac quis nibh magna praesent parturient ridiculus pede tellus in magna ve penatibus. Neque netus mauris nisi quam. Felis vitae. Class purus. Fames risus. Lacus vitae gravida habitant rhoncus pellentesque habitasse mollis. Proin augue dictum. Metus velit. Risus magna platea eget iaculis fusce at.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
+        }
+      }
+    ]
+  }, 
+  "gas": {
+    "nonpayroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Lorem netus praesent pede dictumst. Porta magna a dapibus. Porta neque aliquam nam lacinia sem dictumst curae. Class ipsum. Curae nulla semper nunc. Massa lorem. Netus morbi leo sed est pellentesque nostra mollis netus. Proin porta ultrices lorem penatibus vestibulum erat netus. Class fames dis dictumst rhoncus mi lacinia. Proin morbi sed eget vestibulum at interdum. Nulla massa hac faucibus fermentum dolor ad.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "payroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Lacus dolor risus. Justo fames. Netus class per purus fermentum mus suscipit. Netus magna egestas leo. Felis netus consequat. Purus magna montes leo ante maecenas dolor primis pellentesque elementum. Neque lacus. Massa netus. Justo netus a nisi mi amet cursus parturient. Porta class magnis adipiscing augue integer pede enim sem risus nec netus dictum. Lacus purus nec justo aptent porta augue a tempus nisi montes lacinia potenti orci.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "spending": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Class proin ridiculus quam nec sit vivamus. Fusce augue habitant purus nulla cursus id rutrum fusce eget viverra ve. Curae purus per fermentum bibendum purus a tempor nisl netus sagittis porta. Velit vitae cum nibh dolor libero imperdiet hac. Felis lorem leo augue natoque. Morbi purus ante blandit neque nibh. Justo morbi varius in maecenas magna fermentum facilisi aenean gravida. Metus fames orci ornare mi luctus. Lorem fusce.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "units": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Velit massa blandit elementum quam condimentum egestas scelerisque erat turpis feugiat diam mi amet augue nostra ad. Velit morbi ipsum cras. Neque nulla nostra ridiculus. Magna lacus. Proin metus sed metus dis amet ligula mi nunc metus suspendisse. Etiam lorem posuere commodo. Magna etiam. Velit dolor per quis dui netus facilisis suscipit. Curae metus. Augue porta etiam dis vel sem consectetuer. Purus fusce.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
         }
       }
     ]
@@ -268,12 +365,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Porta lacus nisl elit class lorem orci volutpat donec. Dolor ipsum blandit integer tristique dictumst fames. Metus donec tempor hendrerit in ultricies eget non eros. Fames velit vitae eros potenti ut est. Dolor augue volutpat neque sit nisi pretium ut. Morbi augue donec massa dictumst hac purus potenti egestas platea ipsum dapibus. Metus lorem a urna massa etiam lectus sapien sagittis.\n", 
+        "text": "Augue lacus. Justo neque nunc purus augue dapibus sed torquent quisque. Dolor felis. Class dolor est lacinia id nisi nibh. Augue justo. Velit lorem. Purus class morbi velit congue porta torquent curae. Fames velit diam. Lorem magna non vitae adipiscing nascetur donec ultricies. Fusce vitae hac purus adipiscing. Purus metus. Morbi velit. Fusce dolor netus magna tempus adipiscing. Etiam felis quam lacinia quis hymenaeos.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -281,12 +378,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Netus ipsum non. Magna justo aliquet in hac. Netus purus risus. Massa curae cras natoque. Neque velit ipsum commodo etiam elit placerat sem. Purus neque laoreet amet vestibulum. Justo fusce eni tempor a cubilia mattis justo eni cum ve dolor ipsum proin lobortis velit suscipit nam pretium. Ipsum vitae cubilia platea diam penatibus in curabitur porta. Velit netus dolor rhoncus nibh. Nulla ipsum suspendisse volutpat egestas iaculis mauris.\n", 
+        "text": "Morbi proin sed vestibulum consequat ullamcorper per nibh nisl. Proin lacus augue. Fames dolor vitae sociis pede eros penatibus ultrices elit cum class cubilia. Vitae class. Netus ipsum eros purus et aptent cum cras ut. Netus lacus habitant. Curae justo leo augue luctus porta justo scelerisque nascetur egestas lacinia primis dignissim. Lorem felis nisi erat primis. Dolor augue blandit ve primis sit vestibulum class nibh.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -294,12 +391,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Magna massa tellus risus sed adipiscing vestibulum at. Ipsum netus potenti congue cursus sem mauris potenti urna nullam eu placerat rhoncus nibh. Etiam purus donec sociis in nisl elementum. Neque metus. Vitae fusce nisl semper maecenas quis eros adipiscing quis tellus ve. Lorem porta vivamus ipsum. Nulla fames. Fames lorem platea neque etiam sapien massa. Felis risus feugiat rutrum cum taciti ultrices dignissim id mi.\n", 
+        "text": "Augue proin nibh elit metus class nulla. Justo donec. Nulla justo maecenas lacus a nunc id pharetra vitae imperdiet nec mus facilisis. Nulla fusce dis eget facilisi sapien tortor velit. Fusce class cursus in sit ullamcorper. Justo fames leo duis. Fusce risus diam per class adipiscing euismod nam lobortis tincidunt cum vehicula felis. Etiam fames. Lorem felis viverra pharetra rutrum mauris feugiat porttitor.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -307,12 +404,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Morbi purus suspendisse vehicula hymenaeos in tempor mi sociosqu urna diam vel. Metus etiam montes adipiscing sollicitudin blandit penatibus amet elementum primis netus vel parturient risus nisi. Neque purus cras scelerisque at auctor sed elit. Proin magna sapien. Fames augue dictumst velit ipsum dui duis per. Fusce vitae sapien cursus fermentum etiam est. Morbi curae. Nulla ipsum lacinia vel. Dolor ipsum. Neque magna dapibus enim et lorem tortor vulputate in.\n", 
+        "text": "Proin neque. Velit ipsum. Velit felis rutrum dui enim id elit. Purus felis augue a. Augue donec erat suspendisse sodales nam eu natoque. Metus etiam. Vitae magna. Donec porta laoreet at semper. Purus magna. Nulla vitae phasellus nec placerat phasellus in phasellus adipiscing. Lacus nulla tristique vestibulum non adipiscing tristique enim auctor aptent senectus erat hac. Ipsum lorem ullamcorper pede fringilla consectetuer rhoncus non eu.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -320,12 +417,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Augue etiam amet condimentum conubia non. Fusce magna auctor lacus netus eni quis. Lorem risus orci interdum magnis sociis. Justo etiam dictum posuere blandit etiam elit blandit est mi. Lacus augue orci. Dolor felis. Fusce lacus nisi proin. Lacus nulla. Dolor purus. Magna fusce posuere malesuada suscipit semper mauris porta hac felis natoque egestas. Justo purus lacinia venenatis. Purus curae non ante hac. Curae velit.\n", 
+        "text": "Morbi fusce platea. Felis metus. Velit purus a nunc vitae orci nunc ipsum hymenaeos eleifend turpis primis est. Netus porta ultrices lorem at cras feugiat. Felis fusce. Proin lorem ultricies eni. Curae fusce tempor semper nulla commodo pede vel eros. Fusce risus tempus venenatis bibendum tortor parturient velit diam volutpat. Lorem ipsum imperdiet eget lacinia curae. Justo morbi per nunc.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -333,12 +430,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Neque lacus dapibus etiam risus nam. Lorem morbi. Velit porta rutrum leo bibendum a. Ipsum proin montes non commodo. Neque netus suspendisse at. Etiam donec. Dolor augue rhoncus primis ante curabitur. Lorem magna turpis magnis nisl montes et nec sapien dapibus nisl quis tristique rutrum nibh iaculis convallis arcu. Proin dolor. Ipsum velit elit ultricies semper faucibus hendrerit nunc sit dis dui.\n", 
+        "text": "Etiam proin. Morbi nulla amet leo nulla facilisis. Felis nulla non amet lacinia ac semper cursus ad. Curae purus. Lacus metus velit porta odio a justo ut fames eni urna. Lorem class vehicula netus bibendum non justo fusce. Porta metus pretium tempor. Massa fusce congue enim consectetuer interdum vitae et sed ve. Nulla lorem torquent neque blandit eu congue rhoncus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -346,12 +443,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Metus felis vivamus aenean est montes. Massa curae a erat curae blandit maecenas viverra. Lacus vitae duis hac. Augue lorem. Etiam neque. Class augue maecenas nisl laoreet mi pede torquent ridiculus ac turpis vitae vestibulum. Massa lacus donec sem nisl a elit adipiscing lectus odio nostra etiam ligula. Fames etiam dictum vitae ullamcorper maecenas habitasse. Magna lorem nullam adipiscing eleifend urna ve. Neque risus nostra lacus. Proin lacus.\n", 
+        "text": "Porta fusce lorem risus sociosqu adipiscing. Curae porta vehicula purus eu velit ad. Justo porta viverra at convallis a cum. Metus morbi. Porta dolor taciti egestas nonummy quam dictumst vehicula tempor magnis purus lobortis tincidunt a justo vivamus imperdiet. Metus massa ante. Justo vitae tristique felis nisl primis. Augue curae. Massa felis nunc venenatis dui consectetuer at. Curae proin rutrum placerat conubia vivamus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -361,12 +458,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Netus felis sit arcu id senectus vivamus conubia lectus dolor laoreet at eni. Purus porta mauris metus accumsan hendrerit pede. Velit ipsum nisl. Metus donec tortor habitasse leo fusce eros. Purus risus nunc feugiat augue sed vitae. Proin nulla. Etiam risus molestie dis rutrum a vestibulum hac risus velit scelerisque senectus quis. Donec morbi class feugiat ad mi duis lorem habitasse ve vulputate scelerisque per erat ve senectus.\n", 
+        "text": "Morbi magna tortor habitant vestibulum aptent dictumst. Dolor morbi justo libero consectetuer. Lorem curae nisl mi lorem et erat sit nulla auctor magnis faucibus fringilla a elementum. Curae felis accumsan vestibulum primis nascetur nunc sit. Morbi augue hymenaeos nunc feugiat vivamus luctus ipsum. Lorem magna lorem risus lobortis at nunc quis imperdiet in. Dolor velit. Nulla purus. Risus fames odio class nonummy varius ipsum parturient arcu venenatis.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -374,91 +471,11 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Etiam neque mauris. Magna etiam. Velit netus. Lacus felis turpis nisi ad. Risus morbi. Fusce purus. Morbi felis venenatis accumsan dictum orci hendrerit ad in urna arcu venenatis ultrices pulvinar varius netus. Vitae velit litora. Risus class proin ante elit ipsum in. Massa magna ligula magnis nam. Nulla etiam primis proin suspendisse id. Neque curae conubia. Dolor augue a cubilia id.\n", 
+        "text": "Etiam proin felis consequat parturient duis. Felis fames. Class purus lectus condimentum netus litora justo metus posuere litora risus adipiscing scelerisque magnis. Neque massa lobortis ve. Proin purus taciti aptent vitae at morbi suspendisse eni nisi tortor. Porta curae ultrices fringilla ut scelerisque cras pede commodo ad elit laoreet. Dolor vitae nullam tortor lorem fringilla sed. Dolor netus auctor velit praesent mus cras pede leo. Curae class.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
-        }
-      }
-    ], 
-    "nonpayroll": [
-      {
-        "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
-        }, 
-        "text": "Vitae lacus elit lacus fames libero class sagittis. Class fames mattis lacus augue luctus. Magna felis. Augue vitae a aliquam auctor felis etiam mollis habitant sapien. Ipsum augue porttitor vestibulum elit proin ultricies. Velit vitae semper. Lorem magna. Velit etiam diam dictumst sem primis sem. Justo felis semper. Lacus vitae. Massa etiam erat lacinia conubia cursus nulla lacinia amet ante cursus litora nisi. Etiam velit.\n", 
-        "top_left": {
-          "column": "spending", 
-          "state": "VT"
-        }
-      }
-    ], 
-    "payroll": [
-      {
-        "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
-        }, 
-        "text": "Etiam vitae curae lobortis diam aenean. Porta netus. Etiam augue. Dolor fusce eni lectus curae. Neque ipsum leo. Massa risus suscipit netus et etiam leo duis nibh dolor potenti elementum. Massa class sociis cursus. Class dolor. Massa proin a eget magna tristique. Etiam curae. Dolor donec eni. Magna porta tellus magna nam enim mattis maecenas. Nulla curae erat a morbi sodales mollis.\n", 
-        "top_left": {
-          "column": "spending", 
-          "state": "VT"
-        }
-      }
-    ], 
-    "spending": [
-      {
-        "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
-        }, 
-        "text": "Massa fusce. Vitae proin aliquet eu non imperdiet sapien varius. Purus class. Risus porta luctus nostra aliquet curabitur eni. Neque justo hac nulla. Curae lorem. Nulla proin. Morbi donec libero mollis aliquam. Risus proin maecenas dui iaculis a platea eget nibh vulputate nec class aliquet porta cum cras. Lorem proin. Magna velit. Vitae class torquent hymenaeos lorem fames quam. Purus dolor. Lacus metus.\n", 
-        "top_left": {
-          "column": "spending", 
-          "state": "VT"
-        }
-      }
-    ], 
-    "takeup": [
-      {
-        "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
-        }, 
-        "text": "Risus felis elit aliquet justo ac auctor bibendum ante eni nonummy. Morbi lacus dolor sit facilisi egestas ultrices nullam ultrices. Lacus fames. Dolor purus. Magna justo dictum sodales. Class magna donec litora aenean lorem sem placerat vulputate etiam. Justo neque tortor ullamcorper massa tristique potenti. Lorem magna etiam. Curae risus elit a arcu ipsum suspendisse. Massa justo. Fames dolor montes. Ipsum fames quisque eleifend mi magna.\n", 
-        "top_left": {
-          "column": "spending", 
-          "state": "VT"
-        }
-      }
-    ], 
-    "units": [
-      {
-        "bottom_right": {
-          "column": "spending", 
-          "state": "DE"
-        }, 
-        "text": "Magna metus laoreet iaculis mattis sem mattis feugiat sodales tellus porttitor. Neque risus. Purus morbi quis bibendum sollicitudin platea eu aptent sollicitudin vivamus. Class nulla rutrum suspendisse porta turpis sollicitudin vulputate tellus. Lorem magna conubia mus dapibus et lacinia at. Proin metus netus hac purus dignissim. Lorem nulla lectus sed rhoncus cursus nibh sodales. Risus augue arcu scelerisque commodo dis quisque.\n", 
-        "top_left": {
-          "column": "spending", 
-          "state": "VT"
-        }
-      }
-    ]
-  }, 
-  "housing": {
-    "demographics": [
-      {
-        "bottom_right": {
-          "column": "takeup", 
-          "state": "LA"
-        }, 
-        "text": "Fames proin neque varius nisi. Massa donec. Fusce lorem sit neque etiam sagittis. Augue dolor magnis elementum litora faucibus eu velit litora ligula nulla. Curae vitae tempus urna suspendisse quisque donec mi aptent. Risus ipsum tortor. Curae lacus nascetur mi lacus non quam odio. Fusce augue luctus ac arcu eleifend felis ante euismod eget. Justo metus sem parturient. Velit vitae.\n", 
-        "top_left": {
-          "column": "takeup", 
           "state": "DC"
         }
       }
@@ -467,12 +484,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Massa dolor per nam imperdiet. Magna donec. Augue vitae nunc tortor. Magna ipsum sem donec vestibulum nascetur elit integer in. Justo dolor nostra tellus eros at eros inceptos convallis nunc odio per. Donec ipsum dis interdum cubilia erat mi dui dignissim integer nisl felis. Etiam lorem vitae erat platea imperdiet ipsum nascetur sed platea nostra vivamus. Nulla proin feugiat. Risus netus mauris suspendisse fusce consequat condimentum. Fames massa. Magna class.\n", 
+        "text": "Netus lacus mus hac tincidunt velit in. Lorem purus rhoncus duis eu consectetuer lacinia mus adipiscing nulla. Fames risus auctor eros hymenaeos metus cras gravida. Dolor augue accumsan vestibulum egestas enim pretium a. Risus fames. Donec lacus. Ipsum donec netus a rhoncus libero. Curae augue eros tristique platea lorem gravida eu platea gravida duis nisi sodales at. Vitae lorem fusce vitae arcu non sociis vivamus rhoncus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -480,36 +497,25 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Metus lacus accumsan. Purus massa tempus. Justo felis suscipit etiam porttitor nonummy netus diam. Morbi risus proin per porta aptent vestibulum magna. Fusce massa lectus integer mi elit consequat. Curae velit platea mollis. Nulla ipsum. Lorem netus fringilla potenti. Donec lacus risus quam pretium ad cras. Netus velit justo nunc non elit consectetuer mi cubilia. Magna donec semper ipsum vel.\n", 
+        "text": "Netus curae fames vivamus hymenaeos vel. Proin lacus magna. Lorem curae donec quis diam natoque etiam parturient quam proin integer et ac ipsum ac sociis. Nulla vitae. Purus neque rutrum cubilia pretium. Velit massa enim commodo mi suscipit class porttitor. Etiam velit duis elit parturient et sapien per rhoncus id. Etiam dolor. Donec magna sem augue tristique amet orci. Fames morbi odio fermentum mollis. Etiam purus. Lacus nulla nascetur.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
     "spending": [
       {
         "bottom_right": {
-          "column": "demographics", 
-          "state": "OH"
+          "column": "spending", 
+          "state": "MD"
         }, 
-        "text": "Curae felis a diam. Augue netus condimentum suscipit cubilia. Massa velit per dictumst ridiculus at suspendisse ante litora pulvinar fringilla class facilisis malesuada. Metus augue congue curae leo justo elementum rutrum. Risus curae pretium fringilla hac aliquet. Lorem purus risus volutpat. Lacus nulla tempor taciti venenatis parturient eni vestibulum parturient et ante. Fusce risus. Donec metus malesuada elementum nisl integer ligula duis vivamus nunc maecenas ve. Ipsum curae primis feugiat.\n", 
+        "text": "Curae vitae nibh vel. Curae proin. Vitae nulla dis nisl. Nulla metus mauris ve eros eu risus montes congue per congue. Risus augue nonummy nostra ligula. Etiam massa a nibh metus porttitor hymenaeos. Purus vitae ante erat ultricies interdum nullam parturient suscipit natoque dapibus nibh id. Curae ipsum hac commodo diam ante imperdiet sociosqu accumsan fames platea dis. Neque curae.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "AK"
-        }
-      }, 
-      {
-        "bottom_right": {
-          "column": "units, nonpayroll", 
-          "state": "DE, IN"
-        }, 
-        "text": "Fames proin neque varius nisi. Massa donec. Fusce lorem sit neque etiam sagittis. Augue dolor magnis elementum litora faucibus eu velit litora ligula nulla. Curae vitae tempus urna suspendisse quisque donec mi aptent. Risus ipsum tortor. Curae lacus nascetur mi lacus non quam odio. Fusce augue luctus ac arcu eleifend felis ante euismod eget. Justo metus sem parturient. Velit vitae.\n", 
-        "top_left": {
-          "column": "takeup, nonpayroll", 
-          "state": "CT, DC"
+          "state": "DC"
         }
       }
     ], 
@@ -517,12 +523,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Curae etiam duis cras. Magna nulla interdum justo est. Nulla neque mattis consequat eu nullam sociosqu. Nulla fames curae posuere molestie mauris pharetra ipsum et lorem varius. Felis fusce mauris curae ullamcorper ve dictum consectetuer. Etiam fusce amet quam vel commodo pulvinar diam orci. Fusce vitae aliquam. Justo velit turpis nulla non quam eleifend torquent magnis urna porta class vehicula quam arcu.\n", 
+        "text": "Netus magna sapien felis nisi aliquam eros at sit. Justo donec blandit sociis ve libero cum gravida. Vitae metus. Lacus fusce metus. Neque etiam suspendisse ad mauris fusce vestibulum ve. Proin ipsum. Purus lorem neque. Porta purus justo neque bibendum. Etiam risus urna nec magna commodo sed. Justo lacus tristique suscipit eu libero hac adipiscing tempus nec feugiat. Justo fames mauris taciti netus potenti fames elit taciti.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -530,12 +536,92 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Magna etiam phasellus nam senectus rhoncus cursus aenean lacinia feugiat pede et ultrices. Purus donec. Justo velit elementum eni ipsum dis nibh gravida ad et hac. Fusce felis. Magna risus ipsum nulla ultrices elementum. Donec purus eros non risus neque turpis ac litora consectetuer sodales. Neque vitae. Massa magna lacus eni quam. Ipsum purus litora elit ultricies. Metus neque dapibus.\n", 
+        "text": "Proin justo libero congue nec. Magna augue ullamcorper. Magna etiam. Justo felis dictum id ultrices egestas penatibus sagittis id class at massa. Fusce ipsum condimentum pulvinar augue a cubilia sociis dui. Risus nulla scelerisque sed ornare pretium arcu nibh donec lectus ac dictumst. Netus nulla diam primis ad. Metus morbi magna elit vehicula libero. Felis fames tellus ullamcorper nulla phasellus. Vitae risus nisl porta.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
+        }
+      }
+    ]
+  }, 
+  "housing": {
+    "demographics": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Fames netus. Massa ipsum. Class felis. Purus fames. Ipsum augue cras tortor. Etiam ipsum dictumst vestibulum. Lorem fames ultrices facilisis nec. Felis risus litora etiam vestibulum. Augue curae etiam vulputate id donec congue. Neque lorem pulvinar velit mus habitasse dolor tellus nullam neque proin. Lacus neque etiam mattis dictum ridiculus mattis praesent felis duis risus. Curae risus diam senectus eu condimentum cras taciti ac.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "nonpayroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Dolor fames eni. Donec curae dui erat metus integer tellus neque lobortis ridiculus sem diam pede quis elementum sit. Magna augue. Fames nulla semper sapien venenatis. Lacus neque. Proin magna praesent lorem posuere hendrerit. Massa lorem ornare. Metus risus tortor. Augue curae donec auctor. Proin etiam dapibus mattis hymenaeos. Proin fusce. Felis porta condimentum per. Class porta vel nisl vestibulum sapien nibh erat netus ante proin aliquet.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "payroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Massa metus sem velit taciti aptent phasellus leo nascetur. Dolor morbi dui eros diam volutpat proin magna. Dolor fames vel. Metus dolor eget nec consectetuer. Augue fusce mollis felis sociosqu risus mi. Curae proin nunc. Nulla metus amet condimentum nam duis litora natoque quisque eget arcu. Massa dolor vehicula imperdiet pellentesque. Lacus risus. Lacus netus. Justo felis orci enim proin hendrerit vestibulum sit adipiscing at nisl penatibus.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "spending": [
+      {
+        "bottom_right": {
+          "column": "spending, units", 
+          "state": "MD, MD"
+        }, 
+        "text": "Donec etiam rutrum purus non. Justo nulla rutrum. Nulla massa etiam scelerisque pulvinar blandit pellentesque elementum morbi class nascetur. Velit proin. Velit netus euismod interdum sociis taciti per iaculis congue hymenaeos. Curae class rhoncus tortor eni adipiscing class blandit nisi. Fames fusce magna ridiculus commodo curae. Lorem nulla. Dolor fusce sociis. Lorem netus. Porta lorem aenean est taciti a vestibulum dis metus per. Velit felis. Neque fusce per nibh hymenaeos.\n", 
+        "top_left": {
+          "column": "spending, units", 
+          "state": "DC, DC"
+        }
+      }
+    ], 
+    "takeup": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Ipsum vitae ipsum lectus ve urna. Fames porta etiam quam pulvinar a. Velit donec nisi convallis dictumst semper. Justo magna a aliquam tellus. Class justo. Class neque proin sociosqu parturient pretium nec dignissim faucibus. Vitae porta est proin cras condimentum nonummy dui. Class donec eni mus blandit eu mi. Augue fusce aptent laoreet sodales enim sem in primis. Porta purus.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "units": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Magna donec feugiat dui diam odio adipiscing rutrum class parturient eget. Dolor metus primis elit. Neque curae. Felis fusce donec etiam tempor hymenaeos purus. Massa neque gravida eget volutpat vestibulum magnis. Felis ipsum aptent curae ve pellentesque nunc blandit neque ad. Risus nulla enim viverra. Neque velit quisque placerat congue nisl. Curae justo. Magna curae mus morbi consequat aliquet dolor diam suscipit vulputate.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
         }
       }
     ]
@@ -545,12 +631,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Vitae nulla. Purus proin aliquet duis ac risus luctus ve. Netus purus a mollis. Velit curae. Felis class nisi semper leo vestibulum facilisis netus arcu purus mi diam. Magna dolor praesent fermentum. Lorem justo luctus curae habitant fusce ad montes venenatis vitae. Velit proin tempus malesuada at. Purus risus auctor eu facilisi. Netus class sed nunc per sollicitudin lorem id risus fermentum volutpat. Lacus velit sit viverra libero netus.\n", 
+        "text": "Fames augue nam luctus mus et cursus molestie dolor congue mauris dolor. Netus fames tortor sociis conubia pede mi urna ante mi. Porta fames. Donec ipsum cras nonummy urna adipiscing id faucibus quis curabitur eu platea. Velit morbi neque feugiat ante duis. Magna lacus lectus montes vivamus rutrum ut justo ac velit pellentesque lobortis curae curabitur praesent luctus. Fusce curae. Risus donec morbi lacinia aenean. Fames porta. Morbi ipsum.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -558,12 +644,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Class felis. Purus lacus elit nec amet dictumst. Dolor etiam cum ante. Curae augue malesuada nibh rhoncus justo fusce a odio. Netus justo elit condimentum aliquet sollicitudin blandit sociosqu mauris ornare. Massa justo. Netus vitae orci accumsan per eu. Curae risus arcu bibendum tincidunt semper quis sit. Justo porta sem sociis luctus magna sociosqu massa. Lorem velit. Lacus augue duis leo malesuada proin ve massa urna velit scelerisque. Class neque.\n", 
+        "text": "Augue neque per morbi cursus at cras bibendum consectetuer platea risus eget laoreet enim. Dolor class facilisi massa nascetur donec et consectetuer feugiat neque. Fusce risus. Vitae fusce justo nibh nunc morbi gravida diam ante ipsum eros. Magna lorem egestas platea leo. Morbi nulla. Magna lacus litora class mattis massa parturient scelerisque. Dolor morbi leo proin sed imperdiet sit. Lacus proin per. Fames lacus. Class curae quis suspendisse laoreet.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -571,12 +657,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Augue lorem litora sollicitudin blandit fringilla nibh vivamus id ante sodales. Fusce morbi duis a quis parturient mattis molestie. Fames ipsum hac sit blandit donec arcu sed. Donec velit aliquet. Metus magna. Risus dolor posuere non vehicula venenatis. Fames augue mollis torquent sodales posuere porttitor id metus. Massa risus tortor in nibh hymenaeos interdum nulla penatibus etiam consequat. Nulla class dui adipiscing donec. Metus etiam a.\n", 
+        "text": "Velit massa arcu blandit eu lectus ac luctus morbi proin. Ipsum justo congue nam erat. Fames neque. Neque lorem. Porta netus. Lorem vitae dolor pulvinar lorem feugiat senectus natoque. Curae fames. Proin neque amet tristique vulputate urna vulputate eros sed elementum. Purus felis eros integer viverra luctus. Risus massa ornare pede ac habitant urna maecenas velit. Ipsum morbi malesuada tellus parturient maecenas iaculis diam dictumst lacinia lobortis.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -584,12 +670,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Ipsum neque interdum curae etiam natoque nunc. Curae dolor tortor montes consequat augue fermentum. Morbi metus netus lorem turpis conubia. Lorem purus nunc montes aliquet cras. Class proin. Netus proin. Netus purus pede viverra venenatis aptent neque torquent non. Vitae felis netus gravida pretium taciti est erat per. Massa vitae mauris aptent. Porta dolor. Class fusce dapibus sed conubia. Netus nulla est enim arcu aliquam.\n", 
+        "text": "Risus augue per quis praesent a. Etiam risus hendrerit viverra nam placerat. Fusce morbi rutrum ve. Dolor donec nullam ullamcorper nulla aenean parturient. Velit felis vitae fermentum ut semper sodales eu montes. Etiam class tellus praesent proin sit. Porta etiam aptent accumsan. Etiam vitae luctus ut luctus. Velit risus. Donec metus. Proin lorem leo cum porttitor montes tellus ad. Ipsum magna sit pede et ipsum ve.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -597,12 +683,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Massa fames lacus vitae blandit viverra elit ve lacus tortor orci. Netus lacus. Velit vitae est ipsum vulputate commodo consectetuer. Purus morbi massa tortor sollicitudin. Magna massa pulvinar vel turpis aliquam. Magna felis. Netus etiam vitae amet egestas class diam arcu duis. Justo metus. Class velit gravida imperdiet amet congue curabitur morbi venenatis in. Risus nulla vitae nonummy semper metus facilisis placerat massa.\n", 
+        "text": "Massa dolor rutrum luctus nulla suspendisse. Magna augue lacinia mi malesuada. Massa magna. Proin magna. Fames lorem fames mattis tristique. Vitae proin lorem felis sodales. Justo lorem a varius urna ad suscipit blandit. Justo metus amet phasellus placerat in eget interdum taciti eros condimentum. Class curae odio leo odio. Justo magna tempus suspendisse proin tempus pellentesque. Etiam nulla. Velit fames eget tempor.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -610,12 +696,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Lorem curae. Lacus curae lectus euismod eu tempus mi leo vulputate lectus vel cursus in pulvinar cubilia erat. Magna fusce arcu quisque natoque diam odio feugiat elit. Massa velit purus erat. Lacus proin mauris metus vestibulum laoreet per torquent. Lorem dolor. Magna lorem augue. Velit ipsum. Justo vitae. Neque donec nunc placerat bibendum commodo. Netus augue nisl. Metus fames suspendisse pulvinar orci pretium eu.\n", 
+        "text": "Justo fames cubilia mauris leo. Fames purus condimentum hac eu pellentesque. Risus dolor. Augue etiam mollis nullam etiam vestibulum volutpat nulla elementum nec natoque ut. Lacus etiam. Ipsum velit ligula orci. Metus velit dolor est primis egestas potenti. Magna morbi eget gravida dictum. Fusce massa habitant nam lorem nisi id nulla ultricies. Class velit curabitur montes suscipit metus nunc habitant ante aliquam. Etiam augue mus pretium a condimentum.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -623,12 +709,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Vitae fusce commodo amet dictumst sollicitudin mattis at. Neque lorem accumsan magna erat. Porta vitae. Donec nulla nisl. Magna lorem enim ornare sagittis. Dolor nulla erat ac consectetuer mollis netus ridiculus pretium platea. Nulla dolor nec cras nascetur nam in. Massa neque vehicula. Risus proin bibendum. Dolor felis porta fames auctor litora odio gravida. Netus porta nam. Ipsum morbi tellus nulla ullamcorper ut auctor aliquam cum lacinia mauris turpis.\n", 
+        "text": "Class vitae nulla non quis urna gravida quam lobortis quisque montes ac eni amet a lacus. Neque lacus scelerisque accumsan proin eu eros. Netus ipsum dolor. Fames netus arcu per. Porta justo vitae odio nam cubilia ligula nam ac sollicitudin. Nulla massa. Netus risus suspendisse senectus. Massa justo a pretium eu. Morbi proin varius facilisis conubia aenean eros luctus parturient.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -638,12 +724,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Velit neque pretium litora duis tristique tortor. Dolor lacus pharetra ac tortor vel pede amet. Augue etiam cum netus nam duis eget facilisis dictum arcu erat nec orci nam dui leo pellentesque taciti. Porta donec leo quis cras velit turpis netus. Metus vitae per nunc urna eni elit mus. Porta proin est enim sollicitudin eleifend class auctor donec. Neque felis.\n", 
+        "text": "Fusce neque litora consectetuer. Etiam class. Vitae proin nullam rutrum sit dapibus inceptos. Massa ipsum. Velit metus orci. Magna lorem. Massa porta fusce rutrum interdum orci feugiat hac ad cursus. Donec magna leo tristique nulla eu duis sapien eros suspendisse sem tortor lacus. Ipsum porta a cras morbi class suscipit. Morbi neque dolor eget duis. Purus class sapien ligula. Velit ipsum.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -651,12 +737,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Proin velit. Class fusce curae morbi sed lacus euismod. Curae fusce. Morbi porta nibh maecenas conubia id urna cras. Etiam felis eget fermentum semper leo lobortis posuere donec quam a risus. Magna etiam nibh sociosqu. Proin massa luctus tempor placerat habitant ad fusce id. Fusce etiam semper lacus risus aliquet. Ipsum netus amet commodo. Felis curae purus etiam natoque erat. Fusce felis ornare. Velit risus natoque.\n", 
+        "text": "Risus massa. Justo etiam eros leo. Velit dolor per enim proin consequat enim. Netus lorem potenti erat diam laoreet eu non. Class metus cras. Risus fames tristique vel. Dolor porta vel metus sit nisi maecenas. Neque augue cum nisi risus. Fames lacus purus suspendisse sagittis iaculis convallis amet. Etiam morbi odio libero cursus etiam elit etiam potenti dui convallis. Ipsum metus vehicula proin bibendum fames nunc non diam.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -664,23 +750,23 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Velit curae. Dolor magna ullamcorper inceptos ultricies fames nisl montes posuere viverra mattis nunc habitasse. Class fames enim accumsan purus neque sem vestibulum netus nisi. Morbi augue. Fusce lorem. Justo fusce urna ante euismod a tortor. Fusce netus semper litora pulvinar. Vitae class dolor a natoque ve. Porta justo vel nunc. Morbi fames. Dolor neque leo egestas mi. Fusce lorem vel porta posuere ve sodales eu. Fames neque.\n", 
+        "text": "Curae nulla a blandit id ante etiam facilisis hendrerit felis nulla varius lacus cubilia aptent. Lorem vitae. Class dolor. Porta curae placerat curae id dignissim suspendisse felis. Donec class habitant odio facilisis semper ligula lacus massa sit. Felis fusce volutpat fringilla. Proin metus sociis nisi ac hac in a erat magna. Metus morbi. Nulla lacus. Velit neque. Metus velit nibh lobortis feugiat.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }, 
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Felis dolor neque eni enim orci dictum tempus nec. Augue purus interdum massa. Felis lorem. Donec netus class semper lacus sociis et tempor dignissim. Lorem risus luctus dictum. Lacus augue cubilia commodo nostra semper erat duis tincidunt in suspendisse. Porta lorem sociis eros risus hac pede duis ultrices ultricies. Velit proin primis malesuada ve scelerisque erat cras felis. Risus donec non euismod. Risus netus porta montes. Felis vitae.\n", 
+        "text": "Porta velit tristique vehicula nostra ornare justo interdum. Etiam augue habitant enim montes. Purus donec. Neque vitae eni ridiculus metus vel neque imperdiet vitae lorem. Fames metus molestie fames sociis class adipiscing mi arcu nulla quisque. Felis neque arcu tortor ornare neque vestibulum. Magna nulla augue ridiculus pharetra. Neque nulla semper aenean. Curae neque fringilla dis sollicitudin lectus donec adipiscing pretium non. Massa metus. Vitae magna nullam ad semper tincidunt.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -688,12 +774,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Morbi class neque. Massa velit. Risus metus ipsum posuere in curabitur ante. Lorem etiam nonummy curae arcu tellus class. Donec dolor sem elit in consectetuer nullam mi vehicula primis sociis. Proin fames potenti tempus ad risus platea augue. Lacus dolor. Justo felis. Nulla felis augue potenti nullam arcu diam proin pede eu urna congue at montes. Netus massa torquent parturient tristique justo vivamus purus.\n", 
+        "text": "Augue purus a pretium ve eu velit in facilisis et venenatis metus ut. Metus fusce condimentum mi mattis. Risus ipsum class morbi viverra tristique in malesuada orci diam sociis. Augue porta natoque elit semper litora sem conubia. Metus curae. Justo nulla nunc eleifend vestibulum venenatis class torquent magna ve. Curae felis nullam eget tortor nostra cubilia et at. Velit class. Lorem lacus eros eget facilisis ac. Curae felis quis.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -703,12 +789,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Ipsum neque enim mattis. Neque purus tortor ve nulla senectus neque lorem sit odio nisi. Metus fusce. Morbi dolor fermentum ad luctus inceptos venenatis consectetuer laoreet praesent semper platea. Risus velit urna morbi proin hac elit est ultrices rhoncus tortor. Etiam vitae luctus. Nulla fusce etiam. Metus fusce nullam sociis quam luctus et. Massa magna litora aptent eros porta vivamus.\n", 
+        "text": "Metus massa dictum tellus penatibus. Risus massa lectus ipsum ac. Nulla velit vitae. Felis fusce montes sapien. Magna etiam lacus duis hac ac varius conubia quam pellentesque faucibus ipsum. Netus vitae neque taciti maecenas in risus at nulla. Fusce dolor quis varius pharetra. Dolor metus eros pede felis montes ligula class platea. Risus massa. Donec etiam eros laoreet nisi. Fusce class metus risus mollis.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -716,12 +802,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Lacus porta iaculis potenti aptent eu at. Dolor fames feugiat aptent curae nonummy dis. Morbi ipsum donec tortor at. Dolor purus rhoncus eni habitant facilisis ad. Lorem neque rutrum ac elit nibh ultricies lobortis id taciti nisl libero malesuada. Netus dolor enim sed morbi risus suspendisse. Fusce nulla eget amet porta iaculis cum vestibulum venenatis. Vitae dolor. Morbi justo. Vitae risus accumsan dis.\n", 
+        "text": "Augue fusce semper. Etiam proin laoreet cras a justo. Lacus lorem. Augue purus justo cursus adipiscing sollicitudin. Neque donec hac mus gravida placerat eu. Augue risus porta justo maecenas at pede integer semper. Ipsum curae. Lacus augue ullamcorper bibendum curabitur vehicula. Porta nulla. Lacus justo quam. Netus dolor hendrerit lobortis lectus. Justo massa lectus justo ac dictum mus odio pretium in odio. Lorem fames fusce justo. Magna neque ultricies.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -729,12 +815,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Nulla class ornare ipsum lacus taciti vehicula mus lorem nulla risus magna aptent. Curae ipsum lacinia purus lorem non nisi. Felis morbi. Fames porta ultrices fermentum aptent vestibulum purus arcu maecenas neque. Ipsum curae etiam. Augue fusce. Etiam fusce. Massa curae tempus nec nunc sociosqu vel pede vestibulum. Massa magna hac tortor mattis malesuada accumsan massa. Felis donec integer tellus primis pretium nisi urna massa mi dolor vel.\n", 
+        "text": "Vitae fusce. Ipsum netus. Curae class porta nulla montes inceptos purus ornare sociis quis nunc. Lacus metus. Netus dolor viverra mauris nam. Dolor metus dictumst mus neque fames mauris fames. Lorem morbi nec aenean dui at. Velit fames praesent odio libero primis per. Lacus ipsum nullam nulla commodo ante nunc dignissim lobortis. Fames metus. Purus magna dictum. Justo proin lacinia purus sem molestie.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -742,12 +828,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Lacus vitae. Curae nulla nisi. Neque curae. Vitae curae neque ridiculus quisque ante. Class magna primis mi magnis in arcu dignissim sapien nulla purus dis orci pretium class elit. Massa purus. Porta augue cras quis ridiculus. Justo fusce nullam tristique sagittis. Justo magna tempor. Augue vitae habitant penatibus augue id tellus. Proin massa. Fames lacus nisi habitant porta sociis auctor.\n", 
+        "text": "Nulla fusce. Felis nulla auctor porta ornare lorem condimentum faucibus potenti viverra cursus nostra eros ac fusce aenean. Proin purus felis lectus ipsum blandit. Metus risus lobortis orci rhoncus gravida lectus donec imperdiet aliquam lorem neque nibh integer in vivamus. Augue fames etiam enim est risus. Justo velit. Fames justo metus netus sodales aliquet rutrum. Nulla fusce velit etiam lacinia ve duis sodales ad.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -757,12 +843,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Metus class torquent ve leo eu placerat ante ad pellentesque iaculis nam adipiscing. Neque nulla nam vitae enim. Etiam nulla duis. Felis curae ultrices justo duis. Massa metus. Felis lacus. Ipsum dolor semper curabitur mi et. Purus fusce taciti feugiat egestas urna ut. Fusce vitae maecenas ultricies in auctor cras nisi hymenaeos mi. Etiam metus class arcu enim. Morbi magna rutrum. Netus proin netus justo luctus.\n", 
+        "text": "Justo risus felis auctor odio eget hac nam eni nam. Porta fames. Vitae purus. Augue lacus iaculis nibh inceptos cras leo. Etiam augue faucibus cum. Vitae fusce rhoncus aliquet diam et sollicitudin. Class nulla. Proin lorem dis morbi ridiculus sociosqu ante. Fames felis mauris augue feugiat iaculis montes etiam morbi. Augue purus. Lacus fusce dis nunc posuere convallis molestie. Fames purus laoreet erat a augue.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -770,12 +856,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Metus dolor rutrum litora. Morbi lacus. Netus class sem eleifend vivamus. Neque lacus magnis aenean lorem. Vitae lacus rhoncus dapibus risus ac ipsum primis convallis ac platea eros nulla. Dolor nulla sagittis dignissim mi elit praesent molestie dapibus arcu a. Fusce fames fusce velit neque arcu commodo eget in consectetuer. Curae magna mus nisl et tristique cras ullamcorper conubia hac.\n", 
+        "text": "Morbi class metus elit quis eni aliquet lacus ac. Lorem proin. Vitae magna nascetur sit nisl leo dui. Risus justo. Fusce porta praesent lorem tortor ac taciti sagittis iaculis cras vel cubilia. Netus lorem suspendisse senectus dapibus posuere cras ante. Class netus tortor ornare sit. Fames curae interdum hymenaeos nec pede vestibulum. Proin justo faucibus massa donec. Curae risus blandit magna erat a quis in.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -783,12 +869,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Neque massa. Proin risus diam condimentum sodales sit placerat habitasse taciti interdum blandit. Fames morbi curae mauris suspendisse fames vulputate. Porta magna tortor justo penatibus. Lacus nulla nam vehicula egestas orci aliquam nisl. Etiam fames congue justo augue mattis ut. Metus etiam justo lacinia ante urna arcu. Lacus curae montes dolor ut. Etiam augue nonummy est. Felis vitae. Proin nulla erat sed enim lectus aptent.\n", 
+        "text": "Etiam augue sapien urna viverra convallis pede aliquet quis id. Proin purus hac urna vestibulum semper cum. Ipsum donec non dapibus erat eu sit. Augue donec ipsum a laoreet mi proin platea litora mus urna ante metus. Fusce proin nullam cursus viverra litora. Nulla dolor tempor sapien nunc laoreet. Vitae lorem egestas tempus mus ligula a. Risus dolor leo nibh tellus ac. Massa velit condimentum.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -796,12 +882,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Donec curae. Massa magna nullam luctus fusce taciti adipiscing fusce viverra hac. Metus lorem auctor ante ornare id pharetra natoque dapibus nisi justo ornare nibh. Risus curae arcu quis. Netus metus sociis netus. Morbi purus nam ante erat lobortis. Porta augue. Curae class massa etiam tellus nostra eni quam at. Fusce nulla orci torquent consectetuer montes eu torquent. Magna justo eleifend.\n", 
+        "text": "Morbi lorem. Proin risus. Purus curae sapien proin primis tempor cum cubilia at odio habitant. Nulla dolor turpis eget lectus fringilla parturient vel. Lacus metus augue. Ipsum vitae. Risus magna luctus arcu. Donec risus mattis scelerisque ipsum. Proin fusce nonummy fermentum. Class etiam diam. Morbi massa penatibus inceptos. Justo felis nunc posuere fusce non cras dis at primis vehicula scelerisque non sapien sociosqu.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -809,12 +895,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Donec purus orci tellus. Felis augue congue metus scelerisque pharetra neque at. Nulla donec integer. Purus etiam inceptos. Nulla lacus. Justo augue sagittis nec. Felis risus potenti curabitur cras elit parturient libero. Ipsum lorem. Fusce porta. Class nulla feugiat iaculis tincidunt mauris montes fermentum praesent ipsum. Metus lacus tellus dictumst aptent. Morbi justo nullam nulla parturient mi malesuada rhoncus sapien donec sem duis.\n", 
+        "text": "Justo metus a primis quis tempor vivamus. Neque lacus pharetra donec orci non curae. Fusce neque sed nullam commodo quisque primis elit. Fusce metus justo faucibus vestibulum ligula. Magna augue tempus id. Risus class eni ante. Proin curae aptent curae fringilla accumsan. Curae morbi. Magna ipsum natoque orci. Dolor velit massa dis inceptos iaculis dapibus orci et massa. Augue lacus. Vitae morbi vitae.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -824,12 +910,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Risus velit semper molestie suspendisse suscipit. Augue porta arcu cras nunc nibh lacinia donec mi volutpat per. Justo massa eros orci nonummy leo. Class felis feugiat facilisis mi eu sit et. Vitae donec purus sit vehicula lacus justo convallis torquent sociosqu. Metus class condimentum nisi habitasse ligula nam adipiscing vestibulum ac imperdiet gravida. Dolor proin morbi habitant habitasse. Augue proin.\n", 
+        "text": "Felis fames nibh tincidunt taciti aenean faucibus gravida mattis orci et erat aptent. Neque purus inceptos vitae aptent vulputate adipiscing nisi tortor. Justo velit ante per enim placerat dui egestas cras nulla integer lacus mi a nostra curabitur. Porta purus tortor turpis eu habitant. Augue neque. Risus netus condimentum pulvinar morbi. Massa augue. Dolor metus quisque nulla cras eget velit neque est nulla nibh.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -837,12 +923,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Magna netus ligula varius ridiculus donec aptent volutpat ridiculus. Donec lacus hac curae curabitur amet hac. Proin ipsum purus est. Fusce donec facilisis lorem et mi turpis hymenaeos ipsum. Felis augue. Nulla risus sociis mauris enim nisl nostra ad netus. Class curae turpis etiam leo. Proin ipsum eros elit porttitor suscipit at proin eu nascetur rhoncus. Metus donec eleifend eni feugiat.\n", 
+        "text": "Lacus ipsum elementum dictumst. Ipsum fusce suspendisse ad libero. Dolor nulla cum duis hac eu habitant accumsan id fusce id diam. Fusce velit. Etiam magna aenean tincidunt. Lacus augue dapibus lobortis potenti luctus. Massa etiam mollis ligula est luctus aliquam integer tortor. Massa neque. Curae metus dui augue libero primis nulla nonummy venenatis. Risus ipsum suscipit. Morbi justo auctor lectus. Metus etiam hac.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -850,12 +936,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Massa purus platea hendrerit parturient conubia erat eros dis odio sodales urna. Vitae netus mus nisl. Fusce donec. Dolor netus sed libero tempus lobortis porttitor ut. Nulla vitae sed nisi eros. Etiam risus. Massa ipsum dictum ultricies ac lacus id vitae. Velit purus per etiam nostra vestibulum pharetra orci nam integer in. Fames purus ligula in egestas arcu. Felis proin ultrices curabitur ac penatibus donec sit netus nec.\n", 
+        "text": "Ipsum nulla aliquam taciti nisi ante neque ridiculus fringilla dolor in sapien dignissim metus velit justo molestie habitasse. Fusce etiam ultrices tincidunt nunc viverra ac class ve orci velit cursus velit. Ipsum felis. Porta ipsum lobortis et fames sollicitudin vitae ut venenatis morbi mattis. Augue curae. Fusce class elementum velit ac fermentum augue dictumst ad felis mi cras ut sollicitudin. Morbi donec dolor.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -863,12 +949,66 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Class purus. Purus magna. Donec magna non duis parturient tortor. Massa porta. Ipsum curae eget a arcu vestibulum eget. Lacus fusce ridiculus. Fusce vitae arcu conubia urna diam curabitur pellentesque natoque netus nec pede vulputate dictum purus. Dolor magna. Purus nulla sodales sem nisi dui curae nisl ultricies rutrum. Purus nulla hac. Justo fames sed nam sit consectetuer eu lorem. Neque velit massa a laoreet id dui. Netus metus.\n", 
+        "text": "Class morbi. Lacus class a lectus etiam at. Netus neque ipsum nisi ultrices. Lacus vitae eni ipsum rhoncus ipsum est nisi habitasse maecenas ac vitae. Fusce proin. Velit ipsum fermentum non dolor malesuada purus in. Class vitae eni. Magna fames. Dolor ipsum mus. Donec porta nam egestas. Felis justo. Fames nulla dapibus consequat. Porta etiam ipsum dignissim est tincidunt sem sollicitudin libero. Fames metus. Porta massa. Donec felis.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
+        }
+      }
+    ]
+  }, 
+  "sewage": {
+    "nonpayroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Curae magna. Class dolor eget. Augue risus purus leo quis erat. Augue justo semper donec mi in enim. Massa velit. Proin augue scelerisque nisi porttitor aenean suscipit pede. Metus neque mollis fusce nunc in nisl risus pretium. Proin fusce diam ut fusce lectus dis magnis. Ipsum nulla. Nulla magna. Ipsum lacus. Fames lorem pharetra erat natoque. Class felis eros ornare mi faucibus.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "payroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Curae fames non massa fermentum lacinia nibh auctor. Felis donec maecenas. Ipsum felis curae primis pellentesque gravida fringilla molestie augue ve dui ac. Neque curae dis mattis potenti ac elit id consectetuer. Metus etiam. Nulla netus. Neque proin. Magna ipsum. Metus donec sit aliquam pulvinar et. Donec class odio. Magna lacus iaculis nunc libero elementum parturient egestas odio et. Purus lorem.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "spending": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Felis lorem. Purus dolor faucibus fusce ridiculus molestie lectus rutrum. Augue fusce proin orci ut erat ut bibendum integer molestie sociis nisi at. Class felis dictum ad nisi nulla velit nisl nullam integer elit mi. Massa risus. Lorem augue tempor ligula imperdiet etiam cum cras nostra sociis. Fusce augue. Neque lorem molestie velit consectetuer. Fames purus primis quis pretium a.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "units": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Justo porta sociis lorem. Felis etiam porta massa etiam interdum duis. Augue magna fames volutpat leo cubilia diam etiam libero taciti hac. Morbi etiam. Lacus curae volutpat proin tristique quis vulputate sit. Etiam morbi. Ipsum curae inceptos vestibulum. Nulla porta suspendisse senectus lacinia commodo ornare lorem. Massa lacus. Metus purus. Class metus enim. Augue justo. Metus felis litora aptent. Porta ipsum. Dolor augue. Felis curae vulputate etiam a.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
         }
       }
     ]
@@ -878,12 +1018,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Class lacus porta leo. Porta curae magnis hymenaeos felis id eu. Donec netus nostra urna ullamcorper cum in diam elit dis. Ipsum class viverra fames porta. Donec purus suscipit amet arcu quisque nam mi diam senectus. Netus massa etiam sed magna pretium turpis. Morbi lacus nulla augue tempor class phasellus. Neque lorem massa a ligula eros mi eget quis bibendum a nascetur leo dapibus augue. Purus lacus.\n", 
+        "text": "Ipsum proin diam et justo tincidunt dictum diam. Fusce augue. Purus felis accumsan metus. Lorem proin. Massa etiam feugiat blandit convallis cum dis nam sollicitudin. Proin lorem auctor imperdiet senectus ac lorem tempus cum. Vitae netus. Massa lacus neque per. Morbi velit. Dolor vitae donec egestas. Metus velit a laoreet ac. Felis proin sem ante dui. Lacus class a laoreet. Dolor lacus nostra consectetuer potenti dui interdum.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -891,12 +1031,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Proin risus nam per ad. Porta curae proin interdum hymenaeos taciti praesent erat dapibus ad. Proin ipsum tempus ve praesent curae tincidunt nunc sit sem non. Donec morbi. Proin class a aenean ante. Purus curae ante diam adipiscing penatibus. Curae metus tortor sem nostra platea maecenas cras lectus. Massa ipsum varius urna scelerisque hac odio at dolor tincidunt dignissim. Augue ipsum posuere vitae.\n", 
+        "text": "Nulla justo. Magna metus sit lorem sem etiam hac nonummy porta nam nisi. Dolor neque litora. Felis proin arcu ullamcorper est quis nec erat lobortis bibendum. Justo lorem tempus. Class neque diam volutpat facilisi fames porta tempor curae massa eros. Nulla felis porta pede ipsum libero maecenas. Fames class. Fusce augue. Dolor vitae. Morbi lorem a tortor amet nisi integer nibh cum lorem hymenaeos. Neque porta.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -904,23 +1044,23 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Vitae dolor torquent hymenaeos. Neque magna. Etiam ipsum nonummy velit nunc condimentum in semper. Donec justo cum eni convallis mattis curabitur sagittis id litora consectetuer fermentum. Risus felis dapibus dis facilisis elit sem hac ut a nibh. Neque justo vitae eni elit adipiscing quam fringilla consectetuer parturient nunc dictum ut. Proin ipsum dui diam. Velit felis maecenas adipiscing vulputate amet sit ipsum porttitor morbi ut montes lobortis facilisis sollicitudin.\n", 
+        "text": "Neque metus. Felis nulla ligula posuere dapibus urna ad pellentesque pretium class est magnis id nunc. Etiam vitae. Class justo nunc nonummy morbi dolor donec scelerisque. Nulla fames dolor non nec conubia a. Etiam proin leo odio eget accumsan euismod pellentesque. Curae dolor turpis gravida blandit aliquet diam. Fusce metus primis mauris massa sem orci urna placerat est curae. Proin neque quam aliquet a tempor hymenaeos netus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }, 
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Class magna duis scelerisque eni at. Vitae dolor. Risus curae montes semper magna. Nulla magna. Fames curae potenti imperdiet dictum. Neque etiam. Ipsum metus nullam imperdiet per cras ut. Netus augue tristique nam duis nisi mus. Class morbi nullam nulla adipiscing posuere sed ve lectus urna sed pretium inceptos platea. Nulla magna quisque. Class vitae tempus ante laoreet eu pharetra amet vel dictum a integer. Dolor curae a quam ac.\n", 
+        "text": "Metus neque hac dis et tellus luctus torquent quam nec. Lacus netus condimentum pharetra elit iaculis quam purus. Class lacus lacinia integer ante dui cum ve. Metus fusce facilisis etiam vulputate duis per nunc parturient mus velit venenatis. Etiam magna blandit curae ad platea dapibus enim nisi. Lorem fusce dis conubia arcu aptent. Ipsum vitae. Ipsum purus. Curae fames. Dolor class.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -928,12 +1068,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Morbi dolor aptent. Magna purus libero sapien volutpat orci. Lorem metus nonummy. Purus fames. Morbi justo sodales pulvinar integer aliquam montes dis lectus ve. Dolor etiam mattis lorem dui duis suscipit. Lacus justo tellus. Ipsum lacus orci lorem sapien arcu eu etiam. Fames donec imperdiet dis habitasse montes a blandit luctus. Augue magna condimentum inceptos euismod vitae. Risus class. Curae etiam.\n", 
+        "text": "Ipsum etiam dignissim facilisis nunc iaculis vulputate sem erat vel ligula fusce parturient ve. Metus fusce mus proin cum platea maecenas et litora nulla. Purus curae nam. Fames nulla taciti lorem convallis gravida. Felis dolor augue sit arcu accumsan per. Curae morbi fames augue orci amet laoreet et. Ipsum augue nostra pede. Vitae etiam non nulla. Neque dolor. Netus etiam. Lacus velit quis eu. Netus metus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -943,12 +1083,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Neque velit etiam class blandit montes nam natoque a sociis quam auctor. Morbi justo elementum adipiscing. Dolor lacus blandit vel tempus vel et lectus placerat suspendisse non ut montes. Proin donec senectus. Fames metus. Porta ipsum ullamcorper et ligula tortor commodo potenti. Donec porta. Metus morbi. Purus netus. Velit fusce class orci at. Metus vitae class non vel nec mus. Class magna ullamcorper sagittis purus morbi nonummy.\n", 
+        "text": "Porta proin. Lacus dolor non elit interdum. Lacus class. Fusce class condimentum senectus metus. Risus augue cubilia integer nunc et nunc eleifend nulla potenti nisl odio varius. Metus lacus. Netus risus. Fusce nulla quis morbi fringilla parturient iaculis. Netus neque. Fames purus curabitur porttitor purus fringilla. Fames lacus donec curae. Purus fusce condimentum non magnis integer quisque blandit odio vel. Metus risus. Etiam proin tempus ac orci cubilia at.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -956,12 +1096,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Proin massa taciti dictum suscipit. Netus fusce volutpat. Vitae risus. Fames curae non nisi. Vitae porta enim a massa sodales. Proin etiam. Ipsum proin placerat neque. Donec augue. Velit lacus tellus felis dui donec. Class purus rutrum vehicula nunc auctor. Risus donec a dapibus ligula ad eget sagittis dis. Fames metus platea proin class eget. Porta magna pede ultricies. Etiam ipsum condimentum ante eget nec lorem viverra sit.\n", 
+        "text": "Class morbi ultricies class a tortor orci aliquam urna parturient nam. Metus ipsum. Metus augue accumsan in ullamcorper diam. Proin risus duis scelerisque in. Lacus dolor. Etiam lacus porta quisque est sagittis. Porta vitae mollis nulla molestie class pede mattis sagittis ullamcorper non. Curae fusce nisi vel magna class vel. Magna purus primis nostra nunc ligula mollis sociosqu conubia iaculis. Fusce lorem iaculis justo cum eget feugiat fames.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -969,23 +1109,23 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Morbi purus eni lorem posuere eu tempus ridiculus. Curae morbi. Ipsum lorem massa sed nibh a metus potenti. Massa lacus praesent eni eros at vulputate posuere libero. Risus velit per. Porta etiam. Netus lacus elit euismod odio purus taciti. Ipsum augue a tortor. Morbi felis magnis felis id a. Purus porta. Morbi vitae nullam magna euismod nunc. Massa magna ligula neque nisl eros lacus fringilla habitant pede.\n", 
+        "text": "Velit risus velit justo rutrum elementum felis eu. Massa neque. Lorem proin viverra semper. Risus morbi eros. Felis augue. Purus massa donec dictum malesuada nullam bibendum malesuada netus. Fames metus etiam nec cras in metus non semper ut ornare. Lorem donec accumsan velit fermentum taciti cras eros. Justo velit fusce primis. Risus purus. Porta magna suspendisse sagittis eget sem. Lacus massa erat feugiat dapibus curabitur.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }, 
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Neque felis. Justo lorem nam erat leo egestas at mi ligula netus cum quam parturient amet donec class. Neque class. Netus neque class. Ipsum lacus. Dolor netus. Proin risus lacus magna viverra rhoncus semper. Fusce magna lorem ultrices. Vitae risus integer eros a erat at. Augue ipsum accumsan velit cras nonummy. Morbi neque. Donec neque. Purus neque ridiculus ante sit est sodales vel fermentum.\n", 
+        "text": "Dolor donec vehicula purus nisi hymenaeos dolor. Risus purus libero metus sed ornare malesuada. Augue netus tortor felis nec tortor. Magna justo. Proin nulla augue enim feugiat in urna. Lorem magna. Ipsum felis mus vestibulum eu dictumst cubilia. Lacus class curae tellus. Netus magna lacus a ligula ridiculus vestibulum nisi tellus dignissim mi ve. Proin etiam est quis lacinia iaculis ligula nulla. Magna etiam euismod tempor imperdiet molestie.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -993,12 +1133,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Justo dolor fames viverra est natoque pede diam ante sem sociis vivamus blandit praesent platea. Netus morbi. Justo donec a diam massa ad turpis hac. Fusce justo nulla arcu ullamcorper aliquam ipsum at nulla praesent adipiscing litora est iaculis. Neque velit felis nascetur per blandit ve vel cras nam. Felis ipsum suscipit. Lorem etiam. Velit lacus vel. Fames augue tellus cubilia pretium tellus. Curae justo sociis nec.\n", 
+        "text": "Vitae velit vehicula ve magnis. Porta neque proin. Dolor etiam nam nunc a erat adipiscing. Neque class ipsum pede fusce. Purus curae nec erat nunc nibh fusce suspendisse non platea varius consequat. Magna fames arcu conubia. Lacus massa volutpat odio auctor id eget accumsan a. Purus metus neque a odio dolor dui mus. Vitae class. Class proin tempor faucibus id. Fusce augue. Lacus velit. Risus neque quam. Lacus nulla.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
@@ -1008,12 +1148,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Magna porta. Porta netus cursus praesent. Lorem magna volutpat ac. Augue curae. Neque magna. Vitae lorem class etiam. Justo netus morbi suspendisse quis duis arcu pede consequat ante nonummy. Neque nulla aliquam ante arcu leo. Fames dolor cum metus. Magna porta justo vel aliquet ad mauris pulvinar netus rhoncus fringilla nunc. Velit curae. Morbi proin purus egestas erat parturient varius pede scelerisque dapibus sem. Magna class sagittis. Vitae ipsum.\n", 
+        "text": "Netus metus eget tempus malesuada donec a eros nulla odio mus diam in. Curae proin ante rhoncus. Morbi fusce. Metus etiam. Vitae proin rutrum ullamcorper morbi. Donec netus sapien orci et pellentesque primis et proin nostra adipiscing lacus nisi sem diam justo. Proin purus arcu mattis tempus lacinia nostra mi vel. Nulla velit a quam. Lorem neque auctor aliquam odio parturient. Donec velit.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1021,12 +1161,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Ipsum felis. Donec lacus. Neque risus viverra dis volutpat lacinia. Nulla curae semper ultricies mi curabitur vitae at nec imperdiet. Porta morbi felis duis tempus molestie habitasse inceptos quis rhoncus enim mi. Augue neque. Augue felis facilisi lorem eni enim eu. Neque massa. Nulla massa interdum vestibulum lacinia quis congue morbi venenatis eni facilisis viverra consectetuer vivamus dictumst lectus lacinia.\n", 
+        "text": "Fames fusce nibh vitae hymenaeos sodales cursus lorem vestibulum. Proin neque etiam duis nostra per natoque molestie cras lectus accumsan enim. Netus fusce praesent eget sagittis mus rutrum quisque. Donec nulla ullamcorper orci arcu cursus at dictum a adipiscing nec lorem. Magna purus. Netus magna feugiat praesent. Massa dolor sociis. Proin augue taciti nisi quam enim elit nullam gravida aliquam.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1034,12 +1174,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Augue class. Porta metus quam duis fermentum mattis inceptos dolor. Velit fames nisl fusce tincidunt sed nisi ad augue quam non donec vivamus. Lacus metus eni pulvinar imperdiet bibendum. Proin augue ipsum vitae cubilia euismod commodo. Donec velit ornare netus cum quam luctus mi senectus sodales hendrerit ligula. Proin lorem. Metus vitae. Morbi fusce varius purus consequat. Lorem nulla libero. Purus magna sed.\n", 
+        "text": "Risus morbi ullamcorper nisl enim non. Porta ipsum eni eget nunc lacinia erat diam euismod ipsum id habitasse. Augue felis dignissim dictum. Fames metus cum velit leo urna. Massa netus curae interdum nunc ut. Vitae porta orci viverra a ornare fusce. Netus augue nibh a. Neque lacus. Metus purus cum nisi sagittis commodo tristique cum pede odio. Metus lorem. Netus donec accumsan eros accumsan parturient imperdiet ullamcorper non ad lacinia.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1047,12 +1187,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Vitae neque. Velit neque vulputate elementum curae diam nec donec proin. Curae porta habitant ante cursus vestibulum consectetuer egestas netus risus. Etiam dolor a quam at ante enim curabitur cum vulputate. Nulla ipsum justo sem conubia luctus. Lorem netus. Dolor nulla est elementum leo rhoncus eget id consectetuer litora varius. Velit netus potenti diam at hendrerit. Neque proin est quam.\n", 
+        "text": "Magna etiam. Nulla donec elementum senectus et pede dignissim. Justo fames taciti ultricies ad consequat duis sodales mi nostra maecenas purus. Justo velit etiam habitant morbi feugiat amet. Justo etiam varius neque suspendisse vel sociis conubia quisque. Purus dolor. Proin neque. Proin class felis velit laoreet ligula elit fusce convallis nonummy semper mus. Justo augue elit scelerisque lacinia netus cum aliquet eleifend vivamus morbi cum.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1060,12 +1200,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Fusce purus cum nostra nisl magnis. Risus nulla massa dictum. Dolor ipsum nonummy nascetur commodo euismod consequat interdum molestie eu. Felis vitae rutrum primis urna cubilia semper. Metus curae a pede. Justo vitae lectus netus parturient lacinia urna odio metus curabitur. Fames augue congue pellentesque fringilla proin erat posuere leo adipiscing. Lacus proin nam eget inceptos. Morbi nulla leo volutpat ridiculus nostra volutpat. Class fames nulla senectus cras fermentum.\n", 
+        "text": "Netus etiam gravida tortor eros dui class. Justo lacus est turpis vivamus dapibus enim pellentesque parturient nibh tincidunt vel. Porta purus tempor dictum metus sit nunc vestibulum eni fames parturient pharetra. Vitae metus laoreet interdum. Lacus proin leo magna consequat scelerisque. Porta dolor a pretium mollis in nonummy amet tortor ornare ultrices donec ac quis ultrices. Porta augue aliquet sem quis sollicitudin inceptos. Fames netus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1073,27 +1213,27 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Curae massa. Ipsum nulla est pretium eros orci. Felis vitae nisi per quam malesuada sociosqu. Ipsum velit class. Magna lacus sed erat torquent a senectus. Dolor morbi rutrum suspendisse velit vulputate justo amet velit orci dictumst suspendisse. Nulla curae nam neque convallis vehicula mollis magnis ante. Fames purus sapien massa ante accumsan elit ligula tincidunt vitae. Velit justo luctus lacus. Porta neque luctus.\n", 
+        "text": "Justo donec aliquam senectus taciti nunc iaculis nunc nulla. Velit augue congue mauris. Augue netus elit iaculis nec. Fusce curae senectus. Massa augue. Etiam augue. Neque velit iaculis sapien et montes hendrerit eu vulputate ullamcorper leo dictum natoque commodo amet dictumst massa. Massa purus tortor cursus. Massa nulla quam nulla dignissim arcu nisi massa laoreet. Nulla lorem cum. Curae nulla suspendisse diam tempor eu.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ]
   }, 
-  "utilities": {
+  "waste": {
     "nonpayroll": [
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Fusce netus habitant ut neque risus porta eros gravida at lectus pulvinar ullamcorper sem. Lacus proin. Morbi porta tellus eu ante facilisi dui. Dolor risus proin facilisi curae. Velit metus. Lorem ipsum curae tempor ante fringilla primis eni et elementum. Massa purus a nostra cras eu duis. Dolor lacus dis odio eros adipiscing sed nulla amet quisque. Neque fames turpis odio ad. Dolor etiam aptent netus fusce aenean. Proin augue.\n", 
+        "text": "Fusce proin gravida vivamus quam quis bibendum. Neque metus. Risus dolor tincidunt erat hac donec vestibulum nascetur netus. Nulla donec. Proin etiam a conubia primis felis metus sed elit dis. Velit neque eget enim dictumst a. Velit justo a viverra semper vulputate parturient eni. Fusce augue rhoncus auctor nibh ac. Vitae curae sodales tempor ad maecenas sapien taciti porttitor tincidunt adipiscing euismod.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1101,12 +1241,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Fusce massa accumsan ac taciti. Metus lorem netus volutpat netus consectetuer fames mi ante purus curae magna dictum. Dolor donec tempor et luctus. Justo risus quam conubia massa id auctor. Metus porta curae elit sed curae odio penatibus per netus. Netus lorem luctus et tempus nascetur condimentum senectus pede nullam. Etiam ipsum nec imperdiet. Felis ipsum montes netus vestibulum maecenas feugiat.\n", 
+        "text": "Etiam class. Curae donec. Augue donec magna. Purus nulla justo auctor molestie venenatis vel diam sit fames laoreet. Donec magna donec viverra amet netus luctus ut vel purus vel. Augue porta. Lacus dolor. Netus curae integer mollis nulla commodo vulputate faucibus fusce elementum. Curae morbi. Morbi proin taciti potenti quisque urna. Velit massa nascetur proin. Porta curae pede vel nisl fames urna ornare eu.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1114,12 +1254,12 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Nulla metus. Lacus etiam massa justo nonummy ornare augue at. Class nulla odio euismod eu non. Velit risus sed arcu. Purus justo integer dapibus tempus. Justo dolor. Morbi curae fames cras eu inceptos conubia sodales hendrerit sed nonummy a ullamcorper dis eget. Dolor risus tortor nostra nulla facilisis pharetra felis a libero arcu quisque. Massa felis a tortor vitae eu. Fusce netus ultrices massa pede curae nisi senectus.\n", 
+        "text": "Donec massa nisl a. Morbi purus. Ipsum class egestas porta dapibus. Vitae nulla ullamcorper faucibus justo. Velit vitae vel felis. Vitae morbi massa mus. Metus netus inceptos fermentum cras orci dis. Lacus fusce sagittis curabitur pede sed cras est donec. Morbi fames risus dictum velit taciti porta accumsan metus. Porta morbi bibendum nec urna pulvinar rutrum congue pulvinar. Felis ipsum vel diam congue ut quis. Dolor nulla.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
         }
       }
     ], 
@@ -1127,12 +1267,66 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "DE"
+          "state": "MD"
         }, 
-        "text": "Lorem justo hac orci diam. Porta metus a orci in consectetuer lacinia class fames orci duis odio orci tristique. Etiam justo tortor suspendisse ipsum ligula eu habitant nibh nec. Porta etiam suscipit class nisi venenatis tempus vehicula pharetra blandit egestas quam nisl fusce. Proin velit suspendisse nisi erat. Vitae velit. Purus fusce rhoncus aliquam luctus netus senectus augue. Class nulla velit. Augue risus dictum cum ut suscipit metus hymenaeos.\n", 
+        "text": "Fames risus posuere. Curae purus curabitur ullamcorper. Vitae netus sapien. Class donec penatibus fusce facilisi eni luctus ac. Lacus magna dictum. Donec lacus sed eni cum sit eu nibh pretium commodo nisl. Dolor lacus auctor diam etiam ut nulla id arcu nibh magna ad. Magna netus magna feugiat. Fames donec libero netus. Donec felis eros sem facilisis. Fusce metus porta eros leo cum. Risus magna. Risus netus morbi neque lectus.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "VT"
+          "state": "DC"
+        }
+      }
+    ]
+  }, 
+  "water": {
+    "nonpayroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Lorem felis non semper nec. Felis fames condimentum diam tempus at bibendum netus. Metus porta erat sodales id turpis rhoncus sociis morbi nisi molestie sollicitudin luctus id. Massa dolor lacus. Dolor neque mus quis lacinia mi sit ullamcorper gravida. Massa fusce vel turpis cum posuere semper. Velit vitae dictumst vitae. Metus donec commodo montes proin quisque id. Dolor ipsum maecenas. Augue lorem tortor imperdiet.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "payroll": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Class fames cursus ad facilisi nibh odio. Massa class tellus et varius pede. Neque lorem arcu dui ipsum potenti nascetur conubia auctor. Netus massa praesent per commodo. Lorem morbi. Curae risus. Risus lorem aliquet mus. Fusce neque consequat felis facilisis. Velit etiam turpis fusce nunc viverra habitasse. Netus purus nisl dignissim praesent id magna venenatis mus felis sed. Class velit suspendisse nascetur habitasse pellentesque cubilia.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "spending": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Etiam velit nunc cum viverra ut vel nibh. Proin dolor. Etiam class nisl amet ac neque consequat donec. Curae etiam lacus vitae duis nisi porta purus nostra ut. Massa curae cras. Purus porta. Lacus metus nibh diam elit in consectetuer commodo class posuere. Augue dolor mus diam taciti accumsan parturient natoque per. Fames fusce. Nulla fusce. Velit proin. Porta augue class per magna dis felis fermentum convallis adipiscing.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
+        }
+      }
+    ], 
+    "units": [
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "MD"
+        }, 
+        "text": "Fusce metus vivamus. Morbi lorem. Donec proin torquent parturient habitasse duis. Porta nulla orci dictum potenti pede. Class ipsum enim dapibus nullam erat mauris bibendum id. Donec magna sociis porttitor praesent. Fames lorem cursus commodo cras. Netus magna. Massa neque dui aenean. Proin fames ipsum bibendum nibh at magna. Class nulla. Magna dolor. Etiam netus ornare eu dis. Morbi lorem dolor vulputate mattis senectus.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "DC"
         }
       }
     ]

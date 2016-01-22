@@ -10,7 +10,11 @@ var COLUMNS = {
 	"admin": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"resources": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"parks": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
-	"utilities": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
+	"electric": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
+	"gas": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
+	"sewage": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
+	"waste": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
+	"water": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"k12": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"fire": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"police": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
@@ -94,7 +98,7 @@ function drawMenu(){
     				.style("color","#eb3f1c")
     				.style("background","#e6e6e6")
 			}else {
-				var utilities = ["gas","electric","sewage","solid","water"]
+				var utilities = ["gas","electric","sewage","waste","water"]
 				if(utilities.indexOf(category) == -1){
 					if( d3.select(".navButton.utilities").classed("active")){
 		    			d3.selectAll(".container .navButton:not(." + category + ")")
@@ -132,7 +136,7 @@ function hideSubcontainer(){
 		.style("margin-top","0")
 		.style("padding-top", "0")
 }
-function renderHeatmap(category, location){
+function renderHeatmap(category, userLocation){
 	// var promise2 = new Promise(function(resolve, reject){
 	d3.selectAll(".cell").classed("garbage", true);
 	d3.selectAll(".row").classed("garbage", true);
@@ -357,10 +361,29 @@ function renderHeatmap(category, location){
 		.duration(200)
 		.style("opacity",0)
 	setTimeout(function(){
-		drawBlurbs(category, "spending", false)
-		if(typeof(location) != "undefined"){
-			stickyState({"state": location})
-		}
+		if(typeof(userLocation) != "undefined"){
+			var small_promise =  new Promise(function(resolve, reject){
+				var test = stickyState({"state": userLocation})
+				// console.log(test)
+				if(test.length == 1){
+					resolve(test)	
+				}
+				
+			})
+			small_promise.then(function(result){
+				console.log(result)
+				
+				drawBlurbs(category, "spending", false)	
+				return false;
+			})
+			.then(function(result){
+				d3.selectAll(".blurbBox:not(.garbage)")
+					.transition()
+					.duration(400)
+					.style("opacity",1)
+			})
+			
+		}else{ drawBlurbs(category, "spending", false) }
 		d3.selectAll(".garbage").remove()
 		d3.selectAll(".blurbBox:not(.garbage)")
 				.transition()
@@ -376,6 +399,7 @@ function renderHeatmap(category, location){
 
 	}, 200)
 // })
+
 
 	// promise2.then(function(result){
 	// 	drawBlurbs(result.category, result.column)
@@ -532,7 +556,9 @@ function stickyState(state){
 
 		var index = CHECKED.indexOf(name)
 		CHECKED.splice(index,1)
+		
 	}
+	return CHECKED
 }
 
 function mouseover(cell, datum, column, category){
@@ -593,7 +619,9 @@ var promise = new Promise(function(resolve, reject){
 	      	resolve(data.region_code)
 	    },
         error: function(error){
+        	console.log("error locating user")
     		resolve("")
+
     	}
 	});
 })
@@ -707,17 +735,20 @@ function drawBlurbs(category, column, resize){
 			.duration(200)
 			.style("opacity",0)
 		setTimeout(function(){
-		// drawBlurbs(category, "spending", false)
-		// if(typeof(location) != "undefined"){
-		// stickyState({"state": location})
-		// }
+		drawBlurbs(category, "spending", false)
+		if(typeof(userLocation) != "undefined"){
+			stickyState({"state": userLocation})
+		}
 		d3.selectAll(".garbage").remove()
 		d3.selectAll(".blurbBox:not(.garbage)")
 			.transition()
 			.duration(400)
 			.style("opacity",1)
+		console.log()	
 		d3.selectAll("svg.connector").forEach(function(obj){
-			d3.select("#heatmap").node().insertBefore(obj[0], d3.select(".blurbBox").node())
+			if(d3.selectAll("svg.connector")[0].length > 1){
+				d3.select("#heatmap").node().insertBefore(obj[0], d3.select(".blurbBox").node())
+			}
 		})
 
 		}, 200)
@@ -829,16 +860,13 @@ function drawBlurb(blurbList, column, numCols){
 
 		// d3.selectAll(".map").transition()
 		if(blurb.top_left.column == "spending"){
-			console.log(top, height)
 			d3.selectAll(".cell.spending:not(.garbage)")
 			.each(function(c){
 				var rank = (c[column + "_rank"] == 99) ? 52:c[column + "_rank"]
 				var t = ((rank * ROW_HEIGHT) + headerHeight)+30
 				// var bb = d3.select(".row." + c.state + ":not(.garbage) .spending.cell").node().getBoundingClientRect()
 				if(t > top && t < top + height){
-					// console.log(c.state)
 					if(d3.select(".row." + c.state + ":not(.garbage) .stateCheck").classed("checked")){
-						// console.log(c.state)
 						blurbBox.attr("data-checked", function(){
 							return parseInt(blurbBox.attr("data-checked")) + 1
 						})
