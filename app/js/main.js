@@ -1026,7 +1026,7 @@ function drawBlurb(blurbList, column, numCols){
 
 
 		}
-				else if(centers[0].x == centers[1].x || Math.abs(centers[0].x - centers[1].x) == 7.5){
+		else if(centers[0].x == centers[1].x || Math.abs(centers[0].x - centers[1].x) < 10){
 //vertical connecting line
 			svg = d3.select("#heatmap")
 				.append("svg")
