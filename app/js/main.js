@@ -97,6 +97,12 @@ function drawMenu(){
     				.style("border-color","#eb3f1c")
     				.style("color","#eb3f1c")
     				.style("background","#e6e6e6")
+				d3.selectAll(".navButton.active").classed("active",false)
+				d3.select(".navButton.gas").classed("active",true)
+
+    			return renderHeatmap("gas")
+
+
 			}else {
 				var utilities = ["gas","electric","sewage","waste","water"]
 				if(utilities.indexOf(category) == -1){
@@ -121,6 +127,11 @@ function drawMenu(){
 					d3.select(this).classed("active",true)
 
 					hideSubcontainer();
+
+				}else{
+					d3.selectAll(".navButton.active").classed("active",false)
+					d3.select(this).classed("active",true)
+
 				}
 				return renderHeatmap(category)
 			}
@@ -363,17 +374,22 @@ function renderHeatmap(category, userLocation){
 	setTimeout(function(){
 		if(typeof(userLocation) != "undefined"){
 			var small_promise =  new Promise(function(resolve, reject){
-				var test = stickyState({"state": userLocation})
+				// var test = stickyState({"state": userLocation})
 				// console.log(test)
-				if(test.length == 1){
-					resolve(test)	
-				}
+				var test = drawBlurbs(category, "spending", false)	
+
+				// if(test.length == 1){
+				// 	resolve(test)	
+				// }
+				resolve(test)
 				
 			})
 			small_promise.then(function(result){
 				console.log(result)
+				setTimeout(function(){
+					stickyState({"state": userLocation})	
+				}, 400)
 				
-				drawBlurbs(category, "spending", false)	
 				return false;
 			})
 			.then(function(result){
@@ -754,6 +770,7 @@ function drawBlurbs(category, column, resize){
 		}, 200)
 
 	}
+	return bs;
 }
 function drawBlurb(blurbList, column, numCols){
 	var centers = []
@@ -1143,6 +1160,7 @@ function showMenu(parentCategory){
 			case "social":
 				category = "ccdf";
 				break;
+
 		}
 		d3.selectAll(".navButton.active").classed("active",false)
 		d3.select(".navButton." + category).classed("active",true)
@@ -1272,17 +1290,18 @@ $(window).scroll(function(e){
 
 	var leftStick = d3.select("#heatmap").node().getBoundingClientRect().height - d3.select(".left.gutter").node().getBoundingClientRect().height
 	var leftPositionFixed = (d3.select(".left.gutter").style("position") == "fixed")
-
 	if (heatTop < 0 && !leftPositionFixed){
 		$('.left.gutter').css({'position': 'fixed', 'top': '116px'}); 
 	}
-	if (heatTop > 0 && leftPositionFixed)
-	{
-		$('.left.gutter').css({'position': 'absolute', 'top': '116px'}); 
-	}
-	if (heatBottom <= leftBottom && leftTop <= 116){
+	if (heatBottom <= leftBottom+1 && leftTop <= 116){
 		$('.left.gutter').css({'position': 'absolute', 'top': leftStick}); 
 	}
+	if (heatTop > 0 && leftPositionFixed)
+	{
+		console.log("b")
+		$('.left.gutter').css({'position': 'absolute', 'top': '116px'}); 
+	}
+
 
 	var heatTop = d3.select("#heatmap").node().getBoundingClientRect().top
 	var heatBottom = d3.select("#heatmap").node().getBoundingClientRect().bottom
@@ -1300,7 +1319,7 @@ $(window).scroll(function(e){
 	{
 		$('.right.gutter').css({'position': 'absolute', 'top': '116px'}); 
 	}
-	if (heatBottom <= rightBottom && rightTop <= 116){
+	if (heatBottom <= rightBottom+1 && rightTop <= 116){
 		$('.right.gutter').css({'position': 'absolute', 'top': rightStick}); 
 	}
 

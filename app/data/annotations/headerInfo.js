@@ -32,6 +32,17 @@ var HEADER_INFO = {
     "takeup2": ".", 
     "units": "Number of corrections employees per prisoner or parolee."
   }, 
+  "electric": {
+    "demographics": ".", 
+    "eligibility": ".", 
+    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
+    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
+    "spending": "State and local dollars spent on utilities per state resident.", 
+    "spending-per": "", 
+    "takeup": ".", 
+    "takeup2": "", 
+    "units": "Number of utility employees per state resident."
+  }, 
   "fire": {
     "demographics": ".", 
     "eligibility": ".", 
@@ -42,6 +53,17 @@ var HEADER_INFO = {
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of fire employees per state resident."
+  }, 
+  "gas": {
+    "demographics": ".", 
+    "eligibility": ".", 
+    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
+    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
+    "spending": "State and local dollars spent on utilities per state resident.", 
+    "spending-per": "", 
+    "takeup": ".", 
+    "takeup2": "", 
+    "units": "Number of utility employees per state resident."
   }, 
   "higher": {
     "demographics": "The number of 18-24 year olds in the state, accounting for those who move for college, as a share of state population.", 
@@ -131,6 +153,17 @@ var HEADER_INFO = {
     "takeup2": ".", 
     "units": "Number of natural resources employees per state resident."
   }, 
+  "sewage": {
+    "demographics": ".", 
+    "eligibility": ".", 
+    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
+    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
+    "spending": "State and local dollars spent on utilities per state resident.", 
+    "spending-per": "", 
+    "takeup": ".", 
+    "takeup2": "", 
+    "units": "Number of utility employees per state resident."
+  }, 
   "ssi": {
     "demographics": "Number of elderly or disabled people living at or below 200% of the poverty line per state resident.", 
     "eligibility": "The number of people eligble under the state's SSI rules per elderly or disabled person at or below 200% of the poverty line.", 
@@ -165,6 +198,28 @@ var HEADER_INFO = {
     "units": "The number of transit miles per state resident."
   }, 
   "utilities": {
+    "demographics": ".", 
+    "eligibility": ".", 
+    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
+    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
+    "spending": "State and local dollars spent on utilities per state resident.", 
+    "spending-per": "", 
+    "takeup": ".", 
+    "takeup2": "", 
+    "units": "Number of utility employees per state resident."
+  }, 
+  "waste": {
+    "demographics": ".", 
+    "eligibility": ".", 
+    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
+    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
+    "spending": "State and local dollars spent on utilities per state resident.", 
+    "spending-per": "", 
+    "takeup": ".", 
+    "takeup2": "", 
+    "units": "Number of utility employees per state resident."
+  }, 
+  "water": {
     "demographics": ".", 
     "eligibility": ".", 
     "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
