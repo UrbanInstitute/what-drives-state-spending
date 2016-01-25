@@ -1128,15 +1128,15 @@ Sorted by: spending
 
 
 
-Top left State: DC, DC
+Top left State: DC, VT
 
-Top left Column: spending, units
+Top left Column: SPENding, spending
 
 
 
-Bottom right State: MD, MD
+Bottom right State: AK, CT
 
-Bottom right Column: spending, units
+Bottom right Column: spending, spending
 
 
 

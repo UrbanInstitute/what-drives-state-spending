@@ -32,7 +32,7 @@ var HEADERS ={
 	"nonpayroll": "<div class = \"innerHeader\"><span id = \"left\">+</span>non payroll<span id = \"right\">)</span></div>",
 	"spending-per":"<div class = \"innerHeader\"><span>&times;</span>spending per<br/>recipient</div>"
 }
-var ROW_HEIGHT = 32;
+ROW_HEIGHT = 32;
 var COLUMN_WIDTH = 99;
 var headerHeight = 116-56;
 var LAST_HIGHLIGHT = Date.now()
@@ -647,7 +647,9 @@ var promise = new Promise(function(resolve, reject){
 
 
 drawMenu();
+var TABLET;
 promise.then(function(result){
+	TABLET = d3.select(".gutter").style("display") == "none"
 	renderHeatmap("housing", result);
 })
 
@@ -695,9 +697,9 @@ function drawBlurbs(category, column, resize){
 		var blurbList = [];
 		if(bs[i].top_left.state.indexOf(",") != -1){
 		// var blurbPromise = new Promise(function(resolve, reject){
-			var br_cols = bs[i].bottom_right.column.replace(/\s/g,"").split(",")
+			var br_cols = bs[i].bottom_right.column.replace(/\s/g,"").toLowerCase().split(",")
 			var br_states = bs[i].bottom_right.state.replace(/\s/g,"").split(",")
-			var tl_cols = bs[i].top_left.column.replace(/\s/g,"").split(",")
+			var tl_cols = bs[i].top_left.column.replace(/\s/g,"").toLowerCase()	.split(",")
 			var tl_states = bs[i].top_left.state.replace(/\s/g,"").split(",")
 			var text = bs[i].text;
 			var num = br_cols.length
@@ -715,6 +717,8 @@ function drawBlurbs(category, column, resize){
 					"index": i
 				}
 				blurbList.push(b)
+			console.log(b)
+
 			}
 
 			drawBlurb(blurbList, column, numCols)
@@ -872,6 +876,7 @@ function drawBlurb(blurbList, column, numCols){
 			.style("height",(ROW_HEIGHT-6) + "px")
 			.text(indChar)
 			.on("mouseover",function(){
+				console.log(TABLET)
 				breathe("text",indChar)
 				breathe("mini",indChar)
 			})
@@ -978,7 +983,57 @@ function drawBlurb(blurbList, column, numCols){
 				.attr("clip-path", "url(#clip1)")
 
 
-		}else{
+		}
+				else if(centers[0].x == centers[1].x || Math.abs(centers[0].x - centers[1].x) == 7.5){
+//vertical connecting line
+			svg = d3.select("#heatmap")
+				.append("svg")
+				.attr("class", "connector")
+				.attr("height", centers[bottom]["y"] - centers[top]["y"])
+				.attr("width", ROW_HEIGHT)
+				.style("position","absolute")
+				.style("left",centers[left]["x"]  - ROW_HEIGHT/2)
+				.style("top",centers[top]["y"])	
+
+			svg
+				.append("defs")
+					.append("clipPath")
+						.attr("id", "clip1")
+						.append("rect")
+						.attr("y",centers[top]["height"]/2 + 8)
+						.attr("x",0)
+						.attr("width",ROW_HEIGHT)
+						.attr("height",0)
+						.transition()
+						.duration(1500)
+						.attr("height", (centers[bottom]["y"] - centers[top]["y"]) - (centers[bottom]["height"]/2 + centers[top]["height"]/2) - 7)
+			svg.append("line")
+				.attr("y1", 0)
+				.attr("y2", centers[bottom]["y"] - centers[top]["y"])
+				.attr("x1", ROW_HEIGHT/2)
+				.attr("x2", ROW_HEIGHT/2)
+				.attr("class","connector connectorBg")
+				.attr("stroke", "rgba(255,255,255,.5")
+				.attr("stroke-width",20)
+				.attr("clip-path", "url(#clip1)")
+
+
+			svg.append("line")
+				.attr("y1", 0)
+				.attr("y2", centers[bottom]["y"] - centers[top]["y"])
+				.attr("x1", ROW_HEIGHT/2)
+				.attr("x2", ROW_HEIGHT/2)
+				.attr("stroke", "#eb3f1c")
+				.attr("stroke-width",10)
+				.attr("stroke-linecap","round")
+				.attr("stroke-dasharray","0,20")
+				.attr("clip-path", "url(#clip1)")
+
+
+		}
+
+
+		else{
 			svg = d3.select("#heatmap")
 				.append("svg")
 				.attr("class", "connector")
@@ -1360,6 +1415,8 @@ $(window).scroll(function(e){
 });
 
 $(window).resize(function(e){
+	TABLET = d3.select(".gutter").style("display") == "none"
+
 	var category = getCategory();
 	var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
 

@@ -1,17 +1,28 @@
-#temp{
-	font-family: crimson_textbold;
+@media (max-width:1055px){
+	.gutter{
+		display: none;
+	}
+	.boxLabel{
+		width: 40px !important;
+		height: 40px !important;
+		font-size: 26px !important;
+		line-height: 1.5 !important;
+	}
 }
-
-
+@media (max-width:1100px){
+	.left.gutter{
+		left: 0;
+	}
+	.right.gutter{
+		right: 0;
+	}
+}
 body{
 	font-family: Lato;
 	margin: 0;
 }
 *:focus{
    outline: 0;
-}
-#temp{
-	font-size: 22px;
 }
 /*******************************************************/
 /******************* HEATMAP  **************************/
