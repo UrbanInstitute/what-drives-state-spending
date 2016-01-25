@@ -597,6 +597,17 @@ var blurbs = {
           "column": "SPENding, spending", 
           "state": "DC, VT"
         }
+      }, 
+      {
+        "bottom_right": {
+          "column": "payroll, Payroll", 
+          "state": "AK, CT"
+        }, 
+        "text": "Donec etiam rutrum purus non. Justo nulla rutrum. Nulla massa etiam scelerisque pulvinar blandit pellentesque elementum morbi class nascetur. Velit proin. Velit netus euismod interdum sociis taciti per iaculis congue hymenaeos. Curae class rhoncus tortor eni adipiscing class blandit nisi. Fames fusce magna ridiculus commodo curae. Lorem nulla. Dolor fusce sociis. Lorem netus. Porta lorem aenean est taciti a vestibulum dis metus per. Velit felis. Neque fusce per nibh hymenaeos.\n", 
+        "top_left": {
+          "column": "Payroll, payroll", 
+          "state": "DC, VT"
+        }
       }
     ], 
     "takeup": [

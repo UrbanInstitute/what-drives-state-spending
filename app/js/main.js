@@ -687,6 +687,7 @@ function drawBlurbs(category, column, resize){
 		d3.selectAll(".blurbText").classed("garbage", true);
 		d3.selectAll(".connector").classed("garbage", true);
 	}
+	d3.selectAll(".tabletBoxtext").remove();
 	MINIBLURB_INDEX = 0;
 	var numCols = (category == "ssi" || category == "ccdf" || category == "tanf") ? 6 : 7;
 
@@ -876,10 +877,51 @@ function drawBlurb(blurbList, column, numCols){
 			.style("height",(ROW_HEIGHT-6) + "px")
 			.text(indChar)
 			.on("mouseover",function(){
-				console.log(TABLET)
+				if(TABLET){
+					if(d3.select(".tab_" + indChar).node() == null){
+						var left = d3.select(this).node().parentNode.getBoundingClientRect().left
+						var right = d3.select("body").node().getBoundingClientRect().width - d3.select(this).node().parentNode.getBoundingClientRect().right
+
+						var top = d3.select(d3.select(this).node().parentNode).style("top")
+						var edge = d3.select("html").node().getBoundingClientRect().right
+						var text = d3.select(".blurbText.index_" + indChar + " .innerText").text()
+						var tabBox;
+						if(edge - left - 250 > 0){
+							tabBox = d3.select("#heatmap")
+								.append("div")
+								.attr("class","tabletBoxtext left tab_" + indChar)
+								.style("position","absolute")
+								.style("left",left +"px")
+								.style("top",top)
+								.style("width","190px")
+								.text(text)
+						}else{
+							tabBox = d3.select("#heatmap")
+								.append("div")
+								.attr("class","tabletBoxtext right tab_" + indChar)
+								.style("position","absolute")
+								.style("right",right +"px")
+								.style("top",top)
+								.style("width","190px")
+								.text(text)
+						}
+						tabBox.append("div")
+							.attr("class","tabLabel")
+							.text(indChar)
+						tabBox.append("img")
+							.attr("src","img/close.png")
+							.attr("class","tabClose")
+							.on("click", function(){
+								d3.select(d3.select(this).node().parentNode).remove();
+							})
+					}
+				}
 				breathe("text",indChar)
 				breathe("mini",indChar)
 			})
+			// .on("mouseout",function(){
+			// 	d3.selectAll(".tabletBoxtext").remove()
+			// })
 			.on("click", function(){ scrollIn(indChar)})
 			// .style("")
 
