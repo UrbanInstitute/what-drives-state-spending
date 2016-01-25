@@ -106,7 +106,8 @@ function drawMenu(){
 			}else {
 				var utilities = ["gas","electric","sewage","waste","water"]
 				if(utilities.indexOf(category) == -1){
-					if( d3.select(".navButton.utilities").classed("active")){
+					// if( d3.select(".navButton.utilities").classed("active")){
+						console.log("A")
 		    			d3.selectAll(".container .navButton:not(." + category + ")")
 		    				.transition()
 		    				.duration(400)
@@ -122,13 +123,15 @@ function drawMenu(){
 		    			setTimeout(function(){
 		    				$(".container .navButton").removeAttr('style');
 		    			},500)
-		    		}
+		    		// }
+		    		console.log("b")
 					d3.selectAll(".navButton.active").classed("active",false)
 					d3.select(this).classed("active",true)
 
 					hideSubcontainer();
 
 				}else{
+					console.log("c")
 					d3.selectAll(".navButton.active").classed("active",false)
 					d3.select(this).classed("active",true)
 
@@ -1143,7 +1146,7 @@ function showMenu(parentCategory){
 
 		container
 			.transition()
-			.style("height","39px")
+			.style("height","41px")
 			.style("margin-top","60px")
 
 		var category;
@@ -1165,6 +1168,22 @@ function showMenu(parentCategory){
 		d3.selectAll(".navButton.active").classed("active",false)
 		d3.select(".navButton." + category).classed("active",true)
 		renderHeatmap(category)
+
+		d3.selectAll(".container .navButton:not(." + category + ")")
+			.transition()
+			.duration(400)
+			.style("border-color","#fff")
+			.style("color","#333")
+			.style("background","#fff")
+		d3.selectAll(".container .navButton." + category)
+			.transition()
+			.duration(400)
+			.style("border-color","#eb3f1c")
+			.style("color","#fff")
+			.style("background","#eb3f1c")
+		setTimeout(function(){
+			$(".container .navButton").removeAttr('style');
+		},500)
 		// drawBlurbs(category, "spending")
 
 	}
