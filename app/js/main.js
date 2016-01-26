@@ -1490,11 +1490,12 @@ $(window).scroll(function(e){
 $(window).resize(function(e){
 	TABLET = d3.select(".gutter").style("display") == "none"
 	PHONE = d3.select(".mobileTest").style("display") == "block"
-	if(PHONE){
-		resizePhone();
-	}
+	// if(PHONE){
+	// 	resizePhone();
+	// }
 	var category = getCategory();
 	var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
-
-	drawBlurbs(category, column, true)
+	if(! PHONE){
+		drawBlurbs(category, column, true)
+	}
 })
