@@ -645,6 +645,14 @@ function resizePhone(){
 	console.log((parseFloat(win)-46) + "px")
 	d3.selectAll(".catDescription")
 		.style("width",(parseFloat(win)-46) + "px")
+	d3.selectAll(".container")
+		.style("width",(parseFloat(win)-46) + "px")
+	d3.select(".navButton.ccdf")
+		.text("CCDF")
+	d3.select(".navButton.ssi")
+		.text("SSI")
+	d3.select(".navButton.tanf")
+		.text("TANF")
 }
 
 
@@ -1264,6 +1272,8 @@ function showMenu(parentCategory){
 		.html(CAT_DESCRIPTIONS[parentCategory])
 
 	var container = d3.select(".container." + parentCategory)
+	d3.selectAll(".openContainer").classed("openContainer",false)
+	container.classed("openContainer",true)
 	hideSubcontainer();
 	if(container.node() != null){
 		d3.selectAll(".container")

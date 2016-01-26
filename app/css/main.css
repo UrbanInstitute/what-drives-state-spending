@@ -86,10 +86,25 @@
 	.mobileTest{
 		display: block !important;
 	}
-	.navButton{
-	font: 10px Lato !important;
-    margin-right: 6px !important;
-    padding: 8px !important;
+/*	.navButton{
+		font: 10px Lato !important;
+    	margin-right: 6px !important;
+    	padding: 8px !important;
+	}*/
+	.tabClose{
+		width: 65px !important;
+	}
+	#containers{
+		border-bottom: none !important;
+	}
+	.container{
+		margin-top: 20px !important;
+	}
+	.openContainer{
+		height: 161px !important;
+	}
+	.openContainer .navButton{
+		margin-top: 30px !important;
 	}
 }
 .mobileTest{
