@@ -923,13 +923,16 @@ function drawBlurb(blurbList, column, numCols){
 					}
 				}
 				else if (PHONE){
+					var text = d3.select(".blurbText.index_" + indChar + " .innerText").text()
+					var win = d3.select("body").node().getBoundingClientRect().width
+
 					var tabBox = d3.select("#heatmap")
 								.append("div")
 								.attr("class","tabletBoxtext left tab_" + indChar)
 								// .style("position","fixed")
 								// .style("top","0px")
 								// .style("right","0px")
-								.style("width","190px")
+								.style("width",(parseFloat(win)-60) + "px")
 								.text(text)
 					tabBox.append("div")
 							.attr("class","tabLabel")
