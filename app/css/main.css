@@ -9,7 +9,7 @@
 		line-height: 1.5 !important;
 	}
 	.tabletBoxtext{
-		z-index: 99;
+		z-index: 101;
 		background: rgba(255,255,255,.9);
 		height: auto;
 		padding: 30px;
@@ -107,7 +107,16 @@
 		margin-top: 30px !important;
 	}
 	.scrollArrow{
-		pointer-events: none;
+		/*pointer-events: none;*/
+		text-align: center;
+	}
+	.arrowImg{
+		top: calc(50% - 90px);
+		/*font-size: 30px;*/
+		position: absolute;
+	}
+	.arrowImg img{
+		height: 90px;
 	}
 }
 .mobileTest{
