@@ -82,6 +82,7 @@ function drawMenu(){
 			d3.select(this).classed("active",true)
 
     			d3.select(".subcontainer.utilities")
+    				.style("overflow","visible")
     				.style("border-top", "1px solid white")
     				.transition()
     				.style("height", "28px")
@@ -142,6 +143,7 @@ function drawMenu(){
 function hideSubcontainer(){
 	d3.select(".subcontainer.utilities")
 		.style("border-top", "none")
+		.style("overflow","hidden")
 		.transition()
 		.style("height", "0")
 		.style("margin-top","0")
@@ -644,6 +646,9 @@ function resizePhone(){
 	var win = d3.select("body").node().getBoundingClientRect().width
 	// d3.select("scrollArrow")
 		// .style("")
+	var wx = window.scrollX;
+	d3.selectAll(".menuItem")
+		.style("margin-left",(23+parseFloat(wx)) + "px")
 	var arrow = d3.select("#heatmap")
 		.append("div")
 		.attr("class","scrollArrow")
@@ -663,6 +668,9 @@ function resizePhone(){
 		.style("width",(parseFloat(win)-46) + "px")
 	d3.selectAll(".container")
 		.style("width",(parseFloat(win)-46) + "px")
+	d3.selectAll(".subcontainer")
+		.style("width",(parseFloat(win)-46) + "px")
+
 	d3.select(".navButton.ccdf")
 		.text("CCDF")
 	d3.select(".navButton.ssi")
@@ -1458,7 +1466,12 @@ function getCategory(){
 
 
 $(window).scroll(function(e){
-	if(TABLET){
+	if(TABLET && !PHONE){
+		return false;
+	}else if(PHONE){
+		var wx = window.scrollX;
+		d3.selectAll(".menuItem")
+			.style("margin-left",(23+parseFloat(wx)) + "px")
 		return false;
 	}
 	var heatTop = d3.select("#heatmap").node().getBoundingClientRect().top

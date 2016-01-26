@@ -64,7 +64,7 @@
 		margin-left: 23px !important;
 	}
 	.menuItem{
-		margin-left: 23px !important;
+		margin-left: 23px;
 	}
 	.container{
 		/*height: auto !important;*/
@@ -105,6 +105,12 @@
 	}
 	.openContainer .navButton{
 		margin-top: 30px !important;
+	}
+	.subContainer{
+		/*height: 78px !important;*/
+	}
+	.subContainer .navButton{
+		margin-top: 10px;
 	}
 	.scrollArrow{
 		/*pointer-events: none;*/
