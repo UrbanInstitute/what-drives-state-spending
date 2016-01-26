@@ -1,0 +1,243 @@
+
+
+.info-bar {
+    background-color: #ffffff;
+    padding: 5px 0;
+    text-align: center;
+}
+.info-bar a.icon {
+    background-image: url("../img/core/icons-dark.svg"), none;
+    display: inline-block;
+    height: 30px;
+    margin: 0;
+    opacity: 0.3;
+    padding: 0;
+    position: relative;
+    vertical-align: middle;
+    width: 30px;
+}
+.info-bar .cmn-tut {
+    background-position: 0 0;
+}
+.info-bar .cmn-prev {
+    background-position: -30px 0;
+}
+.info-bar .cmn-next {
+    background-position: -60px 0;
+}
+.info-bar .cmn-download {
+    background-position: -90px 0;
+}
+.info-bar .cmn-archive {
+    background-position: -120px 0;
+}
+.info-bar a.icon[data-title]::after {
+    opacity: 1;
+}
+.info-bar a.icon[data-title]:hover::after {
+    background-color: #ffffff;
+    color: #000000;
+    content: attr(data-title);
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-size: 12px;
+    left: 0;
+    padding: 5px 10px;
+    position: absolute;
+    top: 100%;
+    white-space: nowrap;
+}
+header .branding {
+    padding: 20px 0;
+}
+header .logo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+header .logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+header .social {
+    text-align: center;
+}
+header .social a {
+    background-image: url("../img/core/social-light.svg"), none;
+    background-size: 180px 30px;
+    color: transparent;
+    display: inline-block;
+    font-size: 0;
+    height: 30px;
+    margin: 0 5px;
+    text-indent: -9999px;
+    vertical-align: middle;
+    width: 30px;
+}
+header .social a.fb {
+    background-position: 0 0;
+}
+header .social a.twitter {
+    background-position: -30px 0;
+}
+header .social a.googleplus {
+    background-position: -60px 0;
+}
+header .social a.rss {
+    background-position: -90px 0;
+}
+header .social a.email {
+    background-position: -120px 0;
+}
+header .social a.search {
+    background-position: -150px 0;
+}
+header .social a:hover {
+    opacity: 0.4;
+}
+@media all and (min-width: 600px) {
+header .branding {
+    padding-left: 60px;
+}
+header .logo {
+    float: left;
+    height: 60px;
+    margin-bottom: 0;
+    margin-left: -60px;
+    width: 60px;
+}
+header .logo img {
+    display: block;
+    margin: 0;
+}
+header .social {
+    float: right;
+    padding: 15px 0;
+    text-align: right;
+    width: 100%;
+}
+}
+.site-title {
+    background-color: #818181;
+    padding: 5px 0;
+    text-align: center;
+}
+.site-title h1 {
+    color: #ffffff;
+}
+footer {
+    padding: 20px 0;
+}
+footer .asides {
+    margin-bottom: 20px;
+}
+footer aside {
+    margin-bottom: 10px;
+}
+footer nav ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+footer nav li {
+    display: inline-block;
+}
+footer nav a {
+    color: #ffffff;
+    display: block;
+    margin: 0 5px;
+}
+footer .logo {
+    text-align: center;
+}
+footer .logo img {
+    display: inline-block;
+    vertical-align: middle;
+}
+footer .copyright {
+    text-align: center;
+}
+footer .copyright small {
+    color: #ffffff;
+    font-size: 12px;
+}
+footer .copyright a {
+    color: #818181;
+}
+@media all and (min-width: 600px) {
+footer aside {
+    float: left;
+    margin-bottom: 0;
+    width: 33.3333%;
+}
+footer nav ul {
+    text-align: left;
+}
+footer nav li {
+    display: block;
+}
+footer nav a {
+    display: inline-block;
+    margin: 0;
+}
+footer .logo {
+    text-align: right;
+}
+}
+#fusionads {
+    background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
+    box-shadow: -2px 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    line-height: 1.2;
+    padding: 20px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 20;
+}
+#fusionads .fusion-wrap {
+    display: block;
+    margin: 0 auto 10px;
+    width: 130px;
+}
+#fusionads a.fusion-text {
+    color: #787878;
+    display: block;
+}
+#fusionads a.fusion-img {
+    background-color: #ffffff;
+    display: block;
+    height: 100px;
+    margin-bottom: 10px;
+    width: 130px;
+}
+#fusionads a.fusion-img img {
+    display: block;
+    margin: 0 0 10px;
+}
+#fusionads a.fusion-poweredby {
+    color: #b4b4b4;
+}
+#fusionads a.fusion-poweredby:hover {
+    color: #818181;
+}
+#close-fusionad {
+    background-color: #282828;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+    position: fixed;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 20px;
+    z-index: 30;
+}
+a {
+    color: #b4b4b4;
+    text-decoration: none;
+}
+a:hover {
+    color: #818181;
+}

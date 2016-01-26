@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+  <!-- title and meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1.0" name="viewport">
+  <meta content="description" name="In this tutorial, we take a look at a beautiful parallax scrolling effect in the simplest of ways, with stationary backgrounds and scrolling content.">
+
+  <title>Simple Parallax Scrolling Effect</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <!-- css -->
+
+    <link href='https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic' rel='stylesheet' type='text/css'>
+       <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+ <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <main>
+      
+      <section class="module parallax parallax-1">
+        <div class="container">
+            <div class="h1spacing">
+                <h1>What everyone should know about their state's budget</h2>
+                <h2>scroll to begin</h2>
+                
+            </div>
+        </div>
+      </section>
+
+      <section class="module content lightgrey">
+        <div class="container">
+          <h3>
+          <span class="highlightwhite">What does it mean that New York spends more per capita on public schools than Florida does?</span>  It doesn’t tell you much about either state’s priorities. It doesn’t tell you that children make up a larger share of the population in New York, so they have more students, or that New York has a higher cost of living, so teacher salaries are higher. Spending per capita can be a very .</h3>
+   
+        </div>
+      </section>
+
+      <section class="module parallax parallax-2">
+        <div class="container">
+          <h3><span class="highlightgrey">State spending per capita is both a
+function of how many people 
+receive a service and how much 
+that service costs the state for 
+            every one recipient.</span></h3>
+        </div>
+      </section>
+
+      <section class="module content darkgrey">
+        <div class="container">
+            
+            
+          
+            <div class="twocolumn left">
+                  
+          <h3><span class="highlightgreen">Not every resident of a state is 
+eligible for every service—</span></h3>
+                   
+                       <p>a disproportionately young population, for example, means more K-12 students in schools and fewer drivers on highways, while a disproportionately impoverished population means more recipients of public welfare.</p>   
+
+            <p>Furthermore, not every eligible person chooses to receive every service—not everyone with a drivers license drives on highways, and not every student enrolls in a public school. So we break recipients per capita down into eligible people per capita and recipients per eligible people.</p>
+                </div>
+            
+            
+            <div class="twocolumn right">
+                
+                <div id="forumula_container">
+            
+                <div class="forumula_large">
+                <p><span class="line">recipients</span></p>
+                <p>capita</p>
+                </div><!--close forumula large-->
+                
+                  
+                    
+                       <div class="forumula_small left">
+                <p><span class="line">eligible</span></p>
+                <p>capita</p>
+                </div><!--close forumula small left-->
+                
+                    
+                    <div class="forumula_small left ">
+                <p><span class="red">X</span></p>
+                </div><!--close forumula small -->
+            
+                 
+            
+                 <div class="forumula_small right">
+                <p><span class="line">recipients</span></p>
+                <p>eligible</p>
+                </div><!--close forumula small right-->
+            
+                </div><!--forumula containter-->
+            </div>
+            </div>
+          
+      </section>
+         
+      
+       <section class="module content darkgrey">
+        <div class="container">
+    
+            <div class="twocolumn left">
+
+        <p>Going one step further</p>
+         <p><span class="highlightgreen">the number of eligible people per capita is a function of demographics and policy decisions</span></p>
+
+<p>—the number of people eligible for Medicaid is both a function of poverty rates and state Medicaid eligibility laws, and the number of drivers is a function of age as well as drivers license eligibility laws.</p>
+        
+                </div>
+
+         
+            
+            
+          
+                <div class="twocolumn right">
+                    
+                <div id="forumula_container">
+            
+                <div class="forumula_large">
+                <p><span class="line">eligible</span></p>
+                <p>capita</p>
+                </div><!--close forumula large-->
+                
+                  
+                    
+                       <div class="forumula_small left">
+                <p><span class="line">potentially eligible</span></p>
+                <p>capita</p>
+                <p>(demographics)</p>
+                </div><!--close forumula small left-->
+                
+                    
+                    <div class="forumula_small left ">
+                <p><span class="red">X</span></p>
+                </div><!--close forumula small -->
+            
+                 
+            
+                 <div class="forumula_small right">
+                <p><span class="line">actually eligible</span></p>
+                <p>potentially eligible</p>
+                <p>(eligibility)</p>
+                </div><!--close forumula small right-->
+            
+                </div><!--forumula containter-->
+                </div>
+                
+            </div><!--close container-->
+           
+      </section>
+    
+          
+       <section class="module content darkgrey">
+        <div class="container">
+    
+                <div class="twocolumn left">
+
+        <p>Now let’s back up and look at the other major set of
+factors driving spending per capita.</p>
+ 
+<p>While demographics, eligibility, and take up rate determine the proportion of a state’s residents who receive a given service, states also spend different amounts of money on services per every one recipient. </p>
+               <p><span class="highlightgreen">Spending per recipient can be broken down into “units” per recipient and spending per unit</span><p>
+*a unit might be a school, a prison, a mile of highway, or a public park</p>
+                </div><!--close twocolumn left-->
+
+     
+                <div class="twocolumn right">
+                    <div id="forumula_container">
+            
+                        <div class="forumula_large">
+                            <p><span class="line">spending</span></p>
+                            <p>recipients</p>
+                         </div><!--close forumula large-->
+                
+                    
+                        <div class="forumula_small left">
+                            <p><span class="line">unit</span></p>
+                            <p>recipient</p>
+                        </div><!--close forumula small left-->
+
+                        
+                        <div class="forumula_small left ">
+                            <p><span class="red">X</span></p>
+                        </div><!--close forumula small -->
+            
+                        
+                        <div class="forumula_small right">
+                            <p><span class="line">spending</span></p>
+                            <p>unit</p>
+                        </div><!--close forumula small right-->
+            
+                </div><!--forumula containter-->
+                </div><!--close twocolumn right-->
+                
+            </div><!--close container-->
+           
+      </section>
+    
+           <section class="module content darkgrey">
+        <div class="container">
+    
+                <div class="twocolumn left">
+
+        <p>Finally, states spend money both on humans and things (teachers and books, doctors and medicine, prison guards and prisons), so we divide spending per unit into salaries (payroll spending) and everything else (non payroll spending)</p>
+                </div><!--close twocolumn left-->
+
+     
+                <div class="twocolumn right">
+                    <div id="forumula_container">
+            
+                        <div class="forumula_large">
+                            <p><span class="line">spending</span></p>
+                            <p>unit</p>
+                         </div><!--close forumula large-->
+                
+                    
+                        <div class="forumula_small left">
+                            <p><span class="line">payroll</span></p>
+                            <p>unit</p>
+                        </div><!--close forumula small left-->
+
+                        
+                        <div class="forumula_small left ">
+                            <p><span class="red">+</span></p>
+                        </div><!--close forumula small -->
+            
+                        
+                        <div class="forumula_small right">
+                            <p><span class="line">non payroll</span></p>
+                            <p>unit</p>
+                        </div><!--close forumula small right-->
+            
+                </div><!--forumula containter-->
+                </div><!--close twocolumn right-->
+                
+            </div><!--close container-->
+           
+      </section>
+    
+    
+    
+            
+
+
+    <section class="module content lightgrey">
+        <div class="container">
+          <h3>
+          Looking at the full picture, we can start to see how <span class="highlightwhite">spending per capita is a 
+flawed metric, </span> since it can be heavily influenced by a state’s 
+demographics, by its policy decisions, and by the choices of its residents.
+</h3>
+   
+        </div>
+      </section>
+
+  </main><!-- /main -->
+
+  
+</div><!-- /#wrapper -->
+
+
+<script src="js/css3-animate-it.js"></script>
+
+</body>
+</html>

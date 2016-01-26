@@ -642,7 +642,19 @@ var promise = new Promise(function(resolve, reject){
 })
 function resizePhone(){
 	var win = d3.select("body").node().getBoundingClientRect().width
-	console.log((parseFloat(win)-46) + "px")
+	// d3.select("scrollArrow")
+		// .style("")
+	var arrow = d3.select("#heatmap")
+		.append("div")
+		.attr("class","scrollArrow")
+		.style("position","fixed")
+		.style("top","0px")
+		.style("right","0px")
+		.style("width","100px")
+		.style("height","100%")
+		.style("z-index",100)
+		.style("background","red")
+	arrow.append("div").text("SCROLL")
 	d3.selectAll(".catDescription")
 		.style("width",(parseFloat(win)-46) + "px")
 	d3.selectAll(".container")
@@ -653,6 +665,8 @@ function resizePhone(){
 		.text("SSI")
 	d3.select(".navButton.tanf")
 		.text("TANF")
+	d3.select(".navButton.resources")
+		.text("Resources")		
 }
 
 

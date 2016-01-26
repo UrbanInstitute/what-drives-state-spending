@@ -106,6 +106,9 @@
 	.openContainer .navButton{
 		margin-top: 30px !important;
 	}
+	.scrollArrow{
+		pointer-events: none;
+	}
 }
 .mobileTest{
 	display: none;
