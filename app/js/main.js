@@ -107,7 +107,6 @@ function drawMenu(){
 				var utilities = ["gas","electric","sewage","waste","water"]
 				if(utilities.indexOf(category) == -1){
 					// if( d3.select(".navButton.utilities").classed("active")){
-						console.log("A")
 		    			d3.selectAll(".container .navButton:not(." + category + ")")
 		    				.transition()
 		    				.duration(400)
@@ -124,14 +123,12 @@ function drawMenu(){
 		    				$(".container .navButton").removeAttr('style');
 		    			},500)
 		    		// }
-		    		console.log("b")
 					d3.selectAll(".navButton.active").classed("active",false)
 					d3.select(this).classed("active",true)
 
 					hideSubcontainer();
 
 				}else{
-					console.log("c")
 					d3.selectAll(".navButton.active").classed("active",false)
 					d3.select(this).classed("active",true)
 
@@ -377,8 +374,8 @@ function renderHeatmap(category, userLocation){
 	setTimeout(function(){
 		if(typeof(userLocation) != "undefined"){
 			var small_promise =  new Promise(function(resolve, reject){
-				// var test = stickyState({"state": userLocation})
-				// console.log(test)
+				
+				
 				var test = drawBlurbs(category, "spending", false)	
 
 				// if(test.length == 1){
@@ -388,7 +385,6 @@ function renderHeatmap(category, userLocation){
 				
 			})
 			small_promise.then(function(result){
-				console.log(result)
 				setTimeout(function(){
 					stickyState({"state": userLocation})	
 				}, 400)
@@ -644,12 +640,24 @@ var promise = new Promise(function(resolve, reject){
     	}
 	});
 })
+function resizePhone(){
+	var win = d3.select("body").node().getBoundingClientRect().width
+	console.log((parseFloat(win)-46) + "px")
+	d3.selectAll(".catDescription")
+		.style("width",(parseFloat(win)-46) + "px")
+}
 
 
 drawMenu();
 var TABLET;
+var PHONE;
 promise.then(function(result){
 	TABLET = d3.select(".gutter").style("display") == "none"
+	PHONE = d3.select(".mobileTest").style("display") == "block"
+
+	if (PHONE){
+		resizePhone()
+	}
 	renderHeatmap("housing", result);
 })
 
@@ -718,7 +726,6 @@ function drawBlurbs(category, column, resize){
 					"index": i
 				}
 				blurbList.push(b)
-			console.log(b)
 
 			}
 
@@ -768,7 +775,6 @@ function drawBlurbs(category, column, resize){
 			.transition()
 			.duration(400)
 			.style("opacity",1)
-		console.log()	
 		d3.selectAll("svg.connector").forEach(function(obj){
 			if(d3.selectAll("svg.connector")[0].length > 1){
 				d3.select("#heatmap").node().insertBefore(obj[0], d3.select(".blurbBox").node())
@@ -877,7 +883,7 @@ function drawBlurb(blurbList, column, numCols){
 			.style("height",(ROW_HEIGHT-6) + "px")
 			.text(indChar)
 			.on("mouseover",function(){
-				if(TABLET){
+				if(TABLET && !PHONE){
 					if(d3.select(".tab_" + indChar).node() == null){
 						var left = d3.select(this).node().parentNode.getBoundingClientRect().left
 						var right = d3.select("body").node().getBoundingClientRect().width - d3.select(this).node().parentNode.getBoundingClientRect().right
@@ -916,13 +922,36 @@ function drawBlurb(blurbList, column, numCols){
 							})
 					}
 				}
+				else if (PHONE){
+					var tabBox = d3.select("#heatmap")
+								.append("div")
+								.attr("class","tabletBoxtext left tab_" + indChar)
+								// .style("position","fixed")
+								// .style("top","0px")
+								// .style("right","0px")
+								.style("width","190px")
+								.text(text)
+					tabBox.append("div")
+							.attr("class","tabLabel")
+							.text(indChar)
+						tabBox.append("img")
+							.attr("src","img/close.png")
+							.attr("class","tabClose")
+							.on("click", function(){
+								d3.select(d3.select(this).node().parentNode).remove();
+							})
+				}
 				breathe("text",indChar)
 				breathe("mini",indChar)
 			})
 			// .on("mouseout",function(){
 			// 	d3.selectAll(".tabletBoxtext").remove()
 			// })
-			.on("click", function(){ scrollIn(indChar)})
+			.on("click", function(){ 
+				if(!PHONE){
+					scrollIn(indChar)
+				}
+			})
 			// .style("")
 
 		// d3.selectAll(".map").transition()
@@ -1397,7 +1426,10 @@ function getCategory(){
 }
 
 
-$(window).scroll(function(e){ 
+$(window).scroll(function(e){
+	if(TABLET){
+		return false;
+	}
 	var heatTop = d3.select("#heatmap").node().getBoundingClientRect().top
 	var heatBottom = d3.select("#heatmap").node().getBoundingClientRect().bottom
 
@@ -1414,7 +1446,6 @@ $(window).scroll(function(e){
 	}
 	if (heatTop > 0 && leftPositionFixed)
 	{
-		console.log("b")
 		$('.left.gutter').css({'position': 'absolute', 'top': '116px'}); 
 	}
 
@@ -1458,7 +1489,10 @@ $(window).scroll(function(e){
 
 $(window).resize(function(e){
 	TABLET = d3.select(".gutter").style("display") == "none"
-
+	PHONE = d3.select(".mobileTest").style("display") == "block"
+	if(PHONE){
+		resizePhone();
+	}
 	var category = getCategory();
 	var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
 

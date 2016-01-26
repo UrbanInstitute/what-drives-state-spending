@@ -51,6 +51,47 @@
 		right: 0;
 	}
 }
+@media (max-width:747px){
+	.blurbBox,.connector,.tabletBoxtext{
+		/*display: none !important;*/
+		/*pointer-events: none;*/
+	}
+	.row, .header{
+		left: 23px !important;
+		width: 730px !important;
+	}
+	.header{
+		margin-left: 23px !important;
+	}
+	.menuItem{
+		margin-left: 23px !important;
+	}
+	.container{
+		/*height: auto !important;*/
+	}
+	.styled-select{
+	    width: 280px !important;
+	}
+	.styled-select select{
+		font-size: 18px !important;
+	}
+	#navMenu{
+		width: 730px !important;
+	}
+	.tabletBoxtext{
+		position: fixed !important;
+    	left: 10px !important;
+    	top: 10px !important;
+	}
+	.mobileTest{
+		display: block !important;
+	}
+}
+.mobileTest{
+	display: none;
+	width: 0;
+	height: 0;
+}
 body{
 	font-family: Lato;
 	margin: 0;
