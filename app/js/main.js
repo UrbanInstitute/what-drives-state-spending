@@ -1472,6 +1472,15 @@ $(window).scroll(function(e){
 		var wx = window.scrollX;
 		d3.selectAll(".menuItem")
 			.style("margin-left",(23+parseFloat(wx)) + "px")
+		if(d3.select(".headerArrow").node().getBoundingClientRect().top + 10 <= d3.select(".arrowImg").node().getBoundingClientRect().top && d3.select("#heatmap").node().getBoundingClientRect().bottom + 10 >= d3.select(".arrowImg").node().getBoundingClientRect().bottom){
+			d3.select(".arrowImg img")
+				.transition()
+				.style("opacity",1)
+		}else{
+			d3.select(".arrowImg img")
+				.transition()
+				.style("opacity",0)
+		}
 		return false;
 	}
 	var heatTop = d3.select("#heatmap").node().getBoundingClientRect().top
