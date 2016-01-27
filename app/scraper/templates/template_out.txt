@@ -1178,15 +1178,15 @@ Sorted by: demographics
 
 
 
-Top left State: DC
+Top left State: NY,MA
 
-Top left Column: spending
+Top left Column: demographics, takeup
 
 
 
-Bottom right State: MD
+Bottom right State: CT,WI 
 
-Bottom right Column: spending
+Bottom right Column: demographics, units
 
 
 

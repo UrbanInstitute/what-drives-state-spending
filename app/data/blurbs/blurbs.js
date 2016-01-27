@@ -550,13 +550,13 @@ var blurbs = {
     "demographics": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "demographics, units", 
+          "state": "CT,WI"
         }, 
         "text": "Fames netus. Massa ipsum. Class felis. Purus fames. Ipsum augue cras tortor. Etiam ipsum dictumst vestibulum. Lorem fames ultrices facilisis nec. Felis risus litora etiam vestibulum. Augue curae etiam vulputate id donec congue. Neque lorem pulvinar velit mus habitasse dolor tellus nullam neque proin. Lacus neque etiam mattis dictum ridiculus mattis praesent felis duis risus. Curae risus diam senectus eu condimentum cras taciti ac.\n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "demographics, takeup", 
+          "state": "NY,MA"
         }
       }
     ], 

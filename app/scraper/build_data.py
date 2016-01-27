@@ -5,7 +5,7 @@ from operator import itemgetter
 def collect(l, index):
    return map(itemgetter(index), l)
 
-user = "bchartoff"
+user = "bchartof"
 
 BASE_PATH = "/Users/%s/Box Sync/COMM/**Project Folders**/Spending Drivers/Data Files"%user
 FILENAMES = {
