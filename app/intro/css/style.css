@@ -271,19 +271,103 @@ text-align: center;
  }
 
 
+
+
+
+.orange .twocolumn p{
+     font-family: "Lato", sans-serif;
+     font-size:16px; 
+     line-height: 18px;
+    color:#ffffff; 
+}
+
+ .orange .twocolumn .forumula_large p{
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-size: 26px;
+    font-weight: 400;
+     text-align: center;
+ 
+}
+
+.orange .twocolumn .forumula_small{
+    
+    width:33%; 
+    margin-top: 30px;
+}
+     
+ .orange .twocolumn .forumula_small p{
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+     text-align: center;
+ 
+}
+
+
+ .orange .twocolumn #forumula_container{
+    max-width: 300px;
+    margin: 0 auto;
+    margin-top: 370px; 
+ }
+
 .line{
-    border-bottom: 1px solid #fff;
+    /*border-bottom: 1px solid #fff;*/
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom:5px;
 }
+.visible.line{
+    border-bottom: 1px solid #fff;
+}
 
 
 .red{
-font-size:18px;
-font-weight:700;
-color:red;
-    
+    font-size:18px;
+    font-weight:700;
+    color:#db2b27;
+}
+.blue{
+    font-size:18px;
+    font-weight:700;
+    color:#1696d2;
+}
+
+
+/**************** Animated elements ***************/
+.formula.fixed{
+    position: fixed;
+    top: -18.2%;
+    z-index: 99;
+    right: 83px;
+}
+.formula{
+    position: inherit;
+}
+.move{
+    position: relative;
+    font-size: 26px;
+    opacity: 0;
+}
+.fade{
+    opacity: 0;
+}
+.fade.num{
+    border-bottom: 1px solid #fff;
+}
+.fade.denom{
+    border-top: 1px solid #fff;
+    padding-top: 14px;
+    margin-top: -4px;
+}
+#s1{
+    left: -103px;
+    top: -106px;
+}
+#s2{
+    left: 101px;
+    top: -106px;
 }
 
 
