@@ -311,6 +311,22 @@ text-align: center;
 .forumula_smaller.x{
     width: 12% !important;
 }
+
+ .orange .twocolumn .forumula_smallest p{
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+     text-align: center;
+ 
+}
+.orange .twocolumn .forumula_smallest{
+    width:16.66%; 
+    margin-top: 30px;
+}
+.forumula_smallest.x{
+    width: 12% !important;
+}
      
  .orange .twocolumn .forumula_small p{
     font-family: "Crimson Text";
@@ -369,7 +385,33 @@ text-align: center;
 .f5{
     margin-left: -10px;
     margin-right: -14px;
+}
+.f6{
+    margin-right: 46px;
+    margin-left: -11px;
 
+}
+.f6-1{
+    padding-bottom: 24px;
+}
+.f6-2{
+    padding-bottom: 23px;
+}
+.f7{
+    margin-left: -9px;
+}
+.f7-1{
+    padding-bottom: 17px;
+}
+.f8{
+    margin-left: -16px;
+}
+.f10{
+    margin-left: -33px;
+    clear: both;
+}
+.f10 .line.fade, .f9 .line.fade{
+    display: table;
 }
 #l1{
     font-size: 16px;
@@ -391,7 +433,7 @@ text-align: center;
 }
 .move{
     position: relative;
-    font-size: 26px;
+    font-size: 18px;
     opacity: 0;
 }
 .fade{
@@ -414,17 +456,39 @@ text-align: center;
     top: -106px;
 }
 #s4{
-    font-size: 14px;
+    /*font-size: 14px;*/
     left: 76px;
     top: -107px;
 }
 #s5{
-    font-size: 14px;
+    /*font-size: 14px;*/
     top: -108px;
-    left: -58px;
+    left: -39px;
 }
-
-
+#s7{
+    left: 84px;
+    top: -153px;
+}
+#s8{
+    left: -44px;
+    top: -129px;
+}
+#s10{
+    left: 39px;
+    top: -106px;
+}
+#s11{
+    left: -74px;
+    top: -107px;
+}
+#s13{
+    left: 42px;
+    top: -152px;
+}
+#s14{
+    left: -69px;
+    top: -152px;
+}
 
 /***************close fourth section ******************/
 
