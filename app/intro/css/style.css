@@ -196,7 +196,7 @@ section.module.parallax h1 {
 
 
 .twocolumn{
- width:49%;   
+ width: 480px;   
     
 }
 
@@ -296,6 +296,22 @@ text-align: center;
     margin-top: 30px;
 }
      
+ .orange .twocolumn .forumula_smaller p{
+    font-family: "Crimson Text";
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 400;
+     text-align: center;
+ 
+}
+.orange .twocolumn .forumula_smaller{
+    width:16.66%; 
+    margin-top: 30px;
+}
+.forumula_smaller.x{
+    width: 12% !important;
+}
+     
  .orange .twocolumn .forumula_small p{
     font-family: "Crimson Text";
     font-style: italic;
@@ -305,11 +321,10 @@ text-align: center;
  
 }
 
-
  .orange .twocolumn #forumula_container{
     max-width: 300px;
     margin: 0 auto;
-    margin-top: 370px; 
+    /*margin-top: 370px; */
  }
 
 .line{
@@ -336,14 +351,43 @@ text-align: center;
 
 
 /**************** Animated elements ***************/
+.f1{
+        clear: both;
+    margin-left: -67px;
+    margin-right: -20px;
+}
+.f2{
+    margin-left: -6px;
+}
+.f3{
+/*    float: left;
+    margin-left: 54px;
+*/}
+.f4{
+    margin-right: 115px;
+}
+.f5{
+    margin-left: -10px;
+    margin-right: -14px;
+
+}
+#l1{
+    font-size: 16px;
+    width: 90px;
+    margin-top: -6px;
+    margin-left: -6px;
+    color: #1696d2;
+}
 .formula.fixed{
     position: fixed;
-    top: -18.2%;
+    top: 20px;
+    margin-top: 0px;
     z-index: 99;
-    right: 83px;
+    /*right: 83px;*/
 }
 .formula{
     position: inherit;
+    margin-top: 370px;
 }
 .move{
     position: relative;
@@ -369,6 +413,17 @@ text-align: center;
     left: 101px;
     top: -106px;
 }
+#s4{
+    font-size: 14px;
+    left: 76px;
+    top: -107px;
+}
+#s5{
+    font-size: 14px;
+    top: -108px;
+    left: -58px;
+}
+
 
 
 /***************close fourth section ******************/
