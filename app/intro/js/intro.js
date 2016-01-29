@@ -7,20 +7,19 @@ $(window).scroll(function(e){
 		s1_done = true
 		step1();
 	}
-	else if(y >= 2700 && !s2_done){
+	else if(y >= 2700 && !s2_done && ELEMS.length == 2){
 		s2_done = true
-		step1()
 		step2()
 	}
-	else if(y >= 3400 && !s3_done){
+	else if(y >= 3400 && !s3_done && ELEMS.length == 4){
 		s3_done = true
 		step3()
 	}
-	else if(y >= 4250 && !s4_done){
+	else if(y >= 4250 && !s4_done && ELEMS.length == 6){
 		s4_done = true
 		step4()
 	}
-	else if(y >= 5100 && !s5_done){
+	else if(y >= 5100 && !s5_done && ELEMS.length == 8){
 		s5_done = true
 		step5()
 	}
@@ -40,21 +39,27 @@ function fix(){
 		.classed("fixed",true)
 		.style("left",left + "px")
 }
-
+var ELEMS = [];
 function step1(){
+	// ELEMS = []
 	moveIn("#s1",3000,0)
+	// console.log(bar)
 	moveIn("#s2",3000,0)
+
 	fadeIn(".s3",1000,3000)
+	console.log(ELEMS.length)
 }
 function step2(){
-	moveIn("#s1",0,0)
-	moveIn("#s2",0,0)
-	fadeIn(".s3",0,0)
-
-	moveIn("#s4",3000,0)
-	moveIn("#s5",3000,0)
-	fadeIn(".s6",1000,3000)
-	grey(".grey2")
+	// var bar = moveIn("#s1",0,0)
+	// moveIn("#s2",0,0)
+	// fadeIn(".s3",0,0)
+	console.log(ELEMS.length)
+	// if(ELEMS.length == 2){
+		moveIn("#s4",3000,0)
+		moveIn("#s5",3000,0)
+		fadeIn(".s6",1000,3000)
+		grey(".grey2")
+	// }
 }
 function step3(){
 	moveIn("#s7",3000,0)
@@ -77,6 +82,7 @@ function step5(){
 	// white(".white4")
 }
 function moveIn(elem, duration, delay){
+	var foo;
 	d3.select(elem)
 		.style("opacity",.5)
 		.transition()
@@ -88,7 +94,15 @@ function moveIn(elem, duration, delay){
 		.style("opacity",1)
 		.each('end', function () {
 			// console.log(this)
+			ELEMS.push(this)
+			// foo = this
+			// return this
 		})
+		// console.log(foo)
+		// if(typeof(foo) != "undefined"){
+			// console.log(foo)
+			// return foo
+		// }
 }
 function fadeIn(elem, duration, delay){
 	d3.selectAll(elem)
