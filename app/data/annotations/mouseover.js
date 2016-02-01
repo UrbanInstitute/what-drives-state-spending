@@ -9,23 +9,23 @@ var mouseoverText	 = {
 	},
 	"corrections": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"takeup":{"format": "number", "label" : "prisoners or parolees per resident"},
+		"takeup":{"format": "percent", "label" : "of population in prison or on parole"},
 		"units":{"format": "number", "label" : "employees per prisoner or parolee"},
 		"payroll":{"format": "dollars", "label" : "per each employee"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"medicaid": {
 		"spending":{"format": "dollars", "label" : "per non-institutionalized {{STATE}} resident"},
-		"demographics":{"format": "number", "label" : "people below 200% poverty line per resident"},
-		"eligibility":{"format": "number", "label" : "eligible per person below 200% poverty line"},
-		"takeup":{"format": "number", "label" : "enrollees per eligible resident"},
+		"demographics":{"format": "percent", "label" : "of residents below 200% poverty line"},
+		"eligibility":{"format": "percent", "label" : "of people below 200% poverty line who are eligible"},
+		"takeup":{"format": "percent ", "label" : "of eligible residents who are enrolled"},
 		"spending-per":{"format": "dollars", "label" : "spent per person below 200% poverty line"}
 	},
 	"ssi": {
 		"spending":{"format": "dollars", "label" : "per non-institutionalized {{STATE}} resident"},
-		"demographics":{"format": "number", "label" : "elderly/disabled people below 200% poverty line per resident"},
-		"eligibility":{"format": "number", "label" : "eligible per elderly/disabled person below 200% poverty line"},
-		"takeup":{"format": "number", "label" : "recipients per eligible resident"},
+		"demographics":{"format": "percent", "label" : "elderly/disabled below 200% poverty line"},
+		"eligibility":{"format": "percent", "label" : "elderly/disabled person below 200% poverty line who are eligible"},
+		"takeup":{"format": "percent", "label" : "eligible resident who are recipients"},
 		"spending-per":{"format": "dollars", "label" : "spent per elderly/disabled person below 200% poverty line"}
 	},
 	"tanf": {
@@ -37,9 +37,9 @@ var mouseoverText	 = {
 	},
 	"ccdf": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "number", "label" : "low income people with children per resident"},
-		"eligibility":{"format": "number", "label" : "eligible per low income person with children"},
-		"takeup":{"format": "number", "label" : "recipients per eligible resident"},
+		"demographics":{"format": "percent", "label" : "residents low income with children"},
+		"eligibility":{"format": "percent", "label" : "of low income people with children who are eligible"},
+		"takeup":{"format": "percent", "label" : "of eligible residents who are recipients"},
 		"units":{"format": "number", "label" : "funded providers per recipient"},
 		"spending-per":{"format": "dollars", "label" : "spent per low income family"}
 	},	
