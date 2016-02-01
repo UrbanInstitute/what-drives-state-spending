@@ -9,71 +9,71 @@ user = "bchartof"
 
 BASE_PATH = "/Users/%s/Box Sync/COMM/**Project Folders**/Spending Drivers/Data Files"%user
 FILENAMES = {
-	"higher":"higher/Data_higher_2012.xlsx",
-	"corrections":"saftey/Corrections/Data_corrections_2012.xlsx",
-	"medicaid": "health/Data_medicaid_2012.xlsx",
-	"ssi": "social/Data_Public Welfare (SSI)_2012.xlsx",
-	"tanf": "social/Data_Public Welfare (TANF - CCDF - SSBG)_2012.xlsx",
-	"ccdf": "social/Data_Public Welfare (TANF - CCDF - SSBG)_2012.xlsx",
-	"housing": "env/housing/Data_housing_2012.xlsx",
-	"admin": "admin/Data_admin_2012.xlsx",
-	"resources": "env/natural resources/Data_resource_2012.xlsx",
-	"parks": "env/parks/Data_parks_2012.xlsx",
-	"electric": "env/utilities/Data_electric_2012.xlsx",
-	"gas": "env/utilities/Data_gas_2012.xlsx",
-	"sewage": "env/utilities/Data_sewerage_2012.xlsx",
-	"waste": "env/utilities/Data_waste_2012.xlsx",
-	"water": "env/utilities/Data_water_2012.xlsx",
-	"k12": "k12/Data_k12_2012_v2.xlsx",
-	"fire": "saftey/Fire/Data_fire_2012.xlsx",
-	"police": "saftey/Police/Data_police_2012.xlsx",
-	"highway": "transport/Highway/Data_highway_2012.xlsx",
-	"transit": "transport/Transit/Data_transit_2012.xlsx"
+	"higher":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"corrections":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"medicaid":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"ssi":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"tanf":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"ccdf":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"housing":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"admin":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"resources":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"parks":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"electric":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"gas":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"sewage":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"waste":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"water":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"k12":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"fire":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"police":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"highway":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
+	"transit":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx"
 }
 TABNAMES = {
-	"higher": "Ratios - Current",
-	"corrections": "Ratios - Current",
-	"medicaid": "Ratios - Total",
-	"ssi": "Ratios - Total",
-	"tanf": "Ratios - TANF",
-	"ccdf": "Ratios - CCDF",
-	"housing": "Ratios - Current",
-	"admin": "Ratios - Current",
-	"resources": "Ratios - Current",
-	"parks": "Ratios - Current",
-	"electric": "Ratios - Current",
-	"gas": "Ratios - Current",
-	"sewage": "Ratios - Current",
-	"waste": "Ratios - Current",
-	"water": "Ratios - Current",
-	"k12": "Ratios - Current",
-	"fire": "Ratios - Current",
-	"police": "Ratios - Current",
-	"highway": "Ratios - Current",
-	"transit": "Ratios - Current"
+	"higher": "higher",
+	"corrections": "corrections",
+	"medicaid": "medicaid",
+	"ssi": "ssi",
+	"tanf": "tanf",
+	"ccdf": "ccdf",
+	"housing": "housing",
+	"admin": "admin",
+	"resources": "natural",
+	"parks": "parks",
+	"electric": "electric",
+	"gas": "gas",
+	"sewage": "sewerage",
+	"waste": "waste",
+	"water": "water",
+	"k12": "k12",
+	"fire": "fire",
+	"police": "police",
+	"highway": "highway",
+	"transit": "transit"
 }
 STATES = {"MT": "Montana","WY": "Wyoming","NE": "Nebraska","ME": "Maine","ID": "Idaho","TN": "Tennessee","IN": "Indiana","MS": "Mississippi","OK": "Oklahoma","ND": "North Dakota","KY": "Kentucky","MO": "Missouri","AR": "Arkansas","WV": "West Virginia","SC": "South Carolina","HI": "Hawaii","NC": "North Carolina","LA": "Louisiana","WA": "Washington","AL": "Alabama","IL": "Illinois","KS": "Kansas","GA": "Georgia","UT": "Utah","OH": "Ohio","AZ": "Arizona","SD": "South Dakota","FL": "Florida","WI": "Wisconsin","VA": "Virginia","NH": "New Hampshire","NM": "New Mexico","DE": "Delaware","MA": "Massachusetts","TX": "Texas","RI": "Rhode Island","US": "United States","MI": "Michigan","VT": "Vermont","CO": "Colorado","MD": "Maryland","IA": "Iowa","OR": "Oregon","AK": "Alaska","NV": "Nevada","NY": "New York","DC": "District of Columbia","MN": "Minnesota","PA": "Pennsylvania","CT": "Connecticut","NJ": "New Jersey","CA" : "California"}
 allColumns = {
-	"higher": [("spending",2),("demographics",9),("eligibility",11),("takeup",13),("units",16),("payroll",20),("nonpayroll",21)],
-	"corrections": [("spending",2),("demographics",False),("eligibility",False),("takeup",13),("units",16),("payroll",20),("nonpayroll",21)],
-	"medicaid": [("spending",2),("demographics",9),("eligibility",11),("takeup",13),("spending-per",6)],
-	"ssi": [("spending",2),("demographics",9),("eligibility",11),("takeup",13),("spending-per",6)],
-	"tanf": [("spending",2),("demographics",9),("eligibility",11),("takeup",13),("spending-per",6)],
-	"ccdf": [("spending",2),("demographics",9),("eligibility",11),("takeup",13),("units",16),("spending-per",6)],
-	"housing": [("spending",2),("demographics",9),("eligibility",False),("takeup",13),("units",16),("payroll",20),("nonpayroll",21)],
-	"admin": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"resources": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"parks": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"electric": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"gas": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"sewage": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"waste": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"water": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"k12": [("spending",2),("demographics",9),("eligibility",11),("takeup",13),("units",16),("payroll",20),("nonpayroll",21)],
-	"fire": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",16),("payroll",20),("nonpayroll",21)],
-	"police": [("spending",2),("demographics",False),("eligibility",False),("takeup",13),("units",16),("payroll",20),("nonpayroll",21)],
-	"highway": [("spending",2),("demographics",9),("eligibility",11),("takeup",13),("units",16),("payroll",23),("nonpayroll",24)],
-	"transit": [("spending",2),("demographics",9),("eligibility",False),("takeup",13),("units",16),("payroll",23),("nonpayroll",24)]
+	"higher": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
+	"corrections": [("spending",2),("demographics",False),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
+	"medicaid": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",9)],
+	"ssi": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",9)],
+	"tanf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",9)],
+	"ccdf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6),("spending-per",9)],
+	"housing": [("spending",2),("demographics",3),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
+	"admin": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"resources": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"parks": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"electric": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"gas": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"sewage": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"waste": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"water": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"k12": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
+	"fire": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
+	"police": [("spending",2),("demographics",False),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
+	"highway": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
+	"transit": [("spending",2),("demographics",3),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)]
 }
 
 def parseBook(category):
@@ -84,7 +84,7 @@ def parseBook(category):
 	xl_sheet = book.sheet_by_name(TABNAMES[category])
 	columns = allColumns[category]
 
-	for i in range(2, xl_sheet.nrows):
+	for i in range(1, xl_sheet.nrows):
 		row = xl_sheet.row(i)
 		state = xl_sheet.cell_value(rowx=i, colx=0)
 		if state == "":
@@ -93,12 +93,18 @@ def parseBook(category):
 		for c in columns:
 			if(c[1]):
 				value = xl_sheet.cell_value(rowx=i,colx=c[1])
+				t = xl_sheet.cell_type(rowx=i,colx=c[1])
+				if(state == "ID" and category == "gas"):
+					print value, t, i, c[1]
+				if value == "." or value == "-":
+					value = "Missing Data"
 				data[state]["%s_value"%c[0]] = value
 				data[state]["%s_rank"%c[0]] = 0
 				if c[0] not in data:
 					data[c[0]] = []
 				data[c[0]].append((state, value))
 				data[c[0]] = sorted(data[c[0]],key=lambda x: x[1], reverse=True)
+	n = 99;
 	for state in data:
 		if state in STATES:
 			d = data[state]
@@ -106,7 +112,8 @@ def parseBook(category):
 				if k.find("value") != -1:
 					cat = k.split("_")[0]
 					if d["%s_value"%cat] == "Missing Data":
-						d["%s_rank"%cat] = 99
+						d["%s_rank"%cat] = n
+						# n +=1;
 					else:
 						d["%s_rank"%cat] = collect(data[cat],0).index(state)+1
 

@@ -157,6 +157,6 @@ var mouseoverText	 = {
 		"takeup":{"format": "number", "label" : "miles, average trip"},
 		"units":{"format": "number", "label" : "transit miles per resident"},
 		"payroll":{"format": "dollars", "label" : "on employees per transit mile"},
-		"nonpayroll":{"format": "foo", "label" : "on other costs per transit mile"}
+		"nonpayroll":{"format": "dollars", "label" : "on other costs per transit mile"}
 	}
 }
