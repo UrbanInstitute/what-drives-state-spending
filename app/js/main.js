@@ -601,6 +601,12 @@ function mouseover(cell, datum, column, category){
 		case "number":
 			formatter = d3.format(".3f");
 			break;
+		case "comma":
+			formatter = d3.format(",.0f");
+			break;
+		case "small":
+			formatter = d3.format(".2f");
+			break;
 		case "foo":
 			formatter = d3.format("");
 			break;

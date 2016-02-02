@@ -23,21 +23,21 @@ var mouseoverText	 = {
 	},
 	"ssi": {
 		"spending":{"format": "dollars", "label" : "per non-institutionalized {{STATE}} resident"},
-		"demographics":{"format": "percent", "label" : "elderly/disabled below 200% poverty line"},
-		"eligibility":{"format": "percent", "label" : "elderly/disabled person below 200% poverty line who are eligible"},
-		"takeup":{"format": "percent", "label" : "eligible resident who are recipients"},
+		"demographics":{"format": "percent", "label" : "of residents elderly/disabled below 200% poverty line"},
+		"eligibility":{"format": "percent", "label" : "of elderly/disabled people below 200% poverty line who are eligible"},
+		"takeup":{"format": "percent", "label" : "of eligible residents who are recipients"},
 		"spending-per":{"format": "dollars", "label" : "spent per elderly/disabled person below 200% poverty line"}
 	},
 	"tanf": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "number", "label" : "low income people with children per resident"},
-		"eligibility":{"format": "number", "label" : "eligible per low income person with children"},
-		"takeup":{"format": "number", "label" : "recipients per eligible resident"},
+		"demographics":{"format": "percent", "label" : "of residents low income people with children"},
+		"eligibility":{"format": "percent", "label" : "of low income people with children who are eligible"},
+		"takeup":{"format": "number", "label" : "of eligible residents who are recipients"},
 		"spending-per":{"format": "dollars", "label" : "spent per recipient"}
 	},
 	"ccdf": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "percent", "label" : "residents low income with children"},
+		"demographics":{"format": "percent", "label" : "of residents low income with children"},
 		"eligibility":{"format": "percent", "label" : "of low income people with children who are eligible"},
 		"takeup":{"format": "percent", "label" : "of eligible residents who are recipients"},
 		"units":{"format": "number", "label" : "funded providers per recipient"},
@@ -45,7 +45,7 @@ var mouseoverText	 = {
 	},	
 	"housing": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "number", "label" : "low income individuals per resident"},
+		"demographics":{"format": "percent", "label" : "of residents who are low income"},
 		"takeup":{"format": "percent", "label" : "low income residents receiving housing support"},
 		"units":{"format": "number", "label" : "employees per resident receiving housing support"},
 		"payroll":{"format": "dollars", "label" : "per each employee"},
@@ -146,15 +146,15 @@ var mouseoverText	 = {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "percent", "label" : "driving age"},
 		"eligibility":{"format": "percent", "label" : "of driving age with license"},
-		"takeup":{"format": "number", "label" : "miles driven per driver"},
+		"takeup":{"format": "comma", "label" : "miles driven per driver"},
 		"units":{"format": "number", "label" : "lane miles per driver"},
 		"payroll":{"format": "dollars", "label" : "on employees per lane mile"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per lane mile"}
 	},
 	"transit": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "number", "label" : "transit trips per resident"},
-		"takeup":{"format": "number", "label" : "miles, average trip"},
+		"demographics":{"format": "small", "label" : "transit trips per resident"},
+		"takeup":{"format": "small", "label" : "miles, average trip"},
 		"units":{"format": "number", "label" : "transit miles per resident"},
 		"payroll":{"format": "dollars", "label" : "on employees per transit mile"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per transit mile"}
