@@ -69,6 +69,7 @@ section.module p:last-child {
 
 section.module.content {
      padding: 40px 0px;
+     z-index: 10;
 }
 
 section.module.parallax {
@@ -281,7 +282,7 @@ text-align: center;
     color:#ffffff; 
 }
 
- .orange .twocolumn .forumula_large p{
+ .darkgrey .twocolumn .forumula_large p{
     font-family: "Crimson Text";
     font-style: italic;
     font-size: 26px;
@@ -290,13 +291,13 @@ text-align: center;
  
 }
 
-.orange .twocolumn .forumula_small{
+.darkgrey .twocolumn .forumula_small{
     
     width:33%; 
     margin-top: 30px;
 }
      
- .orange .twocolumn .forumula_smaller p{
+ .darkgrey .twocolumn .forumula_smaller p{
     font-family: "Crimson Text";
     font-style: italic;
     font-size: 18px;
@@ -304,7 +305,7 @@ text-align: center;
      text-align: center;
  
 }
-.orange .twocolumn .forumula_smaller{
+.darkgrey .twocolumn .forumula_smaller{
     width:16.66%; 
     margin-top: 30px;
 }
@@ -312,7 +313,7 @@ text-align: center;
     width: 12% !important;
 }
 
- .orange .twocolumn .forumula_smallest p{
+ .darkgrey .twocolumn .forumula_smallest p{
     font-family: "Crimson Text";
     font-style: italic;
     font-size: 18px;
@@ -320,7 +321,7 @@ text-align: center;
      text-align: center;
  
 }
-.orange .twocolumn .forumula_smallest{
+.darkgrey .twocolumn .forumula_smallest{
     width:16.66%; 
     margin-top: 30px;
 }
@@ -328,7 +329,7 @@ text-align: center;
     width: 12% !important;
 }
      
- .orange .twocolumn .forumula_small p{
+ .darkgrey .twocolumn .forumula_small p{
     font-family: "Crimson Text";
     font-style: italic;
     font-size: 18px;
@@ -337,7 +338,7 @@ text-align: center;
  
 }
 
- .orange .twocolumn #forumula_container{
+ .darkgrey .twocolumn #forumula_container{
     max-width: 300px;
     margin: 0 auto;
     /*margin-top: 370px; */
@@ -394,7 +395,7 @@ text-align: center;
 .f6-1{
     padding-bottom: 24px;
 }
-.f6-2{
+.f6-2, .f9-2{
     padding-bottom: 23px;
 }
 .f7{
@@ -410,7 +411,7 @@ text-align: center;
     margin-left: -33px;
     clear: both;
 }
-.f10 .line.fade, .f9 .line.fade{
+.f10 .line.fade{
     display: table;
 }
 #l1{
@@ -425,11 +426,12 @@ text-align: center;
     top: 20px;
     margin-top: 0px;
     z-index: 99;
+    width: 555px;
     /*right: 83px;*/
 }
 .formula{
     position: inherit;
-    margin-top: 370px;
+    margin-top: -780px;
 }
 .move{
     position: relative;
@@ -482,6 +484,7 @@ text-align: center;
     top: -107px;
 }
 #s13{
+    padding-top: 24px;
     left: 42px;
     top: -152px;
 }
@@ -489,6 +492,19 @@ text-align: center;
     left: -69px;
     top: -152px;
 }
+
+/***************formula lines ******************/
+
+.formulaLines{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.formulaLine{
+    stroke: white;
+    stroke-width: 1px;
+}
+
 
 /***************close fourth section ******************/
 

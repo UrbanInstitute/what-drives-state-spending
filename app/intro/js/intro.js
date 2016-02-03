@@ -26,7 +26,7 @@ $(window).scroll(function(e){
 	if(y >= 2155){
 		fix();
 	}
-	if(y < 2155){
+	if(y < 2755){
 		d3.select(".formula")
 			.classed("fixed",false)
 	}
@@ -38,51 +38,82 @@ function fix(){
 	d3.select(".formula")
 		.classed("fixed",true)
 		.style("left",left + "px")
+	// if(d3.select(".formulaLines").node() == null){
+	// 	d3.select(".formula")
+	// 		.append("svg")
+	// 		.attr("class","formulaLines")
+	// 		.attr("width",555)
+	// 		.attr("height",476)
+	// }
 }
 var ELEMS = [];
+var DURATION = 30
+var SHORT_DURATION = 10
+var DELAY = 30
+
+function drawLine(x1,y1,x2,y2,duration,delay){
+	// d3.selectAll(".formulaLine").remove()
+	console.log("asdf")
+	d3.select(".formulaLines")
+		.append("line")
+		.attr("class","formulaLine")
+		.attr("x1",x1)
+		.attr("y1",y1)
+		.attr("x2",x1)
+		.attr("y2",y1)
+		.transition()
+			.delay(delay)
+			.duration(duration)
+			.attr("x2",x2)
+			.attr("y2",y2)
+}
+
 function step1(){
 	// ELEMS = []
-	moveIn("#s1",3000,0)
+	drawLine("260","80","190","120",DURATION,0)
+	drawLine("290","80","360","120",DURATION,0)
+	moveIn("#s1",DURATION,0)
 	// console.log(bar)
-	moveIn("#s2",3000,0)
-
-	fadeIn(".s3",1000,3000)
+	moveIn("#s2",DURATION,0)
+	fadeIn(".s3",SHORT_DURATION,DELAY)
 	console.log(ELEMS.length)
 }
 function step2(){
 	// var bar = moveIn("#s1",0,0)
 	// moveIn("#s2",0,0)
 	// fadeIn(".s3",0,0)
-	console.log(ELEMS.length)
 	// if(ELEMS.length == 2){
-		moveIn("#s4",3000,0)
-		moveIn("#s5",3000,0)
-		fadeIn(".s6",1000,3000)
+		drawLine("160","185","120","225",DURATION,0)
+		drawLine("190","185","230","225",DURATION,0)
+		moveIn("#s4",DURATION,0)
+		moveIn("#s5",DURATION,0)
+		fadeIn(".s6",SHORT_DURATION,DELAY)
 		grey(".grey2")
 	// }
 }
 function step3(){
-	moveIn("#s7",3000,0)
-	moveIn("#s8",3000,0)
-	fadeIn(".s9",1000,3000)
+	moveIn("#s7",DURATION,0)
+	moveIn("#s8",DURATION,0)
+	fadeIn(".s9",SHORT_DURATION,DELAY)
 	grey(".grey3")
 }
 function step4(){
-	moveIn("#s10",3000,0)
-	moveIn("#s11",3000,0)
-	fadeIn(".s12",1000,3000)
+	drawLine("370","185","330","225",DURATION,0)
+	drawLine("400","185","440","225",DURATION,0)
+	moveIn("#s10",DURATION,0)
+	moveIn("#s11",DURATION,0)
+	fadeIn(".s12",SHORT_DURATION,DELAY)
 	grey(".grey4")
 	white(".white4")
 }
 function step5(){
-	moveIn("#s13",3000,0)
-	moveIn("#s14",3000,0)
-	fadeIn(".s15",1000,3000)
+	moveIn("#s13",DURATION,0)
+	moveIn("#s14",DURATION,0)
+	fadeIn(".s15",SHORT_DURATION,DELAY)
 	grey(".grey5")
 	// white(".white4")
 }
 function moveIn(elem, duration, delay){
-	var foo;
 	d3.select(elem)
 		.style("opacity",.5)
 		.transition()
