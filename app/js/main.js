@@ -23,14 +23,14 @@ var COLUMNS = {
 }
 
 var HEADERS ={
-	"spending": "<div class = \"innerHeader\">spending<br/>per capita</div>",
-	"demographics": "<div class = \"innerHeader\"><span>=</span>demographics</div>",
-	"eligibility": "<div class = \"innerHeader\"><span>&times;</span>eligibility</div>",
-	"takeup": "<div class = \"innerHeader\"><span>&times;</span>take-up rate</div>",
-	"units": "<div class = \"innerHeader\"><span>&times;</span>unit per<br/>&nbsp;recipient</div>",
-	"payroll": "<div class = \"innerHeader\"><span>&times;(</span>payroll</div>",
-	"nonpayroll": "<div class = \"innerHeader\"><span id = \"left\">+</span>non payroll<span id = \"right\">)</span></div>",
-	"spending-per":"<div class = \"innerHeader\"><span>&times;</span>spending per<br/>recipient</div>"
+	"spending": "<div class = \"innerHeader spending\">spending<br/>per capita</div>",
+	"demographics": "<div class = \"innerHeader demographics\"><span>=</span>demographics</div>",
+	"eligibility": "<div class = \"innerHeader eligibility\"><span>&times;</span>eligibility</div>",
+	"takeup": "<div class = \"innerHeader takeup\"><span>&times;</span>take-up rate</div>",
+	"units": "<div class = \"innerHeader units\"><span>&times;</span>unit per<br/>&nbsp;recipient</div>",
+	"payroll": "<div class = \"innerHeader payroll\"><span>&times;(</span>payroll</div>",
+	"nonpayroll": "<div class = \"innerHeader nonpayroll\"><span id = \"left\">+</span>non payroll<span id = \"right\">)</span></div>",
+	"spending-per":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>recipient</div>"
 }
 ROW_HEIGHT = 32;
 var COLUMN_WIDTH = 99;
@@ -1470,8 +1470,67 @@ function getCategory(){
 	}
 }
 
+var s1_done, s2_done, s3_done, s4_done, s5_done, s6_done, s7_done;
 
 $(window).scroll(function(e){
+	var y = window.scrollY
+	console.log(y)
+	if(y >= 2400 && !s1_done){
+		s1_done = true
+		step1();
+	}
+	else if(y >= 3470 && !s2_done && ELEMS.length == 2){
+		s2_done = true
+		step2()
+	}
+	else if(y >= 4200 && !s3_done && ELEMS.length == 4){
+		s3_done = true
+		step3()
+	}
+	else if(y >= 5116 && !s4_done && ELEMS.length == 6){
+		s4_done = true
+		step4()
+	}
+	else if(y >= 5952 && !s5_done && ELEMS.length == 8){
+		s5_done = true
+		step5()
+	}
+	else if(y >= 7600 && !s6_done && ELEMS.length == 10){
+		s6_done = true
+		step6()
+	}
+	else if(y >= 8195 && !s7_done && ELEMS.length == 10){
+		s7_done = true
+		step7()
+	}
+
+	if(y >= 2795 && y<= 8155){
+		fix();
+	}
+	if(y > 8155){
+		d3.select(".twocolumn.formula")
+			.style("position","inherit")
+			.style("margin-top","455px")
+			.style("margin-right","50px")
+			.style("left","0px")
+	}
+	if(y < 2795){
+		d3.select(".formula")
+			.style("margin-top","-4893px")
+			.style("top","0px")
+			.style("margin-right","50px")
+			.style("position","inherit")
+			// .style("left",left + "px")
+		d3.select(".h1spacing")
+			.style("display","block")
+	}else{
+		d3.select(".h1spacing")
+			.style("display","none")
+	}
+
+
+
+
 	if(TABLET && !PHONE){
 		return false;
 	}else if(PHONE){

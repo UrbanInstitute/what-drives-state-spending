@@ -1,55 +1,51 @@
-var s1_done, s2_done, s3_done, s4_done, s5_done;
+// var s1_done, s2_done, s3_done, s4_done, s5_done;
 
-$(window).scroll(function(e){
-	var y = window.scrollY
-	console.log(y)
-	if(y >= 2400 && !s1_done){
-		s1_done = true
-		step1();
-	}
-	else if(y >= 3470 && !s2_done && ELEMS.length == 2){
-		s2_done = true
-		step2()
-	}
-	else if(y >= 4200 && !s3_done && ELEMS.length == 4){
-		s3_done = true
-		step3()
-	}
-	else if(y >= 5116 && !s4_done && ELEMS.length == 6){
-		s4_done = true
-		step4()
-	}
-	else if(y >= 5952 && !s5_done && ELEMS.length == 8){
-		s5_done = true
-		step5()
-	}
-	if(y >= 2700){
-		fix();
-	}
-	if(y < 2700){
-		d3.select(".formula")
-			.classed("fixed",false)
-	}
+// $(window).scroll(function(e){
+// 	var y = window.scrollY
+// 	console.log(y)
+// 	if(y >= 2400 && !s1_done){
+// 		s1_done = true
+// 		step1();
+// 	}
+// 	else if(y >= 3470 && !s2_done && ELEMS.length == 2){
+// 		s2_done = true
+// 		step2()
+// 	}
+// 	else if(y >= 4200 && !s3_done && ELEMS.length == 4){
+// 		s3_done = true
+// 		step3()
+// 	}
+// 	else if(y >= 5116 && !s4_done && ELEMS.length == 6){
+// 		s4_done = true
+// 		step4()
+// 	}
+// 	else if(y >= 5952 && !s5_done && ELEMS.length == 8){
+// 		s5_done = true
+// 		step5()
+// 	}
+// 	if(y >= 2700){
+// 		fix();
+// 	}
+// 	if(y < 2700){
+// 		d3.select(".formula")
+// 			.classed("fixed",false)
+// 	}
 
-});
+// });
 
 function fix(){
-	var left = d3.select(".formula").node().getBoundingClientRect().left
+	var left = parseFloat(d3.select("#rightEdge").node().getBoundingClientRect().right) + 50
 	d3.select(".formula")
-		.classed("fixed",true)
+		// .classed("fixed",true)
+		.style("margin-top","0px")
+		.style("top","20px")
+		.style("position","fixed")
 		.style("left",left + "px")
-	// if(d3.select(".formulaLines").node() == null){
-	// 	d3.select(".formula")
-	// 		.append("svg")
-	// 		.attr("class","formulaLines")
-	// 		.attr("width",555)
-	// 		.attr("height",476)
-	// }
 }
 var ELEMS = [];
-var DURATION = 3000
-var SHORT_DURATION = 1000
-var DELAY = 3000
+var DURATION = 30
+var SHORT_DURATION = 10
+var DELAY = 30
 
 function drawLine(x1,y1,x2,y2,duration,delay){
 	// d3.selectAll(".formulaLine").remove()
@@ -117,6 +113,91 @@ function step5(){
 	grey(".grey5")
 	// white(".white4")
 }
+function step6(){
+	white(".grey2")
+	white(".grey3")
+	white(".grey4")
+	white(".grey5")
+}
+function step7(){
+	var lag = 500
+	var n = 3
+/////////////////////////////
+	d3.select(".a1")
+		.style("border-bottom","none")
+		.transition()
+		.duration(3000)
+		.style("top","808px")
+		.style("color","#333")
+		.style("left","-527px")
+		.style("font-size","16px")
+		.transition()
+		.delay(3500 + lag*n)
+		.duration(0)
+		.style("opacity",0)
+		.style("border-bottom","1px solid #fff")
+		.style("top","0px")
+		.style("left","0px")
+		.style("font-size","26px")
+		.style("color","#fff")
+		.transition()
+		.delay(3600 +lag*n)
+		.style("opacity",1)
+	d3.select(".innerHeader.spending")
+		.transition()
+		.delay(3300 + lag *n)
+		.duration(2000)
+		.style("opacity",1)
+/////////////////////////////
+	d3.select(".f10 #l1.s9")
+		.transition()
+		.delay(lag)
+		.duration(3000)
+		.style("top","388px")
+		.style("left","-280px")
+		.style("color","#333")
+		.transition()
+		.delay(3500 + lag*n)
+		.duration(0)
+		.style("opacity",0)
+		.style("top","0px")
+		.style("left","0px")
+		.style("color","#1696d2")
+		.transition()
+		.delay(3600 + lag*n)
+		.style("opacity",1)
+	d3.select(".innerHeader.demographics")
+		.transition()
+		.delay(3300 + lag*n)
+		.duration(2000)
+		.style("opacity",1)
+/////////////////////////////
+	d3.select(".f7 #l1.s9")
+		.transition()
+		.delay(lag*2)
+		.duration(3000)
+		.style("top","376px")
+		.style("left","-323px")
+		.style("color","#333")
+		.transition()
+		.delay(3500 + lag*n)
+		.duration(0)
+		.style("opacity",0)
+		.style("top","0px")
+		.style("left","0px")
+		.style("color","#1696d2")
+		.transition()
+		.delay(3600 + lag*n)
+		.style("opacity",1)
+	d3.select(".innerHeader.eligibility")
+		.transition()
+		.delay(3300 + lag*n)
+		.duration(2000)
+		.style("opacity",1)
+
+
+}
+
 function moveIn(elem, duration, delay){
 	d3.select(elem)
 		.style("opacity",.5)

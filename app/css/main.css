@@ -219,6 +219,23 @@ body{
 	width: 99px;
 	height: 30px;
 	background: #E6E6E6;
+	z-index: 999;	
+}
+.innerHeader{
+	position: relative;
+	z-index: 999;
+	opacity: 0;
+	/*opacity: 0;*/
+}
+.innerHeader.spending{
+	    /*left: 526px;*/
+    /*top: -817px;*/
+
+}
+.a1, .s9{
+	position: relative;
+	left: 0px;
+	top: 0px;
 }
 .headerCell.active .headerArrow{
 	background: #333
