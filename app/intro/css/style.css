@@ -399,13 +399,16 @@ text-align: center;
     padding-bottom: 23px;
 }
 .f7{
-    margin-left: -9px;
+    margin-left: 13px;
 }
 .f7-1{
     padding-bottom: 17px;
 }
 .f8{
     margin-left: -16px;
+}
+.f9{
+    margin-right: 10px;
 }
 .f10{
     margin-left: -33px;
@@ -431,7 +434,8 @@ text-align: center;
 }
 .formula{
     position: inherit;
-    margin-top: -780px;
+    margin-top: -5093px;
+    width: 555px;
 }
 .move{
     position: relative;
@@ -496,13 +500,14 @@ text-align: center;
 /***************formula lines ******************/
 
 .formulaLines{
-    position: absolute;
+    position: relative;
     left: 0;
-    top: 0;
+    top: -475px;
 }
 .formulaLine{
-    stroke: white;
-    stroke-width: 1px;
+    stroke: #fff;
+    stroke-width: 3px;
+    opacity: .3;
 }
 
 

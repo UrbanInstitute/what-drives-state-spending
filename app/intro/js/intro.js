@@ -3,30 +3,30 @@ var s1_done, s2_done, s3_done, s4_done, s5_done;
 $(window).scroll(function(e){
 	var y = window.scrollY
 	console.log(y)
-	if(y >= 1800 && !s1_done){
+	if(y >= 2400 && !s1_done){
 		s1_done = true
 		step1();
 	}
-	else if(y >= 2700 && !s2_done && ELEMS.length == 2){
+	else if(y >= 3470 && !s2_done && ELEMS.length == 2){
 		s2_done = true
 		step2()
 	}
-	else if(y >= 3400 && !s3_done && ELEMS.length == 4){
+	else if(y >= 4200 && !s3_done && ELEMS.length == 4){
 		s3_done = true
 		step3()
 	}
-	else if(y >= 4250 && !s4_done && ELEMS.length == 6){
+	else if(y >= 5116 && !s4_done && ELEMS.length == 6){
 		s4_done = true
 		step4()
 	}
-	else if(y >= 5100 && !s5_done && ELEMS.length == 8){
+	else if(y >= 5952 && !s5_done && ELEMS.length == 8){
 		s5_done = true
 		step5()
 	}
-	if(y >= 2155){
+	if(y >= 2700){
 		fix();
 	}
-	if(y < 2755){
+	if(y < 2700){
 		d3.select(".formula")
 			.classed("fixed",false)
 	}
@@ -47,9 +47,9 @@ function fix(){
 	// }
 }
 var ELEMS = [];
-var DURATION = 30
-var SHORT_DURATION = 10
-var DELAY = 30
+var DURATION = 3000
+var SHORT_DURATION = 1000
+var DELAY = 3000
 
 function drawLine(x1,y1,x2,y2,duration,delay){
 	// d3.selectAll(".formulaLine").remove()
@@ -92,6 +92,8 @@ function step2(){
 	// }
 }
 function step3(){
+	drawLine("200","295","140","355",DURATION,0)
+	drawLine("230","295","290","355",DURATION,0)
 	moveIn("#s7",DURATION,0)
 	moveIn("#s8",DURATION,0)
 	fadeIn(".s9",SHORT_DURATION,DELAY)
@@ -107,6 +109,8 @@ function step4(){
 	white(".white4")
 }
 function step5(){
+	drawLine("470","295","530","355",DURATION,0)
+	drawLine("440","295","380","355",DURATION,0)
 	moveIn("#s13",DURATION,0)
 	moveIn("#s14",DURATION,0)
 	fadeIn(".s15",SHORT_DURATION,DELAY)
