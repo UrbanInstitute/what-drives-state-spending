@@ -206,6 +206,7 @@ body{
 .headerCell.inactive{
 	opacity: .3 !important;
 	pointer-events: none;
+	border-left: none;
 }
 .headerCell span{
 	font: 19px Lato;
@@ -232,7 +233,7 @@ body{
     /*top: -817px;*/
 
 }
-.a1, .s9{
+.a1, .s9, .s15.f9-2,#l1.s6,.f3 .s12, .f6-2{
 	position: relative;
 	left: 0px;
 	top: 0px;
@@ -378,6 +379,13 @@ body{
 	color: white;
 }
 .blankCell{
+    height: 6px;
+    border-top: 12px solid white;
+    border-left: none;
+    background-color: #ddd;
+    border-right: none;
+}
+.blankCell .rankLabel{
 	opacity: 0;
 }
 .errorCell{
