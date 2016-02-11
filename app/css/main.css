@@ -647,4 +647,161 @@ body{
 	height: 0px;
 	cursor: pointer;
 }
+/*******************************************************/
+/******************* FOOTER ****************************/
+/*******************************************************/
+
+.footerRow{
+  margin-top: 100px;
+  background: #101b44;
+  color: white;
+  min-height: 795px;
+  top: -12px;
+  position: relative;
+}
+
+.footer.text{
+  font: 14px Lato #fff;
+}
+.footer.title{
+  font: 16px Lato;
+  font-weight: 500;
+  clear: both;
+}
+hr{
+  background: #b3b3b3;
+}
+.footer-container{
+ width: 70%;
+    margin: 0 auto;
+}
+.left.footer{
+  padding-top: 45px;
+  width: 445px;
+/*  margin-left: 84px;*/
+  font-size: 14px;
+  font-weight: 200;
+  float: left;
+  clear: both;
+}
+
+.right.footer{
+  display: inline-block;
+  width: 380px;
+  left: 84px;
+  float: left;
+  position: relative;
+}
+
+.right.footer h1{
+  color: #0096d2;
+  font: 15px Lato;
+}
+.right.footer h2{
+  font: 15px Lato;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.right.footer p{
+  font: 13px Lato;
+  font-style: italic;
+  margin-top: 0px;
+}
+.right.footer a{
+  text-decoration:none;
+  color: #fff;
+}
+.right.footer a:hover{
+  color: #fff;
+}
+
+.footer.read, .footer.data, .footer.print{
+  float: left;
+  color: #f2f2f2 !important;
+  /*clear: both;*/
+  height: 40px;
+  width: 112px;
+  border: 1px solid #f2f2f2;
+  margin-right: 7px;
+  margin-top: 45px;
+  margin-bottom: 57px;
+  cursor: pointer;
+  font: 13px Lato;
+  font-weight: 500;
+}
+.footer.data:hover, .footer.print:hover, .footer.read:hover{
+  background-color: #eb3f1c;  
+}
+.footer.read span{
+  top: 11px;
+  position: relative;
+  left: 21px;
+}
+.footer.data span{
+  position: relative;
+  top: 3px;
+  left: 16px;
+}
+.footer.data img{
+  position: relative;
+  top: 8px;
+  left: 10px;
+}
+.footer.data{
+  width: 135px;
+}
+.footer.print img{
+  height: 17px;
+  padding-top: 12px;
+  padding-left: 12px;
+  padding-right: 8px;
+}
+.footer.print span{
+  position: relative;
+  top: -5px;
+  left: 2px;
+}
+.footer.print{
+  width: 198px;
+}
+
+.footer.depot{
+	width: 110px;
+}
+.footer.doc{
+	width: 130px;
+}
+
+.left.credits{
+  float: left;
+  clear: both;
+  width: 228px;
+}
+.fips_national.total.units{
+  top: -41px;
+}
+.fips_national .county.name{
+  left: 54px;
+  padding-top: 20px;
+}
+.totalPop.fips_national{
+  left: 58px;
+  width: 271px;
+}
+.national_key{
+  /*display: none;*/
+}
+
+@media (max-width: 1335px){
+  .footerRow{
+  height: 1200px;   
+  }
+  .right.footer{
+   left: 0;   
+  }
+      
+  .print.button{
+   left: 30px;   
+  }
+}
 

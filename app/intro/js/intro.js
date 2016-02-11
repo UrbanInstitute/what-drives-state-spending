@@ -43,9 +43,9 @@ function fix(){
 		.style("left",left + "px")
 }
 var ELEMS = [];
-var DURATION = 3000
+var DURATION = 2000
 var SHORT_DURATION = 1000
-var DELAY = 3000
+var DELAY = 2000
 
 function drawLine(x1,y1,x2,y2,duration,delay){
 	// d3.selectAll(".formulaLine").remove()
