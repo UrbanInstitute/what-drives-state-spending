@@ -655,13 +655,18 @@ body{
   margin-top: 100px;
   background: #101b44;
   color: white;
-  min-height: 795px;
+  min-height: 435px;
   top: -12px;
   position: relative;
 }
 
 .footer.text{
-  font: 14px Lato #fff;
+  font: 16px Lato #fff;
+  line-height: 2em;
+}
+.footer.text a{
+	text-decoration: none;
+	color: #1696d2;
 }
 .footer.title{
   font: 16px Lato;
@@ -792,9 +797,9 @@ hr{
   /*display: none;*/
 }
 
-@media (max-width: 1335px){
+@media (max-width: 1178px){
   .footerRow{
-  height: 1200px;   
+  height: 690px;   
   }
   .right.footer{
    left: 0;   
@@ -804,4 +809,20 @@ hr{
    left: 30px;   
   }
 }
+@media (max-width: 525px){
+	.left.footer, .right.footer{
+		margin-left: -20px;
+		width: 100%;
+	}
+	.footerRow{
+		height: 1000px
+	}
+	.right.credits{
+		float: left;
+	}
+}
+@media (max-width: 368px){
+	.footer.read.doc{
+		margin-top: -50px;
+	}
 
