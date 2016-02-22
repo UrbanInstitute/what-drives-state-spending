@@ -206,7 +206,7 @@ body{
 .headerCell.inactive{
 	opacity: .3 !important;
 	pointer-events: none;
-	border-left: none;
+	border-left: 3px solid white;
 }
 .headerCell span{
 	font: 19px Lato;
@@ -379,11 +379,11 @@ body{
 	color: white;
 }
 .blankCell{
-    height: 6px;
-    border-top: 12px solid white;
-    border-left: none;
-    background-color: #ddd;
-    border-right: none;
+    background-color: #e6e6e6;
+    border-left: 3px solid #e6e6e6;
+    border-right: medium none;
+    border-top: 2px dotted #666;
+   opacity: 0.3;
 }
 .blankCell .rankLabel{
 	opacity: 0;
@@ -683,7 +683,6 @@ hr{
 .left.footer{
   padding-top: 45px;
   width: 445px;
-/*  margin-left: 84px;*/
   font-size: 14px;
   font-weight: 200;
   float: left;
@@ -697,6 +696,23 @@ hr{
   float: left;
   position: relative;
 }
+
+
+/*.right.footer{
+  display: inline-block;
+    float: right;
+   width: 45%;
+
+}
+
+.left.footer{
+    clear: both;
+    float: left;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 45px;
+    width: 45%;
+}*/
 
 .right.footer h1{
   color: #0096d2;
@@ -815,7 +831,7 @@ hr{
 		width: 100%;
 	}
 	.footerRow{
-		height: 1000px
+		height: 1px
 	}
 	.right.credits{
 		float: left;
