@@ -49,7 +49,6 @@ var DELAY = 2000
 
 function drawLine(x1,y1,x2,y2,duration,delay){
 	// d3.selectAll(".formulaLine").remove()
-	console.log("asdf")
 	d3.select(".formulaLines")
 		.append("line")
 		.attr("class","formulaLine")

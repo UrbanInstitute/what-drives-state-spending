@@ -83,21 +83,21 @@ function drawMenu(){
 
     			d3.select(".subcontainer.utilities")
     				.style("overflow","visible")
-    				.style("border-top", "1px solid white")
+    				// .style("border-top", "1px solid white")
     				.transition()
     				.style("height", "28px")
     				.style("margin-top","18px")
     				.style("padding-top", "13px")
-    			d3.selectAll(".container .navButton:not(.utilities)")
+    			// d3.selectAll(".container .navButton:not(.utilities)")
+    				// .transition()
+    				// .style("border-color","#808080")
+    				// .style("color","#666666")
+    				// .style("background","#e6e6e6")
+    			// d3.select(".container .utilities")
     				.transition()
-    				.style("border-color","#808080")
-    				.style("color","#666666")
-    				.style("background","#e6e6e6")
-    			d3.select(".container .utilities")
-    				.transition()
-    				.style("border-color","#eb3f1c")
-    				.style("color","#eb3f1c")
-    				.style("background","#e6e6e6")
+    				// .style("border-color","#eb3f1c")
+    				// .style("color","#eb3f1c")
+    				// .style("background","#e6e6e6")
 				d3.selectAll(".navButton.active").classed("active",false)
 				d3.select(".navButton.gas").classed("active",true)
 
@@ -1472,54 +1472,124 @@ function getCategory(){
 
 var s1_done, s2_done, s3_done, s4_done, s5_done, s6_done, s7_done;
 
+var lastScrollTop = $(this).scrollTop();
+
 $(window).scroll(function(e){
+
+
+   var st = $(this).scrollTop();
+   console.log(st, lastScrollTop)
+   if (st > lastScrollTop){
+       // downscroll code
+       d3.select(".slideHeader")
+       		.transition()
+       		.style("top","-70px")
+   } else {
+   		d3.select(".slideHeader")
+       		.transition()
+       		.style("top","0px")
+      // upscroll code
+   }
+   lastScrollTop = st;
 	var y = window.scrollY
 	console.log(y)
-	if(y >= 2600 && !s1_done){
+	if(y >= 2700 && !s1_done){
+		console.log("running")
 		s1_done = true
 		step1();
-	}
-	else if(y >= 3670 && !s2_done && ELEMS.length == 2){
-		s2_done = true
-		step2()
-	}
-	else if(y >= 4400 && !s3_done && ELEMS.length == 4){
-		s3_done = true
-		step3()
-	}
-	else if(y >= 5316 && !s4_done && ELEMS.length == 6){
-		s4_done = true
-		step4()
-	}
-	else if(y >= 6152 && !s5_done && ELEMS.length == 8){
-		s5_done = true
-		step5()
-	}
-	else if(y >= 7800 && !s6_done && ELEMS.length == 10){
-		s6_done = true
-		step6()
-	}
-	else if(y >= 8395 && !s7_done && ELEMS.length == 10){
-		s7_done = true
-		step7()
-	}
+		function wait(){
+			if (ELEMS.length != 2){
+				setTimeout(wait,3000);
+			} else {
+				step2()
+				wait2()
+			}
+		}
+		function wait2(){
+			if (ELEMS.length != 4){
+				setTimeout(wait2,3000);
+			} else {
+				step3()
+				wait3()
+			}
 
-	if(y >= 2995 && y<= 8355){
-		fix();
+		}
+		function wait3(){
+			if (ELEMS.length != 6){
+				setTimeout(wait3,3000);
+			} else {
+				step4()
+				wait4()
+			}
+		}
+		function wait4(){
+			if (ELEMS.length != 8){
+				setTimeout(wait4,3000);
+			} else {
+				step5()
+				wait5()
+			}
+		}
+		function wait5(){
+			if (ELEMS.length != 10){
+				setTimeout(wait5,3000);
+			} else {
+				step6()
+				// wait5()
+			}
+		}
+		wait()
 	}
-	if(y > 8355){
-		d3.select(".twocolumn.formula")
-			.style("position","inherit")
-			.style("margin-top","455px")
-			.style("margin-right","50px")
-			.style("left","0px")
-	}
-	if(y < 2995){
-		d3.select(".formula")
-			.style("margin-top","-4893px")
-			.style("top","0px")
-			.style("margin-right","50px")
-			.style("position","inherit")
+	// else if(y >= 2900 && !s2_done && ELEMS.length == 2){
+	// 	s2_done = true
+	// 	function steps(callback){
+	// 		step2()
+	// 		if(!s3_done && ELEMS.length == 4){
+	// 			callback()
+	// 		}
+	// 	}
+	// 	steps(step3)
+	// 	// step2()
+	// 	// step3()
+	// 	// step4()
+	// }
+	// else if(y >= 2900 && !s3_done && ELEMS.length == 4){
+	// 	s3_done = true
+	// 	step3()
+	// }
+	// else if(y >= 2900 && !s4_done && ELEMS.length == 6){
+	// 	s4_done = true
+	// 	step4()
+	// }
+	// else if(y >= 2900 && !s5_done && ELEMS.length == 8){
+	// 	s5_done = true
+	// 	step5()
+	// }
+	// else if(y >= 2900 && !s6_done && ELEMS.length == 10){
+	// 	s6_done = true
+	// 	step6()
+	// }
+	// else if(y >= 3300 && !s7_done && ELEMS.length == 10){
+	// 	s7_done = true
+	// 	step7()
+	// }
+
+	// if(y >= 2700 && y<= 3450){
+	// 	fix();
+	// }
+	// if(y > 3450){
+	// 	d3.select(".twocolumn.formula")
+	// 		.style("position","inherit")
+	// 		.style("margin-top","455px")
+	// 		.style("margin-right","50px")
+	// 		.style("left","0px")
+	// }
+	if(y < 2700){
+		// d3.select(".formula")
+		// 	.style("margin-top","-4893px")
+		// 	.style("top","0px")
+		// 	.style("margin-right","50px")
+		// 	.style("position","inherit")
 			// .style("left",left + "px")
 		d3.select(".h1spacing")
 			.style("display","block")
@@ -1617,3 +1687,7 @@ $(window).resize(function(e){
 		drawBlurbs(category, column, true)
 	}
 })
+d3.selectAll("#skip")
+    .on("click", function(){
+        $("html, body").animate({ scrollTop: 5030 }, 1000);
+    })

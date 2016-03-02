@@ -225,7 +225,7 @@ body{
 .innerHeader{
 	position: relative;
 	z-index: 999;
-	opacity: 0;
+	opacity: 1;
 	/*opacity: 0;*/
 }
 .innerHeader.spending{
@@ -488,7 +488,7 @@ body{
 #navMenu{
 	background-color: #E6E6E6;
 	width: 100%;
-	padding-top: 33px;
+	padding-top: 120px;
 }
 .navButton{
     /*width: 113px;*/
@@ -542,16 +542,23 @@ body{
 	font-size: 13px;
 	padding-top: 5px;
 	padding-bottom: 5px;
-	/*background: #e6e6e6;*/
+	background: #e6e6e6;
 
-	/*color: #666666;*/
-	/*border: 1px solid #666666;*/
+	color: #808080;
+	border: 1px solid #bbbfc1;
 }
-/*.subcontainer .navButton:hover{
-	background: #eb3f1c;
-	color: white;
-	border: 1px solid white;
-}*/
+.subcontainer .navButton:hover{
+	/*background: #eb3f1c;*/
+	color: #333333;
+	border: 1px solid #333333;
+	font-weight: 600;
+}
+.subcontainer .navButton.active{
+	/*background: #eb3f1c;*/
+	color: #eb3f1c;
+	border: 1px solid #eb3f1c;
+	/*font-weight: 600;*/
+}
 
 /*******************************************************/
 /******************* BLURBS ****************************/
@@ -841,4 +848,69 @@ hr{
 	.footer.read.doc{
 		margin-top: -50px;
 	}
+}
+/*******************************************************/
+/******************* HEADER ****************************/
+/*******************************************************/
+.slideHeader{
+	background: #333;
+	width: 100%;
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 100;
+	height: 60px;
+}
+.slideHeader .logo{
+	padding-left: 9px;
+	padding-top: 9px;
+}
+.addthis_button_facebook {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(http://www.urban.org/sites/all/themes/urban/images/generated/icons-s8fe141aaaa.png);
+    background-position: 0 -2056px;
+    height: 32px;
+    width: 32px;
+	right: 86px;
+    position: absolute;
+    top: 15px;
+}
 
+.addthis_button_facebook:hover {
+    background-position: 0 -1609px;
+}
+
+.addthis_button_twitter {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(http://www.urban.org/sites/all/themes/urban/images/generated/icons-s8fe141aaaa.png);
+    background-position: 0 -1169px;
+    height: 32px;
+    width: 32px;
+	right: 46px;
+    position: absolute;
+    top: 15px;
+}
+.addthis_button_twitter:hover {
+    background-position: 0 -1577px;
+}
+
+.addthis_button_email {
+    display: block;
+    background-repeat: no-repeat;
+    background-image: url(http://www.urban.org/sites/all/themes/urban/images/generated/icons-s8fe141aaaa.png);
+    background-position: 0 -1449px;
+    height: 32px;
+    width: 32px;
+	right: 6px;
+    position: absolute;
+    top: 15px;
+}
+.addthis_button_email:hover {
+    background-position: 0 -1271px;
+}
+
+.at_a11y{
+	display: none;
+}

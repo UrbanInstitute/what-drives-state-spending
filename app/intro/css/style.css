@@ -98,6 +98,7 @@ section.module.parallax h1 {
         margin-left: 12px;
         background-color: #214f9d;
         padding: 13 9 15 9px;
+        cursor: pointer;
     }
 
      section.module.parallax h2 {
@@ -118,6 +119,10 @@ section.module.parallax h1 {
     min-height: 900px;
     position: relative;
     z-index: 10;
+}
+.ending .twocolumn.left{
+    top: 120px;
+    position: relative;
 }
     
     section.module.content.lightgrey h3{
@@ -480,7 +485,7 @@ text-align: center;
 }
 .formula{
     position: inherit;
-    margin-top: -5093px;
+    margin-top: -890px;
     width: 555px;
     height: 476px;
     pointer-events: none;
