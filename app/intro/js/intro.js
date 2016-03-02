@@ -34,7 +34,7 @@
 // });
 
 function fix(){
-	var left = parseFloat(d3.select("#rightEdge").node().getBoundingClientRect().right) + 50
+	var left = parseFloat(d3.select("#rightEdge").node().getBoundingClientRect().right) + 50 - 100
 	d3.select(".formula")
 		// .classed("fixed",true)
 		.style("margin-top","0px")

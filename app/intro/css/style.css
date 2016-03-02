@@ -92,6 +92,14 @@ section.module.parallax h1 {
     width:55%;
 }
 
+    .h1spacing h2 span{
+        font-family: Lato;
+        font-size: 28px;
+        margin-left: 12px;
+        background-color: #214f9d;
+        padding: 13 9 15 9px;
+    }
+
      section.module.parallax h2 {
      color: #ffffff;
      font-family: "Crimson Text",serif;
@@ -105,32 +113,43 @@ section.module.parallax h1 {
 
 
 /* open second section*/
-    .lightgrey {
-    background-color: #e6e6e6;
+    .lightgrey, .ending {
+    background-color: #e6e6e6 !important;
     min-height: 900px;
     position: relative;
     z-index: 10;
 }
     
-    section.module.content.lightgrey h3 {
-     color: #333333;
-     font-family: "Lato",sans-serif;
-     font-size: 26px;
-     font-weight: 400;
-     line-height: 35px;
-     margin-top: 25%;
-     text-align: left;
-     width: 55%;
+    section.module.content.lightgrey h3{
+        color: #333333;
+        font-family: "Lato",sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 49px;
+        margin-top: 25%;
+        text-align: left;
+        width: 55%;
 }
+section.module.content.ending h3 {
+        color: #333333;
+        font-family: "Lato",sans-serif;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 33px;
+        margin-top: 11% !important;
+        text-align: left;
+        /*width: 75%;*/
+}
+
      .highlightwhite{
-     background-color: #ffffff;
-     color: #25a191;
-     font-family: "Crimson Text", serif;
-     font-size:28px; 
-    font-weight: 600;
-     line-height: 40px;
-     padding:10px;
-     width: 55%;
+         background-color: #ffffff;
+         color: #25a191;
+         font-family: "Crimson Text", serif;
+         font-size:23px; 
+         font-weight: 500;
+         line-height: 40px;
+         padding:10px;
+         width: 55%;
  }
 
 
@@ -146,9 +165,9 @@ section.module.parallax h1 {
 }
     section.module.parallax-2 h3{
     position: absolute;
-    top: 50%;
+    top: 30%;
     text-align: left;
-    width: 445px;   
+    width: 545px;   
    
 }
 
@@ -156,24 +175,24 @@ section.module.parallax h1 {
     background-color: #333333;
     color: #fff;
     font-family: "Crimson Text", serif;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 45px;
-    padding: 5px;
-  
+    font-size:23px; 
+    font-weight: 500;
+    line-height: 51px;
+    padding:10px;
+    width: 55%;
  }
 /* close third section*/
 
 
 /***************open fourth section ******************/
 .darkgrey {
-    background-color: #101b44;
+    background-color: #333333;
     min-height: 900px;
     position: relative;
     z-index: 10;
 }
 .topgrey{
-    border-top: solid 200px #101b44;
+    border-top: solid 200px #333333;
 }
 .topgrey .introLogo{
     top: -200px;
@@ -218,10 +237,10 @@ text-align: center;
 
 .highlightgreen{
      background-color: #a8dc92;
-     color: #101b44;
+     color: #333333 ;
      font-family: "Crimson Text", serif;
      font-size:28px; 
-    font-weight: 600;
+    font-weight: 500;
      line-height: 40px;
      padding:5px;    
  }
@@ -272,12 +291,21 @@ text-align: center;
 
 
 .orange .twocolumn p{
-     font-family: "Lato", sans-serif;
-     font-size:16px; 
-     line-height: 18px;
-    color:#ffffff; 
+    font-family: "Lato", sans-serif;
+    font-size:16px; 
+    line-height: 18px;
+    color:#ffffff;
 }
-
+.orange h3{
+    color: #ffffff;
+    font-family: "Lato",sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 49px;
+    /*margin-top: 25%;*/
+    text-align: left;
+    /*width: 55%;*/
+}
  .darkgrey .twocolumn .forumula_large p{
     font-family: "Crimson Text";
     font-style: italic;
