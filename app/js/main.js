@@ -701,12 +701,14 @@ promise.then(function(result){
 	if (PHONE){
 		resizePhone()
 	}
-	return renderHeatmap("housing", result);
-})
+	renderHeatmap("k12", result);
+	
 
+})
+showMenu("k12")
 
 // drawBlurbs("housing","spending")
-d3.select(".navButton.higher").classed("active",true)
+// d3.select(".navButton.higher").classed("active",true)
 
 $(".styled-select").click(function () {
     var element = $(this).children("select")[0],
