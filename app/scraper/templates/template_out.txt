@@ -2427,6 +2427,34 @@ Fusce proin gravida vivamus quam quis bibendum. Neque metus. Risus dolor tincidu
 
 ####### START_SECTION #######
 Category: k12
+Sorted by: spending
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: nonpayroll
+
+### Blurb text starts here ###
+With the exception of Alaska, states that spent the most per capita on K-12 education were not home to many school-aged kids. And, again with a few exceptions, kids in those states were more likely to be enrolled in private versus public schools compared to the national average. So what’s going on? Many of these states spent a lot on payroll, probably because they are expensive places to live. But some (especially New York and New Jersey) also employed a lot of teachers and other school employees. They also had higher non-payroll costs (such as capital costs in Massachusetts, Wyoming, and DC). These states can afford to spend more on payroll and other costs because they have fewer kids.
+
+### Blurb text ends here ###
+
+Top left State: DC
+Top left Column: spending
+
+Bottom right State: MD
+Bottom right Column: spending
+
+### Blurb text starts here ###
+We also examined reading and math test scores for 4th and 8th graders on the National Assessment of Educational Performance. States in the top ten for spending per capita reflect both high (Massachusetts, New Hampshire, New Jersey, and Vermont) and low (DC, CA) test scores. There was no clear pattern between test scores and spending per pupil or the number of teachers and other employees per pupil. 
+
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+####### START_SECTION #######
+Category: k12
 Sorted by: units
 
 Top left State: DC
@@ -2439,25 +2467,21 @@ Bottom right Column: nonpayroll
 DC stands out from other high-spending states because it has lower than average staffing levels (most high spending states have a lot of employees). This could be because DC’s spending per employee on both payroll and non-payroll costs was so much higher than any state’s.
 
 ### Blurb text ends here ###
-####### END_SECTION #######
 
-
-
-####### START_SECTION #######
-Category: k12
-Sorted by: spending
-
-Top left State: UT
+Top left State: VT
 Top left Column: spending
 
-Bottom right State: ID
-Bottom right Column: takeup
+Bottom right State: NH
+Bottom right Column: units
 
 ### Blurb text starts here ###
-States at or near the bottom in K-12 spending per capita were also home to more school aged kids (except for Florida and Hawaii). Offsetting this demographic effect were low enrollments in school in Mississippi, Oklahoma, and Nevada and, to a lesser extent, North Carolina, Florida, and Arizona. However, kids in these states who did attend school were more likely to enroll in public, rather than private, school.
+Vermont, Wyoming, and New Hampshire had the most public elementary and secondary education employees per student in 2012. This helps to explain why the states were all in the top ten for spending per capita and spending per pupil, even though they had only average payroll costs per employee. The New England states also could afford more employees per student since they ranked near the bottom in students per capita.
 
 ### Blurb text ends here ###
+
 ####### END_SECTION #######
+
+
 
 ####### START_SECTION #######
 Category: k12
@@ -2490,11 +2514,6 @@ Bottom right Column: payroll
 How did states with more school-aged kids and higher take-up rates manage to spend less per capita on K-12 education compared to the average state? By spending less per employee. These states also paid less than expected based on the premium earned by all workers with a BA in those states. 
 
 ### Blurb text ends here ###
-####### END_SECTION #######
-
-####### START_SECTION #######
-Category: k12
-Sorted by: demographics
 
 Top left State: UT
 Top left Column: demographics 
@@ -2504,23 +2523,6 @@ Bottom right Column: takeup
 
 ### Blurb text starts here ###
 Utah, Texas, and Idaho had the most school-aged kids per capita in 2012. These states also were among the top 5 in the nation when it came to public school enrollment as a share of total K-12 enrollment. Nevertheless, their spending per capita was below the national average, in some cases far below, implying that the number of children and public school students in a state are only some of the factors driving higher public school spending. 
-### Blurb text ends here ###
-
-####### END_SECTION #######
-
-####### START_SECTION #######
-Category: k12
-Sorted by: units 
-
-Top left State: VT
-Top left Column: spending
-
-Bottom right State: NH
-Bottom right Column: units
-
-### Blurb text starts here ###
-Vermont, Wyoming, and New Hampshire had the most public elementary and secondary education employees per student in 2012. This helps to explain why the states were all in the top ten for spending per capita and spending per pupil, even though they had only average payroll costs per employee. The New England states also could afford more employees per student since they ranked near the bottom in students per capita.
-
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -2546,23 +2548,6 @@ Many states in the top ten for payroll costs per K-12 education employee were al
 
 ####### START_SECTION #######
 Category: k12
-Sorted by: spending
-
-Top left State: DC
-Top left Column: spending
-
-Bottom right State: MD
-Bottom right Column: spending
-
-### Blurb text starts here ###
-We also examined reading and math test scores for 4th and 8th graders on the National Assessment of Educational Performance. States in the top ten for spending per capita reflect both high (Massachusetts, New Hampshire, New Jersey, and Vermont) and low (DC, CA) test scores. There was no clear pattern between test scores and spending per pupil or the number of teachers and other employees per pupil. 
-
-### Blurb text ends here ###
-
-####### END_SECTION #######
-
-####### START_SECTION #######
-Category: k12
 Sorted by: nonpayroll
 
 Top left State: DC
@@ -2577,6 +2562,7 @@ You might expect that states that spent a lot on nonpayroll costs, such as capit
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
+
 
 
 

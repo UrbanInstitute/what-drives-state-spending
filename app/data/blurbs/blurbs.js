@@ -691,13 +691,13 @@ var blurbs = {
     "spending": [
       {
         "bottom_right": {
-          "column": "takeup", 
-          "state": "ID"
+          "column": "nonpayroll", 
+          "state": "MD"
         }, 
-        "text": "States at or near the bottom in K-12 spending per capita were also home to more school aged kids (except for Florida and Hawaii). Offsetting this demographic effect were low enrollments in school in Mississippi, Oklahoma, and Nevada and, to a lesser extent, North Carolina, Florida, and Arizona. However, kids in these states who did attend school were more likely to enroll in public, rather than private, school.\n", 
+        "text": "With the exception of Alaska, states that spent the most per capita on K-12 education were not home to many school-aged kids. And, again with a few exceptions, kids in those states were more likely to be enrolled in private versus public schools compared to the national average. So what\u2019s going on? Many of these states spent a lot on payroll, probably because they are expensive places to live. But some (especially New York and New Jersey) also employed a lot of teachers and other school employees. They also had higher non-payroll costs (such as capital costs in Massachusetts, Wyoming, and DC). These states can afford to spend more on payroll and other costs because they have fewer kids.\n", 
         "top_left": {
           "column": "spending", 
-          "state": "UT"
+          "state": "DC"
         }
       }, 
       {
