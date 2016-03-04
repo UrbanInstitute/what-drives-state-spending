@@ -124,7 +124,8 @@ var mouseoverText	 = {
 	"k12": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "percent", "label" : "school age children"},
-		"takeup":{"format": "percent", "label" : "children enrolled"},
+		"eligibility":{"format": "percent", "label" : "children enrolled"},
+		"takeup":{"format": "percent", "label" : "children enrolled in public school"},
 		"units":{"format": "number", "label" : "employees per student"},
 		"payroll":{"format": "dollars", "label" : "per each employee"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}

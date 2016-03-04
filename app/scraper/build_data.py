@@ -9,26 +9,26 @@ user = "bchartof"
 
 BASE_PATH = "/Users/%s/Box Sync/COMM/**Project Folders**/Spending Drivers/Data Files"%user
 FILENAMES = {
-	"higher":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"corrections":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"medicaid":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"ssi":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"tanf":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"ccdf":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"housing":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"admin":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"resources":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"parks":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"electric":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"gas":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"sewage":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"waste":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"water":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"k12":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"fire":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"police":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"highway":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx",
-	"transit":"All categories/2012_All_ratios_01.27.16_Presentation.xlsx"
+	"higher":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"corrections":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"medicaid":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"ssi":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"tanf":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"ccdf":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"housing":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"admin":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"resources":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"parks":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"electric":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"gas":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"sewage":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"waste":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"water":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"k12":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"fire":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"police":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"highway":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx",
+	"transit":"All categories/2012_All_ratios_03.03.16_Presentation.xlsx"
 }
 TABNAMES = {
 	"higher": "higher",
@@ -56,10 +56,10 @@ STATES = {"MT": "Montana","WY": "Wyoming","NE": "Nebraska","ME": "Maine","ID": "
 allColumns = {
 	"higher": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
 	"corrections": [("spending",2),("demographics",False),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
-	"medicaid": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",9)],
-	"ssi": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",9)],
-	"tanf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",9)],
-	"ccdf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6),("spending-per",9)],
+	"medicaid": [("spending",2),("demographics",3),("eligibility",4),("takeup",5)],
+	"ssi": [("spending",2),("demographics",3),("eligibility",4),("takeup",5)],
+	"tanf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5)],
+	"ccdf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6)],
 	"housing": [("spending",2),("demographics",3),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
 	"admin": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
 	"resources": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
@@ -84,7 +84,7 @@ def parseBook(category):
 	xl_sheet = book.sheet_by_name(TABNAMES[category])
 	columns = allColumns[category]
 
-	for i in range(1, xl_sheet.nrows):
+	for i in range(1, xl_sheet.nrows-3):
 		row = xl_sheet.row(i)
 		state = xl_sheet.cell_value(rowx=i, colx=0)
 		if state == "":
@@ -92,6 +92,7 @@ def parseBook(category):
 		data[state] = {}
 		for c in columns:
 			if(c[1]):
+				print category, c[1], xl_sheet.cell_value(rowx=i,colx=1)
 				value = xl_sheet.cell_value(rowx=i,colx=c[1])
 				t = xl_sheet.cell_type(rowx=i,colx=c[1])
 				if(state == "ID" and category == "gas"):

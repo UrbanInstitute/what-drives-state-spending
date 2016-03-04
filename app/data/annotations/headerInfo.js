@@ -35,13 +35,13 @@ var HEADER_INFO = {
   "electric": {
     "demographics": ".", 
     "eligibility": ".", 
-    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
-    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
-    "spending": "State and local dollars spent on utilities per state resident.", 
+    "nonpayroll": "Dollars spent on non-personnel electric costs per electric employee.", 
+    "payroll": "Number of dollars spent on electric employees per utilities employee.", 
+    "spending": "State and local dollars spent on electric utilities per state resident.", 
     "spending-per": "", 
     "takeup": ".", 
     "takeup2": "", 
-    "units": "Number of utility employees per state resident."
+    "units": "Number of electric employees per state resident."
   }, 
   "fire": {
     "demographics": ".", 
@@ -57,13 +57,13 @@ var HEADER_INFO = {
   "gas": {
     "demographics": ".", 
     "eligibility": ".", 
-    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
-    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
-    "spending": "State and local dollars spent on utilities per state resident.", 
+    "nonpayroll": "Dollars spent on non-personnel gas costs per gas employee.", 
+    "payroll": "Number of dollars spent on gas employees per gas employee.", 
+    "spending": "State and local dollars spent on gas per state resident.", 
     "spending-per": "", 
     "takeup": ".", 
     "takeup2": "", 
-    "units": "Number of utility employees per state resident."
+    "units": "Number of gas employees per state resident."
   }, 
   "higher": {
     "demographics": "The number of 18-24 year olds in the state, accounting for those who move for college, as a share of state population.", 
@@ -100,12 +100,12 @@ var HEADER_INFO = {
   }, 
   "k12": {
     "demographics": "Children who could be in school as a share of state population.", 
-    "eligibility": ".", 
+    "eligibility": "Share of children who are enrolled in school.", 
     "nonpayroll": "Dollars spent on facilities and other costs per school employee.", 
     "payroll": "Dollars spent on school employees per school employee.", 
     "spending": "State and local dollars spent on K-12 education per state resident.", 
     "spending-per": ".", 
-    "takeup": "Share of children who are enrolled in school.", 
+    "takeup": "Share of children who are enrolled in public school.", 
     "takeup2": "Children enrolled in public school as a share of children enrolled in school.", 
     "units": "The number of school employees per child in school."
   }, 
@@ -156,13 +156,13 @@ var HEADER_INFO = {
   "sewage": {
     "demographics": ".", 
     "eligibility": ".", 
-    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
-    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
-    "spending": "State and local dollars spent on utilities per state resident.", 
+    "nonpayroll": "Dollars spent on non-personnel sewerage costs per utilities employee.", 
+    "payroll": "Number of dollars spent on sewerage employees per utilities employee.", 
+    "spending": "State and local dollars spent on sewerage per state resident.", 
     "spending-per": "", 
     "takeup": ".", 
     "takeup2": "", 
-    "units": "Number of utility employees per state resident."
+    "units": "Number of sewerage employees per state resident."
   }, 
   "ssi": {
     "demographics": "Number of elderly or disabled people living at or below 200% of the poverty line per state resident.", 
@@ -211,23 +211,23 @@ var HEADER_INFO = {
   "waste": {
     "demographics": ".", 
     "eligibility": ".", 
-    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
-    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
-    "spending": "State and local dollars spent on utilities per state resident.", 
+    "nonpayroll": "Dollars spent on non-personnel waste costs per utilities employee.", 
+    "payroll": "Number of dollars spent on waste employees per utilities employee.", 
+    "spending": "State and local dollars spent on waste per state resident.", 
     "spending-per": "", 
     "takeup": ".", 
     "takeup2": "", 
-    "units": "Number of utility employees per state resident."
+    "units": "Number of waste employees per state resident."
   }, 
   "water": {
     "demographics": ".", 
     "eligibility": ".", 
-    "nonpayroll": "Dollars spent on non-personnel utilities costs per utilities employee.", 
-    "payroll": "Number of dollars spent on utility employees per utilities employee.", 
-    "spending": "State and local dollars spent on utilities per state resident.", 
+    "nonpayroll": "Dollars spent on non-personnel water costs per water employee.", 
+    "payroll": "Number of dollars spent on water employees per water employee.", 
+    "spending": "State and local dollars spent on water per state resident.", 
     "spending-per": "", 
     "takeup": ".", 
     "takeup2": "", 
-    "units": "Number of utility employees per state resident."
+    "units": "Number of water employees per state resident."
   }
 }
