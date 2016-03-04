@@ -2,7 +2,8 @@ var mouseoverText	 = {
 	"higher": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "percent", "label" : "18-24 year olds"},
-		"takeup":{"format": "percent", "label" : "18-24 year olds enrolled"},
+		"takeup":{"format": "percent", "label" : "18-24 year olds enrolled in public school"},
+		"eligibility":{"format": "percent", "label" : "18-24 year olds enrolled"},
 		"units":{"format": "number", "label" : "employees per student"},
 		"payroll":{"format": "dollars", "label" : "per each employee"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
@@ -41,7 +42,7 @@ var mouseoverText	 = {
 		"eligibility":{"format": "percent", "label" : "of low income people with children who are eligible"},
 		"takeup":{"format": "percent", "label" : "of eligible residents who are recipients"},
 		"units":{"format": "number", "label" : "funded providers per recipient"},
-		"spending-per":{"format": "dollars", "label" : "spent per low income family"}
+		"spending-per-u":{"format": "dollars", "label" : "spent per childcare provider"}
 	},	
 	"housing": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},

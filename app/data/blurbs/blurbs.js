@@ -641,38 +641,36 @@ var blurbs = {
     "demographics": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "payroll", 
+          "state": "GA"
         }, 
-        "text": "Fames augue nam luctus mus et cursus molestie dolor congue mauris dolor. Netus fames tortor sociis conubia pede mi urna ante mi. Porta fames. Donec ipsum cras nonummy urna adipiscing id faucibus quis curabitur eu platea. Velit morbi neque feugiat ante duis. Magna lacus lectus montes vivamus rutrum ut justo ac velit pellentesque lobortis curae curabitur praesent luctus. Fusce curae. Risus donec morbi lacinia aenean. Fames porta. Morbi ipsum.\n", 
+        "text": "How did states with more school-aged kids and higher take-up rates manage to spend less per capita on K-12 education compared to the average state? By spending less per employee. These states also paid less than expected based on the premium earned by all workers with a BA in those states. \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "UT"
         }
-      }
-    ], 
-    "eligibility": [
+      }, 
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "takeup", 
+          "state": "ID"
         }, 
-        "text": "Augue neque per morbi cursus at cras bibendum consectetuer platea risus eget laoreet enim. Dolor class facilisi massa nascetur donec et consectetuer feugiat neque. Fusce risus. Vitae fusce justo nibh nunc morbi gravida diam ante ipsum eros. Magna lorem egestas platea leo. Morbi nulla. Magna lacus litora class mattis massa parturient scelerisque. Dolor morbi leo proin sed imperdiet sit. Lacus proin per. Fames lacus. Class curae quis suspendisse laoreet.\n", 
+        "text": "Utah, Texas, and Idaho had the most school-aged kids per capita in 2012. These states also were among the top 5 in the nation when it came to public school enrollment as a share of total K-12 enrollment. Nevertheless, their spending per capita was below the national average, in some cases far below, implying that the number of children and public school students in a state are only some of the factors driving higher public school spending. \n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "demographics", 
+          "state": "UT"
         }
       }
     ], 
     "nonpayroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "nonpayroll", 
+          "state": "KS"
         }, 
-        "text": "Velit massa arcu blandit eu lectus ac luctus morbi proin. Ipsum justo congue nam erat. Fames neque. Neque lorem. Porta netus. Lorem vitae dolor pulvinar lorem feugiat senectus natoque. Curae fames. Proin neque amet tristique vulputate urna vulputate eros sed elementum. Purus felis eros integer viverra luctus. Risus massa ornare pede ac habitant urna maecenas velit. Ipsum morbi malesuada tellus parturient maecenas iaculis diam dictumst lacinia lobortis.\n", 
+        "text": "You might expect that states that spent a lot on nonpayroll costs, such as capital expenditures or employee benefits, would spend less on payroll. The data, however, show this is not the case. Instead, with a few exceptions, the states that spent a lot on nonpayroll costs also spent a lot on their employees.\n", 
         "top_left": {
-          "column": "spending", 
+          "column": "payroll", 
           "state": "DC"
         }
       }
@@ -680,12 +678,12 @@ var blurbs = {
     "payroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "payroll", 
+          "state": "CT"
         }, 
-        "text": "Risus augue per quis praesent a. Etiam risus hendrerit viverra nam placerat. Fusce morbi rutrum ve. Dolor donec nullam ullamcorper nulla aenean parturient. Velit felis vitae fermentum ut semper sodales eu montes. Etiam class tellus praesent proin sit. Porta etiam aptent accumsan. Etiam vitae luctus ut luctus. Velit risus. Donec metus. Proin lorem leo cum porttitor montes tellus ad. Ipsum magna sit pede et ipsum ve.\n", 
+        "text": "Many states in the top ten for payroll costs per K-12 education employee were also among the top states in average spending per capita. These states also had fewer than average school aged kids and relatively low take-up rates for public school. \n \n", 
         "top_left": {
-          "column": "spending", 
+          "column": "payroll", 
           "state": "DC"
         }
       }
@@ -693,10 +691,21 @@ var blurbs = {
     "spending": [
       {
         "bottom_right": {
+          "column": "takeup", 
+          "state": "ID"
+        }, 
+        "text": "States at or near the bottom in K-12 spending per capita were also home to more school aged kids (except for Florida and Hawaii). Offsetting this demographic effect were low enrollments in school in Mississippi, Oklahoma, and Nevada and, to a lesser extent, North Carolina, Florida, and Arizona. However, kids in these states who did attend school were more likely to enroll in public, rather than private, school.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "UT"
+        }
+      }, 
+      {
+        "bottom_right": {
           "column": "spending", 
           "state": "MD"
         }, 
-        "text": "Massa dolor rutrum luctus nulla suspendisse. Magna augue lacinia mi malesuada. Massa magna. Proin magna. Fames lorem fames mattis tristique. Vitae proin lorem felis sodales. Justo lorem a varius urna ad suscipit blandit. Justo metus amet phasellus placerat in eget interdum taciti eros condimentum. Class curae odio leo odio. Justo magna tempus suspendisse proin tempus pellentesque. Etiam nulla. Velit fames eget tempor.\n", 
+        "text": "We also examined reading and math test scores for 4th and 8th graders on the National Assessment of Educational Performance. States in the top ten for spending per capita reflect both high (Massachusetts, New Hampshire, New Jersey, and Vermont) and low (DC, CA) test scores. There was no clear pattern between test scores and spending per pupil or the number of teachers and other employees per pupil. \n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -706,26 +715,37 @@ var blurbs = {
     "takeup": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "takeup", 
+          "state": "OK"
         }, 
-        "text": "Justo fames cubilia mauris leo. Fames purus condimentum hac eu pellentesque. Risus dolor. Augue etiam mollis nullam etiam vestibulum volutpat nulla elementum nec natoque ut. Lacus etiam. Ipsum velit ligula orci. Metus velit dolor est primis egestas potenti. Magna morbi eget gravida dictum. Fusce massa habitant nam lorem nisi id nulla ultricies. Class velit curabitur montes suscipit metus nunc habitant ante aliquam. Etiam augue mus pretium a condimentum.\n", 
+        "text": "Except Wyoming, the states with the highest rate of public school enrollment among school-going children were also some of the lowest spenders. These states, however, also have relatively low rates of overall school attendance. \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "UT"
         }
       }
     ], 
     "units": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "nonpayroll", 
+          "state": "DC"
         }, 
-        "text": "Class vitae nulla non quis urna gravida quam lobortis quisque montes ac eni amet a lacus. Neque lacus scelerisque accumsan proin eu eros. Netus ipsum dolor. Fames netus arcu per. Porta justo vitae odio nam cubilia ligula nam ac sollicitudin. Nulla massa. Netus risus suspendisse senectus. Massa justo a pretium eu. Morbi proin varius facilisis conubia aenean eros luctus parturient.\n", 
+        "text": "DC stands out from other high-spending states because it has lower than average staffing levels (most high spending states have a lot of employees). This could be because DC\u2019s spending per employee on both payroll and non-payroll costs was so much higher than any state\u2019s.\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "units", 
+          "state": "NH"
+        }, 
+        "text": "Vermont, Wyoming, and New Hampshire had the most public elementary and secondary education employees per student in 2012. This helps to explain why the states were all in the top ten for spending per capita and spending per pupil, even though they had only average payroll costs per employee. The New England states also could afford more employees per student since they ranked near the bottom in students per capita.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "VT"
         }
       }
     ]

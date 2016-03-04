@@ -6,6 +6,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on administrative employees per administrative employee.", 
     "spending": "State and local dollars spent on administrative costs per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": ".", 
     "units": "Number of administrative employees per state resident."
@@ -17,6 +18,7 @@ var HEADER_INFO = {
     "payroll": ".", 
     "spending": "Federal and State Mainenance of Effort spending per state resident, based on Census Poverty Universe data.", 
     "spending-per": "Number of dollars spent on CCDF per low-income family.", 
+    "spending-per-u": "Spending per childcare provider receiving CCDF funds.", 
     "takeup": "Number of CCDF recipients per eligible resident.", 
     "takeup2": ".", 
     "units": "Number of childcare providers receiving CCDF funds per child receiving CCDF."
@@ -28,6 +30,7 @@ var HEADER_INFO = {
     "payroll": "Dollars spent on corrections employees per correction employee.", 
     "spending": "State and local dollars spent on corrections per state resident.", 
     "spending-per": ".", 
+    "spending-per-u": ".", 
     "takeup": "Number of prisoners or parolees per state resident.", 
     "takeup2": ".", 
     "units": "Number of corrections employees per prisoner or parolee."
@@ -39,6 +42,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on electric employees per utilities employee.", 
     "spending": "State and local dollars spent on electric utilities per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of electric employees per state resident."
@@ -50,6 +54,7 @@ var HEADER_INFO = {
     "payroll": "Dollars spent on fire employees per fire employee.", 
     "spending": "State and local dollars spent on fire fighting per state resident.", 
     "spending-per": ".", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of fire employees per state resident."
@@ -61,18 +66,20 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on gas employees per gas employee.", 
     "spending": "State and local dollars spent on gas per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of gas employees per state resident."
   }, 
   "higher": {
     "demographics": "The number of 18-24 year olds in the state, accounting for those who move for college, as a share of state population.", 
-    "eligibility": ".", 
+    "eligibility": "Share of 18-24 year olds enrolled in college in the state.", 
     "nonpayroll": "Dollars spent on non-personnel costs per college employee.", 
     "payroll": "Dollars spent on college employees per college employee.", 
     "spending": "State and local dollars spent on higher education per state resident.", 
     "spending-per": ".", 
-    "takeup": "Share of 18-24 year olds enrolled in college in the state.", 
+    "spending-per-u": ".", 
+    "takeup": "Share of 18-24 year olds enrolled in public colleges in the state.", 
     "takeup2": "Share of 18-24 year olds enrolled in public colleges in the state.", 
     "units": "The number of employees per student in public universities."
   }, 
@@ -83,6 +90,7 @@ var HEADER_INFO = {
     "payroll": "Dollars spent on employees per mile of road.", 
     "spending": "State and local dollars spent on highway maintenance per state resident.", 
     "spending-per": ".", 
+    "spending-per-u": ".", 
     "takeup": "The average number of miles each driver in the state drives.", 
     "takeup2": ".", 
     "units": "The number of lane miles in the state per driver."
@@ -94,6 +102,7 @@ var HEADER_INFO = {
     "payroll": "Dollars spent on housing employees per housing employee.", 
     "spending": "State and local dollars spent on housing per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": "The share of low-income residents who receive housing support.", 
     "takeup2": ".", 
     "units": "Number of housing employees per resident receiving housing support."
@@ -105,6 +114,7 @@ var HEADER_INFO = {
     "payroll": "Dollars spent on school employees per school employee.", 
     "spending": "State and local dollars spent on K-12 education per state resident.", 
     "spending-per": ".", 
+    "spending-per-u": ".", 
     "takeup": "Share of children who are enrolled in public school.", 
     "takeup2": "Children enrolled in public school as a share of children enrolled in school.", 
     "units": "The number of school employees per child in school."
@@ -116,6 +126,7 @@ var HEADER_INFO = {
     "payroll": ".", 
     "spending": "State and local dollars spent on Medicaid per non-institutionalized state resident. (Spending data from Kaiser Family Foundation and population data from TRIM)", 
     "spending-per": "Dollars spent on Medicaid per resident at or below 200% of the poverty line.", 
+    "spending-per-u": ".", 
     "takeup": "The number of Medicaid enrollees per eligible resident.", 
     "takeup2": ".", 
     "units": "."
@@ -127,6 +138,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on parks employees per parks employee.", 
     "spending": "State and local dollars spent on parks per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": "Number of park acres per state resident.", 
     "takeup2": ".", 
     "units": "Number of park employees per park acre."
@@ -138,6 +150,7 @@ var HEADER_INFO = {
     "payroll": "Dollars spent on police employees per police employee.", 
     "spending": "State and local dollars spent on police per state resident.", 
     "spending-per": ".", 
+    "spending-per-u": ".", 
     "takeup": "The number of crimes per state resident.", 
     "takeup2": ".", 
     "units": "The number of police employees per crime."
@@ -149,6 +162,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on natural resources employees per natural resources employee.", 
     "spending": "State and local dollars spent on natural resources per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": ".", 
     "units": "Number of natural resources employees per state resident."
@@ -160,6 +174,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on sewerage employees per utilities employee.", 
     "spending": "State and local dollars spent on sewerage per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of sewerage employees per state resident."
@@ -171,6 +186,7 @@ var HEADER_INFO = {
     "payroll": ".", 
     "spending": "Federal dollars spent on social security per non-institutionalized state resident.", 
     "spending-per": "Number of dollars spent on social security per elderly or disabled resident living at or below 200% of the poverty line.", 
+    "spending-per-u": ".", 
     "takeup": "The number of SSI recipients per eligible resident.", 
     "takeup2": ".", 
     "units": "."
@@ -182,6 +198,7 @@ var HEADER_INFO = {
     "payroll": ".", 
     "spending": "Federal and State Mainenance of Effort spending per state resident, based on Census Poverty Universe data.", 
     "spending-per": "Number of dollars spent on TANF per TANF recipient.", 
+    "spending-per-u": ".", 
     "takeup": "Number of TANF recipients per eligible resident.", 
     "takeup2": ".", 
     "units": "."
@@ -193,6 +210,7 @@ var HEADER_INFO = {
     "payroll": "Dollars spent on employees per mile of bus or train routes.", 
     "spending": "State and local dollars spent on public transit per state resident.", 
     "spending-per": ".", 
+    "spending-per-u": ".", 
     "takeup": "The average length, in miles, of a public transit trip in the state.", 
     "takeup2": ".", 
     "units": "The number of transit miles per state resident."
@@ -204,6 +222,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on utility employees per utilities employee.", 
     "spending": "State and local dollars spent on utilities per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of utility employees per state resident."
@@ -215,6 +234,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on waste employees per utilities employee.", 
     "spending": "State and local dollars spent on waste per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of waste employees per state resident."
@@ -226,6 +246,7 @@ var HEADER_INFO = {
     "payroll": "Number of dollars spent on water employees per water employee.", 
     "spending": "State and local dollars spent on water per state resident.", 
     "spending-per": "", 
+    "spending-per-u": ".", 
     "takeup": ".", 
     "takeup2": "", 
     "units": "Number of water employees per state resident."

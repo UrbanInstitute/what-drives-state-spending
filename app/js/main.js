@@ -2,10 +2,10 @@
 var COLUMNS = {
 	"higher": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"corrections": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
-	"medicaid": ["spending","demographics","eligibility","takeup"],
-	"ssi": ["spending","demographics","eligibility","takeup"],
-	"tanf": ["spending","demographics","eligibility","takeup"],
-	"ccdf": ["spending","demographics","eligibility","takeup","units"],	
+	"medicaid": ["spending","demographics","eligibility","takeup","spending-per"],
+	"ssi": ["spending","demographics","eligibility","takeup","spending-per"],
+	"tanf": ["spending","demographics","eligibility","takeup","spending-per"],
+	"ccdf": ["spending","demographics","eligibility","takeup","units","spending-per-u"],	
 	"housing": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"admin": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"resources": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
@@ -30,7 +30,9 @@ var HEADERS ={
 	"units": "<div class = \"innerHeader units\"><span>&times;</span>unit per<br/>&nbsp;recipient</div>",
 	"payroll": "<div class = \"innerHeader payroll\"><span>&times;(</span>payroll</div>",
 	"nonpayroll": "<div class = \"innerHeader nonpayroll\"><span id = \"left\">+</span>non payroll<span id = \"right\">)</span></div>",
-	"spending-per":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>recipient</div>"
+	"spending-per":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>recipient</div>",
+	"spending-per-u":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>unit</div>"
+
 }
 ROW_HEIGHT = 32;
 var COLUMN_WIDTH = 99;
@@ -183,6 +185,7 @@ function renderHeatmap(category, userLocation){
 
 					d3.selectAll(".blurbBox").remove()
 					d3.selectAll(".connector").remove()
+					d3.selectAll(".blurbText").remove()
 					var cat = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
 
 					var isBlank = d3.select(".cell." + cat).classed("blankCell")
@@ -413,17 +416,17 @@ function renderHeatmap(category, userLocation){
 			return isBlank
 
 		})
-
 	}, 200)
 // })
-
-
 	// promise2.then(function(result){
 	// 	drawBlurbs(result.category, result.column)
 	// })
 }
 
-
+// $(document).ready(function(){
+// 	console.log("jasipodf")
+// 	showMenu("k12")
+// })
 
 function stickyState(state){
 	var defaultState = (state.state == "") ? "DC" : state.state;
@@ -698,8 +701,9 @@ promise.then(function(result){
 	if (PHONE){
 		resizePhone()
 	}
-	renderHeatmap("housing", result);
+	return renderHeatmap("housing", result);
 })
+
 
 // drawBlurbs("housing","spending")
 d3.select(".navButton.higher").classed("active",true)

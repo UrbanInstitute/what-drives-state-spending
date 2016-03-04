@@ -315,14 +315,14 @@ body{
 .nonpayroll.headerCell span#right{
 	left: 11px;
 }
-.spending-per span{
+.spending-per span, .spending-per-u span{
 	left: -10px;
 	top: 7.5px;
 }
-.spending-per.headerCell{
+.spending-per.headerCell, .spending-per-u.headerCell{
 	margin-top: 38px;
 }
-.spending-per.headerCell .headerArrow{
+.spending-per.headerCell .headerArrow, .spending-per-u.headerCell .headerArrow{
 	margin-top: 8px;
 }
 .cell, .headerCell{
