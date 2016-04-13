@@ -3,26 +3,37 @@ var blurbs = {
     "nonpayroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "nonpayroll, nonpayroll", 
+          "state": "UT, DC"
         }, 
-        "text": "Metus risus magnis varius fames porttitor netus pulvinar nunc cum. Ipsum velit ligula enim pede fermentum varius facilisi purus felis magnis ornare. Etiam augue dui duis praesent gravida suscipit ve varius molestie parturient. Netus justo nibh bibendum varius aenean pretium egestas. Netus class nisl placerat sit potenti. Magna morbi. Neque felis. Lacus purus. Risus netus porta nostra dignissim. Velit fusce netus dictum pretium eu varius nam conubia.\n", 
+        "text": "You probably think of public administration as an area driven by personnel costs, but the data here show, with the exception of DC, a clear relationship between non-payroll spending and spending per capita. This means that some aspect of nonpayroll spending, such as\u2026, is often a driver of government administration spending. \n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "spending, spending", 
+          "state": "WY, MI"
         }
       }
     ], 
     "payroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "payroll", 
+          "state": "CO"
         }, 
-        "text": "Nulla curae massa nec accumsan magna imperdiet netus. Neque purus eni parturient nostra maecenas habitasse pellentesque parturient arcu habitasse suscipit. Proin risus. Class purus dolor aliquam nullam. Nulla fames non diam. Porta curae nonummy et platea. Neque massa sociis ac arcu pede metus bibendum tincidunt consectetuer. Felis justo nullam sollicitudin habitasse. Vitae lorem mus erat augue ac. Morbi etiam erat nonummy id vitae at.\n", 
+        "text": "Payroll numbers are driven in part by labor market conditions and in part by state decisions. In most cases, it\u2019s possible to determine the extent to which salary choices were driven by the labor market by comparing a state\u2019s salaries to local averages for similar workers. In this spending area, however, it is difficult to isolate state spending decisions from labor market conditions because the administration category encompasses so many different fields and kinds of workers. For example, in DC, attorneys working in local government are paid less than the DC average for lawyers, while financial officers are paid $17,000 more than the average of that field. The mix of labor market conditions here makes it hard to say much about state policy choices.  \n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "payroll", 
+          "state": "CA"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "nonpayroll", 
+          "state": "NV"
+        }, 
+        "text": "Unlike in other spending categories, there is no clear relationship here between payroll and non-payroll spending. In fact, among the five states where salaries are the highest, you see two of the highest non-payroll spenders and two of the lowest. One of the classic drivers of non-payroll spending would be capital projects, but out of these five states, you have a mix of high capital spending (CA and NV), low capital spending (NJ) and mid-range capital spending (DC and AK), with no obvious trend.  \n", 
+        "top_left": {
+          "column": "payroll", 
+          "state": "CA"
         }
       }
     ], 
@@ -30,25 +41,47 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "MD"
+          "state": "CT"
         }, 
-        "text": "Magna ipsum purus neque turpis dictumst suspendisse faucibus velit dolor ultricies praesent id porta non amet. Augue felis eros semper egestas at. Neque dolor ornare massa torquent magna proin fusce orci id cras nec nulla. Vitae morbi nibh magna aliquet justo porta a natoque sapien non. Lorem augue. Risus metus eleifend. Nulla fames. Netus fames senectus morbi id. Ipsum lorem primis lacus vehicula leo vivamus sem vivamus habitant.\n", 
+        "text": "The highest government administration spenders in 2012 were a mix of low population (Alaska, Wyoming, Delaware, and Montana) and high cost-of-living (New York, California, and Connecticut) states. For Alaska and other small states, high spending per capita could simply be a result of having fewer people to share the fixed costs of buildings and certain administrative activities, like tax collection. \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "AK"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "nonpayroll", 
+          "state": "MO"
+        }, 
+        "text": "States near the bottom of the rankings in government administration expenditures generally provided fewer workers per state resident, paid those workers less, and spent less per worker on non-payroll activities. It should be noted that this lower-level employment and spending occurred without a noticeable decrease in public trust in government.\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "TN"
         }
       }
     ], 
     "units": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "spending, units", 
+          "state": "DE, DE"
         }, 
-        "text": "Porta donec nibh a augue dapibus posuere. Massa purus volutpat nam blandit risus nam litora. Netus nulla etiam vitae sed malesuada luctus etiam vulputate. Curae morbi hac tristique enim sed netus posuere sociis. Fames class quis potenti sem et fringilla a ridiculus porta purus. Purus curae torquent nam. Nulla ipsum proin magnis at ut porttitor nonummy pellentesque hymenaeos aptent a sociosqu nibh eleifend. Class vitae.\n", 
+        "text": "States that spent a lot on government administration in 2012 often employed a lot of workers. Alaska and DC stood out with eight full-time employees for every 1,000 residents, despite also paying some of the highest salaries. When governments employ more administrative workers per capita, wait times may be shorter, court proceedings may go faster, and regulations may be more likely to be enforced. \n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "spending, units", 
+          "state": "DC, DC"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "Units", 
+          "state": "TX"
+        }, 
+        "text": "There doesn\u2019t appear to be a clear relationship between staffing levels and outcomes in this area. For example, among the four states with the lowest staffing levels, Illinois and North Carolina ranked first and ninth respectively in the proportion of residents who trusted government \u201cnot very much\u201d or \u201cnone at all,\u201d but in Texas and Indiana 72 percent and 68 percent of residents respectively trusted government \u201ca fair amount\u201d or \u201cgreat deal\u201d, placing both in the top ten states by positive trust ratings. (cite data depot)\n \n", 
+        "top_left": {
+          "column": "Units", 
+          "state": "IN"
         }
       }
     ]
@@ -819,26 +852,37 @@ var blurbs = {
     "nonpayroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "nonpayroll", 
+          "state": "DC"
         }, 
-        "text": "Metus massa dictum tellus penatibus. Risus massa lectus ipsum ac. Nulla velit vitae. Felis fusce montes sapien. Magna etiam lacus duis hac ac varius conubia quam pellentesque faucibus ipsum. Netus vitae neque taciti maecenas in risus at nulla. Fusce dolor quis varius pharetra. Dolor metus eros pede felis montes ligula class platea. Risus massa. Donec etiam eros laoreet nisi. Fusce class metus risus mollis.\n", 
+        "text": "While the average state spent $66,554 per employee on nonpayroll costs, DC spent $219,440, nearly $80,000 more than the next highest spender, South Dakota. Though DC also boasts the highest salaries, the difference in its nonpayroll spending is much more dramatic, and it is likely nonpayroll spending is driving DC\u2019s high spending per capita.  \n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "nonpayroll", 
+          "state": "MI"
+        }, 
+        "text": "States with high nonpayroll spending per employee also have very high levels of capital spending per employee for 2012. The data show that in 2012, the average state spent $32,500 per employee on construction and capital projects. DC spent almost $95,000 per employee, and SD, ID, and AK were all in the top ten states by capital investment per employee. MI very low number of employees per capita (lowest number for any state) and moderate payroll spending could explain its high rank, given it is the only state of those selected with capital spending per capita not in the top 15. \n", 
+        "top_left": {
+          "column": "units", 
+          "state": "IN"
         }
       }
     ], 
     "payroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "nonpayroll", 
+          "state": "MS"
         }, 
-        "text": "Augue fusce semper. Etiam proin laoreet cras a justo. Lacus lorem. Augue purus justo cursus adipiscing sollicitudin. Neque donec hac mus gravida placerat eu. Augue risus porta justo maecenas at pede integer semper. Ipsum curae. Lacus augue ullamcorper bibendum curabitur vehicula. Porta nulla. Lacus justo quam. Netus dolor hendrerit lobortis lectus. Justo massa lectus justo ac dictum mus odio pretium in odio. Lorem fames fusce justo. Magna neque ultricies.\n", 
+        "text": "Most of the states with low salaries also have low non-payroll expenditures, but Mississippi stands out as the exception to the pattern. Despite employing significantly fewer people per resident and paying those employees less, Mississippi ranks 30th in spending, driven, it seems, by its non-payroll expenses, which are the fourth highest. While capital spending might explain some of this, this spending is perplexing given Mississippi\u2019s low number of park visitors and small park area.   \n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "Spending", 
+          "state": "MS"
         }
       }
     ], 
@@ -846,25 +890,36 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "MD"
+          "state": "RI"
         }, 
-        "text": "Vitae fusce. Ipsum netus. Curae class porta nulla montes inceptos purus ornare sociis quis nunc. Lacus metus. Netus dolor viverra mauris nam. Dolor metus dictumst mus neque fames mauris fames. Lorem morbi nec aenean dui at. Velit fames praesent odio libero primis per. Lacus ipsum nullam nulla commodo ante nunc dignissim lobortis. Fames metus. Purus magna dictum. Justo proin lacinia purus sem molestie.\n", 
+        "text": "Although the average state spent $88 per capita on parks and recreation in 2012, some states spent as much as $200-$300 per resident while the states in the bottom six spent less than $50. These low-spending states are a of New England states, which had high salaries but a very small number of employees, and Southern states, which had low salaries and average numbers of employees. \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "AR"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "nonpayroll", 
+          "state": "IL"
+        }, 
+        "text": "Of the states that spent the most per capita on parks and recreation in 2012, nearly all also had more than the average number of acres in state parks. In fact, eight of these states ranked in the top 20 by state park acreage per capita, and 10 ranked in the top 20 states by federal park acreage per capita.  This helps explain the higher rate of employees per capita in those states, as we would expect states with large swaths of parks to manage to also employ more workers to manage them. (link to data depot).\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "WY"
         }
       }
     ], 
     "units": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "units", 
+          "state": "IL"
         }, 
-        "text": "Nulla fusce. Felis nulla auctor porta ornare lorem condimentum faucibus potenti viverra cursus nostra eros ac fusce aenean. Proin purus felis lectus ipsum blandit. Metus risus lobortis orci rhoncus gravida lectus donec imperdiet aliquam lorem neque nibh integer in vivamus. Augue fames etiam enim est risus. Justo velit. Fames justo metus netus sodales aliquet rutrum. Nulla fusce velit etiam lacinia ve duis sodales ad.\n", 
+        "text": "The states with the largest number of employees per resident were some of the highest spending states, while the states with the smallest number of employees per resident were some of the lowest spenders. This indicates that staffing levels, more so than salaries or nonpayroll costs, are a major contender as drivers of  states spending on parks. \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "WY"
         }
       }
     ]
@@ -940,26 +995,37 @@ var blurbs = {
     "nonpayroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "nonpayroll", 
+          "state": "AK"
         }, 
-        "text": "Felis fames nibh tincidunt taciti aenean faucibus gravida mattis orci et erat aptent. Neque purus inceptos vitae aptent vulputate adipiscing nisi tortor. Justo velit ante per enim placerat dui egestas cras nulla integer lacus mi a nostra curabitur. Porta purus tortor turpis eu habitant. Augue neque. Risus netus condimentum pulvinar morbi. Massa augue. Dolor metus quisque nulla cras eget velit neque est nulla nibh.\n", 
+        "text": "Alaska stands out as the only one of the top-five spenders with below-average non-payroll spending. While nationwide non-payroll spending was a bigger driver of overall spending, Alaska\u2019s spending appears to be driven more by its salaries and number of employees. With more ground to cover and a greater focus on natural resources, it is unsurprising that Alaska would have the most employees per capita and therefore payroll spending would have a greater effect on total spending. \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "AK"
         }
       }
     ], 
     "payroll": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "payroll, payroll", 
+          "state": "MA, WY"
         }, 
-        "text": "Lacus ipsum elementum dictumst. Ipsum fusce suspendisse ad libero. Dolor nulla cum duis hac eu habitant accumsan id fusce id diam. Fusce velit. Etiam magna aenean tincidunt. Lacus augue dapibus lobortis potenti luctus. Massa etiam mollis ligula est luctus aliquam integer tortor. Massa neque. Curae metus dui augue libero primis nulla nonummy venenatis. Risus ipsum suscipit. Morbi justo auctor lectus. Metus etiam hac.\n", 
+        "text": "It seems safe to say that high wages and salaries did not drive natural resources spending in 2012. The states with the highest salaries were states with below-average spending and high cost-of-living expenses, while Wyoming, the highest spender, offered below-average salaries.\n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "payroll, spending", 
+          "state": "DC, WY"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "nonpayroll", 
+          "state": "NV"
+        }, 
+        "text": "Contrasting the spending of these four states \u2013 two high spenders and two low-spenders per capita \u2013 sheds little light on the actual driver of natural resources spending. All four states have high payroll and non-payroll per capita, and three out of the four have very low numbers of employees per capita (NV has only a middling number). Yet NV and IA have high spending while NY and CT have low spending.  The picture becomes clearer, however, when you look at population density: NY and CT are two of the densest states, while IA and NV are not. This trend makes sense, because housing natural resources requires space, which can be hard to come by in a densely populated state. Density does not explain every trend, but it is a helpful indication that other factors are at play. (CITE density)\n", 
+        "top_left": {
+          "column": "Spending", 
+          "state": "NY"
         }
       }
     ], 
@@ -967,25 +1033,36 @@ var blurbs = {
       {
         "bottom_right": {
           "column": "spending", 
-          "state": "MD"
+          "state": "NY"
         }, 
-        "text": "Ipsum nulla aliquam taciti nisi ante neque ridiculus fringilla dolor in sapien dignissim metus velit justo molestie habitasse. Fusce etiam ultrices tincidunt nunc viverra ac class ve orci velit cursus velit. Ipsum felis. Porta ipsum lobortis et fames sollicitudin vitae ut venenatis morbi mattis. Augue curae. Fusce class elementum velit ac fermentum augue dictumst ad felis mi cras ut sollicitudin. Morbi donec dolor.\n", 
+        "text": "States that spent more per capita generally charged more in fees per capita, as well. \nWith many natural resources\u2014take fisheries, for example--the government spends money on maintaining those resources but also collects fees for their use. To calculate spending per capita, we subtracted the revenue a state earned from the amount it spent on natural resources. States with higher spending per capita also have higher fees and charges. \n \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "WY"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "spending", 
+          "state": "FL"
+        }, 
+        "text": " \nThe strong correlation between high spending and high fees breaks down slightly when you look at charges per dollar of spending. Across states, fees and charges don\u2019t grow faster that spending. For example, the top spenders per capita have some of the highest fees, but have a mix of very high and very low fees per dollar of spending. \n \n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "WY"
         }
       }
     ], 
     "units": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "units", 
+          "state": "NE"
         }, 
-        "text": "Class morbi. Lacus class a lectus etiam at. Netus neque ipsum nisi ultrices. Lacus vitae eni ipsum rhoncus ipsum est nisi habitasse maecenas ac vitae. Fusce proin. Velit ipsum fermentum non dolor malesuada purus in. Class vitae eni. Magna fames. Dolor ipsum mus. Donec porta nam egestas. Felis justo. Fames nulla dapibus consequat. Porta etiam ipsum dignissim est tincidunt sem sollicitudin libero. Fames metus. Porta massa. Donec felis.\n", 
+        "text": "There\u2019s a clear correlation between the amount a state spent on natural resources and the number of employees it provided. States that spent the most per capita on natural resources were states with considerable agriculture, fish and game, and forests, which may have necessitated higher staffing levels.  \n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "AK"
         }
       }
     ]

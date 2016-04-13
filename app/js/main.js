@@ -638,18 +638,21 @@ function getCellClass(datum, column, category){
 	}else{ return "decile-" + (Math.floor((datum[column + "_rank"]-1)/5)+1) }
 }
 var promise = new Promise(function(resolve, reject){
-	$.ajax({
-	    url: 'http://freegeoip.net/json/' + userip,
-	    dataType: 'jsonp',
-	    success: function(data){
-	      	resolve(data.region_code)
-	    },
-        error: function(error){
-        	console.log("error locating user")
-    		resolve("")
+	// $.ajax({
+	//     url: 'http://freegeoip.net/json/' + userip,
+	//     dataType: 'jsonp',
+	//     success: function(data){
+	//       	resolve(data.region_code)
+	//     },
+ //        error: function(error){
+ //        	console.log("error locating user")
+ //    		resolve("")
 
-    	}
-	});
+ //    	},
+ //    	timeout: 2000,
+ //    	async: false
+	// });
+	resolve("")
 })
 function resizePhone(){
 	var win = d3.select("body").node().getBoundingClientRect().width
@@ -843,7 +846,7 @@ function drawBlurb(blurbList, column, numCols){
 		var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
 
 		var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
-		
+		console.log(blurb)
 		var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
 		var indChar = String.fromCharCode(97 + blurb.index)
 
