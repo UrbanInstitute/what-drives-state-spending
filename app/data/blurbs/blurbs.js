@@ -1013,7 +1013,7 @@ var blurbs = {
         }, 
         "text": "It seems safe to say that high wages and salaries did not drive natural resources spending in 2012. The states with the highest salaries were states with below-average spending and high cost-of-living expenses, while Wyoming, the highest spender, offered below-average salaries.\n", 
         "top_left": {
-          "column": "payroll, spending", 
+          "column": "spending, spending", 
           "state": "DC, WY"
         }
       }, 

@@ -1459,9 +1459,6 @@ You probably think of public administration as an area driven by personnel costs
 
 
 
-
-
-
 ####### START_SECTION #######
 
 
@@ -1530,7 +1527,7 @@ Category: resources
 Sorted by: payroll
 
 Top left State: DC, WY
-Top left Column: payroll, spending
+Top left Column: spending, spending
 
 Bottom right State: MA, WY
 Bottom right Column: payroll, payroll
@@ -1571,6 +1568,10 @@ Alaska stands out as the only one of the top-five spenders with below-average no
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
+
+
+
+
 
 
 
