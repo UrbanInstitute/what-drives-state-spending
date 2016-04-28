@@ -704,11 +704,16 @@ promise.then(function(result){
 	if (PHONE){
 		resizePhone()
 	}
-	renderHeatmap("k12", result);
-	
+	setTimeout(function(){
+		renderHeatmap("k12", result);
+	}, 200)
+		
 
 })
-showMenu("k12")
+.then(function(result){
+	showMenu("k12")
+})
+
 
 // drawBlurbs("housing","spending")
 // d3.select(".navButton.higher").classed("active",true)
