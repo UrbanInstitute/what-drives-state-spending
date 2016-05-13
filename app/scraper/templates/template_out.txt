@@ -1360,11 +1360,11 @@ Unlike other spending categories, there is no clear relationship between payroll
 Category: admin
 Sorted by: nonpayroll
 
-Top left State: WY, UT
-Top left Column: spending, spending
+Top left State: WY, WY
+Top left Column: spending, nonpayroll
 
-Bottom right State: MI, DC
-Bottom right Column: nonpayroll, nonpayroll
+Bottom right State: DC, DC
+Bottom right Column: spending, nonpayroll
 
 ### Blurb text starts here ###
 You probably think public administration spending is driven by payroll, but the data here show, with the exception of DC, a clear relationship between non-payroll spending and spending per capita. This can be partially explained by the presence of two census expenditure categories – public buildings and other general expenditures. Both of these contribute 44% of total spending in this area, and have low payroll spending. 
@@ -1712,23 +1712,7 @@ Most states (39 out of 48 with payroll data) pay their electrical workers less t
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
-####### START_SECTION #######
-Category: electric
-Sorted by: nonpayroll
 
-Top left State: 
-Top left Column: spending
-
-Bottom right State: 
-Bottom right Column: nonpayroll
-
-### Blurb text starts here ###
-
-Non-payroll spending numbers are more likely to be negative because we isolate payroll figures from the rest of expenditures. Because of this, we subtract fees or charges from non-payroll spending. While in actuality many states will use the revenue from fees to pay for employee costs, our decomposition does not show this in order to show actual payroll spending per state.  
-
-### Blurb text ends here ###
-
-####### END_SECTION #######
 
 
 
@@ -1837,7 +1821,7 @@ Top left State: AK
 Top left Column: nonpayroll
 
 Bottom right State: WI
-Bottom right Column: non-Payroll
+Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
 
@@ -1864,7 +1848,7 @@ Top left State: WI
 Top left Column: spending
 
 Bottom right State: AZ
-Bottom right Column: Spending
+Bottom right Column: spending
 
 ### Blurb text starts here ###
 Like gas and electricity, water supply systems are generally funded by consumer rate payments. This means that net spending—total expenditures minus total revenues—is often zero or negative because fees are typically set to recoup not only current but also prior year investments. 
@@ -2130,10 +2114,10 @@ It looks like there’s not a whole lot of variation among units – is that rig
 Category: waste
 Sorted by: payroll
 
-Top left State: DC
+Top left State: AK
 Top left Column: units
 
-Bottom right State: AK
+Bottom right State: DC
 Bottom right Column: payroll
 
 ### Blurb text starts here ###
@@ -2142,14 +2126,8 @@ Overall, states with higher levels of spending seem to have more employees per c
 
 ### Blurb text ends here ###
 
-####### END_SECTION #######
-
-####### START_SECTION #######
-Category: waste
-Sorted by: Payroll
-
 Top left State: NY
-Top left Column: Payroll
+Top left Column: payroll
 
 Bottom right State: NJ
 Bottom right Column: payroll
@@ -2275,13 +2253,13 @@ Some of the states with very few school-aged children per capita spent very litt
 
 ####### START_SECTION #######
 Category: k12
-Sorted by: Units 
+Sorted by: units
 
 Top left State: VT
 Top left Column: Spending
 
 Bottom right State: NH
-Bottom right Column: Units
+Bottom right Column: units
 
 ### Blurb text starts here ###
 Vermont, Wyoming, and New Hampshire had the most public elementary and secondary education employees per student in 2012. This helps to explain why the states were all in the top ten for spending per capita and spending per pupil, even though they had only average payroll costs per employee. The New England states also could afford more employees per student since they ranked near the bottom in students per capita.
@@ -2305,13 +2283,13 @@ DC stands out as one of the only high-spending states with lower than average st
 
 ####### START_SECTION #######
 Category: k12
-Sorted by: Payroll
+Sorted by: payroll
 
 Top left State: DC
 Top left Column: payroll
 
 Bottom right State: WA
-Bottom right Column: Payroll
+Bottom right Column: payroll
 
 ### Blurb text starts here ###
 Many states in the top ten for payroll costs per K-12 education employee were also among the top states in average spending per capita. This trend continues on down to the lowest payroll states, and suggests that, to some extent, payroll costs are a driver of state education spending. It’s worth noting, however, that the high payroll states are a mix of high cost of living states - like Connecticut, New Jersey and New York - and states with proportionally few employees – DC, Minnesota, Maryland, and Rhode Island. Some of these states may have been able to afford higher salaries because they employed fewer people. 
@@ -2319,10 +2297,10 @@ Many states in the top ten for payroll costs per K-12 education employee were al
 ### Blurb text ends here ###
 
 Top left State: FL
-Top left Column: Payroll
+Top left Column: payroll
 
 Bottom right State: MS
-Bottom right Column: Payroll
+Bottom right Column: payroll
 
 ### Blurb text starts here ###
 
@@ -2718,440 +2696,400 @@ Justo risus felis auctor odio eget hac nam eni nam. Porta fames. Vitae purus. Au
 
 
 
+
 ####### START_SECTION #######
-
 Category: highway
+Sorted by: spending 
 
+Top left State: ND
+Top left Column: spending 
+
+Bottom right State: VT
+Bottom right Column: units
+
+### Blurb text starts here ###
+
+The states with the highest spending per capita have two major things in common: small populations and lot of miles of road per person. This is at least partially mechanical, as smaller populations means it is easier to spend more per person. The result, however, is underutilized roadways (units per recipient). Many of these states have spread out populations and must create additional miles of lightly-used roadway to reach these smaller communities. 
+
+### Blurb text ends here ###
+
+Top left State: US
+Top left Column: spending 
+
+Bottom right State: US
+Bottom right Column: nonpayroll
+
+### Blurb text starts here ###
+
+With two exceptions, states spend a lot more per capita on highways than on transit services. Only in New York and DC does the state allocate more to transit utilities than to highways. When comparing the general trend of spending across the two areas, it doesn’t appear that there is a choice being made between the two transportation types, with some states spending more on one than the other. It appears that financing decisions are being made separately. 
+
+  
+
+### Blurb text ends here ###
+
+
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: highway
+Sorted by: demographics  
+
+Top left State: DC
+Top left Column: demographics 
+
+Bottom right State: OR
+Bottom right Column: demographics
+
+### Blurb text starts here ###
+
+Theoretically, states could have a large number of people who could qualify for a driver’s license for two reasons: a relatively large share of older residents, or a very low driving age. In practice, however, there is a fairly limited spread of driving ages, ranging from 15 to 17 years old. Only one of the states with the largest population over the driving age has a 15-year-old floor (Montana).  
+
+### Blurb text ends here ###
+
+
+Top left State: OK
+Top left Column: demographics
+
+Bottom right State: UT
+Bottom right Column: demographics
+
+### Blurb text starts here ###
+
+There does not appear to be any strong correlation between the number of residents old enough to qualify for a driver’s license and state spending on highways.  In the states with the smallest share of eligible residents, there is no clear trend toward more or less spending per capita.  
+
+ 
+
+
+### Blurb text ends here ###
+
+####### END_SECTION #######
+
+####### START_SECTION #######
+Category: highway
+Sorted by: eligibility  
+
+Top left State: IN
+Top left Column: eligibility 
+
+Bottom right State: VT
+Bottom right Column: eligibility
+
+### Blurb text starts here ###
+
+Indiana and Vermont both have more licensed drivers than they have residents who are eligible for a license. In these states, it is likely that licenses are being given out to individuals who either are not official residents of the state or who are underage.  (RICHARD OR KIM, ANY IDEAS)?
+
+
+### Blurb text ends here ###
+
+Top left State: HI
+Top left Column: spending 
+
+Bottom right State: NY
+Bottom right Column: eligibility
+
+### Blurb text starts here ###
+
+There does not appear to be any strong correlation between the number of licensed drivers and spending per capita, which implies that it is not a state’s decision to make it easier to obtain a license, or the inclination of a state’s population to obtain more licenses, that drives spending. 
+
+
+
+### Blurb text ends here ###
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: highway
+Sorted by: takeup 
+
+Top left State: WY, WY
+Top left Column: takeup, nonpayroll
+
+Bottom right State: LA, LA
+Bottom right Column: takeup, nonpayroll 
+
+### Blurb text starts here ###
+
+One might expect that states with lots of miles driven would have more wear and tear, requiring spending to repair and maintain roadways, but this appears not to be the case. There are three potential explanations. First, maybe states are not allocating spending properly to account for damage caused. Second, maybe regular cars are not the main source of damage, and we instead should look at other culprits, like heavy trucks, which function under a separate licensing system. Third, perhaps these are states with so much roadway that the very active drivers are spread out among enough highway miles to spare the need for intensive investment in repairs.  
+
+### Blurb text ends here ###
+
+Top left State: NH
+Top left Column: takeup
+
+Bottom right State: DC
+Bottom right Column: takeup
+
+### Blurb text starts here ###
+
+Drivers in states with big cities (OR, MA, NY, PA, WA, DC) tended to drive fewer miles. This could be because people in the cities use other methods of transportation—they may have a driver’s license, but not regularly drive. It could also be that people who do drive in cities take shorter trips than do people in rural areas, who may have to drive 20 miles to get to the nearest town. 
+
+### Blurb text ends here ###
+
+
+
+####### END_SECTION #######
+
+
+
+####### START_SECTION #######
+Category: highway
+Sorted by: units
+
+Top left State: AK
+Top left Column: spending
+
+Bottom right State: AK
+Bottom right Column: nonpayroll
+
+### Blurb text starts here ###
+The number of miles a state provides relative to the number of miles driven is a good measure of usage: more miles offered means the roads are less used. It makes sense, then, that the top-ranked states in this category spend the least per mile, as they provide more miles of road and those roads are less traveled. Alaska, however, is an interesting exception. Though its many roads are relatively underutilized, it spends a lot on both payroll and nonpayroll costs per mile. This could be because the physical conditions in Alaska necessitate more maintenance, or it might reflect decisions about tolls and fares. If Alaska is bringing in less in toll revenue—possible since it has a low share of residents of driving age—it may also have to spend more relative to other states. 
+
+
+### Blurb text ends here ###
+
+Top left State: CA, HI
+Top left Column: units, nonpayroll
+
+Bottom right State: CA, HI
+Bottom right Column: units, nonpayroll
+
+### Blurb text starts here ###
+The five most congested cities – as measured by the Commuter Stress Index from Texas A&M’s Transportation Institute – are all in either California or Hawaii, both states with very highly utilized roadways. It is difficult to figure out if the spending per mile of roadway in these states is so high because they have relatively few miles of road, or because the state is actively deciding to spend more per mile. It is worth noting that both of these states are spending a lower share of their budget on capital spending than the national average (42 percent in both states compared to 56 percent nationwide), so the higher spending does not all come from new development, but from maintenance and upkeep of existing roadway.  (Data Cite – Congestion Data by Urban Area). 
+
+### Blurb text ends here ###
+####### END_SECTION #######
+
+
+####### START_SECTION #######
+Category: highway
+Sorted by: payroll 
+
+Top left State: DC
+Top left Column: payroll
+
+Bottom right State: AK
+Bottom right Column: payroll
+
+### Blurb text starts here ###
+
+State payroll decisions seem driven more by labor market factors than by policy decisions. Using the ONET index - created by dividing mean state wage by mean national wage (for a given education level) – we can see how much more or less workers in a state were paid than the national average ($50,567 for a highway worker). This matches very well with the actual rankings of payroll spending. 
+
+ 
+### Blurb text ends here ###
+
+Top left State: KY
+Top left Column: payroll
+
+Bottom right State: SD
+Bottom right Column: payroll
+
+### Blurb text starts here ###
+
+As a reminder, unlike other expenditure categories we are measuring payroll spending per mile of road, not payroll spending per employee. When we dig into these number relative to employment, we see two results. First, states with higher payroll per mile have fewer miles of road per employee. Second, there is a very slight decrease in wage per employee as payroll per mile of road decreases. Through a combination of more employees and fewer miles of road, these denser states that shell out more payroll funds per mile of road have more employees and slightly more generous wages, due to more demanding labor markets. 
+
+   
+
+
+### Blurb text ends here ###
+
+
+####### END_SECTION #######
+
+####### START_SECTION #######
+Category: highway
+Sorted by: nonpayroll 
+
+Top left State: DC
+Top left Column: nonpayroll
+
+Bottom right State: NJ
+Bottom right Column: nonpayroll
+
+### Blurb text starts here ###
+Capital spending made up 57 percent of total US expenditures on highways in 2012. This is a very high share, even compared to other infrastructure- heavy expenditure areas. However, ratio of capital spending to gross spending doesn’t seem to drive higher non-payroll spending per mile of road. In the top ten states in this category, the capital share ranges from 71 percent (Maryland) to 41 percent (Alaska) which represent the two extremes of the capital shares. This means that while states spend a lot on capital projects, there are other uses of funds, such as managing the operation of existing miles of road – that can drive spending decisions as well. 
+
+### Blurb text ends here ###
+
+Top left State: MD, MD
+Top left Column: spending, units
+
+Bottom right State: NY, NY
+Bottom right Column: spending, units
+
+### Blurb text starts here ###
+States with high non-payroll spending per mile of road also tend to have highly utilized roads.  Interestingly enough, this does not always translate into very high spending per capita, implying that while some states are actively spending on each mile of roadway, the small amount of roadway per person means lower relative levels of spending overall. 
+
+### Blurb text ends here ###
+
+
+####### END_SECTION #######
+
+
+
+
+
+
+
+
+
+####### START_SECTION #######
+Category: transit
 Sorted by: spending
 
+Top left State: DC, DC
+Top left Column: spending, units
 
+Bottom right State: IL, IL
+Bottom right Column: demographics, units
 
-Top left State: DC
+### Blurb text starts here ###
+There is a strong correlation between the number of transit trips taken per person and the spending per capita across all 50 states and DC, but the top three states are clear outliers (as seen below). This suggests that in these states, just about every train and bus route is heavily used, compared to other states that might have more routes but see fewer riders per trip. 
+### Blurb text ends here ###
 
+Top left State: AL
 Top left Column: spending
 
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
+Bottom right State: WY
+Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
 
-Curae vitae nibh vel. Curae proin. Vitae nulla dis nisl. Nulla metus mauris ve eros eu risus montes congue per congue. Risus augue nonummy nostra ligula. Etiam massa a nibh metus porttitor hymenaeos. Purus vitae ante erat ultricies interdum nullam parturient suscipit natoque dapibus nibh id. Curae ipsum hac commodo diam ante imperdiet sociosqu accumsan fames platea dis. Neque curae.
+There are a few clear trends visible almost across the board in transit spending. States that spent very little on transit tend to have low ridership rates (demographics), and more miles of lightly used transit infrastructure. They also tend to spend less on maintenance costs (nonpayroll). This suggests that maintenance costs and ridership drive transit spending (likely ridership also drives the need for maintenance and capital spending), and that people use transit more frequently in areas where buses and trains are less spread out. 
+
 
 ### Blurb text ends here ###
 
-
-
 ####### END_SECTION #######
 
-
-
-
-
 ####### START_SECTION #######
-
-Category: highway
-
+Category: transit
 Sorted by: demographics
 
-
-
 Top left State: DC
+Top left Column: demographics
 
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
+Bottom right State: US
+Bottom right Column: demographics
 
 ### Blurb text starts here ###
-
-Morbi magna tortor habitant vestibulum aptent dictumst. Dolor morbi justo libero consectetuer. Lorem curae nisl mi lorem et erat sit nulla auctor magnis faucibus fringilla a elementum. Curae felis accumsan vestibulum primis nascetur nunc sit. Morbi augue hymenaeos nunc feugiat vivamus luctus ipsum. Lorem magna lorem risus lobortis at nunc quis imperdiet in. Dolor velit. Nulla purus. Risus fames odio class nonummy varius ipsum parturient arcu venenatis.
+It’s not surprising that the states with the most trips per capita are the states that house big cities (with the exception of Hawaii, where… (RICHARD, ANY IDEAS?)) What’s notable, however, is how much these states skew the distribution. The average number of annual trips per capita in the US is 33, more than the average number of trips per capita in 42 of the states. As a comparison, the median number of trips per capita in the US is 10. 
 
 ### Blurb text ends here ###
 
+Top left State: NE
+Top left Column: demographics
 
-
-####### END_SECTION #######
-
-
-
-
-
-####### START_SECTION #######
-
-Category: highway
-
-Sorted by: eligibility
-
-
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
+Bottom right State: MS
+Bottom right Column: units
 
 ### Blurb text starts here ###
-
-Etiam proin felis consequat parturient duis. Felis fames. Class purus lectus condimentum netus litora justo metus posuere litora risus adipiscing scelerisque magnis. Neque massa lobortis ve. Proin purus taciti aptent vitae at morbi suspendisse eni nisi tortor. Porta curae ultrices fringilla ut scelerisque cras pede commodo ad elit laoreet. Dolor vitae nullam tortor lorem fringilla sed. Dolor netus auctor velit praesent mus cras pede leo. Curae class.
-
+Most states with few trips per person also have shorter trips than average, except for Alabama and Mississippi. These two states have longer than average trips, but still have low utilization and spending. This illustrates the lack of impact trip length has on spending or utilization of public transit – this is a spending area driven not by distance but by frequency. 
+ 
 ### Blurb text ends here ###
-
-
 
 ####### END_SECTION #######
 
-
-
-
-
 ####### START_SECTION #######
-
-Category: highway
-
+Category: transit
 Sorted by: takeup
 
+Top left State: NJ, NJ
+Top left Column: takeup, nonpayroll
 
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
+Bottom right State: VA, VA
+Bottom right Column: takeup, nonpayroll
 
 ### Blurb text starts here ###
-
-Netus magna sapien felis nisi aliquam eros at sit. Justo donec blandit sociis ve libero cum gravida. Vitae metus. Lacus fusce metus. Neque etiam suspendisse ad mauris fusce vestibulum ve. Proin ipsum. Purus lorem neque. Porta purus justo neque bibendum. Etiam risus urna nec magna commodo sed. Justo lacus tristique suscipit eu libero hac adipiscing tempus nec feugiat. Justo fames mauris taciti netus potenti fames elit taciti.
-
+You might expect there to be a relationship between the average trip length and nonpayroll spending. After all, if passengers’ trips tend to be longer, that might mean there are more miles of train tracks to repair or more wear and tear on busses. The states with the longest average trips, however, were all below average in nonpayroll spending, and most were also below average in spending overall. It’s clear that the average length of a transit trip is not a crucial driver of transit spending. 
 ### Blurb text ends here ###
 
+Top left State: SC
+Top left Column: demographics
+
+Bottom right State: WY
+Bottom right Column: units
+
+### Blurb text starts here ###
+Even while trip length doesn’t drive spending, states with shorter trips also have fewer trips per person and travel less over their existing infrastructure. This means that there are a set of states that have chosen to offer a very limited amount of trains or buses, and whose citizens choose to use those services very little. Neither the government or the people seem interested in public transit services (Wyoming, for example, doesn’t even report data on passenger or transit miles). 
 
 
+### Blurb text ends here ###
 ####### END_SECTION #######
 
 
 
-
-
 ####### START_SECTION #######
-
-Category: highway
-
+Category: transit
 Sorted by: units
 
 
+Top left State: CA, CA
+Top left Column: spending, units
 
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
+Bottom right State: DC, DC
+Bottom right Column: spending, nonpayroll
 
 ### Blurb text starts here ###
 
-Proin justo libero congue nec. Magna augue ullamcorper. Magna etiam. Justo felis dictum id ultrices egestas penatibus sagittis id class at massa. Fusce ipsum condimentum pulvinar augue a cubilia sociis dui. Risus nulla scelerisque sed ornare pretium arcu nibh donec lectus ac dictumst. Netus nulla diam primis ad. Metus morbi magna elit vehicula libero. Felis fames tellus ullamcorper nulla phasellus. Vitae risus nisl porta.
+States that heavily utilize their transit systems seem to spend more (across all three measures of spending) on transit. These states obviously have a lot of buy-in from communities that make use of these systems, and heavy use most likely requires greater funds for upkeep and infrastructure growth. It is no surprise then that they spend more both per person and per mile of transit line. 
+
 
 ### Blurb text ends here ###
-
 
 
 ####### END_SECTION #######
 
 
-
-
-
+####### END_SECTION #######
 ####### START_SECTION #######
-
-Category: highway
-
+Category: transit
 Sorted by: payroll
 
-
-
 Top left State: DC
+Top left Column: payroll
 
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
+Bottom right State: CA
+Bottom right Column: payroll 
 
 ### Blurb text starts here ###
 
-Netus curae fames vivamus hymenaeos vel. Proin lacus magna. Lorem curae donec quis diam natoque etiam parturient quam proin integer et ac ipsum ac sociis. Nulla vitae. Purus neque rutrum cubilia pretium. Velit massa enim commodo mi suscipit class porttitor. Etiam velit duis elit parturient et sapien per rhoncus id. Etiam dolor. Donec magna sem augue tristique amet orci. Fames morbi odio fermentum mollis. Etiam purus. Lacus nulla nascetur.
+Almost every state seems to pay their transit employees less that labor market conditions alone would indicate they should. The only exceptions are New York and Pennsylvania, which pay their workers slightly more than expected.    
+ 
 
 ### Blurb text ends here ###
 
+Top left State: NH
+Top left Column: spending
 
+Bottom right State: MA
+Bottom right Column: nonpayroll
 
+### Blurb text starts here ###
+Examining the four states with the lowest payroll per transit mile sheds light on what really drives spending. Two are high-spending states with heavy utilization – Hawaii and Massachusetts - and two are low spending states that underutilize their infrastructure – New Hampshire and Oklahoma. Both Hawaii and Massachusetts have very high non-payroll expenditures compared to New Hampshire and Oklahoma. This seems to indicate that with some exceptions (DC has higher payroll per unit than non-payroll), non-payroll spending and utilization rates are the main drivers of spending. 
+
+### Blurb text ends here ###
 ####### END_SECTION #######
 
 
-
-
-
 ####### START_SECTION #######
-
-Category: highway
-
+Category: transit
 Sorted by: nonpayroll
 
+Top left State: HI
+Top left Column: nonpayroll
 
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
+Bottom right State: UT
+Bottom right Column: nonpayroll 
 
 ### Blurb text starts here ###
 
-Netus lacus mus hac tincidunt velit in. Lorem purus rhoncus duis eu consectetuer lacinia mus adipiscing nulla. Fames risus auctor eros hymenaeos metus cras gravida. Dolor augue accumsan vestibulum egestas enim pretium a. Risus fames. Donec lacus. Ipsum donec netus a rhoncus libero. Curae augue eros tristique platea lorem gravida eu platea gravida duis nisi sodales at. Vitae lorem fusce vitae arcu non sociis vivamus rhoncus.
+With a few exceptions that states that are spending the most per mile of transit are those with ongoing capital projects. 
+
+
+ 
 
 ### Blurb text ends here ###
 
-
-
 ####### END_SECTION #######
 
-
-
-
-
-####### START_SECTION #######
-
-Category: transit
-
-Sorted by: spending
-
-
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
-
-### Blurb text starts here ###
-
-Magna etiam. Nulla donec elementum senectus et pede dignissim. Justo fames taciti ultricies ad consequat duis sodales mi nostra maecenas purus. Justo velit etiam habitant morbi feugiat amet. Justo etiam varius neque suspendisse vel sociis conubia quisque. Purus dolor. Proin neque. Proin class felis velit laoreet ligula elit fusce convallis nonummy semper mus. Justo augue elit scelerisque lacinia netus cum aliquet eleifend vivamus morbi cum.
-
-### Blurb text ends here ###
-
-
-
-####### END_SECTION #######
-
-
-
-
-
-####### START_SECTION #######
-
-Category: transit
-
-Sorted by: demographics
-
-
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
-
-### Blurb text starts here ###
-
-Netus metus eget tempus malesuada donec a eros nulla odio mus diam in. Curae proin ante rhoncus. Morbi fusce. Metus etiam. Vitae proin rutrum ullamcorper morbi. Donec netus sapien orci et pellentesque primis et proin nostra adipiscing lacus nisi sem diam justo. Proin purus arcu mattis tempus lacinia nostra mi vel. Nulla velit a quam. Lorem neque auctor aliquam odio parturient. Donec velit.
-
-### Blurb text ends here ###
-
-
-
-####### END_SECTION #######
-
-
-
-
-
-####### START_SECTION #######
-
-Category: transit
-
-Sorted by: takeup
-
-
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
-
-### Blurb text starts here ###
-
-Netus etiam gravida tortor eros dui class. Justo lacus est turpis vivamus dapibus enim pellentesque parturient nibh tincidunt vel. Porta purus tempor dictum metus sit nunc vestibulum eni fames parturient pharetra. Vitae metus laoreet interdum. Lacus proin leo magna consequat scelerisque. Porta dolor a pretium mollis in nonummy amet tortor ornare ultrices donec ac quis ultrices. Porta augue aliquet sem quis sollicitudin inceptos. Fames netus.
-
-### Blurb text ends here ###
-
-
-
-####### END_SECTION #######
-
-
-
-
-
-####### START_SECTION #######
-
-Category: transit
-
-Sorted by: units
-
-
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
-
-### Blurb text starts here ###
-
-Justo donec aliquam senectus taciti nunc iaculis nunc nulla. Velit augue congue mauris. Augue netus elit iaculis nec. Fusce curae senectus. Massa augue. Etiam augue. Neque velit iaculis sapien et montes hendrerit eu vulputate ullamcorper leo dictum natoque commodo amet dictumst massa. Massa purus tortor cursus. Massa nulla quam nulla dignissim arcu nisi massa laoreet. Nulla lorem cum. Curae nulla suspendisse diam tempor eu.
-
-### Blurb text ends here ###
-
-
-
-####### END_SECTION #######
-
-
-
-
-
-####### START_SECTION #######
-
-Category: transit
-
-Sorted by: payroll
-
-
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
-
-### Blurb text starts here ###
-
-Risus morbi ullamcorper nisl enim non. Porta ipsum eni eget nunc lacinia erat diam euismod ipsum id habitasse. Augue felis dignissim dictum. Fames metus cum velit leo urna. Massa netus curae interdum nunc ut. Vitae porta orci viverra a ornare fusce. Netus augue nibh a. Neque lacus. Metus purus cum nisi sagittis commodo tristique cum pede odio. Metus lorem. Netus donec accumsan eros accumsan parturient imperdiet ullamcorper non ad lacinia.
-
-### Blurb text ends here ###
-
-
-
-####### END_SECTION #######
-
-
-
-
-
-####### START_SECTION #######
-
-Category: transit
-
-Sorted by: nonpayroll
-
-
-
-Top left State: DC
-
-Top left Column: spending
-
-
-
-Bottom right State: MD
-
-Bottom right Column: spending
-
-
-
-### Blurb text starts here ###
-
-Fames fusce nibh vitae hymenaeos sodales cursus lorem vestibulum. Proin neque etiam duis nostra per natoque molestie cras lectus accumsan enim. Netus fusce praesent eget sagittis mus rutrum quisque. Donec nulla ullamcorper orci arcu cursus at dictum a adipiscing nec lorem. Magna purus. Netus magna feugiat praesent. Massa dolor sociis. Proin augue taciti nisi quam enim elit nullam gravida aliquam.
-
-### Blurb text ends here ###
-
-
-
-####### END_SECTION #######
