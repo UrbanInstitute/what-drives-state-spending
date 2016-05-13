@@ -197,6 +197,7 @@ There is often a great deal of news around large waves of construction in higher
 
 
 
+ 
 
 
 
@@ -2288,7 +2289,7 @@ Vermont, Wyoming, and New Hampshire had the most public elementary and secondary
 ### Blurb text ends here ###
 
 Top left State: DC
-Top left Column: spending
+Top left Column: Spending
 
 Bottom right State: DC
 Bottom right Column: nonpayroll
@@ -2344,6 +2345,8 @@ Bottom right Column: nonpayroll
 ### Blurb text starts here ###
 You might expect that states that spent a lot on nonpayroll costs, such as capital expenditures or employee benefits, would spend less on payroll. The data, however, show this is not the case. Instead, with a few exceptions, the states that spent a lot on nonpayroll costs also spent a lot on their employees. This may indicate that the same force drives both employment decisions, like hiring and payroll, and other education spending, as opposed to states with limited resources being forced to choose between the two. 
 
+
+ 
 ### Blurb text ends here ###
 
 Top left State: NH, VT
@@ -2356,6 +2359,7 @@ Bottom right Column: nonpayroll, nonpayroll
 Generally speaking, you can see a correlation between nonpayroll spending and spending per capita in K-12 education. New Hampshire and Vermont stand out, however. Despite being in the bottom half in terms of costs per employee—both salaries and non-personnel costs—these states are some of the biggest spenders per capita. This spending is likely driven by the fact that NH and VT employ more employees per student than almost any other state. So, while in some states (like Delaware or Rhode Island) spending per employee seems to drive costs, in these two New England states it appears staffing levels are a bigger driver. 
 
 ### Blurb text ends here ###
+
 
 
 ####### END_SECTION #######
@@ -2378,6 +2382,26 @@ When looking at the trends in K-12 education, it’s important to notice that th
 
 ####### END_SECTION #######
 
+
+
+
+####### START_SECTION #######
+Category: k12
+Sorted by: eligibility
+
+Top left State: US
+Top left Column: eligibility
+
+Bottom right State: US
+Bottom right Column: eligibility
+
+### Blurb text starts here ###
+When looking at the trends in K-12 education, it’s important to notice that there’s not a lot of variation nationally in the share of children who enroll in school. While enrollment rates for public school vary, the overall enrollment rate ranges from 97 to 99 percent. It’s not surprising, then, that there’s not clear link between enrollment rates and spending. States likely assume that just about all children will go to school, and whether the go to public or private school is more important to spending decisions. Those children not in public or private school are mainly older (16-19) students who do not have a degree and are not attending any sort of K-12 program. 
+
+### Blurb text ends here ###
+
+
+####### END_SECTION #######
 
 
 
