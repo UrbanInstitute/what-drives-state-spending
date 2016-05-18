@@ -322,7 +322,7 @@ function renderHeatmap(category, userLocation){
 				.attr("class", function(d){
 					return "cell " + column + " " + getCellClass(d, column, category)
 				})
-				.on("mouseover", function(d){ mouseover(this, d, column, category)})
+				.on("mouseover", function(d){ console.log(this, d, column); mouseover(this, d, column, category)})
 				.on("mouseout", function(){ mouseout(this) })
 				.append("div")
 				.attr("class","rankLabel")
@@ -592,6 +592,7 @@ function mouseover(cell, datum, column, category){
 	var format = mouseoverText[category][column]["format"]
 	var label = mouseoverText[category][column]["label"].replace("{{STATE}}", datum.state)
 	var value = datum[column + "_value"]
+
 	
 	var formatter;
 	switch (format){
@@ -851,7 +852,6 @@ function drawBlurb(blurbList, column, numCols){
 		var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
 
 		var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
-		console.log(blurb)
 		var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
 		var indChar = String.fromCharCode(97 + blurb.index)
 
@@ -918,8 +918,10 @@ function drawBlurb(blurbList, column, numCols){
     			var elems = allElementsFromPoint(x, y);
     			elems.forEach(function(obj){
     				if (d3.select(obj).classed("cell")){
+    					console.log(obj)
     					var category = getCategory();
-						var column = d3.select(".headerCell.active").attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+						var column = d3.select(obj).attr("class").replace("cell","").replace("hover","").replace(/decile-\d*/g,"").replace(/\s/g,"")
+						console.log(column)
 						d3.selectAll(".cellTooltip").remove()
     					mouseover(obj, d3.select(obj).datum(), column, category)
     				}
@@ -1492,7 +1494,6 @@ $(window).scroll(function(e){
 
 
    var st = $(this).scrollTop();
-   console.log(st, lastScrollTop)
    if (st > lastScrollTop){
        // downscroll code
        d3.select(".slideHeader")
@@ -1506,7 +1507,6 @@ $(window).scroll(function(e){
    }
    lastScrollTop = st;
 	var y = window.scrollY
-	console.log(y)
 	if(y >= 2700 && !s1_done){
 		console.log("running")
 		s1_done = true
