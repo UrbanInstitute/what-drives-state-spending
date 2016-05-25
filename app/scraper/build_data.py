@@ -98,21 +98,21 @@ def parseBook(category):
 				if(state == "ID" and category == "gas"):
 					print value, t, i, c[1]
 				if value == "." or value == "-":
-					value = "Missing Data"
+					value = -999999999
 				data[state]["%s_value"%c[0]] = value
 				data[state]["%s_rank"%c[0]] = 0
 				if c[0] not in data:
 					data[c[0]] = []
 				data[c[0]].append((state, value))
 				data[c[0]] = sorted(data[c[0]],key=lambda x: x[1], reverse=True)
-	n = 99;
+	n = -999999999;
 	for state in data:
 		if state in STATES:
 			d = data[state]
 			for k in d:
 				if k.find("value") != -1:
 					cat = k.split("_")[0]
-					if d["%s_value"%cat] == "Missing Data":
+					if d["%s_value"%cat] == -999999999:
 						d["%s_rank"%cat] = n
 						# n +=1;
 					else:

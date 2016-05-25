@@ -389,8 +389,13 @@ body{
 	opacity: 0;
 }
 .errorCell{
-	background: #db2b27;
-	color: white;
+	background: #666666;
+	color: #999;
+}
+.errorCell .rankLabel{
+	width: 95px;
+	color: #999;
+	margin-top: 5px;
 }
 .rankLabel{
 	width: 25px;
@@ -683,6 +688,7 @@ body{
     right: 10px;
     top: 10px;
     height: 50px;
+    cursor: pointer;
 }
 .tabletBoxtext .blurbImageButton{
 	display: block;

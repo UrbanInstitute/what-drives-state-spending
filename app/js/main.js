@@ -196,11 +196,11 @@ function renderHeatmap(category, userLocation){
 						.transition()
 						.duration(duration)
 						.delay(function(d){
-							var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
+							var rank = (d[cat + "_rank"] == -999999999) ? getMissingRank(d.state, cat, category) :d[cat + "_rank"]
 							return rank/52 * duration
 						})
 						.style("top",function(d){
-							var rank = (d[cat + "_rank"] == 99) ? 52:d[cat + "_rank"]
+							var rank = (d[cat + "_rank"] == -999999999) ? getMissingRank(d.state, cat, category):d[cat + "_rank"]
 							return ((rank * ROW_HEIGHT) + headerHeight)  +"px"
 						})
 
@@ -322,7 +322,7 @@ function renderHeatmap(category, userLocation){
 				.attr("class", function(d){
 					return "cell " + column + " " + getCellClass(d, column, category)
 				})
-				.on("mouseover", function(d){ console.log(this, d, column); mouseover(this, d, column, category)})
+				.on("mouseover", function(d){ mouseover(this, d, column, category)})
 				.on("mouseout", function(){ mouseout(this) })
 				.append("div")
 				.attr("class","rankLabel")
@@ -330,8 +330,8 @@ function renderHeatmap(category, userLocation){
 						if(d[column + "_rank"] == ""){
 							return "."
 						}
-						else if(d[column + "_rank"] == 99){
-							return "Missing!"
+						else if(d[column + "_rank"] == -999999999){
+							return "NA"
 						}else{ return d[column + "_rank"] }
 					})
 		})
@@ -423,10 +423,7 @@ function renderHeatmap(category, userLocation){
 	// })
 }
 
-// $(document).ready(function(){
-// 	console.log("jasipodf")
-// 	showMenu("k12")
-// })
+
 
 function stickyState(state){
 	var defaultState = (state.state == "") ? "DC" : state.state;
@@ -585,6 +582,15 @@ function mouseover(cell, datum, column, category){
 	if(d3.select(cell).classed("blankCell")){
 		return false;
 	}
+	else if(d3.select(cell).classed("errorCell")){
+		d3.select(cell)
+			.append("div")
+			.attr("class","cellTooltip")
+			.attr("width",COLUMN_WIDTH)
+			.html("<div class = \"tooltipWrapper\">No Data</div>")
+
+		return false;
+	}
 	d3.selectAll(".cellTooltip").remove()
 
 	d3.select(cell)
@@ -634,25 +640,12 @@ function getCellClass(datum, column, category){
 	if(datum[column + "_rank"] == ""){
 		return "blankCell"
 	}
-	else if (datum[column + "_rank"] == 99){
+	else if (datum[column + "_rank"] == -999999999){
 		return "errorCell"
 	}else{ return "decile-" + (Math.floor((datum[column + "_rank"]-1)/5)+1) }
 }
 var promise = new Promise(function(resolve, reject){
-	// $.ajax({
-	//     url: 'http://freegeoip.net/json/' + userip,
-	//     dataType: 'jsonp',
-	//     success: function(data){
-	//       	resolve(data.region_code)
-	//     },
- //        error: function(error){
- //        	console.log("error locating user")
- //    		resolve("")
 
- //    	},
- //    	timeout: 2000,
- //    	async: false
-	// });
 	resolve("")
 })
 function resizePhone(){
@@ -844,15 +837,14 @@ function drawBlurbs(category, column, resize){
 	return bs;
 }
 function drawBlurb(blurbList, column, numCols){
-	console.log(blurbList)
 	var centers = []
 	for (var j = 0; j < blurbList.length; j++){
 		var blurb = blurbList[j]
 		var topD = d3.select(".row." + blurb.top_left.state + ":not(.garbage)").datum()
 		var bottomD = d3.select(".row." + blurb.bottom_right.state+ ":not(.garbage)").datum()
 
-		var top_rank = (topD[column + "_rank"] == 99) ? 52:topD[column + "_rank"]
-		var bottom_rank = (bottomD[column + "_rank"] == 99) ? 52:bottomD[column + "_rank"]
+		var top_rank = (topD[column + "_rank"] == -999999999) ? 52:topD[column + "_rank"]
+		var bottom_rank = (bottomD[column + "_rank"] == -999999999) ? 52:bottomD[column + "_rank"]
 
 		var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
 		var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
@@ -978,7 +970,6 @@ function drawBlurb(blurbList, column, numCols){
 								.style("width","190px")
 								.text(text)
 
-								// console.log(img.node())
 								if(img.node() != null){
 									tabBox.node().appendChild(img.node())
 								}
@@ -995,7 +986,6 @@ function drawBlurb(blurbList, column, numCols){
 								.style("width","190px")
 								.text(text)
 
-								console.log(img.node())
 
 						}
 						tabBox.append("div")
@@ -1053,7 +1043,8 @@ function drawBlurb(blurbList, column, numCols){
 		if(blurb.top_left.column == "spending"){
 			d3.selectAll(".cell.spending:not(.garbage)")
 			.each(function(c){
-				var rank = (c[column + "_rank"] == 99) ? 52:c[column + "_rank"]
+				//hard code rank based on cat and state
+				var rank = (c[column + "_rank"] == -999999999) ? 52 :c[column + "_rank"]
 				var t = ((rank * ROW_HEIGHT) + headerHeight)+30
 				// var bb = d3.select(".row." + c.state + ":not(.garbage) .spending.cell").node().getBoundingClientRect()
 				if(t > top && t < top + height){
@@ -1351,6 +1342,72 @@ function drawBlurb(blurbList, column, numCols){
 
 }
 
+function getMissingRank(state, column, category){
+	var ranks = {
+		"electric":{
+			"payroll":{
+				"DC": 51,
+				"HI": 52
+			},
+			"nonpayroll":{
+				"DC": 51,
+				"HI": 52
+			}
+		},
+		"gas":{
+			"payroll":{
+				"ID": 35,
+				"OR": 36,
+				"WI": 37,
+				"DE": 38,
+				"DC": 39,
+				"HI": 40,
+				"ME": 41,
+				"MD": 42,
+				"MI": 43,
+				"MT": 44,
+				"NV": 45,
+				"NH": 46,
+				"NJ": 47,
+				"RI": 48,
+				"VT": 49,
+				"WY": 50,
+				"WV": 51,
+				"ND": 52
+			},
+			"nonpayroll":{
+				"ID": 35,
+				"OR": 36,
+				"WI": 37,
+				"DE": 38,
+				"DC": 39,
+				"HI": 40,
+				"ME": 41,
+				"MD": 42,
+				"MI": 43,
+				"MT": 44,
+				"NV": 45,
+				"NH": 46,
+				"NJ": 47,
+				"RI": 48,
+				"VT": 49,
+				"WY": 50,
+				"WV": 51,
+				"ND": 52
+			}
+		},
+		"transit":{
+			"units":{
+				"WY": 52
+			},
+			"payroll":{
+				"WY": 52
+			}
+		}
+	}
+	return ranks[category][column][state]
+}
+
 function showMenu(parentCategory){
 	d3.select(".catDescription")
 		.html(CAT_DESCRIPTIONS[parentCategory])
@@ -1440,21 +1497,8 @@ function scrollIn(ind){
 }
 
 function blurbImage(img){
-	// console.log(img)
-	// var w = window.innerWidth;
-	// var h = window.innerHeight;
-	// var image = d3.select("#hiddenWindow")
-	// 	.append("img")
-	// 	.attr("src", "img/blurbs/"+img)
-	// 	// .style("visibility","hidden")
-	// 	// .style("max-width","100%")
-	// 	// .style("max-height","100%")
-	// 	// .style("width",w*.5)
-	// var w = image.node().getBoundingClientRect.width
-	// var h = image.node().getBoundingClientRect.height
 var image = new Image();
 image.onload = function() {
-  // console.log(this.width + 'x' + this.height);
   var w = this.width;
   var h = this.height;
   var W = window.innerWidth;
@@ -1620,7 +1664,6 @@ $(window).scroll(function(e){
    lastScrollTop = st;
 	var y = window.scrollY
 	if(y >= 2700 && !s1_done){
-		console.log("running")
 		s1_done = true
 		step1();
 		function wait(){
