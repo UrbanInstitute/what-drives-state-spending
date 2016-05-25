@@ -1745,8 +1745,10 @@ var blurbs = {
       }, 
       {
         "bottom_right": {
-          "column": "spending, nonpayroll"
+          "column": "spending, nonpayroll", 
+          "state": "MT, MT"
         }, 
+        "image": "water1.png", 
         "text": "\r\nStates with positive expenditures in water supply, purification and filtration plants, and transmission systems in 2012 were generally states with large non-payroll costs, including capital expenditures. For example, 7 of the top 10 spending states in 2012 had capital costs that exceeded 40 percent of total spending in that year.\r\n \r\n\r\n", 
         "top_left": {
           "column": "spending, nonpayroll", 

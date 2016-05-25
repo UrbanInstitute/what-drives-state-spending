@@ -1858,8 +1858,10 @@ Like gas and electricity, water supply systems are generally funded by consumer 
 Top left State: DC, DC
 Top left Column: spending, nonpayroll
 
-Bottom right State MT, MT
+Bottom right State: MT, MT
 Bottom right Column: spending, nonpayroll
+Image: water1.png
+
 
 ### Blurb text starts here ###
 

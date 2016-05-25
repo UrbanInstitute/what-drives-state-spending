@@ -654,6 +654,39 @@ body{
 	height: 0px;
 	cursor: pointer;
 }
+.navButton.blurbImageButton{
+	background: #eb3f1c;
+	border: none;
+	color: #fff;
+	margin-top: 13px;
+}
+.navButton.blurbImageButton:hover{
+	background: #333;
+}
+#blurbImgWindow, #hiddenWindow{
+	position: fixed;
+	width: 0;
+	height: 0;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.blurbImgBG{
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	z-index: 9990;
+}
+.imgClose{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 50px;
+}
+.tabletBoxtext .blurbImageButton{
+	display: block;
+}
 /*******************************************************/
 /******************* FOOTER ****************************/
 /*******************************************************/

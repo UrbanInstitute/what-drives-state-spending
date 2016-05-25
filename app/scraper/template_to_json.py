@@ -41,6 +41,8 @@ def parseSection(section, output):
 				blurb["bottom_right"]["state"] = line.replace("Bottom right State:","").strip()
 			elif line.find("Bottom right Column:") == 0:
 				blurb["bottom_right"]["column"] = line.replace("Bottom right Column:","").strip()
+			elif line.find("Image:") == 0:
+				blurb["image"] = line.replace("Image:","").strip()
 
 			elif line.find("Blurb text starts here") != -1:
 				blurbText = ""
