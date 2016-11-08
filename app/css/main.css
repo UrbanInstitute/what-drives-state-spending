@@ -452,7 +452,7 @@ body{
 	margin-left: calc(50% - 356px)
 }
 .styled-select.filter select{
-  pointer-events: none;
+  /*pointer-events: none;*/
 }
 .styled-select select {
    background: transparent;
@@ -465,7 +465,7 @@ body{
    border: 0;
    border-radius: 0;
    -webkit-appearance: none;
-   pointer-events: none;
+   /*pointer-events: none;*/
 }
 .styled-select select::-ms-expand {
  display: none !important;
