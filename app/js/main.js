@@ -215,10 +215,10 @@ function renderHeatmap(category, userLocation){
 					
 				})
 				.on("mouseover", function(){
-					var thisClass = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
+					var thisClass = d3.select(this).attr("class").replace("headerCell","").replace("inactive","").replace("active","").replace(/\s/g,"")
 					var category = getCategory();
-					var isBlank = d3.select(".cell." + thisClass).classed("blankCell")
-					if (isBlank){ return false}
+					// var isBlank = d3.select(".cell." + thisClass).classed("blankCell")
+					// if (isBlank){ return false}
 
 					var infoHeight = "80px";
 					switch (category){
@@ -232,6 +232,7 @@ function renderHeatmap(category, userLocation){
 
 					var left = d3.select(this).node().getBoundingClientRect().left
 					var info = HEADER_INFO[category][thisClass]
+					console.log(info, HEADER_INFO, category, thisClass)
 
 					d3.selectAll(".headerCell:not(." + thisClass + "):not(.inactive) .innerHeader")
 						.transition()
@@ -264,8 +265,8 @@ function renderHeatmap(category, userLocation){
 				})
 				.on("mouseout", function(){
 					var thisClass = d3.select(this).attr("class").replace("headerCell","").replace("active","").replace(/\s/g,"")
-					var isBlank = d3.select(".cell." + thisClass).classed("blankCell")
-					if (isBlank){ return false}
+					// var isBlank = d3.select(".cell." + thisClass).classed("blankCell")
+					// if (isBlank){ return false}
 
 					d3.selectAll(".headerCell:not(." + thisClass + ") .innerHeader")
 						.transition()

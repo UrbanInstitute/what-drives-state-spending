@@ -205,7 +205,7 @@ body{
 }
 .headerCell.inactive{
 	opacity: .3 !important;
-	pointer-events: none;
+	/*pointer-events: none;*/
 	border-left: 3px solid white;
 }
 .headerCell span{
