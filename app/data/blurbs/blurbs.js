@@ -1523,13 +1523,13 @@ var blurbs = {
     "spending": [
       {
         "bottom_right": {
-          "column": "takeup", 
+          "column": "takeup, takeup, takeup, takeup", 
           "state": "CA, WA, FL, TX"
         }, 
         "image": "tanf1.png", 
         "text": "States that spend the most per capita on Temporary Assistance for Needy Families (TANF) cash assistance are not necessarily the ones with the largest shares of low-income families (demographics). This may be because the 1996 welfare reform law allowed states to spend on a variety of programs as long as spending satisfied one of four goals: (1) providing assistance to needy families so that children may be cared for in their own homes or in the homes of relatives; (2) promoting job preparation, work, and marriage among needy parents; (3) preventing and reducing the incidence of out-of-wedlock pregnancies; and (4) encouraging the formation and maintenance of two-parent families. Nationally, the preponderance of TANF is spent on noncash assistance, although this proportion varies by state. Spending on noncash benefits is less targeted to the lowest-income recipients and less responsive to changes to family incomes in economic downturns.\r\n\r\n\r\n", 
         "top_left": {
-          "column": "spending", 
+          "column": "spending, spending, spending, spending", 
           "state": "CA, WA, FL, TX"
         }
       }, 

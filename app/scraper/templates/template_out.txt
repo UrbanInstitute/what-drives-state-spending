@@ -707,10 +707,10 @@ Category: tanf
 Sorted by: spending
 
 Top left State: CA, WA, FL, TX
-Top left Column: spending
+Top left Column: spending, spending, spending, spending
 
 Bottom right State: CA, WA, FL, TX
-Bottom right Column: takeup
+Bottom right Column: takeup, takeup, takeup, takeup
 Image: tanf1.png
 
 ### Blurb text starts here ###
