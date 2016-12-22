@@ -3,7 +3,6 @@ var COLUMNS = {
 	"higher": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"corrections": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"medicaid": ["spending","demographics","eligibility","takeup","spending-per"],
-	"ssi": ["spending","demographics","eligibility","takeup","spending-per"],
 	"tanf": ["spending","demographics","eligibility","takeup","spending-per"],
 	"ccdf": ["spending","demographics","eligibility","takeup","units","spending-per-u"],	
 	"housing": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
@@ -680,8 +679,8 @@ function resizePhone(){
 
 	d3.select(".navButton.ccdf")
 		.text("CCDF")
-	d3.select(".navButton.ssi")
-		.text("SSI")
+	// d3.select(".navButton.ssi")
+	// 	.text("SSI")
 	d3.select(".navButton.tanf")
 		.text("TANF")
 	d3.select(".navButton.resources")
