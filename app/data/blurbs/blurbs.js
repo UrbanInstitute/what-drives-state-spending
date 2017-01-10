@@ -790,7 +790,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "SD"
         }, 
-        "text": "\r\nStates can\u2019t control the share of children in the state or how many children enroll in public school, but these factors can affect the cost of education. When a state with a lot of children and high public school take-up raises salaries, for example, they are raising salaries for more teachers and other school employees, and therefore end up spending more per capita. That is why many states with a lot of public school students have lower staffing ratios or lower salaries (payroll) and other costs (non-payroll) per employee, keeping spending per capita low. For a state to rank high on every measure, it must spend more per capita, as in the case of Alaska. \r\n\r\n", 
+        "text": "\r\nStates can\u2019t control the share of children in the state or how many children enroll in public school, but these factors can affect the cost of education. When a state with a lot of children and high public school take-up raises salaries, for example, they are raising salaries for more teachers and other school employees and therefore end up spending more per capita. That is why many states with many public-school students have lower staffing ratios or lower salaries (payroll) and other costs (nonpayroll) per employee, keeping spending per capita low. For a state to rank high on every measure, it must spend more per capita, as in the case of Alaska. \r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "UT"
@@ -801,22 +801,33 @@ var blurbs = {
           "column": "takeup, takeup", 
           "state": "NY, FL"
         }, 
-        "image": "k121.png", 
-        "text": "\r\nNew York and Florida show how demographics are not destiny for school budgets. Both states have relatively few school-aged kids (demographics) and low public school enrollments (take-up). However, New York had the fourth highest K-12 spending per capita in 2012 while Florida ranked 50th. New York employed more teachers and other personnel while also paying its employees more, although much of this difference is explained by costs of living or labor market conditions. Florida, by contrast, had relatively few public school employees and paid them less than what labor market conditions would suggest.\r\n\r\n \r\n\r\n", 
+        "text": "\r\nNew York and Florida show how demographics are not destiny for school budgets. Both states have relatively few school-age kids (demographics) and low public-school enrollments (take-up). However, New York had the fourth highest K\u201312 spending per capita in 2012 while Florida ranked 50th. New York employed more teachers and other personnel while also paying its employees more, although much of this difference is explained by costs of living or labor market conditions. Florida, by contrast, had relatively few public-school employees and paid them less than what labor market conditions would suggest.\r\n\r\n \r\n\r\n", 
         "top_left": {
           "column": "spending, spending", 
           "state": "NY, FL"
         }
       }
     ], 
-    "eligibility": [], 
+    "eligibility": [
+      {
+        "bottom_right": {
+          "column": "eligibility", 
+          "state": "VT"
+        }, 
+        "text": "\r\nIn every state, all kids are eligible for public school, although some may drop out or graduate early for various reasons. Vermont had the lowest rates of enrollment in any school (public or private) in 2012; DC had the highest. Those differences may stem from compulsory education laws: DC in 2012 required kids to be in school from ages 5 to 18 while Vermont was one of several states that required kids to attend school only from ages 6 to 16. \r\n\r\n", 
+        "top_left": {
+          "column": "eligibility", 
+          "state": "DC"
+        }
+      }
+    ], 
     "nonpayroll": [
       {
         "bottom_right": {
           "column": "nonpayroll", 
           "state": "MI"
         }, 
-        "text": "\r\nStates with high payroll and other costs per employee tend to employ fewer personnel (units). New York and Alaska are two exceptions. These states have more staff per student despite high payroll and non-payroll costs. These states also are among the top spenders on K-12 education.\r\n\r\n", 
+        "text": "\r\nStates with high payroll and other costs per employee tend to employ fewer personnel (units). New York and Alaska are two exceptions. Those states have more staff per student despite high payroll and nonpayroll costs, and they are among the top spenders on K\u201312 education.\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -829,8 +840,7 @@ var blurbs = {
           "column": "payroll", 
           "state": "CT"
         }, 
-        "image": "k125.png", 
-        "text": "\r\nStates with high payroll costs are often among the highest spenders. High payroll costs can reflect policy choices or economic factors, including costs of living, beyond policymakers\u2019 control. If living costs are high, we would expect to see all public and private employers paying more to attract and retain workers. However, there are several states where salaries and wages in K-12 education are higher than what we would expect based on this overall location premium or cost of living adjustment. \r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with high payroll costs are often among those that spend the most. High payroll costs can reflect policy choices or economic factors, including costs of living, beyond policymakers\u2019 control. If living costs are high, we would expect to see all public and private employers paying more to attract and retain workers. But several states pay salaries and wages in K\u201312 education higher than what we would expect based on this overall location premium or cost-of-living adjustment. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -843,7 +853,7 @@ var blurbs = {
           "column": "demographics", 
           "state": "NH"
         }, 
-        "text": "\r\nStates whose governments spend the most per capita on K-12 education are not necessarily home to the most students. Take New Jersey, New York, Massachusetts, Rhode Island, and DC. All have relatively few school-aged children (demographics) and low rates of public school attendance (take-up). Yet, they have high payroll and other costs. The result is high spending despite fewer kids. Some states also employ a lot of teachers and other personnel per student (units per recipient), adding to the overall tab for public K-12 education. \r\n\r\n", 
+        "text": "\r\nStates whose governments spend the most per capita on K\u201312 education are not necessarily home to the most students. Take New Jersey, New York, Massachusetts, Rhode Island, and DC. All have relatively few school-aged children (demographics) and low rates of public school attendance (take-up). But they have high payroll and other costs. The result is high spending despite fewer kids. Some states also employ a lot of teachers and other personnel per student (units per recipient), adding to the overall tab for public K\u201312 education. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -854,7 +864,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "ID"
         }, 
-        "text": "\r\nStates that spend the least per capita on K-12 education often have the most kids (demographics). They also tend to have high take-up rates for public education. These factors translate into low spending per student as well as per capita. Low spending per student can mean fewer teachers, counselors, administrators, and other support staff (units) per student (as in Arizona, Idaho, Nevada, and Utah), lower spending on employee salaries (payroll) and other, non-payroll costs per employee (in Mississippi, Oklahoma, Tennessee, Florida, and North Carolina) or both fewer teachers and lower spending per employee (Arizona and Idaho).\r\n\r\n", 
+        "text": "\r\nStates that spend the least per capita on K\u201312 education often have the most kids (demographics). They also tend to have high take-up rates for public education. These factors translate into low spending per student as well as per capita. Low spending per student can mean fewer teachers, counselors, administrators, and other support staff (units) per student (as in Arizona, Idaho, Nevada, and Utah); lower spending on employee salaries (payroll) and other, nonpayroll costs per employee (as in Mississippi, Oklahoma, Tennessee, Florida, and North Carolina); or both fewer teachers and lower spending per employee (as in Arizona and Idaho).\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "UT"
@@ -864,22 +874,10 @@ var blurbs = {
     "takeup": [
       {
         "bottom_right": {
-          "column": "eligibility, eligibility", 
-          "state": "DC, VT"
-        }, 
-        "text": "\r\nIn every state, all kids are eligible for public school, although some may drop out or graduate early for various reasons. Vermont had the lowest rates of enrollment in any school (public or private) in 2012 while DC had the highest. These differences may stem from compulsory education laws: DC in 2012 required kids to be in school from ages 5 to 18 while Vermont was one of several states that required kids to attend school only from 6 to 16. \r\n\r\n", 
-        "top_left": {
-          "column": "eligibility, eligibility", 
-          "state": "DC, VT"
-        }
-      }, 
-      {
-        "bottom_right": {
-          "column": "take-up", 
+          "column": "units", 
           "state": "ME"
         }, 
-        "image": "k122.png", 
-        "text": "\r\nWestern states often have the highest public school take-up rates. West Virginia and Maine are exceptions, however, as states east of the Mississippi with some of the lowest private school enrollment rates in the country. These states also had moderate spending on K-12 education in 2012 despite having few kids per capita, suggesting that factors other than demographics and take up \u2013 such as the number of teachers and other public school employees \u2013 play a more important role. \r\n\r\n\r\n\r\n", 
+        "text": "\r\nWestern states often have the highest public-school take-up rates. West Virginia and Maine are exceptions, however, as Eastern states with some of the lowest private school enrollment rates in the country. Those two states also had moderate spending on K\u201312 education in 2012 despite having few kids per capita, suggesting that factors other than demographics and take up, such as the number of teachers and other public school employees, play a more important role. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "WV"
@@ -890,9 +888,9 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "HI"
         }, 
-        "text": "\r\nMany states with high private school enrollments (low take-up rates) nevertheless spend a lot on public schools. Some of these states (Nebraska and New York) have a lot of public school teachers and other personnel (units), which drives up spending. Others have moderate staffing ratios but spend a lot per employee Delaware, Maryland, Ohio, Pennsylvania, and Wisconsin).\r\n\r\n", 
+        "text": "\r\nMany states with high private school enrollments (low take-up rates) nevertheless spend a lot on public schools. Some of these states (such as Nebraska and New York) have a lot of public-school teachers and other personnel (units), which drives up spending. Others have moderate staffing ratios but spend a lot per employee (such as Delaware, Maryland, Ohio, Pennsylvania, and Wisconsin).\r\n\r\n", 
         "top_left": {
-          "column": "Spending", 
+          "column": "spending", 
           "state": "NE"
         }
       }
@@ -903,8 +901,7 @@ var blurbs = {
           "column": "units", 
           "state": "NJ"
         }, 
-        "image": "k123.png", 
-        "text": "\r\nStates with the lowest staffing ratios (units) are among the highest spenders on K-12 education. This is because education is labor intensive and labor is expensive, especially in states like New Jersey and New York. Some, although not all, of this difference is explained by costs of living or labor market conditions.\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with the lowest staffing ratios (units) are among the highest spenders on K\u201312 education. This is because education is labor intensive and labor is expensive, especially in states such as New Jersey and New York. Some (though not all) of this difference is explained by costs of living or labor market conditions.\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "VT"
@@ -915,8 +912,7 @@ var blurbs = {
           "column": "units", 
           "state": "NV"
         }, 
-        "image": "k124.png", 
-        "text": "\r\nStates with low staffing ratios (units) often have low test scores in reading and math. However, adjusting for family income, languages spoken at home, and other factors eliminates this link almost entirely.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with low staffing ratios (units) often have low test scores in reading and math. Adjusting for family income, languages spoken at home, and other factors, however, eliminates this link almost entirely.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "ID"
