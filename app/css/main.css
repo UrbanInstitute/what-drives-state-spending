@@ -282,6 +282,12 @@ body{
     top: 2.5px;
     left: -14px;
 }
+.eligibility.headerCell span.edHeader{
+    left: -4px;
+}
+.takeup.headerCell span.edHeader {
+    left: -2px;
+}
 .takeup.headerCell{
 	text-indent: -12px;
 }
@@ -481,10 +487,17 @@ body{
    overflow: hidden;
 }
 .catDescription{
+	font-size:18px;
+	font-family:Lato;
+	font-weight: 400;
+	line-height: 25px;
 	width: 730px;
-	font: 18px crimson_textitalic;
 	color: #666666;
 	margin-top: 23px;
+}
+.catDescription a{
+	text-decoration: none;
+	color: #1696d2;
 }
 .spacer{
 	display: block;

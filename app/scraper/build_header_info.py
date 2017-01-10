@@ -13,4 +13,4 @@ for row in cr:
 
 with open('../data/annotations/headerInfo.js', 'w') as fp:
   fp.write("var HEADER_INFO = ")
-  json.dump(data, fp, indent=2, sort_keys=True)
+  json.dump(data, fp, indent=2, sort_keys=True, ensure_ascii=False)

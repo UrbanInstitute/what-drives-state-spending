@@ -30,8 +30,8 @@ var HEADERS ={
 	"payroll": "<div class = \"innerHeader payroll\"><span>&times;(</span>payroll</div>",
 	"nonpayroll": "<div class = \"innerHeader nonpayroll\"><span id = \"left\">+</span>non payroll<span id = \"right\">)</span></div>",
 	"spending-per":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>recipient</div>",
-	"spending-per-u":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>unit</div>"
-
+	"spending-per-u":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>unit</div>",
+	"takeup2":"<div class = \"innerHeader takeup\"><span>&times;</span>take-up rate 2</div>"
 }
 ROW_HEIGHT = 32;
 var COLUMN_WIDTH = 99;
@@ -174,10 +174,35 @@ function renderHeatmap(category, userLocation){
 		// 		.attr("class","state headerCell")
 		// 		.text("state")
 		COLUMNS[category].map(function(column){
-			header.append("div")
+			header
+				.append("div")
+				
+
 				.attr("class",function(){ return column + " headerCell"})
 				.classed("active", function(){ return column == "spending"})
-				.html(function(){ return HEADERS[column]})
+				.datum({"column": column})
+				.html(function(){
+					var cat = getCategory();
+					if(cat == "k12" || cat == "higher"){
+						d3.select(".eligibility.headerCell span").classed("edHeader", true)
+						d3.select(".takeup.headerCell span").classed("edHeader", true)
+
+						if(column == "takeup"){
+							return HEADERS["takeup2"]
+						}
+						else if(column == "eligibility"){
+							return HEADERS["takeup"]
+						}else{
+							return HEADERS[column]
+						}
+					}else{
+						d3.select(".eligibility.headerCell span").classed("edHeader", false)
+						d3.select(".takeup.headerCell span").classed("edHeader", false)
+
+						return HEADERS[column]	
+					}
+					
+				})
 				.on("click", function(){
 					d3.selectAll(".headerCell").classed("active",false)
 					d3.select(this).classed("active",true)
@@ -231,7 +256,6 @@ function renderHeatmap(category, userLocation){
 
 					var left = d3.select(this).node().getBoundingClientRect().left
 					var info = HEADER_INFO[category][thisClass]
-					console.log(info, HEADER_INFO, category, thisClass)
 
 					d3.selectAll(".headerCell:not(." + thisClass + "):not(.inactive) .innerHeader")
 						.transition()
@@ -256,7 +280,7 @@ function renderHeatmap(category, userLocation){
 					// d3.selectAll(".headerArrow")
 					// 	.style("opacity",1)
 					d3.select("#info")
-						.text(info)
+						.html(info)
 						.style("left", left)
 						.style("top","-" + infoHeight)
 						.style("border-top","3px solid #eb3f1c")
@@ -1409,6 +1433,32 @@ function getMissingRank(state, column, category){
 }
 
 function showMenu(parentCategory){
+	d3.selectAll(".innerHeader")
+		.html(function(){
+		var column =  d3.select(d3.select(this).node().parentNode).datum().column
+		// var column = d.column
+		// console.log(this)
+		var cat = parentCategory
+		if(cat == "k12" || cat == "higher"){
+			d3.select(".eligibility.headerCell span").classed("edHeader", true)
+			d3.select(".takeup.headerCell span").classed("edHeader", true)
+
+			if(column == "takeup"){
+				return HEADERS["takeup2"]
+			}
+			else if(column == "eligibility"){
+				return HEADERS["takeup"]
+			}else{
+				return HEADERS[column]
+			}
+		}else{
+			d3.select(".eligibility.headerCell span").classed("edHeader", false)
+			d3.select(".takeup.headerCell span").classed("edHeader", true)
+
+			return HEADERS[column]	
+		}
+		
+	})
 	d3.select(".catDescription")
 		.html(CAT_DESCRIPTIONS[parentCategory])
 
@@ -1634,6 +1684,7 @@ d3.selectAll(".miniBlurb_hover")
 
 function getCategory(){
 	var menuItem = d3.select("#navMenu select").node().value
+	console.log(menuItem)
 	var singles = ["medicaid","admin","higher","k12",""]
 	if (singles.indexOf(menuItem) != -1){ return menuItem}
 	else{

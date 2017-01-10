@@ -65,8 +65,8 @@ function drawLine(x1,y1,x2,y2,duration,delay){
 
 function step1(){
 	// ELEMS = []
-	drawLine("260","80","190","120",DURATION,0)
-	drawLine("290","80","360","120",DURATION,0)
+	drawLine("260","20","190","60",DURATION,0)
+	drawLine("290","20","360","60",DURATION,0)
 	moveIn("#s1",DURATION,0)
 	// console.log(bar)
 	moveIn("#s2",DURATION,0)
@@ -78,8 +78,8 @@ function step2(){
 	// moveIn("#s2",0,0)
 	// fadeIn(".s3",0,0)
 	// if(ELEMS.length == 2){
-		drawLine("160","185","120","225",DURATION,0)
-		drawLine("190","185","230","225",DURATION,0)
+		drawLine("160","135","120","175",DURATION,0)
+		drawLine("190","135","230","175",DURATION,0)
 		moveIn("#s4",DURATION,0)
 		moveIn("#s5",DURATION,0)
 		fadeIn(".s6",SHORT_DURATION,DELAY)
@@ -87,16 +87,16 @@ function step2(){
 	// }
 }
 function step3(){
-	drawLine("200","295","140","355",DURATION,0)
-	drawLine("230","295","290","355",DURATION,0)
+	drawLine("200","265","140","325",DURATION,0)
+	drawLine("230","265","290","325",DURATION,0)
 	moveIn("#s7",DURATION,0)
 	moveIn("#s8",DURATION,0)
 	fadeIn(".s9",SHORT_DURATION,DELAY)
 	grey(".grey3")
 }
 function step4(){
-	drawLine("370","185","330","225",DURATION,0)
-	drawLine("400","185","440","225",DURATION,0)
+	drawLine("370","135","330","175",DURATION,0)
+	drawLine("400","135","440","175",DURATION,0)
 	moveIn("#s10",DURATION,0)
 	moveIn("#s11",DURATION,0)
 	fadeIn(".s12",SHORT_DURATION,DELAY)
@@ -104,8 +104,8 @@ function step4(){
 	white(".white4")
 }
 function step5(){
-	drawLine("470","295","530","355",DURATION,0)
-	drawLine("440","295","380","355",DURATION,0)
+	drawLine("470","265","530","325",DURATION,0)
+	drawLine("440","265","380","325",DURATION,0)
 	moveIn("#s13",DURATION,0)
 	moveIn("#s14",DURATION,0)
 	fadeIn(".s15",SHORT_DURATION,DELAY)
