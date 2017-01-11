@@ -631,7 +631,6 @@ function mouseover(cell, datum, column, category){
 			formatter = d3.format("$,.0f");
 			break;
 		case "percent":
-			console.log("ASdf")
 			formatter = d3.format("%");
 			break;
 		case "number":
@@ -647,7 +646,6 @@ function mouseover(cell, datum, column, category){
 			formatter = d3.format("");
 			break;
 	}
-	console.log(format, formatter)
 	d3.select(cell)
 		.append("div")
 		.attr("class","cellTooltip")
@@ -775,44 +773,67 @@ function drawBlurbs(category, column, resize){
 	var numCols = (category == "ssi" || category == "ccdf" || category == "tanf") ? 6 : 7;
 
 	var bs = blurbs[category][column]
-	for (var i = 0; i < bs.length; i++){
+	console.log(bs)
+	if(typeof(bs) == "undefined"){
+	for(var mb = MINIBLURB_INDEX; mb < 5; mb++){
+		d3.select("#mb" + mb)
+			.attr("data-ind","hidden")
+			.transition()
+			.style("width",0)
+			.style("height",0)
+			.style("left","111px")
+			.style("top",0)
+			.style("opacity",0)
+		d3.select("#mbh" + mb)
+			.attr("data-ind","hidden")
+			.transition()
+			.style("width",0)
+			.style("height",0)
+			.style("left","111px")
+			.style("top",0)
+			.style("opacity",0)
 
-		// blurb = bs[i]
-		var blurbList = [];
-		if(bs[i].top_left.state.indexOf(",") != -1){
-		// var blurbPromise = new Promise(function(resolve, reject){
-			var br_cols = bs[i].bottom_right.column.replace(/\s/g,"").toLowerCase().split(",")
-			var br_states = bs[i].bottom_right.state.replace(/\s/g,"").split(",")
-			var tl_cols = bs[i].top_left.column.replace(/\s/g,"").toLowerCase()	.split(",")
-			var tl_states = bs[i].top_left.state.replace(/\s/g,"").split(",")
-			var text = bs[i].text;
-			var img = (bs[i].hasOwnProperty("image")) ? bs[i]["image"] : null;
-			var num = br_cols.length
-			for(var k = 0; k < num; k++){
-				var b = {
-					"bottom_right":{
-						"column": br_cols[k],
-						"state": br_states[k]
-					},
-					"top_left":{
-						"column": tl_cols[k],
-						"state": tl_states[k]
-					},
-					"text": text,
-					"index": i
+	}
+	}else{
+		for (var i = 0; i < bs.length; i++){
+
+			// blurb = bs[i]
+			var blurbList = [];
+			if(bs[i].top_left.state.indexOf(",") != -1){
+			// var blurbPromise = new Promise(function(resolve, reject){
+				var br_cols = bs[i].bottom_right.column.replace(/\s/g,"").toLowerCase().split(",")
+				var br_states = bs[i].bottom_right.state.replace(/\s/g,"").split(",")
+				var tl_cols = bs[i].top_left.column.replace(/\s/g,"").toLowerCase()	.split(",")
+				var tl_states = bs[i].top_left.state.replace(/\s/g,"").split(",")
+				var text = bs[i].text;
+				var img = (bs[i].hasOwnProperty("image")) ? bs[i]["image"] : null;
+				var num = br_cols.length
+				for(var k = 0; k < num; k++){
+					var b = {
+						"bottom_right":{
+							"column": br_cols[k],
+							"state": br_states[k]
+						},
+						"top_left":{
+							"column": tl_cols[k],
+							"state": tl_states[k]
+						},
+						"text": text,
+						"index": i
+					}
+					if(img != null) b["image"] = img
+					blurbList.push(b)
+
 				}
-				if(img != null) b["image"] = img
-				blurbList.push(b)
 
+				drawBlurb(blurbList, column, numCols)
 			}
-
-			drawBlurb(blurbList, column, numCols)
-		}
-		else{
-			var b = bs[i]
-			b["index"] = i
-			blurbList.push(b)
-			drawBlurb(blurbList, column, numCols)
+			else{
+				var b = bs[i]
+				b["index"] = i
+				blurbList.push(b)
+				drawBlurb(blurbList, column, numCols)
+			}
 		}
 	}
 
@@ -827,6 +848,7 @@ function drawBlurbs(category, column, resize){
 			.style("height",0)
 			.style("left","111px")
 			.style("top",0)
+			.style("opacity",0)
 		d3.select("#mbh" + mb)
 			.attr("data-ind","hidden")
 			.transition()
@@ -834,6 +856,7 @@ function drawBlurbs(category, column, resize){
 			.style("height",0)
 			.style("left","111px")
 			.style("top",0)
+			.style("opacity",0)
 
 	}
 
@@ -1101,6 +1124,7 @@ function drawBlurb(blurbList, column, numCols){
 			.style("top", (T * h/H) + "px")
 			.style("width",(width * w/W) + "px")
 			.style("height",(height * h/H) + "px")
+			.style("opacity",1)
 		d3.select("#mbh" + MINIBLURB_INDEX)
 			.attr("data-ind",indChar)
 			.transition()
@@ -1108,6 +1132,7 @@ function drawBlurb(blurbList, column, numCols){
 			.style("top", (T * h/H) + "px")
 			.style("width",(width * w/W) + "px")
 			.style("height",(height * h/H) + "px")
+			.style("opacity",1)
 		MINIBLURB_INDEX += 1;
 			
 
@@ -1439,8 +1464,6 @@ function showMenu(parentCategory){
 	d3.selectAll(".innerHeader")
 		.html(function(){
 		var column =  d3.select(d3.select(this).node().parentNode).datum().column
-		// var column = d.column
-		// console.log(this)
 		var cat = parentCategory
 		if(cat == "k12" || cat == "higher"){
 			d3.select(".eligibility.headerCell span").classed("edHeader", true)
@@ -1557,13 +1580,13 @@ image.onload = function() {
   var W = window.innerWidth;
   var H = window.innerHeight;
   if(w > W){
-  	tmp = W * .9
-  	h = h * (W *.9)/w
+  	tmp = W * .7
+  	h = h * (W *.7)/w
   	w = tmp 
   }
   else if(h > H){
-  	tmp = H * .9
-  	w = w * (H *.9)/h
+  	tmp = H * .7
+  	w = w * (H *.7)/h
   	h = tmp 
   }
   d3.select("body")
@@ -1687,7 +1710,6 @@ d3.selectAll(".miniBlurb_hover")
 
 function getCategory(){
 	var menuItem = d3.select("#navMenu select").node().value
-	console.log(menuItem)
 	var singles = ["medicaid","admin","higher","k12",""]
 	if (singles.indexOf(menuItem) != -1){ return menuItem}
 	else{
@@ -1700,8 +1722,7 @@ var s1_done, s2_done, s3_done, s4_done, s5_done, s6_done, s7_done;
 
 var lastScrollTop = $(this).scrollTop();
 
-$(window).scroll(function(e){
-
+function scrollCheck(){
 
    var st = $(this).scrollTop();
    if (st > lastScrollTop){
@@ -1763,57 +1784,8 @@ $(window).scroll(function(e){
 		}
 		wait()
 	}
-	// else if(y >= 2900 && !s2_done && ELEMS.length == 2){
-	// 	s2_done = true
-	// 	function steps(callback){
-	// 		step2()
-	// 		if(!s3_done && ELEMS.length == 4){
-	// 			callback()
-	// 		}
-	// 	}
-	// 	steps(step3)
-	// 	// step2()
-	// 	// step3()
-	// 	// step4()
-	// }
-	// else if(y >= 2900 && !s3_done && ELEMS.length == 4){
-	// 	s3_done = true
-	// 	step3()
-	// }
-	// else if(y >= 2900 && !s4_done && ELEMS.length == 6){
-	// 	s4_done = true
-	// 	step4()
-	// }
-	// else if(y >= 2900 && !s5_done && ELEMS.length == 8){
-	// 	s5_done = true
-	// 	step5()
-	// }
-	// else if(y >= 2900 && !s6_done && ELEMS.length == 10){
-	// 	s6_done = true
-	// 	step6()
-	// }
-	// else if(y >= 3300 && !s7_done && ELEMS.length == 10){
-	// 	s7_done = true
-	// 	step7()
-	// }
 
-	// if(y >= 2700 && y<= 3450){
-	// 	fix();
-	// }
-	// if(y > 3450){
-	// 	d3.select(".twocolumn.formula")
-	// 		.style("position","inherit")
-	// 		.style("margin-top","455px")
-	// 		.style("margin-right","50px")
-	// 		.style("left","0px")
-	// }
 	if(y < 2700){
-		// d3.select(".formula")
-		// 	.style("margin-top","-4893px")
-		// 	.style("top","0px")
-		// 	.style("margin-right","50px")
-		// 	.style("position","inherit")
-			// .style("left",left + "px")
 		d3.select(".h1spacing")
 			.style("display","block")
 	}else{
@@ -1894,10 +1866,11 @@ $(window).scroll(function(e){
 		})
 
 
+}
 
+$(window).scroll(scrollCheck);
 
-});
-
+$(document).ready(scrollCheck);
 $(window).resize(function(e){
 	TABLET = d3.select(".gutter").style("display") == "none"
 	PHONE = d3.select(".mobileTest").style("display") == "block"

@@ -666,7 +666,7 @@ var blurbs = {
           "column": "units, nonpayroll", 
           "state": "UT"
         }, 
-        "text": "Two types of states spend a lot per capita on highways, roads, and bridges. The first group includes states with small populations spread over large distances (such as Alaska, Montana, North Dakota, South Dakota, Utah, and Wyoming). Roads are used relatively lightly (units), so they don\u2019t require extensive maintenance and repairs, but lane miles are still high, which adds to the overall highways tab. The second group includes states such as Maryland and DC, where lane miles are lower but traffic volume is greater, which contributes to higher costs per road mile (payroll and nonpayroll). \r\n\r\n", 
+        "text": "Two types of states spend a lot per capita on highways, roads, and bridges. The first group includes states with small populations spread over large distances (such as Alaska, Montana, North Dakota, South Dakota, Utah, and Wyoming). Roads are used relatively lightly (units), so they don\u2019t require extensive maintenance and repairs, but lane miles are still high, which adds to the overall highways tab. The second group includes states such as Maryland and DC, where lane miles are lower but traffic volume is greater, which <a target = \"_blank\" href = \"https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/50150-Federal_Highway_Spending.pdf\">contributes to higher costs</a> per road mile (payroll and nonpayroll). \r\n\r\n", 
         "top_left": {
           "column": "spending, spending", 
           "state": "ND"
@@ -678,7 +678,7 @@ var blurbs = {
           "state": "MD, UT"
         }, 
         "image": "highway1.png", 
-        "text": "\r\nBecause highways are capital intensive, spending rankings change if they are based on operations and maintenance only. Maryland, Utah, and DC, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider current expenditures alone (excluding capital investments) [add link to supplementary table]. Capital spending can also vary by year because of a few large projects, so looking at trends over time is important [add link to downloadable time series data].\r\n\r\n\r\n\r\n", 
+        "text": "\r\nBecause highways are capital intensive, spending rankings change if they are based on operations and maintenance only. Maryland, Utah, and DC, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider current expenditures alone (excluding capital investments). <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">Capital spending can also vary by year</a> because of a few large projects, so looking at trends over time is important.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC, UT"
