@@ -338,7 +338,7 @@ function renderHeatmap(category, userLocation){
 			.attr("class", function(d){
 				return "stateCell " + d.state.toUpperCase()
 			})
-
+			.append("span")
 			.text(function(d){ return d.state})
 
 		COLUMNS[category].map(function(column){
@@ -625,11 +625,13 @@ function mouseover(cell, datum, column, category){
 
 	
 	var formatter;
+
 	switch (format){
 		case "dollars":
 			formatter = d3.format("$,.0f");
 			break;
 		case "percent":
+			console.log("ASdf")
 			formatter = d3.format("%");
 			break;
 		case "number":
@@ -645,6 +647,7 @@ function mouseover(cell, datum, column, category){
 			formatter = d3.format("");
 			break;
 	}
+	console.log(format, formatter)
 	d3.select(cell)
 		.append("div")
 		.attr("class","cellTooltip")

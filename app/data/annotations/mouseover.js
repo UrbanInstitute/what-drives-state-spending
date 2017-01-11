@@ -19,7 +19,7 @@ var mouseoverText	 = {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "percent", "label" : "below 200% of the poverty line"},
 		"eligibility":{"format": "percent", "label" : "of low-income residents eligible for Medicaid"},
-		"takeup":{"format": "percent ", "label" : "of eligible residents enrolled"},
+		"takeup":{"format": "percent", "label" : "of eligible residents enrolled"},
 		"spending-per":{"format": "dollars", "label" : "per Medicaid recipient"}
 	},
 	"ssi": {

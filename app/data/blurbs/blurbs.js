@@ -32,6 +32,7 @@ var blurbs = {
           "column": "Units", 
           "state": "CA"
         }, 
+        "image": "admin1.png", 
         "text": "State and local government spending per capita on administration varies greatly, ranging from $249 in Missouri to $1,335 in Alaska. High-spending states often have more employees per state resident. This pattern is most dramatic among the highest-spending states, where employment relative to population jumps from three staff per 1,000 residents nationally to eight per 1,000 in DC.  \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -43,6 +44,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "MO"
         }, 
+        "image": "admin2.png", 
         "text": "Administration spending comes from four government functions: financial administration, judicial and legal services, central staff services, and general public buildings. In most states, spending on financial, judicial, and legal services is the largest category. \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -56,7 +58,7 @@ var blurbs = {
           "column": "Units", 
           "state": "TX"
         }, 
-        "text": "Identifying the outcomes of government administration is difficult. One possible measure is public opinion of state government, based on a <a href = \"http://www.gallup.com/poll/168251/illinois-residents-least-trusting-state-government.aspx\">special 50-state Gallup poll</a>. The data show that Indiana, Illinois, North Carolina, and Texas had the lowest staffing levels (units), and Illinois and North Carolina ranked first and ninth respectively in the proportion of residents who trusted government \u201cnot very much\u201d or \u201cnone at all.\u201d However, most residents in Texas (72 percent) and Indiana (68 percent) trusted government either \u201ca fair amount\u201d or \u201cgreat deal,\u201d placing both in the top 10 states for <a href = \"\">trust rankings</a>.\r\n\r\n", 
+        "text": "Identifying the outcomes of government administration is difficult. One possible measure is public opinion of state government, based on a <a target = \"_blank\" href = \"http://www.gallup.com/poll/168251/illinois-residents-least-trusting-state-government.aspx\">special 50-state Gallup poll</a>. The data show that Indiana, Illinois, North Carolina, and Texas had the lowest staffing levels (units), and Illinois and North Carolina ranked first and ninth respectively in the proportion of residents who trusted government \u201cnot very much\u201d or \u201cnone at all.\u201d However, most residents in Texas (72 percent) and Indiana (68 percent) trusted government either \u201ca fair amount\u201d or \u201cgreat deal,\u201d placing both in the top 10 states for <a target = \"_blank\" href = \"/data-depot.html#trust-in-government\">trust rankings</a>.\r\n\r\n", 
         "top_left": {
           "column": "Units", 
           "state": "IN"
@@ -71,7 +73,7 @@ var blurbs = {
           "column": "spending-per-u", 
           "state": "NM"
         }, 
-        "text": "States where low income families are more likely to qualify for child care subsidies typically have <a href = \"http://www.urban.org/urban-wire/child-care-subsidies-whos-eligible-varies-state\">higher income cutoffs</a> to qualify for and continue receiving CCDF benefits. However, participation in subsidized child care is often low in these states. That may be because states lack the resources to provide benefits to all families that qualify. Child care subsidies are not an entitlement, and states provide subsidies to eligible applicants only to the extent allowed by the combination of federal and state funding. \r\n\r\n\r\n", 
+        "text": "States where low income families are more likely to qualify for child care subsidies typically have <a target = \"_blank\" href = \"http://www.urban.org/urban-wire/child-care-subsidies-whos-eligible-varies-state\">higher income cutoffs</a> to qualify for and continue receiving CCDF benefits. However, participation in subsidized child care is often low in these states. That may be because states lack the resources to provide benefits to all families that qualify. Child care subsidies are not an entitlement, and states provide subsidies to eligible applicants only to the extent allowed by the combination of federal and state funding. \r\n\r\n\r\n", 
         "top_left": {
           "column": "eligibility", 
           "state": "NH"
@@ -95,7 +97,8 @@ var blurbs = {
           "column": "spending", 
           "state": "ME"
         }, 
-        "text": "The <a href = \"https://www.fas.org/sgp/crs/misc/R44528.pdf\">Child Care and Development Fund (CCDF)</a> provides federal money to states to subsidize child care for low-income families. States supplement these dollars with their own and federal funds from Temporary Assistance for Needy Families, or TANF. This complex financing system means that state child care subsidy <a href = \"http://www.urban.org/policy-centers/income-and-benefits-policy-center/projects/ccdf-policies-database\">policies vary widely</a>. States also vary in their spending: in 2012, Nebraska spent nearly $60 per capita on child care (including CCDF and TANF funds) versus Maine\u2019s $16 per capita. \r\n\r\n\r\n", 
+        "image": "ccdf1.png", 
+        "text": "The <a target = \"_blank\" href = \"https://www.fas.org/sgp/crs/misc/R44528.pdf\">Child Care and Development Fund (CCDF)</a> provides federal money to states to subsidize child care for low-income families. States supplement these dollars with their own and federal funds from Temporary Assistance for Needy Families, or TANF. This complex financing system means that state child care subsidy <a target = \"_blank\" href = \"http://www.urban.org/policy-centers/income-and-benefits-policy-center/projects/ccdf-policies-database\">policies vary widely</a>. States also vary in their spending: in 2012, Nebraska spent nearly $60 per capita on child care (including CCDF and TANF funds) versus Maine\u2019s $16 per capita. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "NE"
@@ -106,7 +109,7 @@ var blurbs = {
           "column": "units", 
           "state": "OK"
         }, 
-        "text": "\r\nStates that spend the most on child care are not necessarily the ones with the most low-income residents. Rather, such states may have relatively <a href = \"http://www.urban.org/urban-wire/child-care-subsidies-whos-eligible-varies-state\">generous eligibility rules</a> (such as in Alaska and Vermont), high take-up rates (such as in Nebraska, New York, North Carolina, Minnesota, Rhode Island, Vermont, and Washington), or high levels of spending per recipient (except in North Carolina and Oklahoma). \r\n\r\n\r\n", 
+        "text": "\r\nStates that spend the most on child care are not necessarily the ones with the most low-income residents. Rather, such states may have relatively <a target = \"_blank\" href = \"http://www.urban.org/urban-wire/child-care-subsidies-whos-eligible-varies-state\">generous eligibility rules</a> (such as in Alaska and Vermont), high take-up rates (such as in Nebraska, New York, North Carolina, Minnesota, Rhode Island, Vermont, and Washington), or high levels of spending per recipient (except in North Carolina and Oklahoma). \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "NE"
@@ -119,7 +122,8 @@ var blurbs = {
           "column": "takeup", 
           "state": "WA"
         }, 
-        "text": "\r\nStates with high participation in subsidized child care among eligible families are at the top (such as Nebraska and Vermont) and bottom (such as Alabama and Michigan) of the per capita spending rankings. Some high-spending states had more generous <a href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412977-The-CCDF-Policies-Database-Book-of-Tables-Key-Cross-State-Variations-in-CCDF-Policies-as-of-October--.PDF\">maximum reimbursement rates</a> (such as Minnesota, New York, and Washington); others had low <a href = \"http://www.urban.org/urban-wire/child-care-subsidies-family-copayments-vary-widely-across-states\">copayment requirements</a> (such as Nebraska, Rhode Island, and Vermont). \r\n\r\n\r\n\r\n\r\n", 
+        "image": "ccdf2.png", 
+        "text": "\r\nStates with high participation in subsidized child care among eligible families are at the top (such as Nebraska and Vermont) and bottom (such as Alabama and Michigan) of the per capita spending rankings. Some high-spending states had more generous <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412977-The-CCDF-Policies-Database-Book-of-Tables-Key-Cross-State-Variations-in-CCDF-Policies-as-of-October--.PDF\">maximum reimbursement rates</a> (such as Minnesota, New York, and Washington); others had low <a target = \"_blank\" href = \"http://www.urban.org/urban-wire/child-care-subsidies-family-copayments-vary-widely-across-states\">copayment requirements</a> (such as Nebraska, Rhode Island, and Vermont). \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "MO"
@@ -134,7 +138,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "NJ"
         }, 
-        "text": "Nonpayroll spending is a broad category that includes everything from employee benefits to rehabilitation services, vocational training, and health care for inmates and parolees to building leases and payments to outside contractors. About 5 percent of all state and local corrections spending goes toward capital projects. In states such as Mississippi, North Dakota, and Iowa, the share is much higher (over 15 percent), but only Mississippi shows up as a high capital spending and high nonpayroll spending state. \r\n\r\n", 
+        "text": "Nonpayroll spending is a broad category that includes everything from employee benefits to rehabilitation services, vocational training, and health care for inmates and parolees to building leases and payments to outside contractors. About 5 percent of all state and local corrections spending goes toward capital projects. In states such as Mississippi, North Dakota, and Iowa, the share is much higher (over 15 percent), but only Mississippi shows up as a <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">high capital spending</a> and high nonpayroll spending state. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -147,6 +151,7 @@ var blurbs = {
           "column": "payroll", 
           "state": "NV"
         }, 
+        "image": "corrections3.png", 
         "text": "States with higher payroll expenditures per employee are often expensive places to live. The top five spenders on payroll all pay higher wages and salaries than we would predict based on labor market conditions. \r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 
@@ -171,6 +176,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "GA"
         }, 
+        "image": "corrections1.png", 
         "text": "Georgia spends only an average amount even though it had the largest total correctional population per capita (take-up) in 2012, including twice as many people on probation as any other state. Georgia compensates for its high number of prisoners, probation population, and parolees by employing fewer staff (units) per probationer (prisoner or parolee) and spending less per employee on payroll costs. Combined with average nonpayroll costs, this leads to average overall spending despite heightened demands on the correctional system. \r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -184,7 +190,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "NH"
         }, 
-        "text": "The population under correctional control and supervision includes people in state prison and local jails as well as people under probation and parole. The size of a state\u2019s correctional population reflects sentencing guidelines as well as arrest, prosecution, and charging decisions. To see how changes to these policies might affect each state\u2019s incarcerated population, see the Urban Institute\u2019s state <a href = \"http://webapp.urban.org/reducing-mass-incarceration/\">prison population forecaster</a>.\r\n\r\n\r\n", 
+        "text": "The population under correctional control and supervision includes people in state prison and local jails as well as people under probation and parole. The size of a state\u2019s correctional population reflects sentencing guidelines as well as arrest, prosecution, and charging decisions. To see how changes to these policies might affect each state\u2019s incarcerated population, see the Urban Institute\u2019s state <a target = \"_blank\" href = \"http://webapp.urban.org/reducing-mass-incarceration/\">prison population forecaster</a>.\r\n\r\n\r\n", 
         "top_left": {
           "column": "takeup", 
           "state": "GA"
@@ -195,7 +201,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "LA"
         }, 
-        "text": "States with the most residents under correctional supervision are a mix of high and low spenders. Each state\u2019s total correctional population includes people in state prison and local jails as well as people under probation and parole. Supervising individuals on probation and parole is <a href = \"http://www.pewtrusts.org/en/about/news-room/press-releases/0001/01/01/one-in-31-us-adults-are-behind-bars-on-parole-or-probation\">less costly</a> than incarcerating them in correctional facilities. But there is no direct relationship between a state\u2019s per capita spending and the share of its correctional population that is in prison or jail versus on probation or parole. \r\n\r\n\r\n", 
+        "text": "States with the most residents under correctional supervision are a mix of high and low spenders. Each state\u2019s total correctional population includes people in state prison and local jails as well as people under probation and parole. Supervising individuals on probation and parole is <a target = \"_blank\" href = \"http://www.pewtrusts.org/en/about/news-room/press-releases/0001/01/01/one-in-31-us-adults-are-behind-bars-on-parole-or-probation\">less costly</a> than incarcerating them in correctional facilities. But there is no direct relationship between a state\u2019s per capita spending and the share of its correctional population that is in prison or jail versus on probation or parole. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "GA"
@@ -219,6 +225,7 @@ var blurbs = {
           "column": "units", 
           "state": "NM"
         }, 
+        "image": "corrections2.png", 
         "text": "A major issue in corrections policy is crowding, or whether states are providing sufficient space and resources for their incarcerated populations. Although you might expect states to make compromises between spending on staff and spending on facilities, states with many employees per person under correctional supervision do not necessarily have more crowding. This suggests that states keep prisons open even after incarcerated populations fall (e.g., New York) or face crowding problems as well as staffing shortages for different reasons (e.g., California). Thus, the relationship between crowding and staffing ratios is unclear.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "units", 
@@ -234,7 +241,8 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "NE"
         }, 
-        "text": "Nebraska had the highest capital expenditures ($340 per capita) in 2012, along with the highest gross spending ($1,802 per capita). The state took in even more money in charges ($1,892 per capita). This may have been because of a <a href = \"http://www.eia.gov/state/analysis.cfm?sid=NE\">large capital project</a> in 2011. The result was low net spending despite high gross and capital spending. \r\n\r\n\r\n", 
+        "image": "electric1.png", 
+        "text": "Nebraska had the highest capital expenditures ($340 per capita) in 2012, along with the highest gross spending ($1,802 per capita). The state took in even more money in charges ($1,892 per capita). This may have been because of a <a target = \"_blank\" href = \"http://www.eia.gov/state/analysis.cfm?sid=NE\">large capital project</a> in 2011. The result was low net spending despite high gross and capital spending. \r\n\r\n\r\n", 
         "top_left": {
           "column": "nonpayroll", 
           "state": "NE"
@@ -258,6 +266,7 @@ var blurbs = {
           "column": "Payroll", 
           "state": "CO"
         }, 
+        "image": "electric3.png", 
         "text": "Most states (39 out of 48 reporting payroll expenditures in 2012) pay their public electrical system workers less than we would expect given labor market conditions. States with high payroll spending per employee are closer to paying the premium we would expect for workers with some college education, even though some of these states, such as Washington, are paying their employees less than the market would suggest. \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "Payroll", 
@@ -271,6 +280,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "MT"
         }, 
+        "image": "electric1.png", 
         "text": "States that spend the most per capita on public electric power systems (including power generation, transmission, and distribution) generally also spend a lot on non-personnel-related costs. These costs include spending on capital projects, which can vary dramatically by state and by year.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -282,6 +292,7 @@ var blurbs = {
           "column": "spending, spending", 
           "state": "GA, TN"
         }, 
+        "image": "electric2.png", 
         "text": "As with water supply, state and local government net spending (total spending minus user charges) on electricity is often zero or negative because providers use rate payments to recoup current generation charges and the costs of capital projects from previous years. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending, spending", 
@@ -297,6 +308,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "ND"
         }, 
+        "image": "fire2.png", 
         "text": "Capital spending is a small fraction of local fire protection expenditures. Only six percent of all fire spending went toward capital projects in 2012. North Dakota had the highest capital spending as a share of total fire protection expenditure in 2012 (28 percent). This is perhaps why the state\u2019s nonpayroll costs were among the highest in the nation. However, the state was near the bottom in capital spending per capita.\r\n", 
         "top_left": {
           "column": "spending", 
@@ -310,6 +322,7 @@ var blurbs = {
           "column": "payroll, payroll", 
           "state": "NJ, MS"
         }, 
+        "image": "fire1.png", 
         "text": "States with high payroll costs are often expensive places to live. But in some states with the highest local fire-protection payroll expenses (especially California and Nevada), local governments paid their employees more than this location premium would suggest. Other states at the low end of payroll costs per employee actually paid less than what other employers in the state paid for comparable workers. Higher salaries may reflect a higher level of firefighter quality or a level of education beyond what we assumed (some college) in our comparisons.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll, payroll", 
@@ -362,6 +375,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "VA"
         }, 
+        "image": "gas3.png", 
         "text": "States with high nonpayroll spending were not necessarily those with high capital expenditures. Three states (Arizona, Connecticut, and Indiana) had significant capital spending in 2012, but only Connecticut was among the top spenders on nonpayroll expenditures. \r\n\r\n\r\n", 
         "top_left": {
           "column": "nonpayroll", 
@@ -397,6 +411,7 @@ var blurbs = {
           "column": "Payroll", 
           "state": "IN"
         }, 
+        "image": "gas2.png", 
         "text": "States that spent the most on payroll per employee paid more than what would be expected given labor market conditions in those states. \r\n\r\n\r\n", 
         "top_left": {
           "column": "Payroll", 
@@ -421,10 +436,24 @@ var blurbs = {
           "column": "Spending", 
           "state": "CT"
         }, 
+        "image": "gas1.png", 
         "text": "States with high net spending per capita on gas had lower charges and fees than states with lower net spending per capita. But charges were often the reason for low net spending per capita. For example, Nebraska collected $144 per capita in charges in 2012, just $10 less than its gross expenditures per capita. Tennessee collected $201 per capita but spent just $154, leading to negative net spending in that year. This may be because providers used rate payments to recoup not only current generation charges but also the costs of capital projects from previous years.\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "Spending", 
           "state": "IN"
+        }
+      }
+    ], 
+    "units": [
+      {
+        "bottom_right": {
+          "column": "units", 
+          "state": "ND"
+        }, 
+        "text": "Eighteen states had no public gas utility employees in 2012. States with no employees but positive expenditures may use contractors or purchase natural gas for resale. \r\n\r\n", 
+        "top_left": {
+          "column": "units", 
+          "state": "ID"
         }
       }
     ]
@@ -447,7 +476,7 @@ var blurbs = {
           "column": "demographics", 
           "state": "AZ"
         }, 
-        "text": "\r\nStates generally do not provide grant aid to out-of-state students, and such students pay <a href = =\"http://webapp.urban.org/higher-education/tuition.html\">higher tuition and fees</a>, so they are less of a burden on state budgets. Massachusetts, Rhode Island, and Vermont had some of the highest proportions of 18- to 24-year-olds in 2012, but they also had high proportions of students from out of state and relatively low higher-education spending per capita. They also had some of the lowest shares of students enrolled in public as opposed to private colleges and universities.\r\n\r\n\r\n", 
+        "text": "\r\nStates generally do not provide grant aid to out-of-state students, and such students pay <a target = \"_blank\" href = =\"http://webapp.urban.org/higher-education/tuition.html\">higher tuition and fees</a>, so they are less of a burden on state budgets. Massachusetts, Rhode Island, and Vermont had some of the highest proportions of 18- to 24-year-olds in 2012, but they also had high proportions of students from out of state and relatively low higher-education spending per capita. They also had some of the lowest shares of students enrolled in public as opposed to private colleges and universities.\r\n\r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "ND"
@@ -534,7 +563,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "MT"
         }, 
-        "text": "\r\nA natural question for states with many public college and university students (take-up) is how many students are attending two- rather than four-year institutions. Two-year students tend to be less costly to the state, but they also pay <a href = \"http://webapp.urban.org/higher-education/tuition.html\">lower tuitions and fees</a>. In New Mexico and Wyoming, a majority of students are enrolled in two-year schools. However, this is not the case for other high take-up states such as Montana and Alaska, which had no community college system as of 2012. \r\n\r\n\r\n\r\n", 
+        "text": "\r\nA natural question for states with many public college and university students (take-up) is how many students are attending two- rather than four-year institutions. Two-year students tend to be less costly to the state, but they also pay <a target = \"_blank\" href = \"http://webapp.urban.org/higher-education/tuition.html\">lower tuitions and fees</a>. In New Mexico and Wyoming, a majority of students are enrolled in two-year schools. However, this is not the case for other high take-up states such as Montana and Alaska, which had no community college system as of 2012. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "WY"
@@ -545,7 +574,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "NM"
         }, 
-        "text": "\r\nStates with high public college and university enrollment (take-up) often have <a href = \"http://webapp.urban.org/higher-education/\">low tuition and fees</a>. Alaska, Montana, New Mexico, and Wyoming, for example, all charged less than $6,300 a year for in-state residents at four-year schools in 2012. Alaska, New Mexico, and Wyoming also spent more than all other states on higher education after accounting for tuition, fees, and other charges.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with high public college and university enrollment (take-up) often have <a target = \"_blank\" href = \"http://webapp.urban.org/higher-education/\">low tuition and fees</a>. Alaska, Montana, New Mexico, and Wyoming, for example, all charged less than $6,300 a year for in-state residents at four-year schools in 2012. Alaska, New Mexico, and Wyoming also spent more than all other states on higher education after accounting for tuition, fees, and other charges.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "WY"
@@ -610,7 +639,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "CA"
         }, 
-        "text": "California and Hawaii are among the highest spenders per mile on payroll and non-payroll expenses. They provide relatively few lane miles given their vehicle miles traveled (units). This high ratio of usage to capacity leads to slower travel speeds and delays. For example, the five most congested cities \u2013 as measured by the Commuter Stress Index from Texas A&M\u2019s Transportation Institute \u2013 are all in California and Hawaii. \r\n\r\n\r\n", 
+        "text": "California and Hawaii are among the highest spenders per mile on payroll and non-payroll expenses. They provide relatively few lane miles given their vehicle miles traveled (units). This high ratio of usage to capacity leads to slower travel speeds and delays. For example, the five most congested cities \u2013 as measured by the Commuter <a target = \"_blank\" href = \"/data-depot.html#urban-congestion\">Stress Index</a> from Texas A&M\u2019s Transportation Institute \u2013 are all in California and Hawaii. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "HI"
@@ -623,7 +652,8 @@ var blurbs = {
           "column": "payroll", 
           "state": "AK"
         }, 
-        "text": "\r\nStates with the highest payroll expenditures per highway mile are often expensive places to live. All public and private employers in these states must pay higher wages and salaries to attract workers of a given education level. When we compare actual highway payroll expenses per employee to what we would expect based on averages for all workers with some college education (comparisons for other educational categories are available here [link]), high payroll spending is largely explained by labor market conditions in states such as New Jersey and New York, but not California. \r\n\r\n\r\n\r\n", 
+        "image": "highway2.png", 
+        "text": "\r\nStates with the highest payroll expenditures per highway mile are often expensive places to live. All public and private employers in these states must pay higher wages and salaries to attract workers of a given education level. When we compare actual highway payroll expenses per employee to what we would expect based on averages for all workers with some college education (comparisons for other educational categories are <a target = \"_blank\" href = \"/data-depot.html#wages\">available here</a>), high payroll spending is largely explained by labor market conditions in states such as New Jersey and New York, but not California. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 
           "state": "DC"
@@ -647,6 +677,7 @@ var blurbs = {
           "column": "spending", 
           "state": "MD, UT"
         }, 
+        "image": "highway1.png", 
         "text": "\r\nBecause highways are capital intensive, spending rankings change if they are based on operations and maintenance only. Maryland, Utah, and DC, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider current expenditures alone (excluding capital investments) [add link to supplementary table]. Capital spending can also vary by year because of a few large projects, so looking at trends over time is important [add link to downloadable time series data].\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -706,6 +737,17 @@ var blurbs = {
           "column": "spending", 
           "state": "LA"
         }
+      }, 
+      {
+        "bottom_right": {
+          "column": "nonpayroll", 
+          "state": "ME"
+        }, 
+        "text": "Among high-spending states, large and urban states such as California, Massachusetts, and New York have high payroll costs, while Louisiana, Maine, and Vermont spend more on non-payroll costs. Beyond construction and maintenance, non-payroll costs may include homelessness support or mortgage lending programs. \r\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "LA"
+        }
       }
     ], 
     "payroll": [
@@ -727,7 +769,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "VT"
         }, 
-        "text": "States that spend a lot on housing and community development tend to have large low-income populations (demographics) [add link to supplemental table with alternative income thresholds]. They also have a lot of federal public housing and many rental subsidy recipients. Although people who receive federal benefits are not necessarily the same people benefitting from state and local housing programs, eligibility criteria tend to be similar. State and local programs may focus more on neighborhood revitalization and development efforts than traditional housing assistance. \r\n\r\n", 
+        "text": "States that spend a lot on housing and community development <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">tend to have large low-income populations</a> (demographics). They also have a lot of federal public housing and many rental subsidy recipients. Although people who receive federal benefits are not necessarily the same people benefitting from state and local housing programs, eligibility criteria tend to be similar. State and local programs may focus more on neighborhood revitalization and development efforts than traditional housing assistance. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -751,7 +793,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "WY"
         }, 
-        "text": "States with high participation rates in federal housing assistance programs (take-up) are a mix of high- and low-cost housing markets [link to FMRs supplemental table]. For example, Hawaii has a relatively high-cost housing market while South Dakota has a relatively low-cost one. Hawaii and South Dakota also had some of the longest wait times for federal public housing and renter assistance, suggesting demands that exceed support available [link to supplemental table].\r\n\r\n", 
+        "text": "States with high participation rates in federal housing assistance programs (take-up) are <a target = \"_blank\" href = \"/data-depot.html#fair-market-rent\">a mix of high- and low-cost housing markets</a>. For example, Hawaii has a relatively high-cost housing market while South Dakota has a relatively low-cost one. Hawaii and South Dakota also had <a target = \"_blank\" href = \"/data-depot.html#public-housing-waiting-list\">some of the longest wait times</a> for federal public housing and renter assistance, suggesting demands that exceed support available.\r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "SD"
@@ -764,7 +806,8 @@ var blurbs = {
           "column": "units", 
           "state": "OK"
         }, 
-        "text": "The number of employees per recipient bore little relationship to wait times for public housing and renter assistance in 2012. This suggests that housing market characteristics, including costs [link to FMRs] and demands put upon housing programs, are more important than staffing levels in determining waiting times. \r\n\r\n\r\n\r\n", 
+        "image": "housing1.png", 
+        "text": "The number of employees per recipient bore little relationship to wait times for public housing and renter assistance in 2012. This suggests that <a target = \"_blank\" href = \"/data-depot.html#fair-market-rent\">housing market characteristics</a>, including costs and demands put upon housing programs, are more important than staffing levels in determining waiting times. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "units", 
           "state": "AK"
@@ -814,7 +857,7 @@ var blurbs = {
           "column": "eligibility", 
           "state": "VT"
         }, 
-        "text": "\r\nIn every state, all kids are eligible for public school, although some may drop out or graduate early for various reasons. Vermont had the lowest rates of enrollment in any school (public or private) in 2012; DC had the highest. Those differences may stem from compulsory education laws: DC in 2012 required kids to be in school from ages 5 to 18 while Vermont was one of several states that required kids to attend school only from ages 6 to 16. \r\n\r\n", 
+        "text": "\r\nIn every state, all kids are eligible for public school, although some may drop out or graduate early for <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/2000189-Dropping-Out-and-Clocking-In.pdf\">various reasons</a>. Vermont had the lowest rates of enrollment in any school (public or private) in 2012; DC had the highest. Those differences may stem from <a target = \"_blank\" href = \"https://nces.ed.gov/programs/statereform/tab5_1.asp\">compulsory education laws</a>: DC in 2012 required kids to be in school from ages 5 to 18 while Vermont was one of several states that required kids to attend school only from ages 6 to 16. \r\n\r\n", 
         "top_left": {
           "column": "eligibility", 
           "state": "DC"
@@ -912,7 +955,7 @@ var blurbs = {
           "column": "units", 
           "state": "NV"
         }, 
-        "text": "\r\nStates with low staffing ratios (units) often have low test scores in reading and math. Adjusting for family income, languages spoken at home, and other factors, however, eliminates this link almost entirely.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with low staffing ratios (units) often have low test scores in reading and math. <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/2000484-Breaking-the-Curve-Promises-and-Pitfalls-of-Using-NAEP-Data-to-Assess-the-State-Role-in-Student-Achievement.pdf\">Adjusting</a> for family income, languages spoken at home, and other factors, however, eliminates this link almost entirely.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "ID"
@@ -924,36 +967,47 @@ var blurbs = {
     "demographics": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "eligibility", 
+          "state": "MT"
         }, 
-        "text": "\r\nFusce neque litora consectetuer. Etiam class. Vitae proin nullam rutrum sit dapibus inceptos. Massa ipsum. Velit metus orci. Magna lorem. Massa porta fusce rutrum interdum orci feugiat hac ad cursus. Donec magna leo tristique nulla eu duis sapien eros suspendisse sem tortor lacus. Ipsum porta a cras morbi class suscipit. Morbi neque dolor eget duis. Purus class sapien ligula. Velit ipsum.\r\n\r\n", 
+        "text": "States with the largest low-income populations (demographics) often had more restrictive Medicaid and Children\u2019s Health Insurance Program eligibility rules in place as of 2011, the year of our comparisons. Since then, the <a target = \"_blank\" href = \"https://www.macpac.gov/topics/aca-medicaid/\">Affordable Care Act</a> has extended Medicaid eligibility to adults under age 65 with incomes at or below 138 percent of the federal poverty line, although a July 2012 US Supreme Court ruling made the expansion a state option. Most of the states with large low-income populations <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/eligibility/\">have chosen</a> not to exercise this option.\r\n\r\n", 
         "top_left": {
-          "column": "spending", 
-          "state": "DC"
+          "column": "demographics", 
+          "state": "AR"
+        }
+      }, 
+      {
+        "bottom_right": {
+          "column": "eligibility", 
+          "state": "NH"
+        }, 
+        "text": "States with relatively few low-income residents often have a high percentage of <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/eligibility/\">people eligible</a> for Medicaid and the Children\u2019s Health Insurance Program. This may be because of policy decisions within <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/eligibility/\">federal rules</a> or particular features of their low-income populations. For example, most states allow low-income pregnant women and children to qualify for Medicaid at higher income levels than other eligibility groups. States with more low-income kids may thus have more residents eligible for Medicaid. \r\n\r\n", 
+        "top_left": {
+          "column": "demographics", 
+          "state": "VT"
         }
       }
     ], 
     "eligibility": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "spending-per", 
+          "state": "RI"
         }, 
-        "text": "\r\nRisus massa. Justo etiam eros leo. Velit dolor per enim proin consequat enim. Netus lorem potenti erat diam laoreet eu non. Class metus cras. Risus fames tristique vel. Dolor porta vel metus sit nisi maecenas. Neque augue cum nisi risus. Fames lacus purus suspendisse sagittis iaculis convallis amet. Etiam morbi odio libero cursus etiam elit etiam potenti dui convallis. Ipsum metus vehicula proin bibendum fames nunc non diam.\r\n\r\n", 
+        "text": "\r\nStates with the most people eligible for Medicaid and CHIP tend to have relatively few low-income residents as a share of their overall populations (demographics). States with a smaller low-income population may find it easier to set generous eligibility rules. Beyond federal rules, states may choose to cover optional benefits and groups. States operating under federal <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/waivers/\">waivers</a> have additional flexibility to define benefits and eligibility.\r\n\r\n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "VT"
         }
       }
     ], 
     "spending": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "demographics", 
+          "state": "ME"
         }, 
-        "text": "\r\nCurae nulla a blandit id ante etiam facilisis hendrerit felis nulla varius lacus cubilia aptent. Lorem vitae. Class dolor. Porta curae placerat curae id dignissim suspendisse felis. Donec class habitant odio facilisis semper ligula lacus massa sit. Felis fusce volutpat fringilla. Proin metus sociis nisi ac hac in a erat magna. Metus morbi. Nulla lacus. Velit neque. Metus velit nibh lobortis feugiat.\r\n\r\n", 
+        "text": "States that spend the most per capita on <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/\">Medicaid</a> and the <a target = \"_blank\" href = \"https://www.fas.org/sgp/crs/misc/R43627.pdf\">Children\u2019s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of enrollees who are elderly and disabled compared to the national average (<a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC</a>). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -961,10 +1015,23 @@ var blurbs = {
       }, 
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "spending-per", 
+          "state": "NV"
         }, 
-        "text": "\r\nPorta velit tristique vehicula nostra ornare justo interdum. Etiam augue habitant enim montes. Purus donec. Neque vitae eni ridiculus metus vel neque imperdiet vitae lorem. Fames metus molestie fames sociis class adipiscing mi arcu nulla quisque. Felis neque arcu tortor ornare neque vestibulum. Magna nulla augue ridiculus pharetra. Neque nulla semper aenean. Curae neque fringilla dis sollicitudin lectus donec adipiscing pretium non. Massa metus. Vitae magna nullam ad semper tincidunt.\r\n\r\n", 
+        "text": "\r\nSome states with low spending per capita on Medicaid and the Children\u2019s Health Insurance Program have a high share of low-income residents (demographics); others have a very small share. In most of these states, however, <a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">children constitute a higher than average share of total recipients</a>. Children are relatively inexpensive to cover, and therefore spending per recipient and per capita is low in these states. \r\n\r\n\r\n", 
+        "top_left": {
+          "column": "spending", 
+          "state": "VA"
+        }
+      }
+    ], 
+    "spending-per": [
+      {
+        "bottom_right": {
+          "column": "spending-per", 
+          "state": "NJ"
+        }, 
+        "text": "States that spend the most per capita on Medicaid and the Children\u2019s Health Insurance Program also spend the most per recipient. This could be because medical care prices are higher in these states, <a target = \"_blank\" href = \"/data-depot.html#medicaid-outcomes\">but based on provider payments this doesn\u2019t appear to be true</a>. It is more likely that high spending per recipient is linked to the makeup of the population. Several high-spending states (such as Massachusetts, Pennsylvania, and Rhode Island) and DC include <a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">more elderly and disabled beneficiaries compared with the national average</a>. Such individuals tend to use more services and are therefore more expensive to cover.\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -974,13 +1041,13 @@ var blurbs = {
     "takeup": [
       {
         "bottom_right": {
-          "column": "spending", 
-          "state": "MD"
+          "column": "spending-per", 
+          "state": "US"
         }, 
-        "text": "\r\nAugue purus a pretium ve eu velit in facilisis et venenatis metus ut. Metus fusce condimentum mi mattis. Risus ipsum class morbi viverra tristique in malesuada orci diam sociis. Augue porta natoque elit semper litora sem conubia. Metus curae. Justo nulla nunc eleifend vestibulum venenatis class torquent magna ve. Curae felis nullam eget tortor nostra cubilia et at. Velit class. Lorem lacus eros eget facilisis ac. Curae felis quis.\r\n\r\n", 
+        "text": "We do not see a systematic relationship between Medicaid and CHIP participation, spending, and health <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/publication/85211/health-of-the-states_3.pdf\">status in the states</a>. But implementation of the Affordable Care Act has provided better <a target = \"_blank\" href = \"https://www.macpac.gov/subtopic/changes-in-coverage-and-access/\">experimental evidence</a> about the relationship among Medicaid coverage, Medicaid use, and health status.\r\n\r\n", 
         "top_left": {
           "column": "spending", 
-          "state": "DC"
+          "state": "US"
         }
       }
     ]
@@ -992,7 +1059,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "DC"
         }, 
-        "text": "DC had the highest nonpayroll spending and almost double that of the state with the next highest, South Dakota. Although our spending data include only state and local and not federal expenditures, DC receives millions of visitors each year to its federal parks, in turn placing high demand on its local parks and recreational facilities. This large number of visitors over a small land area requires more spending on maintenance and operations as well as capital projects, which may be pushing up nonpayroll costs. DC also had the highest capital spending on parks in 2012.\r\n\r\n", 
+        "text": "DC had the highest nonpayroll spending and almost double that of the state with the next highest, South Dakota. Although our spending data include only state and local and not federal expenditures, DC receives millions of visitors each year to its federal parks, in turn placing high demand on its local parks and recreational facilities. This large number of visitors over a small land area requires more spending on maintenance and operations as well as capital projects, which may be pushing up nonpayroll costs. DC also had the highest <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">capital spending on parks in 2012</a>.\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1004,7 +1071,7 @@ var blurbs = {
           "state": "NE"
         }, 
         "image": "parks4.png", 
-        "text": "\r\nStates that had high nonpayroll spending per employee in 2012 also had very high levels of capital spending per employee. Almost all the top 10 states by nonpayroll spending per employee (except Michigan) exceeded the national average for capital spending as a share of total expenditures \r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates that had high nonpayroll spending per employee in 2012 also had very high levels of capital spending. Almost all the top 10 states by nonpayroll spending per employee (except Michigan) exceeded the national average for capital spending as a share of total expenditures.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "units", 
           "state": "SD"
@@ -1018,7 +1085,7 @@ var blurbs = {
           "state": "PA"
         }, 
         "image": "parks3.png", 
-        "text": "\r\nStates with high payroll spending per park employee are expensive places to live. However, DC and four four highest-paying states all choose to pay their workers more than the labor market demands, suggesting policy decisions at work or employee attributes not captured here. \r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with high payroll spending per park employee are expensive places to live. However, DC and the four highest-paying states all choose to pay their workers more than the labor market demands, suggesting policy decisions at work or employee attributes not captured here. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "Payroll", 
           "state": "DC"
@@ -1043,7 +1110,7 @@ var blurbs = {
           "state": "IL"
         }, 
         "image": "parks1.png", 
-        "text": "Apart from DC, the 10 states with the highest spending per capita were all located in the West or Midwest. Nearly all of the 10 highest-spending states were home to more state parks than the national average, with 8 ranked in the top 20 nationally for state park acres per capita. Western and Midwestern states tend to have more total acreage, natural resources, and publicly owned lands. Further, many state parks were created or expanded by the New Deal\u2019s Civilian Conservation Corps in the 1930s, which focused on the West and Midwest. \r\n\r\n\r\n\r\n", 
+        "text": "Apart from DC, the 10 states with the highest spending per capita were all located in the West or Midwest. Nearly all of the 10 highest-spending states were home to more state parks than the national average, with 8 ranked in the top 20 nationally for state park acres per capita. Western and Midwestern states tend to have more total acreage, natural resources, and publicly owned lands. Further, many state parks were created or expanded by the New Deal\u2019s <a target = \"_blank\" href = \"https://www.nps.gov/parkhistory/online_books/ccc/ccc5.htm\">Civilian Conservation Corps in the 1930s</a>, which focused on the West and Midwest. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "WY"
@@ -1054,7 +1121,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "DC"
         }, 
-        "text": "DC spender the most per capita on parks in 2012. DC is home to many federal parks as well as recreational, cultural, or scientific facilities, such as the National Mall and the Smithsonian Institution, which together attracted about 33 million visitors in 2012, second only to California\u2019s number of visitors. Although our spending data include only state and local expenditures, this high activity over relatively little acreage may place demands on local parks and recreational facilities that necessitate higher spending for upkeep related expenses. Indeed, DC also had higher payroll and nonpayroll spending per park employee than any of the 50 states.  \r\n\r\n", 
+        "text": "DC spent the most per capita on parks in 2012. DC is home to many federal parks as well as recreational, cultural, or scientific facilities, such as the National Mall and the Smithsonian Institution, which together attracted about 33 million visitors in 2012, second only to California\u2019s number of visitors. Although our spending data include only state and local expenditures, this high activity over relatively little acreage may place demands on local parks and recreational facilities that necessitate higher spending for upkeep related expenses. Indeed, DC also had higher payroll and nonpayroll spending per park employee than any of the 50 states.  \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1108,7 +1175,7 @@ var blurbs = {
           "state": "NV"
         }, 
         "image": "police4.png", 
-        "text": "\r\nPayroll rankings seem to be driven both by labor market conditions and policy decisions. States with the highest payroll expenditures per employee were often expensive places to live.  But some high-spending states paid their police employees even more than this location premium.  In California, for example, we would expect workers with some college to earn about 20 percent more than in the United States as a whole. Yet state and local governments paid nearly 40 percent more to police employees. This may reflect other, unmeasured worker attributes that contribute to quality or a policy decision to pay these employees more. (For comparisons using other education reference groups, see our data appendix.)\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nPayroll rankings seem to be driven both by labor market conditions and policy decisions. States with the highest payroll expenditures per employee were often expensive places to live.  But some high-spending states paid their police employees even more than this location premium.  In California, for example, we would expect workers with some college to earn about 20 percent more than in the United States as a whole. Yet state and local governments paid nearly 40 percent more to police employees. This may reflect other, unmeasured worker attributes that contribute to quality or a policy decision to pay these employees more. (<a target = \"_blank\" href = \"/data-depot.html#wages\">For comparisons using other education reference groups, see our data appendix</a>.)\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 
           "state": "CA"
@@ -1122,7 +1189,7 @@ var blurbs = {
           "state": "IL"
         }, 
         "image": "police1.png", 
-        "text": "States with the highest police expenditures per capita generally do not have the highest crime rates (take-up). DC, an outlier because it resembles a city more than a state, had the highest crime rate, and it spent the most on police protection in 2012. But New York, with the second-highest police expenditures per capita, had a crime rate lower than all states except Idaho and North Dakota. \r\n\r\n\r\n\r\n", 
+        "text": "States with the highest police expenditures per capita generally do not have the highest crime rates (take-up). DC, an outlier because it resembles a city more than a state, had the highest crime rate, and it spent the most on police protection in 2012. But New York, with the second-highest police expenditures per capita, had a crime rate lower than all states except Idaho and North Dakota. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1158,7 +1225,7 @@ var blurbs = {
           "state": "ID"
         }, 
         "image": "police2.png", 
-        "text": "\r\nIt is tempting to look at the inverse relationship between crime rates (take-up) and staffing levels (units) in some states and infer that hiring more police officers and other employees reduces crime. Because we calculated staffing levels by considering the number of employees per crime, however, this is a tricky comparison to make. Looking at police employment and crimes both per capita, there is not a strong relationship between the number of police employees and crime rates. Moreover, we cannot say from our data whether staffing levels affect crime or vice versa.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nIt is tempting to look at the inverse relationship between crime rates (take-up) and staffing levels (units) in some states and infer that hiring more police officers and other employees reduces crime. Because we calculated staffing levels by considering the number of employees per crime, however, that is not the right comparison to make. Looking at police employment and crimes both per capita, there is not a strong relationship between the number of police employees and crime rates. Moreover, we cannot say from our data whether staffing levels affect crime or vice versa.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "takeup", 
           "state": "NH"
@@ -1166,9 +1233,6 @@ var blurbs = {
       }
     ], 
     "units": [
-      {
-        "text": false
-      }, 
       {
         "bottom_right": {
           "column": "units", 
@@ -1191,7 +1255,7 @@ var blurbs = {
           "state": "AK"
         }, 
         "image": "resources3.png", 
-        "text": "Among the five states that spend the most on natural resources, Alaska is the only one with below-average nonpayroll spending. That may be because the federal government owns around 61 percent of Alaska as federal lands, placing a lesser burden on the state for infrastructure spending and other nonpayroll spending. Indeed, in 2012, only 6 percent of Alaska\u2019s natural resources spending went to capital outlays, such as irrigation, drainage, and flood control or dam and reservoir safety projects.\r\n\r\n\r\n\r\n", 
+        "text": "Among the five states that spend the most on natural resources, Alaska is the only one with below-average nonpayroll spending. That may be because the federal government owns around <a target = \"_blank\" href = \"http://www.fas.org/sgp/crs/misc/R42346.pdf\">61 percent of Alaska as federal lands</a>, placing a lesser burden on the state for infrastructure spending and other nonpayroll spending. Indeed, in 2012, only 6 percent of Alaska\u2019s natural resources spending went to capital outlays, such as irrigation, drainage, and flood control or dam and reservoir safety projects.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "AK"
@@ -1219,7 +1283,7 @@ var blurbs = {
           "state": "LA"
         }, 
         "image": "resources1.png", 
-        "text": "Spending on natural resources includes spending on water and mineral resources management, agriculture development, conservation, and the regulation of industries that develop or use natural resources. The 10 states with the highest spending all have major industries that rely on natural resources, such as mining or oil and gas extraction. High spending in those 10 states may be because of such industries, or it may simply reflect state natural resource endowments (which require higher spending).\r\n\r\n\r\n\r\n\r\n", 
+        "text": "Spending on natural resources includes spending on water and mineral resources management, agriculture development, conservation, and the regulation of industries that develop or use natural resources. The 10 states with the highest spending all have major industries that rely on natural resources, such as mining or oil and gas extraction. High spending in those 10 states may be because of such industries, or it may simply reflect state natural resource endowments (which attract industries and require higher spending).\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "WY"
@@ -1294,7 +1358,7 @@ var blurbs = {
           "state": "CO"
         }, 
         "image": "sewage3.png", 
-        "text": "Although some states with high payroll costs paid more than labor market conditions would suggest for workers with some college education, most states, including some in the top 10 by payroll per employee (New Jersey, Alaska, and Massachusetts), paid their employees less than labor market conditions alone would indicate. \r\n\r\n\r\n", 
+        "text": "Although some states with high payroll costs paid more than labor market conditions would suggest for workers with some college education, most states, including some in the top 10 by payroll per employee (New Jersey, Alaska, and Massachusetts), paid their employees less than labor market conditions alone would indicate. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 
           "state": "CA"
@@ -1344,7 +1408,7 @@ var blurbs = {
           "column": "units", 
           "state": "MS"
         }, 
-        "text": "Nonetheless, states with few employees per resident often spent greatly per capita. This was mainly because of nonpayroll costs, which reflect capital projects as well as private contractors.\r\n\r\n", 
+        "text": "States with few employees per resident often spent greatly per capita. This was mainly because of nonpayroll costs, which reflect capital projects as well as private contractors.\r\n\r\n", 
         "top_left": {
           "column": "units", 
           "state": "ND"
@@ -1424,7 +1488,7 @@ var blurbs = {
           "column": "spending-per", 
           "state": "CA"
         }, 
-        "text": "States with the most low-income families as a share of the overall population (demographics) tend to have the lowest TANF expenditures per capita. California and New Mexico are exceptions. In those states, a higher percentage of low-income families are eligible for TANF cash assistance (eligibility) and more families have taken up benefits. Put another way, these states have chosen to provide less in benefits to more people, though they may also provide state-funded assistance outside of TANF. \r\n\r\n\r\n", 
+        "text": "States with the most low-income families as a share of the overall population (demographics) tend to have the lowest TANF expenditures per capita. California and New Mexico are exceptions. In those states, a higher percentage of low-income families are eligible for TANF cash assistance (eligibility) and more families have taken up benefits. Spending per recipient, however, is low. Put another way, these states have chosen to provide less in benefits to more people, though they may also provide state-funded assistance outside of TANF. \r\n\r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "ID"
@@ -1437,7 +1501,7 @@ var blurbs = {
           "column": "eligibility", 
           "state": "TX"
         }, 
-        "text": "Florida and Texas are both have shares of low-income families who can access cash assistance under TANF smaller than the national average. In those states, less than one-third of people in low-income families are eligible to receive cash assistance compared with 44 percent nationwide. This eligibility gap reflects policy decisions about who can receive benefits, for how long they can receive them, and what work activities are required of them. Since the 1996 welfare reform law that created TANF, states have had the flexibility to emphasize different goals and to vary their support for cash assistance rather than other types of support. \r\n\r\n", 
+        "text": "Florida and Texas both have shares of low-income families who can access cash assistance under TANF smaller than the national average. This eligibility gap reflects policy decisions about who can receive benefits, for how long they can receive them, and what work activities are required of them. Since the 1996 welfare reform law that created TANF, states have had the flexibility to emphasize <a target = \"_blank\" href = \"http://www.urban.org/research/publication/state-approaches-tanf-block-grant-welfare-not-what-you-think-it\">different goals and to vary their support for cash assistance rather than other types of support</a>. \r\n\r\n", 
         "top_left": {
           "column": "eligibility", 
           "state": "FL"
@@ -1449,7 +1513,7 @@ var blurbs = {
           "state": "DE"
         }, 
         "image": "tanf3.png", 
-        "text": "\r\nOur eligibility measure combines several different types of TANF cases, including single- and two-parent families as well as child-only cases, where children may live with nonparental relatives or where their parents are no longer eligible for benefits because of time limits or other reasons. \r\n\r\n\r\n", 
+        "text": "\r\nOur eligibility measure combines several different types of TANF cases, including single- and two-parent families as well as <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412573-TANF-Child-Only-Cases.PDF\">child-only cases</a>, where children may live with nonparental relatives or where their parents are no longer eligible for benefits because of time limits or other reasons. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "HI"
@@ -1459,14 +1523,14 @@ var blurbs = {
     "spending": [
       {
         "bottom_right": {
-          "column": "takeup, takeup, takeup, takeup", 
-          "state": "CA, WA, FL, TX"
+          "column": "takeup, takeup", 
+          "state": "WA, TX"
         }, 
         "image": "tanf1.png", 
-        "text": "States that spend the most per capita on Temporary Assistance for Needy Families (TANF) cash assistance are not necessarily the ones with the largest shares of low-income families (demographics). This may be because the 1996 welfare reform law allowed states to spend on a variety of programs as long as spending satisfied one of four goals: (1) providing assistance to needy families so that children may be cared for in their own homes or in the homes of relatives; (2) promoting job preparation, work, and marriage among needy parents; (3) preventing and reducing the incidence of out-of-wedlock pregnancies; and (4) encouraging the formation and maintenance of two-parent families. Nationally, the preponderance of TANF is spent on noncash assistance, although this proportion varies by state. Spending on noncash benefits is less targeted to the lowest-income recipients and less responsive to changes to family incomes in economic downturns.\r\n\r\n\r\n", 
+        "text": "States that spend the most per capita on <a target = \"_blank\" href = \"https://www.fas.org/sgp/crs/misc/R40946.pdf\">Temporary Assistance for Needy Families (TANF)</a> are not necessarily the ones with the largest shares of low-income families (demographics). This may be because the 1996 welfare reform law allowed states to spend on a variety of programs as long as spending satisfied one of four goals: (1) providing assistance to needy families so that children may be cared for in their own homes or in the homes of relatives; (2) promoting job preparation, work, and marriage among needy parents; (3) preventing and reducing the incidence of out-of-wedlock pregnancies; and (4) encouraging the formation and maintenance of two-parent families. Nationally, the <a target = \"_blank\" href = \"http://www.hamiltonproject.org/assets/files/bitler_hoynes_strengthening_tanf.pdf\">preponderance of TANF is spent on noncash assistance</a>, although this proportion varies by state. Spending on noncash benefits is <a target = \"_blank\" href = \"http://www.hamiltonproject.org/assets/files/bitler_hoynes_strengthening_tanf.pdf\">less targeted</a> to the lowest-income recipients and less responsive to changes to family incomes in economic downturns.\r\n\r\n\r\n", 
         "top_left": {
-          "column": "spending, spending, spending, spending", 
-          "state": "CA, WA, FL, TX"
+          "column": "spending, spending", 
+          "state": "CA, FL"
         }
       }, 
       {
@@ -1475,7 +1539,7 @@ var blurbs = {
           "state": "ID"
         }, 
         "image": "tanf2.png", 
-        "text": "States that spend the least per capita on TANF cash assistance (not including spending on child care through transfers to the Child Care Development Fund program) often have the most low-income families as a share of the overall population (demographics). Many, however, have also made policy decisions that restrict the number of families qualifying for assistance (eligibility). Further, low-spending states tend to spend less on cash assistance than on other benefits, such as work-related activities and programs geared toward preventing out-of-wedlock pregnancies and promoting two-parent family formation and maintenance.\r\n\r\n\r\n\r\n\r\n", 
+        "text": "States that spend the least per capita on TANF (not including spending on child care through transfers to the Child Care Development Fund program) often have the most low-income families as a share of the overall population (demographics). Many, however, have also made <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412635-State-Approaches-to-the-TANF-Block-Grant-Welfare-Is-Not-What-You-Think-It-Is.PDF\">policy decisions</a> that restrict the number of families qualifying for assistance (eligibility). Further, low-spending states tend to spend less on cash assistance than on other benefits, such as work-related activities and programs geared toward preventing out-of-wedlock pregnancies and promoting two-parent family formation and maintenance.\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "OK"
@@ -1488,7 +1552,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "WY"
         }, 
-        "text": "States with low TANF take-up rates are almost always in the bottom half of spending rankings, often despite having a large share of low-income families. Take-up rates reflect individual and family decisions to apply for TANF, but they may also reflect individual and family decisions to apply for TANF or even states\u2019 efforts to prevent people from becoming part of ongoing caseloads. \r\n\r\n", 
+        "text": "States with low TANF take-up rates are almost always in the bottom half of spending rankings, often despite having a large share of low-income families. Take-up rates reflect individual and family decisions to apply for TANF, but they may also reflect individual and family decisions to apply for TANF or even <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412635-State-Approaches-to-the-TANF-Block-Grant-Welfare-Is-Not-What-You-Think-It-Is.PDF\">states\u2019 efforts</a> to prevent people from becoming part of ongoing caseloads. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "AZ"
@@ -1514,7 +1578,7 @@ var blurbs = {
           "column": "demographics", 
           "state": "PA"
         }, 
-        "text": "Nationally, about half of all unlinked passenger trips are by bus, and half are by rail [add link to supplemental table]. Nationwide, however, bus trips dominate by a ratio of nearly five to one. Illinois, Massachusetts, New Jersey, New York, Pennsylvania, and DC account for 85 percent of all rail trips. \r\n\r\n", 
+        "text": "Nationally, about half of all <a target = \"_blank\" href = \"/data-depot.html#unlinked-passenger-trips-by-type\">unlinked passenger trips</a> are by bus, and half are by rail. Nationwide, however, bus trips dominate by a ratio of nearly five to one. Illinois, Massachusetts, New Jersey, New York, Pennsylvania, and DC account for 85 percent of all rail trips. \r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "DC"
@@ -1527,7 +1591,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "CT"
         }, 
-        "text": "\r\nStates with the highest nonpayroll costs per mile are almost all among the top ten spenders overall. Nonpayroll costs are also highly related to capital spending [add figure]. In some states (such as California, Colorado, New York, Oregon, Texas and DC), payroll and nonpayroll spending move in concert; in other states (such as Connecticut, Hawaii, Massachusetts, and Nevada) there appears to be a trade-off. In general, states with more-intensively used systems (units) have higher spending per transit mile (payroll and nonpayroll).\r\n\r\n", 
+        "text": "\r\nStates with the highest nonpayroll costs per mile are almost all among the top ten spenders overall. Nonpayroll costs are also highly related to capital spending. In some states (such as California, Colorado, New York, Oregon, Texas and DC), payroll and nonpayroll spending move in concert; in other states (such as Connecticut, Hawaii, Massachusetts, and Nevada) there appears to be a trade-off. In general, states with more-intensively used systems (units) have higher spending per transit mile (payroll and nonpayroll).\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1539,7 +1603,7 @@ var blurbs = {
           "state": "UT"
         }, 
         "image": "transit2.png", 
-        "text": "Nonpayroll spending is highly related to capital spending. Because transit is capital intensive, spending rankings change if they are based on operations and maintenance spending only. Colorado, Connecticut, and Utah, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider current expenditures alone (excluding capital investments) [add link to supplementary table]. Capital spending can also vary by year because of a few large projects, so it is important to look at trends over time [add link to downloadable time series data]. \r\n\r\n\r\n", 
+        "text": "Nonpayroll spending is highly related to capital spending. Because transit is capital intensive, spending rankings change if they are based on operations and maintenance spending only. Colorado, Connecticut, and Utah, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">current expenditures alone (excluding capital investments)</a>. Capital spending can also vary by year because of a few large projects, so it is important to look at <a target = \"_blank\" href = \"/data-depot.html#expenditures-over-time\">trends over time</a>. \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1566,7 +1630,7 @@ var blurbs = {
           "state": "CO"
         }, 
         "image": "transit1.png", 
-        "text": "States with the highest transit spending per capita tend to be large and densely populated [link to supplemental population table]. Residents take many trips on buses, subways, street cars, commuter railroads, and other mass transit. However, the average length of each trip (take-up) is generally not long. In many of these states (especially Hawaii, New York, Massachusetts, and DC), the ratio of transit system miles to miles people ride (units) is low, suggesting that people use the whole system intensively rather than only a few routes. Payroll and nonpayroll costs per transit way mile are often high, perhaps reflecting this heavy use. Transit systems in high-spending states also collect the most in fares.\r\n\r\n\r\n\r\n", 
+        "text": "States with the highest transit spending per capita tend to be large and densely populated [link to supplemental Population, Area, Density and Economics table]. Residents take many trips on buses, subways, street cars, commuter railroads, and other mass transit. However, the average length of each trip (take-up) is generally not long. In many of these states (especially Hawaii, New York, Massachusetts, and DC), the ratio of transit system miles to miles people ride (units) is low, suggesting that people use the whole system intensively rather than only a few routes. Payroll and nonpayroll costs per transit way mile are often high, perhaps reflecting this heavy use. Transit systems in high-spending states also collect the most in fares.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1590,7 +1654,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "IL"
         }, 
-        "text": "States with the longest average trips (take-up) tend to be those with many commuters who work in neighboring states (such as Delaware, New Jersey, Maryland, and Virginia) [link to supplemental table]. Only Illinois and Washington are among the top 10 highest spenders per capita, though Maryland and New Jersey rank in the top 15. All four of these states generate many passenger trips (demographics) and have relatively few transit way miles per passenger mile (units), suggesting that passenger volume and intensity of use is more important than average trip length in determining costs.\r\n\r\n", 
+        "text": "States with the longest average trips (take-up) tend to be those with <a target = \"_blank\" href = \"/data-depot.html#commuting-characteristics\">many commuters who work in neighboring states</a> (such as Delaware, New Jersey, Maryland, and Virginia). Only Illinois and Washington are among the top 10 highest spenders per capita, though Maryland and New Jersey rank in the top 15. All four of these states generate many passenger trips (demographics) and have relatively few transit way miles per passenger mile (units), suggesting that passenger volume and intensity of use is more important than average trip length in determining costs.\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "NJ"
@@ -1618,7 +1682,7 @@ var blurbs = {
           "column": "spending, nonpayroll", 
           "state": "MD"
         }, 
-        "image": "waste4.png", 
+        "image": "waste3.png", 
         "text": "Spending per capita and nonpayroll spending per employee mirror each other fairly well. This is driven in part by spending on capital projects, which is reflected in nonpayroll costs, as are the costs of hiring private contractors.  \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending, nonpayroll", 
@@ -1632,7 +1696,7 @@ var blurbs = {
           "column": "payroll", 
           "state": "MS"
         }, 
-        "image": "waste3.png", 
+        "image": "waste2.png", 
         "text": "States with higher payroll spending per employee have higher expected wages for waste removal employees based on labor market decisions, and they pay their workers more than this expected amount. States with low payroll spending are the opposite, with low expected wages and even lower salaries. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 
@@ -1663,11 +1727,6 @@ var blurbs = {
           "column": "spending", 
           "state": "CO"
         }
-      }
-    ], 
-    "units": [
-      {
-        "text": false
       }
     ]
   }, 
@@ -1732,7 +1791,7 @@ var blurbs = {
           "state": "HI"
         }, 
         "image": "water3.png", 
-        "text": "States with more water supply employees per capita tend to me more sparsely populated [add link to supplemental table]. This could be because of the fixed costs of building and maintaining a public water system over a given land area regardless of the number of people and businesses served. Less-populated states also have fewer rate payers.\r\n\r\n\r\n\r\n\r\n", 
+        "text": "States with more water supply employees per capita tend to me more sparsely populated [add link to Population, Area, Density and Economics supplemental table]. This could be because of the fixed costs of building and maintaining a public water system over a given land area regardless of the number of people and businesses served. Less-populated states also have fewer rate payers.\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "units", 
           "state": "CO"
