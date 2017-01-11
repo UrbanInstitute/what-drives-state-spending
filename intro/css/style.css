@@ -91,7 +91,7 @@ section.module.parallax h1 {
     
     position: fixed;
     /*position: relative;*/
-    top: 45%;
+    top: 25%;
     width:55%;
 }
 
@@ -622,6 +622,75 @@ section.module.parallax-3 {
   }
   .topgrey{
     border-top: solid 200px #333133;
+  }
+  #rightEdge2{
+    top: 45%;
+  }
+}
+@media (max-width:1030px){
+  #rightEdge2{
+    top: 54%;
+  }  
+}
+@media (max-width: 768px){
+  #rightEdge, #rightEdge2, #rightEdge2 .highlightgrey{
+    line-height: 37px;
+    font-size: 18px;
+  }
+  section.module.parallax{
+    height: 700px;
+  }
+  section.module.parallax h1{
+    font-size: 40px;
+  }
+  section.module.parallax h2{
+    font-size: 28px;
+  }
+  .h1spacing h2 span{
+    font-size: 17px;
+  }
+  .topgrey {
+      min-height: 3290px;
+  }
+}
+@media (max-width: 553px){
+  .darkgrey .twocolumn.left p{
+    font-size: 13px !important;
+  }
+  .topgrey .twocolumn.left, .orange h3, .ending .twocolumn.left, .lightgrey h3, #rightEdge, #rightEdge2{
+    width: 100% !important;
+  }
+  .stepGif{
+    width: 220px;
+  }
+  .stepAll{
+    width: 300px;
+    margin-left: -30px;
+  }
+  section.module.content.ending h3 {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  section.module.parallax h1 {
+      font-size: 32px;
+      width: 270px;
+      line-height: 50px;
+  }
+  section.module.parallax h2 {
+      font-size: 31px;
+      line-height: 60px;
+  }
+  section.module.content.lightgrey h3, .highlightwhite, .highlightgrey{
+    font-size: 13px !important;
+    line-height: 25px !important;
+  }
+  .lightgrey {
+      min-height: 370px !important;
+  }
+  #rightEdge, #rightEdge2 {
+      width: calc(100% - 80px) !important;
+      font-size: 13px;
+      line-height: 25px;
   }
 }
 

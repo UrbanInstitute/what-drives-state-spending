@@ -679,7 +679,9 @@ function resizePhone(){
 		// .style("")
 	var wx = window.scrollX;
 	d3.selectAll(".menuItem")
-		.style("margin-left",(23+parseFloat(wx)) + "px")
+		.style("margin-left",(parseFloat(wx)) + "px")
+	d3.selectAll(".sectionScrollLock")
+			.style("left",(parseFloat(wx)) + "px")
 	var arrow = d3.select("#heatmap")
 		.append("div")
 		.attr("class","scrollArrow")
@@ -1801,7 +1803,9 @@ function scrollCheck(){
 	}else if(PHONE){
 		var wx = window.scrollX;
 		d3.selectAll(".menuItem")
-			.style("margin-left",(23+parseFloat(wx)) + "px")
+			.style("margin-left",(parseFloat(wx)) + "px")
+		d3.selectAll(".sectionScrollLock")
+			.style("left",(parseFloat(wx)) + "px")
 		if(d3.select(".headerArrow").node().getBoundingClientRect().top + 10 <= d3.select(".arrowImg").node().getBoundingClientRect().top && d3.select("#heatmap").node().getBoundingClientRect().bottom + 10 >= d3.select(".arrowImg").node().getBoundingClientRect().bottom){
 			d3.select(".arrowImg img")
 				.transition()

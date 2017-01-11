@@ -33,7 +33,7 @@
 	color:#333;
 	font-weight:700;
 	font-style: italic;
-	margin-top: 10px;	
+	margin-top: 25px;	
 	margin-bottom: -5px;
 }
 .dd-desc{
@@ -64,7 +64,9 @@ a.dd-download{
     display: block;
     width: 160px;
 }
-
+.footer.read.feature span{
+	left: 34px;
+}
 @media (max-width:750px){
 	#dd-content{
 		margin-left: 25px;

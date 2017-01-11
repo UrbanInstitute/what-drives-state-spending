@@ -76,7 +76,7 @@
 		font-size: 18px !important;
 	}
 	#navMenu{
-		width: 730px !important;
+		/*width: 730px !important;*/
 	}
 	.tabletBoxtext{
 		position: fixed !important;
@@ -461,7 +461,10 @@ body{
 /******************* MENU ******************************/
 /*******************************************************/
 .menuItem{
-	margin-left: calc(50% - 356px)
+	/*margin-left: calc(50% - 356px)*/
+}
+.menuMargin{
+	margin-left: 40px;
 }
 .styled-select.filter select{
   /*pointer-events: none;*/
@@ -897,8 +900,8 @@ hr{
 		margin-left: -20px;
 		width: 100%;
 	}
-	.footerRow{
-		height: 1px
+	.footerRow {
+	    height: 1100px;
 	}
 	.right.credits{
 		float: left;

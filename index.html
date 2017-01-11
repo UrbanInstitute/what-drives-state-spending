@@ -14,6 +14,8 @@
 
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
 </head>
 <body>
 
@@ -37,7 +39,7 @@
 
 <div class="wrapper">
   <main>
-      <section class="module parallax parallax-1">
+      <section class="module parallax parallax-1 sectionScrollLock">
         <div class="introContainer">
             <div class="h1spacing">
                 <h1>What everyone should know about their state's budget</h1>
@@ -46,7 +48,7 @@
         </div>
       </section>
 
-      <section class="module content lightgrey">
+      <section class="module content lightgrey sectionScrollLock">
       	<!-- <img class = "introLogo" src = "intro/img/logo.png"/> -->
         <div class="introContainer">
           <h3>
@@ -55,7 +57,7 @@
         </div>
       </section>
 
-      <section class="module parallax parallax-2">
+      <section class="module parallax parallax-2 sectionScrollLock">
       	<!-- <img class = "introLogo" src = "intro/img/logo.png"/> -->
         <div class="introContainer orange">
           <h3 id = "rightEdge">Through this web tool, we aim to fill that knowledge gap. The tool allows users to get under the hood of their government and understand not just how much a state spends, but what drives that spending.</h3>
@@ -63,7 +65,7 @@
         </div>
       </section>
 
-       <section class="module content darkgrey topgrey">
+       <section class="module content darkgrey topgrey sectionScrollLock">
        	<!-- <img class = "introLogo" src = "intro/img/logo.png"/> -->
         <div class="introContainer"> 
           <div class="twocolumn left">
@@ -101,7 +103,7 @@
       </section>
 
 
-      <section class="module content darkgrey ending">
+      <section class="module content darkgrey ending sectionScrollLock">
         <div class="introContainer"> 
           <div class="twocolumn left">
               <h3>In this tool, you’ll see the spending per capita breakdown for all states and the District of Columbia across all major functional categories. It allows you to see how each state ranks, and you can sort by any factor you choose. (One frequent outlier is DC; though included in the rankings, it often functions more like a city than a state) We’ve included some annotations to guide you along the way. 
@@ -207,12 +209,12 @@
 
 
 
-	<div id = "navMenu">
+	<div id = "navMenu" class = "menuItem">
 	<span class = "mobileTest"></span>
   <div id = "blurbImgWindow"></div>
   <div id = "hiddenWindow"></div>
 
-		<div class="styled-select nav menuItem">
+		<div class="styled-select nav menuMargin">
 		 <select>
         <option value = "k12">K-12 Education</option>
         <option value = "higher">Higher Education</option>
@@ -224,8 +226,8 @@
 		    <option value = "admin">Administration</option>
 		 </select>
 		</div>
-		<div class = "catDescription menuItem">Environment and housing is a broad category encompassing spending on housing and community development, parks and recreation, natural resources, utilities (gas, electric, water), and other enterprise activities such as sewerage and solid waste or garbage collection and disposal.</div>
-		<div id = "containers" class = "menuItem">
+		<div class = "catDescription menuMargin">Environment and housing is a broad category encompassing spending on housing and community development, parks and recreation, natural resources, utilities (gas, electric, water), and other enterprise activities such as sewerage and solid waste or garbage collection and disposal.</div>
+		<div id = "containers" class = "menuMargin">
 			<div class = "environment container openContainer">
 				<div class="navButton housing">housing</div>
 				<div class="navButton parks">Parks</div>
@@ -284,7 +286,7 @@
 	</div>
 	<div class = "right footer">
 		<div class = "buttonRow">
-			<a href = ""><div class = "footer read depot"><span>Data Depot</span></div></a>
+			<a href = "/data-depot.html"><div class = "footer read depot"><span>Data Depot</span></div></a>
 			<a href = ""><div class = "footer read doc"><span>Documentation</span></div></a>
 		</div>
 		<div class = "footer title">PROJECT CREDITS</div>
