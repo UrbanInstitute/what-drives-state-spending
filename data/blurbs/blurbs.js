@@ -476,7 +476,8 @@ var blurbs = {
           "column": "demographics", 
           "state": "AZ"
         }, 
-        "text": "\r\nStates generally do not provide grant aid to out-of-state students, and such students pay <a target = \"_blank\" href = =\"http://webapp.urban.org/higher-education/tuition.html\">higher tuition and fees</a>, so they are less of a burden on state budgets. Massachusetts, Rhode Island, and Vermont had some of the highest proportions of 18- to 24-year-olds in 2012, but they also had high proportions of students from out of state and relatively low higher-education spending per capita. They also had some of the lowest shares of students enrolled in public as opposed to private colleges and universities.\r\n\r\n\r\n", 
+        "image": "higher2.png", 
+        "text": "\r\nStates generally do not provide grant aid to out-of-state students, and such students pay <a target = \"_blank\" href =\"http://webapp.urban.org/higher-education/tuition.html\">higher tuition and fees</a>, so they are less of a burden on state budgets. Massachusetts, Rhode Island, and Vermont had some of the highest proportions of 18- to 24-year-olds in 2012, but they also had high proportions of students from out of state and relatively low higher-education spending per capita. They also had some of the lowest shares of students enrolled in public as opposed to private colleges and universities.\r\n\r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "ND"
@@ -489,6 +490,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "MA"
         }, 
+        "image": "higher3.png", 
         "text": "\r\nSome states that appear to have very high college enrollment as a share of the 18- to 24-year-old population (eligibility) may have more students coming from nontraditional age groups (younger than 17 or older than 25). Nationally, these groups constituted 43 percent of all public and private college and university enrollees in 2012. However, in Arizona and New Mexico, nontraditional students represented 49 and 55 percent of all students, respectively. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "eligibility", 
@@ -513,7 +515,8 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "WY"
         }, 
-        "text": "\r\nNonpayroll costs encompass any expense other than wages and salaries, including construction and other capital costs. On average, public higher-education institutions spent $104 per capita on capital projects in 2012. Some states, however, such as Alaska, Hawaii, and Wyoming, spent much more [add link to supplemental data table]. Spending rankings look very different if we exclude capital expenditures, which can fluctuate by year because of a few large projects, buildings, or facilities. For example, although Vermont is an average state in total higher education spending per capita, it jumps into the top 10 when we focus on current spending.\r\n\r\n \r\n\r\n", 
+        "image": "higher7.png", 
+        "text": "\r\nNonpayroll costs encompass any expense other than wages and salaries, including construction and other capital costs. On average, public higher-education institutions spent $104 per capita on capital projects in 2012. Some states, however, such as Alaska, Hawaii, and Wyoming, <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">spent much more</a>. Spending rankings look very different if we exclude capital expenditures, which can fluctuate by year because of a few large projects, buildings, or facilities. For example, although Vermont is an average state in total higher education spending per capita, it jumps into the top 10 when we focus on current spending.\r\n\r\n \r\n\r\n", 
         "top_left": {
           "column": "nonpayroll", 
           "state": "DC"
@@ -539,6 +542,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "NE"
         }, 
+        "image": "higher1.png", 
         "text": "States with the highest spending on public colleges and universities tend to have lots of students (such as New Mexico, North Dakota, and Utah), high spending per student ([payroll + nonpayroll] * units) after accounting for tuition, fees, and other charges (such as Alaska, Hawaii, and Wisconsin), or both (such as California and Wyoming). Are states that spend more on higher education more productive (that is, do they confer more degrees per student)? The data suggest a weak relationship. Of course, institutions of higher education may have broader missions than simply granting degrees. \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -563,6 +567,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "MT"
         }, 
+        "image": "higher4.png", 
         "text": "\r\nA natural question for states with many public college and university students (take-up) is how many students are attending two- rather than four-year institutions. Two-year students tend to be less costly to the state, but they also pay <a target = \"_blank\" href = \"http://webapp.urban.org/higher-education/tuition.html\">lower tuitions and fees</a>. In New Mexico and Wyoming, a majority of students are enrolled in two-year schools. However, this is not the case for other high take-up states such as Montana and Alaska, which had no community college system as of 2012. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -574,6 +579,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "NM"
         }, 
+        "image": "higher5.png", 
         "text": "\r\nStates with high public college and university enrollment (take-up) often have <a target = \"_blank\" href = \"http://webapp.urban.org/higher-education/\">low tuition and fees</a>. Alaska, Montana, New Mexico, and Wyoming, for example, all charged less than $6,300 a year for in-state residents at four-year schools in 2012. Alaska, New Mexico, and Wyoming also spent more than all other states on higher education after accounting for tuition, fees, and other charges.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -587,6 +593,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "MI"
         }, 
+        "image": "higher6.png", 
         "text": "\r\nApart from Alaska, Delaware, and Vermont, states with high staffing ratios (units), or those that have a more professors, lecturers, administrators, and other staff per full-time equivalent student, typically have low payroll costs per employee. But how many of these employees are actually in the classroom teaching students? Among our top 10 employment states, only Hawaii, Indiana, North Carolina, and Vermont have a higher-than-average share of instructional employees.\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "units", 
@@ -844,6 +851,7 @@ var blurbs = {
           "column": "takeup, takeup", 
           "state": "NY, FL"
         }, 
+        "image": "k121.png", 
         "text": "\r\nNew York and Florida show how demographics are not destiny for school budgets. Both states have relatively few school-age kids (demographics) and low public-school enrollments (take-up). However, New York had the fourth highest K\u201312 spending per capita in 2012 while Florida ranked 50th. New York employed more teachers and other personnel while also paying its employees more, although much of this difference is explained by costs of living or labor market conditions. Florida, by contrast, had relatively few public-school employees and paid them less than what labor market conditions would suggest.\r\n\r\n \r\n\r\n", 
         "top_left": {
           "column": "spending, spending", 
@@ -883,6 +891,7 @@ var blurbs = {
           "column": "payroll", 
           "state": "CT"
         }, 
+        "image": "k124.png", 
         "text": "\r\nStates with high payroll costs are often among those that spend the most. High payroll costs can reflect policy choices or economic factors, including costs of living, beyond policymakers\u2019 control. If living costs are high, we would expect to see all public and private employers paying more to attract and retain workers. But several states pay salaries and wages in K\u201312 education higher than what we would expect based on this overall location premium or cost-of-living adjustment. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -920,6 +929,7 @@ var blurbs = {
           "column": "units", 
           "state": "ME"
         }, 
+        "image": "k122.png", 
         "text": "\r\nWestern states often have the highest public-school take-up rates. West Virginia and Maine are exceptions, however, as Eastern states with some of the lowest private school enrollment rates in the country. Those two states also had moderate spending on K\u201312 education in 2012 despite having few kids per capita, suggesting that factors other than demographics and take up, such as the number of teachers and other public school employees, play a more important role. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "demographics", 
@@ -944,6 +954,7 @@ var blurbs = {
           "column": "units", 
           "state": "NJ"
         }, 
+        "image": "k121.png", 
         "text": "\r\nStates with the lowest staffing ratios (units) are among the highest spenders on K\u201312 education. This is because education is labor intensive and labor is expensive, especially in states such as New Jersey and New York. Some (though not all) of this difference is explained by costs of living or labor market conditions.\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -955,6 +966,7 @@ var blurbs = {
           "column": "units", 
           "state": "NV"
         }, 
+        "image": "k123.png", 
         "text": "\r\nStates with low staffing ratios (units) often have low test scores in reading and math. <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/2000484-Breaking-the-Curve-Promises-and-Pitfalls-of-Using-NAEP-Data-to-Assess-the-State-Role-in-Student-Achievement.pdf\">Adjusting</a> for family income, languages spoken at home, and other factors, however, eliminates this link almost entirely.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -1007,7 +1019,8 @@ var blurbs = {
           "column": "demographics", 
           "state": "ME"
         }, 
-        "text": "States that spend the most per capita on <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/\">Medicaid</a> and the <a target = \"_blank\" href = \"https://www.fas.org/sgp/crs/misc/R43627.pdf\">Children\u2019s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of enrollees who are elderly and disabled compared to the national average (<a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC</a>). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. \r\n\r\n\r\n\r\n", 
+        "image": "medicaid1.png", 
+        "text": "States that spend the most per capita on <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/\">Medicaid</a> and the <a target = \"_blank\" href = \"https://www.fas.org/sgp/crs/misc/R43627.pdf\">Children\u2019s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of <a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">enrollees who are elderly and disabled</a> compared to the national average (e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1018,6 +1031,7 @@ var blurbs = {
           "column": "spending-per", 
           "state": "NV"
         }, 
+        "image": "medicaid2.png", 
         "text": "\r\nSome states with low spending per capita on Medicaid and the Children\u2019s Health Insurance Program have a high share of low-income residents (demographics); others have a very small share. In most of these states, however, <a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">children constitute a higher than average share of total recipients</a>. Children are relatively inexpensive to cover, and therefore spending per recipient and per capita is low in these states. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
@@ -1682,7 +1696,7 @@ var blurbs = {
           "column": "spending, nonpayroll", 
           "state": "MD"
         }, 
-        "image": "waste3.png", 
+        "image": "waste4.png", 
         "text": "Spending per capita and nonpayroll spending per employee mirror each other fairly well. This is driven in part by spending on capital projects, which is reflected in nonpayroll costs, as are the costs of hiring private contractors.  \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending, nonpayroll", 
@@ -1696,7 +1710,7 @@ var blurbs = {
           "column": "payroll", 
           "state": "MS"
         }, 
-        "image": "waste2.png", 
+        "image": "waste3.png", 
         "text": "States with higher payroll spending per employee have higher expected wages for waste removal employees based on labor market decisions, and they pay their workers more than this expected amount. States with low payroll spending are the opposite, with low expected wages and even lower salaries. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 

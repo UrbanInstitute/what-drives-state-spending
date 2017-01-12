@@ -461,7 +461,7 @@ body{
 /******************* MENU ******************************/
 /*******************************************************/
 .menuItem{
-	/*margin-left: calc(50% - 356px)*/
+	/*margin-left: calc(50% - 356px)*/	
 }
 .menuMargin{
 	margin-left: 40px;
@@ -635,10 +635,15 @@ body{
 .blurbText{
 	cursor: pointer;
 }
+
 .innerText{
 	font:14px crimson_textitalic;
 	color: #666666;
 	line-height: 1.3;
+}
+.innerText a{
+	text-decoration: none;
+	color: #1696d2;
 }
 .left.gutter .blurbMarker{
 	right: 0px;

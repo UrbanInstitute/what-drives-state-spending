@@ -7,6 +7,7 @@ Top left Column: spending
 
 Bottom right State: NE
 Bottom right Column: nonpayroll
+Image: higher1.png
 
 ### Blurb text starts here ###
 States with the highest spending on public colleges and universities tend to have lots of students (such as New Mexico, North Dakota, and Utah), high spending per student ([payroll + nonpayroll] * units) after accounting for tuition, fees, and other charges (such as Alaska, Hawaii, and Wisconsin), or both (such as California and Wyoming). Are states that spend more on higher education more productive (that is, do they confer more degrees per student)? The data suggest a weak relationship. Of course, institutions of higher education may have broader missions than simply granting degrees. 
@@ -50,10 +51,11 @@ Top left Column: demographics
 
 Bottom right State: AZ
 Bottom right Column: demographics
+Image: higher2.png
 
 ### Blurb text starts here ###
 
-States generally do not provide grant aid to out-of-state students, and such students pay <a target = "_blank" href = ="http://webapp.urban.org/higher-education/tuition.html">higher tuition and fees</a>, so they are less of a burden on state budgets. Massachusetts, Rhode Island, and Vermont had some of the highest proportions of 18- to 24-year-olds in 2012, but they also had high proportions of students from out of state and relatively low higher-education spending per capita. They also had some of the lowest shares of students enrolled in public as opposed to private colleges and universities.
+States generally do not provide grant aid to out-of-state students, and such students pay <a target = "_blank" href ="http://webapp.urban.org/higher-education/tuition.html">higher tuition and fees</a>, so they are less of a burden on state budgets. Massachusetts, Rhode Island, and Vermont had some of the highest proportions of 18- to 24-year-olds in 2012, but they also had high proportions of students from out of state and relatively low higher-education spending per capita. They also had some of the lowest shares of students enrolled in public as opposed to private colleges and universities.
 
 
 ### Blurb text ends here ###
@@ -71,6 +73,7 @@ Top left Column: eligibility
 
 Bottom right State: MA
 Bottom right Column: takeup
+Image: higher3.png
 
 ### Blurb text starts here ###
 
@@ -104,6 +107,7 @@ Top left Column: spending
 
 Bottom right State: MT
 Bottom right Column: takeup
+Image: higher4.png
 
 ### Blurb text starts here ###
 
@@ -118,6 +122,7 @@ Top left Column: spending
 
 Bottom right State: NM
 Bottom right Column: takeup
+Image: higher5.png
 
 ## Blurb text starts here ###
 
@@ -145,6 +150,7 @@ Top left Column: units
 
 Bottom right State: MI
 Bottom right Column: nonpayroll
+Image: higher6.png
 
 ### Blurb text starts here ###
 
@@ -183,10 +189,11 @@ Top left Column: nonpayroll
 
 Bottom right State: WY
 Bottom right Column: nonpayroll
+Image: higher7.png
 
 ### Blurb text starts here ###
 
-Nonpayroll costs encompass any expense other than wages and salaries, including construction and other capital costs. On average, public higher-education institutions spent $104 per capita on capital projects in 2012. Some states, however, such as Alaska, Hawaii, and Wyoming, spent much more [add link to supplemental data table]. Spending rankings look very different if we exclude capital expenditures, which can fluctuate by year because of a few large projects, buildings, or facilities. For example, although Vermont is an average state in total higher education spending per capita, it jumps into the top 10 when we focus on current spending.
+Nonpayroll costs encompass any expense other than wages and salaries, including construction and other capital costs. On average, public higher-education institutions spent $104 per capita on capital projects in 2012. Some states, however, such as Alaska, Hawaii, and Wyoming, <a target = "_blank" href = "/data-depot.html#current-vs-capital-expenditures">spent much more</a>. Spending rankings look very different if we exclude capital expenditures, which can fluctuate by year because of a few large projects, buildings, or facilities. For example, although Vermont is an average state in total higher education spending per capita, it jumps into the top 10 when we focus on current spending.
 
  
 
@@ -356,9 +363,10 @@ Top left Column: spending
 
 Bottom right State: ME
 Bottom right Column: demographics
+Image: medicaid1.png
 
 ### Blurb text starts here ###
-States that spend the most per capita on <a target = "_blank" href = "https://www.macpac.gov/medicaid-101/">Medicaid</a> and the <a target = "_blank" href = "https://www.fas.org/sgp/crs/misc/R43627.pdf">Children’s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of enrollees who are elderly and disabled compared to the national average (<a target = "_blank" href = "/data-depot.html#medicaid-by-subgroup">e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC</a>). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. 
+States that spend the most per capita on <a target = "_blank" href = "https://www.macpac.gov/medicaid-101/">Medicaid</a> and the <a target = "_blank" href = "https://www.fas.org/sgp/crs/misc/R43627.pdf">Children’s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of <a target = "_blank" href = "/data-depot.html#medicaid-by-subgroup">enrollees who are elderly and disabled</a> compared to the national average (e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. 
 
 
 
@@ -369,6 +377,7 @@ Top left Column: spending
 
 Bottom right State: NV	
 Bottom right Column: spending-per
+Image: medicaid2.png
 
 ### Blurb text starts here ###
 
@@ -1873,7 +1882,7 @@ Top left Column: payroll
 
 Bottom right State: MS
 Bottom right Column: payroll
-Image: waste2.png
+Image: waste3.png
 
 ### Blurb text starts here ###
 States with higher payroll spending per employee have higher expected wages for waste removal employees based on labor market decisions, and they pay their workers more than this expected amount. States with low payroll spending are the opposite, with low expected wages and even lower salaries. 
@@ -1890,7 +1899,7 @@ Sorted by: nonpayroll
 
 Top left State: RI
 Top left Column: spending, nonpayroll
-Image: waste3.png
+Image: waste4.png
 
 Bottom right State: MD
 Bottom right Column: spending, nonpayroll
@@ -1965,6 +1974,7 @@ Top left Column: spending, spending
 
 Bottom right State: NY, FL
 Bottom right Column: takeup, takeup
+Image: k121.png
 
 ### Blurb text starts here ###
 
@@ -2002,6 +2012,7 @@ Top left Column: demographics
 
 Bottom right State: ME
 Bottom right Column: units
+Image: k122.png
 
 ### Blurb text starts here ###
 
@@ -2033,7 +2044,8 @@ Top left State: VT
 Top left Column: spending
 
 Bottom right State: NJ
-Bottom right Column: units 
+Bottom right Column: units
+Image: k121.png
 
 ### Blurb text starts here ###
 
@@ -2048,7 +2060,8 @@ Top left State: ID
 Top left Column: spending
 
 Bottom right State: NV
-Bottom right Column: units 
+Bottom right Column: units
+Image: k123.png
 
 ### Blurb text starts here ###
 
@@ -2072,6 +2085,7 @@ Top left Column: spending
 
 Bottom right State: CT
 Bottom right Column: payroll
+Image: k124.png
 
 ### Blurb text starts here ###
 
