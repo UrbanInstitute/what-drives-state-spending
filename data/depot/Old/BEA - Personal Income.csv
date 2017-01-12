@@ -1,0 +1,69 @@
+"SA1 Personal Income Summary: Personal Income, Population, Per Capita Personal Income"
+"Personal income (thousands of dollars)" 
+"Bureau of Economic Analysis" 
+"State or DC"
+"GeoFips","GeoName","2012"
+"00000","United States",13904485000
+"01000","Alabama",173601429
+"02000","Alaska",38213009
+"04000","Arizona",241192186
+"05000","Arkansas",107032727
+"06000","California",1812314643
+"08000","Colorado",240905431
+"09000","Connecticut",225503447
+"10000","Delaware",41027716
+"11000","District of Columbia",43800684
+"12000","Florida",798388291
+"13000","Georgia",369520173
+"15000","Hawaii",61983952
+"16000","Idaho",55599208
+"17000","Illinois",593049235
+"18000","Indiana",248345693
+"19000","Iowa",133675217
+"20000","Kansas",126189704
+"21000","Kentucky",156990191
+"22000","Louisiana",186615842
+"23000","Maine",52597944
+"24000","Maryland",312724325
+"25000","Massachusetts",377728405
+"26000","Michigan",382064571
+"27000","Minnesota",254467614
+"28000","Mississippi",98920649
+"29000","Missouri",240440942
+"30000","Montana",39303801
+"31000","Nebraska",84569159
+"32000","Nevada",108656566
+"33000","New Hampshire",66786803
+"34000","New Jersey",489437288
+"35000","New Mexico",74180920
+"36000","New York",1050369055
+"37000","North Carolina",376817437
+"38000","North Dakota",38866125
+"39000","Ohio",465838605
+"40000","Oklahoma",158595958
+"41000","Oregon",152371092
+"42000","Pennsylvania",584630441
+"44000","Rhode Island",48509355
+"45000","South Carolina",167468162
+"46000","South Dakota",37378789
+"47000","Tennessee",252635759
+"48000","Texas",1135225582
+"49000","Utah",102772080
+"50000","Vermont",27729733
+"51000","Virginia",404103401
+"53000","Washington",326496701
+"54000","West Virginia",65665367
+"55000","Wisconsin",243096269
+"56000","Wyoming",30087324
+"91000","New England",798855687
+"92000","Mideast",2521989509
+"93000","Great Lakes",1932394373
+"94000","Plains",915587550
+"95000","Southeast",3157759428
+"96000","Southwest",1609194646
+"97000","Rocky Mountain",468667844
+"98000","Far West",2500035963
+"Legend / Footnotes:"
+"Geographic Note-- Estimates prior to 1950 are not available for Alaska and Hawaii."
+"Note-- All dollar estimates are in current dollars (not adjusted for inflation)."
+"Last updated: September 30, 2015-- revised estimates for 1976-2014."

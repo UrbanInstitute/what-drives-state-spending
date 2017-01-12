@@ -590,8 +590,19 @@ section.module.parallax-3 {
 .stepGif, .stepAll{
   display: none;
 }
-
+#scrollMark1,#scrollMark2,#scrollMark3{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+}
 @media (max-width:1120px){
+  #scrollMark1{
+    display: block;
+  }
   .formula{
     display: none;
   }
@@ -633,6 +644,9 @@ section.module.parallax-3 {
   }  
 }
 @media (max-width: 768px){
+  #scrollMark2{
+    display: block;
+  }
   #rightEdge, #rightEdge2, #rightEdge2 .highlightgrey{
     line-height: 37px;
     font-size: 18px;
@@ -654,6 +668,9 @@ section.module.parallax-3 {
   }
 }
 @media (max-width: 553px){
+  #scrollMark3{
+    display: block;
+  }
   .darkgrey .twocolumn.left p{
     font-size: 13px !important;
   }

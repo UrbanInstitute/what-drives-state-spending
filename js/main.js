@@ -1896,5 +1896,21 @@ $(document).keyup(function(e) {
 
 d3.selectAll("#skip")
     .on("click", function(){
-        $("html, body").animate({ scrollTop: 5030 }, 1000);
+    	var scrollTop;
+    	if(d3.select("#scrollMark3").style("display") == "block"){
+    		console.log("a")
+    		scrollTop = 6330;
+    	}
+    	else if(d3.select("#scrollMark2").style("display") == "block"){
+    		console.log("b")
+    		scrollTop = 6530
+    	}
+    	else if(d3.select("#scrollMark1").style("display") == "block"){
+    		console.log("c")
+    		scrollTop = 6530
+    	}else{
+    		console.log("d")
+    		scrollTop = 5430
+    	}
+        $("html, body").animate({ scrollTop: scrollTop }, 1000);
     })
