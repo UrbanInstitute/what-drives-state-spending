@@ -464,7 +464,7 @@ body{
 	/*margin-left: calc(50% - 356px)*/	
 }
 .menuMargin{
-	margin-left: 40px;
+	margin-left: calc(50% - 356px)
 }
 .styled-select.filter select{
   /*pointer-events: none;*/
@@ -635,7 +635,9 @@ body{
 .blurbText{
 	cursor: pointer;
 }
-
+.blurbText.index_b{
+	margin-top: 50px;
+}
 .innerText{
 	font:14px crimson_textitalic;
 	color: #666666;
@@ -981,4 +983,18 @@ hr{
 
 .at_a11y{
 	display: none;
+}
+#sortArrow{
+	position: relative;
+    right: -16px;
+    top: 92px;
+    pointer-events: none;
+    z-index: -1;
+}
+#sortArrow div{
+	position: relative;
+    top: -18px;
+    right: -34px;
+    font-size: 14px;
+    color: #bbbfc1;
 }

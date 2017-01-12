@@ -573,6 +573,7 @@ text-align: center;
 
 
 
+
 section.module.parallax-3 {
      background-image: url("../img/demo/_small/3.jpg");
 }
@@ -644,6 +645,12 @@ section.module.parallax-3 {
   }  
 }
 @media (max-width: 768px){
+  .menuMargin{
+    margin-left: 40px;
+  }
+  .catDescription.menuMargin{
+    width: calc(100% - 80px) !important;
+  }
   #scrollMark2{
     display: block;
   }

@@ -321,6 +321,13 @@ function renderHeatmap(category, userLocation){
 				.append("div")
 				.attr("class","arrowDown")
 
+		var sortArrow = header
+			.append("div")
+			.attr("id","sortArrow")
+		sortArrow.append("img")
+			.attr("src","img/sort-arrow.png")
+		sortArrow.append("div")
+			.text("Click to sort")
 
 
 		var row = heatmap.selectAll("row")
