@@ -41,8 +41,7 @@ var mouseoverText	 = {
 		"demographics":{"format": "percent", "label" : "low-income residents with children"},
 		"eligibility":{"format": "percent", "label" : "of low-income residents with children eligible for CCDF"},
 		"takeup":{"format": "percent", "label" : "of eligible residents receiving CCDF"},
-		"units":{"format": "number", "label" : "funded providers per recipient"},
-		"spending-per-u":{"format": "dollars", "label" : "per childcare provider"}
+		"spending-per":{"format": "dollars", "label" : "per CCDF recipient"}
 	},	
 	"housing": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},

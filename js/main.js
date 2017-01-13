@@ -4,7 +4,7 @@ var COLUMNS = {
 	"corrections": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"medicaid": ["spending","demographics","eligibility","takeup","spending-per"],
 	"tanf": ["spending","demographics","eligibility","takeup","spending-per"],
-	"ccdf": ["spending","demographics","eligibility","takeup","units","spending-per-u"],	
+	"ccdf": ["spending","demographics","eligibility","takeup","spending-per"],
 	"housing": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"admin": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"resources": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],

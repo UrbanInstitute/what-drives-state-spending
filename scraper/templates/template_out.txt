@@ -783,7 +783,7 @@ Top left State: NE
 Top left Column: spending
 
 Bottom right State: OK
-Bottom right Column: units
+Bottom right Column: spending-per
 
 ### Blurb text starts here ###
 
@@ -803,7 +803,7 @@ Top left State: NH
 Top left Column: eligibility
 
 Bottom right State: NM
-Bottom right Column: spending-per-u
+Bottom right Column: spending-per
 
 ### Blurb text starts here ###
 States where low income families are more likely to qualify for child care subsidies typically have <a target = "_blank" href = "http://www.urban.org/urban-wire/child-care-subsidies-whos-eligible-varies-state">higher income cutoffs</a> to qualify for and continue receiving CCDF benefits. However, participation in subsidized child care is often low in these states. That may be because states lack the resources to provide benefits to all families that qualify. Child care subsidies are not an entitlement, and states provide subsidies to eligible applicants only to the extent allowed by the combination of federal and state funding. 

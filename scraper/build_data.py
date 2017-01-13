@@ -56,7 +56,7 @@ allColumns = {
 	"corrections": [("spending",2),("demographics",False),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
 	"medicaid": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",6)],
 	"tanf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",6)],
-	"ccdf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("units",6),("spending-per-u",7)],
+	"ccdf": [("spending",2),("demographics",3),("eligibility",4),("takeup",5),("spending-per",6)],
 	"housing": [("spending",2),("demographics",3),("eligibility",False),("takeup",5),("units",6),("payroll",7),("nonpayroll",8)],
 	"admin": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],
 	"resources": [("spending",2),("demographics",False),("eligibility",False),("takeup",False),("units",6),("payroll",7),("nonpayroll",8)],

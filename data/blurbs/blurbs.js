@@ -70,7 +70,7 @@ var blurbs = {
     "eligibility": [
       {
         "bottom_right": {
-          "column": "spending-per-u", 
+          "column": "spending-per", 
           "state": "NM"
         }, 
         "text": "States where low income families are more likely to qualify for child care subsidies typically have <a target = \"_blank\" href = \"http://www.urban.org/urban-wire/child-care-subsidies-whos-eligible-varies-state\">higher income cutoffs</a> to qualify for and continue receiving CCDF benefits. However, participation in subsidized child care is often low in these states. That may be because states lack the resources to provide benefits to all families that qualify. Child care subsidies are not an entitlement, and states provide subsidies to eligible applicants only to the extent allowed by the combination of federal and state funding. \r\n\r\n\r\n", 
@@ -106,7 +106,7 @@ var blurbs = {
       }, 
       {
         "bottom_right": {
-          "column": "units", 
+          "column": "spending-per", 
           "state": "OK"
         }, 
         "text": "\r\nStates that spend the most on child care are not necessarily the ones with the most low-income residents. Rather, such states may have relatively <a target = \"_blank\" href = \"http://www.urban.org/urban-wire/child-care-subsidies-whos-eligible-varies-state\">generous eligibility rules</a> (such as in Alaska and Vermont), high take-up rates (such as in Nebraska, New York, North Carolina, Minnesota, Rhode Island, Vermont, and Washington), or high levels of spending per recipient (except in North Carolina and Oklahoma). \r\n\r\n\r\n", 
