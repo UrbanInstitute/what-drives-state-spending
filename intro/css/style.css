@@ -135,7 +135,7 @@ section.module.parallax h1 {
         color: #333333;
         font-family: "Lato",sans-serif;
         font-size: 22px;
-        line-height: 49px;
+        line-height: 40px;
         margin-top: 25%;
         text-align: left;
         width: 55%;
@@ -144,7 +144,7 @@ section.module.content.ending h3 {
         color: #333333;
         font-family: "Lato",sans-serif;
         font-size: 22px;
-        line-height: 33px;
+        line-height: 40px;
         margin-top: 11% !important;
         text-align: left;
         /*width: 75%;*/
