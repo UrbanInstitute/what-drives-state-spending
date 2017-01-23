@@ -1965,7 +1965,7 @@ Bottom right Column: takeup
 
 ### Blurb text starts here ###
 
-States can’t control the share of children in the state or how many children enroll in public school, but these factors can affect the cost of education. When a state with a lot of children and high public school take-up raises salaries, for example, they are raising salaries for more teachers and other school employees and therefore end up spending more per capita. That is why many states with many public-school students have lower staffing ratios or lower salaries (payroll) and other costs (nonpayroll) per employee, keeping spending per capita low. For a state to rank high on every measure, it must spend more per capita, as in the case of Alaska. 
+States can’t control the share of children in the state or how many children enroll in public school, but these factors can affect the cost of education. When a state with a lot of children and high public school take-up raises salaries, for example, it is raising salaries for more teachers and other school employees and therefore ends up spending more per capita. That is why many states with many public-school students have lower staffing ratios or lower salaries (payroll) and other costs (nonpayroll) per employee, keeping spending per capita low. For a state to rank high on every measure, it must spend more per capita, as in the case of Alaska. 
 
 ### Blurb text ends here ###
 

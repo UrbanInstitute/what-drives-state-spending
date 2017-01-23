@@ -73,14 +73,14 @@ var HEADER_INFO = {
   }, 
   "higher": {
     "demographics": "18- to 24-year-olds in the state as a share of state population", 
-    "eligibility": "18- to 24-year-olds enrolled in college in the state as a share of state population", 
+    "eligibility": "Students enrolled in college in the state as a share of 18- to 24-year-olds", 
     "nonpayroll": "Dollars spent on nonpersonnel costs per college employee", 
     "payroll": "Dollars spent on wages and salaries per college employee", 
     "spending": "State and local dollars spent on higher education per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
-    "takeup": "Share of college students enrolled public colleges in the state", 
-    "takeup2": "Share of college students enrolled public colleges in the state", 
+    "takeup": "Students enrolled in public colleges in the state as a share of college students", 
+    "takeup2": ".", 
     "units": "College employees per student in public colleges"
   }, 
   "highway": {
@@ -109,15 +109,15 @@ var HEADER_INFO = {
   }, 
   "k12": {
     "demographics": "Children who could be in school as a share of state population", 
-    "eligibility": "Children who are enrolled in school as a share of state population", 
+    "eligibility": "Children who are enrolled in school as a share of children who could be in school", 
     "nonpayroll": "Dollars spent on facilities and other costs per school employee", 
     "payroll": "Dollars spent on wages and salaries per school employee", 
-    "spending": "State and local dollars spent on KÐ12 education per state resident", 
+    "spending": "State and local dollars spent on K&ndash;12 education per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
-    "takeup": "Share of children in school who attend public school", 
-    "takeup2": "Share of children in school who attend public school", 
-    "units": "Public school employees per child in school"
+    "takeup": "Children who attend public school as a share of children in school", 
+    "takeup2": ".", 
+    "units": "Public school employees per child in public school"
   }, 
   "medicaid": {
     "demographics": "People living at or below 200% of the federal poverty level as a share of state population", 
