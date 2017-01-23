@@ -1,9 +1,9 @@
 var mouseoverText	 = {
 	"higher": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "percent", "label" : "18-24 year-olds"},
-		"takeup":{"format": "percent", "label" : "of 18-24 year-olds enrolled in public colleges"},
-		"eligibility":{"format": "percent", "label" : "of 18-24 year-olds enrolled in college"},
+		"demographics":{"format": "percent", "label" : "18- to 24-year-olds"},
+		"takeup":{"format": "percent", "label" : "of 18- to 24-year-olds enrolled in public colleges"},
+		"eligibility":{"format": "percent", "label" : "of 18- to 24-year-olds enrolled in college"},
 		"units":{"format": "number", "label" : "employees per student"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}

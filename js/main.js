@@ -150,6 +150,7 @@ function hideSubcontainer(){
 		.style("margin-top","0")
 		.style("padding-top", "0")
 }
+var GLOBAL_DATA;
 function renderHeatmap(category, userLocation){
 	// var promise2 = new Promise(function(resolve, reject){
 	d3.selectAll(".cell").classed("garbage", true);
@@ -163,6 +164,7 @@ function renderHeatmap(category, userLocation){
 
 
 	d3.csv("data/" + category + ".csv", function(data){
+		GLOBAL_DATA = data;
 		var heatmap = d3.select("#heatmap")
 		var header = heatmap.append("div")
 			.attr("class", "header")
@@ -771,7 +773,7 @@ if (isFirefox){
   $(".styled-select select").css("pointer-events","visible");
 }
 
-function drawBlurbs(category, column, resize){
+function drawBlurbs(category, column, resize, data){
 	if(resize){
 		d3.selectAll(".blurbBox").classed("garbage", true);
 		d3.selectAll(".blurbText").classed("garbage", true);
@@ -782,7 +784,6 @@ function drawBlurbs(category, column, resize){
 	var numCols = (category == "ssi" || category == "ccdf" || category == "tanf") ? 6 : 7;
 
 	var bs = blurbs[category][column]
-	console.log(bs)
 	if(typeof(bs) == "undefined"){
 	for(var mb = MINIBLURB_INDEX; mb < 5; mb++){
 		d3.select("#mb" + mb)
@@ -899,18 +900,33 @@ function drawBlurb(blurbList, column, numCols){
 	var centers = []
 	for (var j = 0; j < blurbList.length; j++){
 		var blurb = blurbList[j]
-		var topD = d3.select(".row." + blurb.top_left.state + ":not(.garbage)").datum()
-		var bottomD = d3.select(".row." + blurb.bottom_right.state+ ":not(.garbage)").datum()
+		// console.log(blurb.top_left.state, d3.select(".row." + blurb.top_left.state + ":not(.garbage)").node())
+		// console.log(GLOBAL_DATA)
+
+		// var topD = d3.select(".row." + blurb.top_left.state + ":not(.garbage)").datum()
+		
+		// var bottomD = d3.select(".row." + blurb.bottom_right.state+ ":not(.garbage)").datum()
+		var topD = GLOBAL_DATA.filter(function(o){ return o.state == blurb.top_left.state})[0]
+		var bottomD = GLOBAL_DATA.filter(function(o){ return o.state == blurb.bottom_right.state})[0]
 
 		var top_rank = (topD[column + "_rank"] == -999999999) ? 52:topD[column + "_rank"]
 		var bottom_rank = (bottomD[column + "_rank"] == -999999999) ? 52:bottomD[column + "_rank"]
 
-		var top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
-		var bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
+		var top_left, bottom_right;
+		if (d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node() == null){
+			top_left = {"top": 0, "right": 0, "bottom": 0, "left": 0, "width": 0, "height": 0, "hide" : true}
+		}else{
+		 top_left = d3.select(".row." + blurb.top_left.state + " ." + blurb.top_left.column + ":not(.garbage)").node().getBoundingClientRect()
+		}
+		if(d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node() == null){
+			bottom_right = {"top": 0, "right": 0, "bottom": 0, "left": 0, "width": 0, "height": 0, "hide": true}
+		}else{
+			bottom_right = d3.select(".row." + blurb.bottom_right.state + " ." + blurb.bottom_right.column + ":not(.garbage)").node().getBoundingClientRect()
+		}
+		
 		var indChar = String.fromCharCode(97 + blurb.index)
 
 		// var imgText = (blurb.hasOwnProperty("image")) ? "<div class = innerImg>" + blurb.image + "</div>" : ""
-
 
 		if(indChar == "a"){
 			if(d3.select(".blurbText.index_" + indChar + ":not(.garbage)").node() == null){
@@ -976,6 +992,13 @@ function drawBlurb(blurbList, column, numCols){
 
 		var blurbBox = d3.select("#heatmap").append("div")
 			.attr("class","blurbBox index_" + indChar)
+								.style("display", function(){
+						if(top_left.hide || bottom_right.hide){
+							return "none"
+						}else{
+							return "block"
+						}
+					})
 			.attr("data-checked",0)
 			.style("position","absolute")
 			.style("left",left + "px")
@@ -1905,18 +1928,14 @@ d3.selectAll("#skip")
     .on("click", function(){
     	var scrollTop;
     	if(d3.select("#scrollMark3").style("display") == "block"){
-    		console.log("a")
     		scrollTop = 6330;
     	}
     	else if(d3.select("#scrollMark2").style("display") == "block"){
-    		console.log("b")
     		scrollTop = 6530
     	}
     	else if(d3.select("#scrollMark1").style("display") == "block"){
-    		console.log("c")
     		scrollTop = 6530
     	}else{
-    		console.log("d")
     		scrollTop = 5430
     	}
         $("html, body").animate({ scrollTop: scrollTop }, 1000);
