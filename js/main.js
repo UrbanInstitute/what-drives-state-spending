@@ -1,4 +1,7 @@
 var GLOBAL_DATA; 
+d3.csv("data/k12.csv", function(data){
+	GLOBAL_DATA = data;
+}
 var COLUMNS = {
 	"higher": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"corrections": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
