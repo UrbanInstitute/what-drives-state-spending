@@ -1,4 +1,4 @@
-// 
+var GLOBAL_DATA; 
 var COLUMNS = {
 	"higher": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"corrections": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
@@ -150,7 +150,7 @@ function hideSubcontainer(){
 		.style("margin-top","0")
 		.style("padding-top", "0")
 }
-var GLOBAL_DATA;
+
 function renderHeatmap(category, userLocation){
 	// var promise2 = new Promise(function(resolve, reject){
 	d3.selectAll(".cell").classed("garbage", true);
