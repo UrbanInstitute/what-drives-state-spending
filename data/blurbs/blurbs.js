@@ -58,7 +58,7 @@ var blurbs = {
           "column": "Units", 
           "state": "TX"
         }, 
-        "text": "Identifying the outcomes of government administration is difficult. One possible measure is public opinion of state government, based on a <a target = \"_blank\" href = \"http://www.gallup.com/poll/168251/illinois-residents-least-trusting-state-government.aspx\">special 50-state Gallup poll</a>. The data show that Indiana, Illinois, North Carolina, and Texas had the lowest staffing levels (units), and Illinois and North Carolina ranked first and ninth respectively in the proportion of residents who trusted government \u201cnot very much\u201d or \u201cnone at all.\u201d However, most residents in Texas (72 percent) and Indiana (68 percent) trusted government either \u201ca fair amount\u201d or \u201cgreat deal,\u201d placing both in the top 10 states for <a target = \"_blank\" href = \"/data-depot.html#trust-in-government\">trust rankings</a>.\r\n\r\n", 
+        "text": "Identifying the outcomes of government administration is difficult. One possible measure is public opinion of state government, based on a <a target = \"_blank\" href = \"http://www.gallup.com/poll/168251/illinois-residents-least-trusting-state-government.aspx\">special 50-state Gallup poll</a>. The data show that Indiana, Illinois, North Carolina, and Texas had the lowest staffing levels (units), and Illinois and North Carolina ranked first and ninth respectively in the proportion of residents who trusted government \u201cnot very much\u201d or \u201cnone at all.\u201d However, most residents in Texas (72 percent) and Indiana (68 percent) trusted government either \u201ca fair amount\u201d or \u201cgreat deal,\u201d placing both in the top 10 states for <a target = \"_blank\" href = \"data-depot.html#trust-in-government\">trust rankings</a>.\r\n\r\n", 
         "top_left": {
           "column": "Units", 
           "state": "IN"
@@ -138,7 +138,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "NJ"
         }, 
-        "text": "Nonpayroll spending is a broad category that includes everything from employee benefits to rehabilitation services, vocational training, and health care for inmates and parolees to building leases and payments to outside contractors. About 5 percent of all state and local corrections spending goes toward capital projects. In states such as Mississippi, North Dakota, and Iowa, the share is much higher (over 15 percent), but only Mississippi shows up as a <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">high capital spending</a> and high nonpayroll spending state. \r\n\r\n", 
+        "text": "Nonpayroll spending is a broad category that includes everything from employee benefits to rehabilitation services, vocational training, and health care for inmates and parolees to building leases and payments to outside contractors. About 5 percent of all state and local corrections spending goes toward capital projects. In states such as Mississippi, North Dakota, and Iowa, the share is much higher (over 15 percent), but only Mississippi shows up as a <a target = \"_blank\" href = \"data-depot.html#current-vs-capital-expenditures\">high capital spending</a> and high nonpayroll spending state. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -516,7 +516,7 @@ var blurbs = {
           "state": "WY"
         }, 
         "image": "higher7.png", 
-        "text": "\r\nNonpayroll costs encompass any expense other than wages and salaries, including construction and other capital costs. On average, public higher-education institutions spent $104 per capita on capital projects in 2012. Some states, however, such as Alaska, Hawaii, and Wyoming, <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">spent much more</a>. Spending rankings look very different if we exclude capital expenditures, which can fluctuate by year because of a few large projects, buildings, or facilities. For example, although Vermont is an average state in total higher education spending per capita, it jumps into the top 10 when we focus on current spending.\r\n\r\n \r\n\r\n", 
+        "text": "\r\nNonpayroll costs encompass any expense other than wages and salaries, including construction and other capital costs. On average, public higher-education institutions spent $104 per capita on capital projects in 2012. Some states, however, such as Alaska, Hawaii, and Wyoming, <a target = \"_blank\" href = \"data-depot.html#current-vs-capital-expenditures\">spent much more</a>. Spending rankings look very different if we exclude capital expenditures, which can fluctuate by year because of a few large projects, buildings, or facilities. For example, although Vermont is an average state in total higher education spending per capita, it jumps into the top 10 when we focus on current spending.\r\n\r\n \r\n\r\n", 
         "top_left": {
           "column": "nonpayroll", 
           "state": "DC"
@@ -646,7 +646,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "CA"
         }, 
-        "text": "California and Hawaii are among the highest spenders per mile on payroll and non-payroll expenses. They provide relatively few lane miles given their vehicle miles traveled (units). This high ratio of usage to capacity leads to slower travel speeds and delays. For example, the five most congested cities \u2013 as measured by the Commuter <a target = \"_blank\" href = \"/data-depot.html#urban-congestion\">Stress Index</a> from Texas A&M\u2019s Transportation Institute \u2013 are all in California and Hawaii. \r\n\r\n\r\n", 
+        "text": "California and Hawaii are among the highest spenders per mile on payroll and non-payroll expenses. They provide relatively few lane miles given their vehicle miles traveled (units). This high ratio of usage to capacity leads to slower travel speeds and delays. For example, the five most congested cities \u2013 as measured by the Commuter <a target = \"_blank\" href = \"data-depot.html#urban-congestion\">Stress Index</a> from Texas A&M\u2019s Transportation Institute \u2013 are all in California and Hawaii. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "HI"
@@ -660,7 +660,7 @@ var blurbs = {
           "state": "AK"
         }, 
         "image": "highway2.png", 
-        "text": "\r\nStates with the highest payroll expenditures per highway mile are often expensive places to live. All public and private employers in these states must pay higher wages and salaries to attract workers of a given education level. When we compare actual highway payroll expenses per employee to what we would expect based on averages for all workers with some college education (comparisons for other educational categories are <a target = \"_blank\" href = \"/data-depot.html#wages\">available here</a>), high payroll spending is largely explained by labor market conditions in states such as New Jersey and New York, but not California. \r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with the highest payroll expenditures per highway mile are often expensive places to live. All public and private employers in these states must pay higher wages and salaries to attract workers of a given education level. When we compare actual highway payroll expenses per employee to what we would expect based on averages for all workers with some college education (comparisons for other educational categories are <a target = \"_blank\" href = \"data-depot.html#wages\">available here</a>), high payroll spending is largely explained by labor market conditions in states such as New Jersey and New York, but not California. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 
           "state": "DC"
@@ -685,7 +685,7 @@ var blurbs = {
           "state": "MD, UT"
         }, 
         "image": "highway1.png", 
-        "text": "\r\nBecause highways are capital intensive, spending rankings change if they are based on operations and maintenance only. Maryland, Utah, and DC, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider current expenditures alone (excluding capital investments). <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">Capital spending can also vary by year</a> because of a few large projects, so looking at trends over time is important.\r\n\r\n\r\n\r\n", 
+        "text": "\r\nBecause highways are capital intensive, spending rankings change if they are based on operations and maintenance only. Maryland, Utah, and DC, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider current expenditures alone (excluding capital investments). <a target = \"_blank\" href = \"data-depot.html#current-vs-capital-expenditures\">Capital spending can also vary by year</a> because of a few large projects, so looking at trends over time is important.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC, UT"
@@ -776,7 +776,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "VT"
         }, 
-        "text": "States that spend a lot on housing and community development <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">tend to have large low-income populations</a> (demographics). They also have a lot of federal public housing and many rental subsidy recipients. Although people who receive federal benefits are not necessarily the same people benefitting from state and local housing programs, eligibility criteria tend to be similar. State and local programs may focus more on neighborhood revitalization and development efforts than traditional housing assistance. \r\n\r\n", 
+        "text": "States that spend a lot on housing and community development <a target = \"_blank\" href = \"data-depot.html#current-vs-capital-expenditures\">tend to have large low-income populations</a> (demographics). They also have a lot of federal public housing and many rental subsidy recipients. Although people who receive federal benefits are not necessarily the same people benefitting from state and local housing programs, eligibility criteria tend to be similar. State and local programs may focus more on neighborhood revitalization and development efforts than traditional housing assistance. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -800,7 +800,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "WY"
         }, 
-        "text": "States with high participation rates in federal housing assistance programs (take-up) are <a target = \"_blank\" href = \"/data-depot.html#fair-market-rent\">a mix of high- and low-cost housing markets</a>. For example, Hawaii has a relatively high-cost housing market while South Dakota has a relatively low-cost one. Hawaii and South Dakota also had <a target = \"_blank\" href = \"/data-depot.html#public-housing-waiting-list\">some of the longest wait times</a> for federal public housing and renter assistance, suggesting demands that exceed support available.\r\n\r\n", 
+        "text": "States with high participation rates in federal housing assistance programs (take-up) are <a target = \"_blank\" href = \"data-depot.html#fair-market-rent\">a mix of high- and low-cost housing markets</a>. For example, Hawaii has a relatively high-cost housing market while South Dakota has a relatively low-cost one. Hawaii and South Dakota also had <a target = \"_blank\" href = \"data-depot.html#public-housing-waiting-list\">some of the longest wait times</a> for federal public housing and renter assistance, suggesting demands that exceed support available.\r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "SD"
@@ -814,7 +814,7 @@ var blurbs = {
           "state": "OK"
         }, 
         "image": "housing1.png", 
-        "text": "The number of employees per recipient bore little relationship to wait times for public housing and renter assistance in 2012. This suggests that <a target = \"_blank\" href = \"/data-depot.html#fair-market-rent\">housing market characteristics</a>, including costs and demands put upon housing programs, are more important than staffing levels in determining waiting times. \r\n\r\n\r\n\r\n", 
+        "text": "The number of employees per recipient bore little relationship to wait times for public housing and renter assistance in 2012. This suggests that <a target = \"_blank\" href = \"data-depot.html#fair-market-rent\">housing market characteristics</a>, including costs and demands put upon housing programs, are more important than staffing levels in determining waiting times. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "units", 
           "state": "AK"
@@ -1020,7 +1020,7 @@ var blurbs = {
           "state": "ME"
         }, 
         "image": "medicaid1.png", 
-        "text": "States that spend the most per capita on <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/\">Medicaid</a> and the <a target = \"_blank\" href = \"https://www.fas.org/sgp/crs/misc/R43627.pdf\">Children\u2019s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of <a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">enrollees who are elderly and disabled</a> compared to the national average (e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. \r\n\r\n\r\n\r\n", 
+        "text": "States that spend the most per capita on <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/\">Medicaid</a> and the <a target = \"_blank\" href = \"https://www.fas.org/sgp/crs/misc/R43627.pdf\">Children\u2019s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of <a target = \"_blank\" href = \"data-depot.html#medicaid-by-subgroup\">enrollees who are elderly and disabled</a> compared to the national average (e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1032,7 +1032,7 @@ var blurbs = {
           "state": "NV"
         }, 
         "image": "medicaid2.png", 
-        "text": "\r\nSome states with low spending per capita on Medicaid and the Children\u2019s Health Insurance Program have a high share of low-income residents (demographics); others have a very small share. In most of these states, however, <a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">children constitute a higher than average share of total recipients</a>. Children are relatively inexpensive to cover, and therefore spending per recipient and per capita is low in these states. \r\n\r\n\r\n", 
+        "text": "\r\nSome states with low spending per capita on Medicaid and the Children\u2019s Health Insurance Program have a high share of low-income residents (demographics); others have a very small share. In most of these states, however, <a target = \"_blank\" href = \"data-depot.html#medicaid-by-subgroup\">children constitute a higher than average share of total recipients</a>. Children are relatively inexpensive to cover, and therefore spending per recipient and per capita is low in these states. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "VA"
@@ -1045,7 +1045,7 @@ var blurbs = {
           "column": "spending-per", 
           "state": "NJ"
         }, 
-        "text": "States that spend the most per capita on Medicaid and the Children\u2019s Health Insurance Program also spend the most per recipient. This could be because medical care prices are higher in these states, <a target = \"_blank\" href = \"/data-depot.html#medicaid-outcomes\">but based on provider payments this doesn\u2019t appear to be true</a>. It is more likely that high spending per recipient is linked to the makeup of the population. Several high-spending states (such as Massachusetts, Pennsylvania, and Rhode Island) and DC include <a target = \"_blank\" href = \"/data-depot.html#medicaid-by-subgroup\">more elderly and disabled beneficiaries compared with the national average</a>. Such individuals tend to use more services and are therefore more expensive to cover.\r\n", 
+        "text": "States that spend the most per capita on Medicaid and the Children\u2019s Health Insurance Program also spend the most per recipient. This could be because medical care prices are higher in these states, <a target = \"_blank\" href = \"data-depot.html#medicaid-outcomes\">but based on provider payments this doesn\u2019t appear to be true</a>. It is more likely that high spending per recipient is linked to the makeup of the population. Several high-spending states (such as Massachusetts, Pennsylvania, and Rhode Island) and DC include <a target = \"_blank\" href = \"data-depot.html#medicaid-by-subgroup\">more elderly and disabled beneficiaries compared with the national average</a>. Such individuals tend to use more services and are therefore more expensive to cover.\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1073,7 +1073,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "DC"
         }, 
-        "text": "DC had the highest nonpayroll spending and almost double that of the state with the next highest, South Dakota. Although our spending data include only state and local and not federal expenditures, DC receives millions of visitors each year to its federal parks, in turn placing high demand on its local parks and recreational facilities. This large number of visitors over a small land area requires more spending on maintenance and operations as well as capital projects, which may be pushing up nonpayroll costs. DC also had the highest <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">capital spending on parks in 2012</a>.\r\n\r\n", 
+        "text": "DC had the highest nonpayroll spending and almost double that of the state with the next highest, South Dakota. Although our spending data include only state and local and not federal expenditures, DC receives millions of visitors each year to its federal parks, in turn placing high demand on its local parks and recreational facilities. This large number of visitors over a small land area requires more spending on maintenance and operations as well as capital projects, which may be pushing up nonpayroll costs. DC also had the highest <a target = \"_blank\" href = \"data-depot.html#current-vs-capital-expenditures\">capital spending on parks in 2012</a>.\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1189,7 +1189,7 @@ var blurbs = {
           "state": "NV"
         }, 
         "image": "police4.png", 
-        "text": "\r\nPayroll rankings seem to be driven both by labor market conditions and policy decisions. States with the highest payroll expenditures per employee were often expensive places to live.  But some high-spending states paid their police employees even more than this location premium.  In California, for example, we would expect workers with some college to earn about 20 percent more than in the United States as a whole. Yet state and local governments paid nearly 40 percent more to police employees. This may reflect other, unmeasured worker attributes that contribute to quality or a policy decision to pay these employees more. (<a target = \"_blank\" href = \"/data-depot.html#wages\">For comparisons using other education reference groups, see our data appendix</a>.)\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nPayroll rankings seem to be driven both by labor market conditions and policy decisions. States with the highest payroll expenditures per employee were often expensive places to live.  But some high-spending states paid their police employees even more than this location premium.  In California, for example, we would expect workers with some college to earn about 20 percent more than in the United States as a whole. Yet state and local governments paid nearly 40 percent more to police employees. This may reflect other, unmeasured worker attributes that contribute to quality or a policy decision to pay these employees more. (<a target = \"_blank\" href = \"data-depot.html#wages\">For comparisons using other education reference groups, see our data appendix</a>.)\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll", 
           "state": "CA"
@@ -1592,7 +1592,7 @@ var blurbs = {
           "column": "demographics", 
           "state": "PA"
         }, 
-        "text": "Nationally, about half of all <a target = \"_blank\" href = \"/data-depot.html#unlinked-passenger-trips-by-type\">unlinked passenger trips</a> are by bus, and half are by rail. Nationwide, however, bus trips dominate by a ratio of nearly five to one. Illinois, Massachusetts, New Jersey, New York, Pennsylvania, and DC account for 85 percent of all rail trips. \r\n\r\n", 
+        "text": "Nationally, about half of all <a target = \"_blank\" href = \"data-depot.html#unlinked-passenger-trips-by-type\">unlinked passenger trips</a> are by bus, and half are by rail. Nationwide, however, bus trips dominate by a ratio of nearly five to one. Illinois, Massachusetts, New Jersey, New York, Pennsylvania, and DC account for 85 percent of all rail trips. \r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "DC"
@@ -1617,7 +1617,7 @@ var blurbs = {
           "state": "UT"
         }, 
         "image": "transit2.png", 
-        "text": "Nonpayroll spending is highly related to capital spending. Because transit is capital intensive, spending rankings change if they are based on operations and maintenance spending only. Colorado, Connecticut, and Utah, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider <a target = \"_blank\" href = \"/data-depot.html#current-vs-capital-expenditures\">current expenditures alone (excluding capital investments)</a>. Capital spending can also vary by year because of a few large projects, so it is important to look at <a target = \"_blank\" href = \"/data-depot.html#expenditures-over-time\">trends over time</a>. \r\n\r\n\r\n\r\n\r\n", 
+        "text": "Nonpayroll spending is highly related to capital spending. Because transit is capital intensive, spending rankings change if they are based on operations and maintenance spending only. Colorado, Connecticut, and Utah, for example, are all among the top spenders overall, but they drop to middle of the pack when we consider <a target = \"_blank\" href = \"data-depot.html#current-vs-capital-expenditures\">current expenditures alone (excluding capital investments)</a>. Capital spending can also vary by year because of a few large projects, so it is important to look at <a target = \"_blank\" href = \"data-depot.html#expenditures-over-time\">trends over time</a>. \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -1668,7 +1668,7 @@ var blurbs = {
           "column": "takeup", 
           "state": "IL"
         }, 
-        "text": "States with the longest average trips (take-up) tend to be those with <a target = \"_blank\" href = \"/data-depot.html#commuting-characteristics\">many commuters who work in neighboring states</a> (such as Delaware, New Jersey, Maryland, and Virginia). Only Illinois and Washington are among the top 10 highest spenders per capita, though Maryland and New Jersey rank in the top 15. All four of these states generate many passenger trips (demographics) and have relatively few transit way miles per passenger mile (units), suggesting that passenger volume and intensity of use is more important than average trip length in determining costs.\r\n\r\n", 
+        "text": "States with the longest average trips (take-up) tend to be those with <a target = \"_blank\" href = \"data-depot.html#commuting-characteristics\">many commuters who work in neighboring states</a> (such as Delaware, New Jersey, Maryland, and Virginia). Only Illinois and Washington are among the top 10 highest spenders per capita, though Maryland and New Jersey rank in the top 15. All four of these states generate many passenger trips (demographics) and have relatively few transit way miles per passenger mile (units), suggesting that passenger volume and intensity of use is more important than average trip length in determining costs.\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "NJ"
