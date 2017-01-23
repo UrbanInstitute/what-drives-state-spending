@@ -1,7 +1,5 @@
 var GLOBAL_DATA; 
-d3.csv("data/k12.csv", function(data){
-	GLOBAL_DATA = data;
-});
+
 var COLUMNS = {
 	"higher": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
 	"corrections": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
@@ -372,6 +370,7 @@ function renderHeatmap(category, userLocation){
 					})
 		})
 //draw checkboxes
+
 	var checkRadius = 9
 	var svg = d3.selectAll(".stateCell")
 		// .classed("whiteText", function(){
@@ -415,14 +414,16 @@ function renderHeatmap(category, userLocation){
 	setTimeout(function(){
 		if(typeof(userLocation) != "undefined"){
 			var small_promise =  new Promise(function(resolve, reject){
-				
-				
-				var test = drawBlurbs(category, "spending", false)	
+				d3.csv("data/" + category + ".csv", function(data){
+					console.log(category)
+					var test = drawBlurbs(category, "spending", false, data)
+					resolve(test)
+				});	
 
 				// if(test.length == 1){
 				// 	resolve(test)	
 				// }
-				resolve(test)
+				
 				
 			})
 			small_promise.then(function(result){
@@ -439,7 +440,12 @@ function renderHeatmap(category, userLocation){
 					.style("opacity",1)
 			})
 			
-		}else{ drawBlurbs(category, "spending", false) }
+		}else{
+			d3.csv("data/" + category + ".csv", function(data){
+				console.log(category)
+				drawBlurbs(category, "spending", false, data)
+			});
+		}
 		d3.selectAll(".garbage").remove()
 		d3.selectAll(".blurbBox:not(.garbage)")
 				.transition()
@@ -777,6 +783,13 @@ if (isFirefox){
 }
 
 function drawBlurbs(category, column, resize, data){
+	var initOpac = 0;
+	if(typeof(data) != "undefined"){
+		passed_data = data
+		initOpac = 1;
+	}else{
+		passed_data = GLOBAL_DATA
+	}
 	if(resize){
 		d3.selectAll(".blurbBox").classed("garbage", true);
 		d3.selectAll(".blurbText").classed("garbage", true);
@@ -839,13 +852,13 @@ function drawBlurbs(category, column, resize, data){
 
 				}
 
-				drawBlurb(blurbList, column, numCols)
+				drawBlurb(blurbList, column, numCols, passed_data, initOpac)
 			}
 			else{
 				var b = bs[i]
 				b["index"] = i
 				blurbList.push(b)
-				drawBlurb(blurbList, column, numCols)
+				drawBlurb(blurbList, column, numCols, passed_data, initOpac)
 			}
 		}
 	}
@@ -899,7 +912,7 @@ function drawBlurbs(category, column, resize, data){
 	}
 	return bs;
 }
-function drawBlurb(blurbList, column, numCols){
+function drawBlurb(blurbList, column, numCols, passed_data, initOpac){
 	var centers = []
 	for (var j = 0; j < blurbList.length; j++){
 		var blurb = blurbList[j]
@@ -909,8 +922,8 @@ function drawBlurb(blurbList, column, numCols){
 		// var topD = d3.select(".row." + blurb.top_left.state + ":not(.garbage)").datum()
 		
 		// var bottomD = d3.select(".row." + blurb.bottom_right.state+ ":not(.garbage)").datum()
-		var topD = GLOBAL_DATA.filter(function(o){ return o.state == blurb.top_left.state})[0]
-		var bottomD = GLOBAL_DATA.filter(function(o){ return o.state == blurb.bottom_right.state})[0]
+		var topD = passed_data.filter(function(o){ return o.state == blurb.top_left.state})[0]
+		var bottomD = passed_data.filter(function(o){ return o.state == blurb.bottom_right.state})[0]
 
 		var top_rank = (topD[column + "_rank"] == -999999999) ? 52:topD[column + "_rank"]
 		var bottom_rank = (bottomD[column + "_rank"] == -999999999) ? 52:bottomD[column + "_rank"]
@@ -995,20 +1008,20 @@ function drawBlurb(blurbList, column, numCols){
 
 		var blurbBox = d3.select("#heatmap").append("div")
 			.attr("class","blurbBox index_" + indChar)
-								.style("display", function(){
-						if(top_left.hide || bottom_right.hide){
-							return "none"
-						}else{
-							return "block"
-						}
-					})
+			.style("display", function(){
+				if(top_left.hide || bottom_right.hide){
+					return "none"
+				}else{
+					return "block"
+				}
+			})
 			.attr("data-checked",0)
 			.style("position","absolute")
 			.style("left",left + "px")
 			.style("top", top + "px")
 			.style("width", width + "px")
 			.style("height", height + "px")
-			.style("opacity",0)
+			.style("opacity",initOpac)
 			.style("border","4px solid #eb3f1c")
 			.on("mousemove", function(){
 				var x = event.clientX, y = event.clientY;
@@ -1150,7 +1163,12 @@ function drawBlurb(blurbList, column, numCols){
 			})
 
 		}
-		var L = top_left.left - d3.select(".row").node().getBoundingClientRect().left
+		var L;
+		if(d3.select(".row").node() == null){
+			L = 0
+		}else{
+			L = top_left.left - d3.select(".row").node().getBoundingClientRect().left
+		}
 		var T = top - (headerHeight + ROW_HEIGHT + 10)
 		d3.select("#mb" + MINIBLURB_INDEX)
 			.attr("data-ind",indChar)
