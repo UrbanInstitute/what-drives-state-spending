@@ -28,7 +28,7 @@ var HEADERS ={
 	"takeup": "<div class = \"innerHeader takeup\"><span>&times;</span>take-up rate</div>",
 	"units": "<div class = \"innerHeader units\"><span>&times;</span>unit per<br/>&nbsp;recipient</div>",
 	"payroll": "<div class = \"innerHeader payroll\"><span>&times;(</span>payroll</div>",
-	"nonpayroll": "<div class = \"innerHeader nonpayroll\"><span id = \"left\">+</span>non payroll<span id = \"right\">)</span></div>",
+	"nonpayroll": "<div class = \"innerHeader nonpayroll\"><span id = \"left\">+</span>nonpayroll<span id = \"right\">)</span></div>",
 	"spending-per":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>recipient</div>",
 	"spending-per-u":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>unit</div>",
 	"takeup2":"<div class = \"innerHeader takeup\"><span>&times;</span>take-up rate 2</div>"

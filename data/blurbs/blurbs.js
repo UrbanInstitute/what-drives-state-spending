@@ -502,7 +502,7 @@ var blurbs = {
           "column": "eligibility", 
           "state": "AK"
         }, 
-        "text": "Alaska and Nevada had similarly low rates of college and university enrollment in 2012 (42 and 47 percent, respectively) but they tell very different stories. Alaska was one of the highest spenders per capita on higher education in that year, while Nevada was one of the lowest. Alaska was home to more 18- to 24-year-olds than Nevada (11 and 9 percent of the overall population, respectively). However, the driving factor here was staffing levels. In 2012, US public colleges and universities had roughly one employee for every 7 full-time equivalent students; Alaska, however, had one employee for every 5 such students, while Nevada had one employee for every such 11 students. Alaska had many more professors, lecturers, administrators, and other staff to pay in 2012. \r\n\r\n\r\n", 
+        "text": "Alaska and Nevada had similarly low rates of college and university enrollment in 2012 (42 and 47 percent, respectively) but they tell very different stories. Alaska was one of the highest spenders per capita on higher education in that year, while Nevada was one of the lowest. Alaska was home to more 18- to 24-year-olds than Nevada (11 and 9 percent of the overall population, respectively). However, the driving factor here was staffing levels. In 2012, US public colleges and universities had roughly one employee for every 7 full-time equivalent students; Alaska, however, had one employee for every 5 such students, while Nevada had one employee for every 11 such students. Alaska had many more professors, lecturers, administrators, and other staff to pay in 2012. \r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "NV"
@@ -543,7 +543,7 @@ var blurbs = {
           "state": "NE"
         }, 
         "image": "higher1.png", 
-        "text": "States with the highest spending on public colleges and universities tend to have lots of students (such as New Mexico, North Dakota, and Utah), high spending per student ([payroll + nonpayroll] * units) after accounting for tuition, fees, and other charges (such as Alaska, Hawaii, and Wisconsin), or both (such as California and Wyoming). Are states that spend more on higher education more productive (that is, do they confer more degrees per student)? The data suggest a weak relationship. Of course, institutions of higher education may have broader missions than simply granting degrees. \r\n\r\n\r\n\r\n\r\n", 
+        "text": "States with the highest spending on public colleges and universities tend to have lots of students (such as New Mexico, North Dakota, and Utah); high spending per student ([payroll + nonpayroll] * units) after accounting for tuition, fees, and other charges (such as Alaska, Hawaii, and Wisconsin); or both (such as California and Wyoming). Are states that spend more on higher education more productive (that is, do they confer more degrees per student)? The data suggest a weak relationship. Of course, institutions of higher education may have broader missions than simply granting degrees. \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "WY"
@@ -554,7 +554,7 @@ var blurbs = {
           "column": "spending, nonpayroll", 
           "state": "DC"
         }, 
-        "text": "Some low-spending states (New Jersey, Nevada, Pennsylvania, and Rhode Island) and DC have high payroll costs per employee. However, they have partly offset these costs by hiring fewer employees per student (units) or spending less per student on nonpayroll functions.\r\n\r\n", 
+        "text": "Some low-spending states (such as New Jersey, Nevada, Pennsylvania, and Rhode Island) and DC have high payroll costs per employee. However, they have partly offset these costs by hiring fewer employees per student (units) or spending less per student on nonpayroll functions.\r\n\r\n", 
         "top_left": {
           "column": "spending, units", 
           "state": "OH"
@@ -865,7 +865,7 @@ var blurbs = {
           "column": "eligibility", 
           "state": "VT"
         }, 
-        "text": "\r\nIn every state, all kids are eligible for public school, although some may drop out or graduate early for <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/2000189-Dropping-Out-and-Clocking-In.pdf\">various reasons</a>. Vermont had the lowest rates of enrollment in any school (public or private) in 2012; DC had the highest. Those differences may stem from <a target = \"_blank\" href = \"https://nces.ed.gov/programs/statereform/tab5_1.asp\">compulsory education laws</a>: DC in 2012 required kids to be in school from ages 5 to 18 while Vermont was one of several states that required kids to attend school only from ages 6 to 16. \r\n\r\n", 
+        "text": "\r\nIn every state, all kids are eligible for public school, although some may drop out or graduate early for <a target = \"_blank\" href = \"http://www.urban.org/research/publication/dropping-out-and-clocking\">various reasons</a>. Vermont had the lowest rates of enrollment in any school (public or private) in 2012; DC had the highest. Those differences may stem from <a target = \"_blank\" href = \"https://nces.ed.gov/programs/statereform/tab5_1.asp\">compulsory education laws</a>: DC in 2012 required kids to be in school from ages 5 to 18 while Vermont was one of several states that required kids to attend school only from ages 6 to 16. \r\n\r\n", 
         "top_left": {
           "column": "eligibility", 
           "state": "DC"
@@ -905,7 +905,7 @@ var blurbs = {
           "column": "demographics", 
           "state": "NH"
         }, 
-        "text": "\r\nStates whose governments spend the most per capita on K\u201312 education are not necessarily home to the most students. Take New Jersey, New York, Massachusetts, Rhode Island, and DC. All have relatively few school-aged children (demographics) and low rates of public school attendance (take-up). But they have high payroll and other costs. The result is high spending despite fewer kids. Some states also employ a lot of teachers and other personnel per student (units per recipient), adding to the overall tab for public K\u201312 education. \r\n\r\n", 
+        "text": "\r\nStates whose governments spend the most per capita on K\u201312 education are not necessarily home to the most students. Take New Jersey, New York, Massachusetts, Rhode Island, and DC. All have relatively few school-age children (demographics) and low rates of public school attendance (take-up). But they have high payroll and other costs. The result is high spending despite fewer kids. Some states also employ a lot of teachers and other personnel per student (units per recipient), adding to the overall tab for public K\u201312 education. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "DC"
@@ -941,7 +941,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "HI"
         }, 
-        "text": "\r\nMany states with high private school enrollments (low take-up rates) nevertheless spend a lot on public schools. Some of these states (such as Nebraska and New York) have a lot of public-school teachers and other personnel (units), which drives up spending. Others have moderate staffing ratios but spend a lot per employee (such as Delaware, Maryland, Ohio, Pennsylvania, and Wisconsin).\r\n\r\n", 
+        "text": "\r\nMany states with high private-school enrollments (low take-up rates) nevertheless spend a lot on public schools. Some of these states (such as Nebraska and New York) have a lot of public-school teachers and other personnel (units), which drives up spending. Others have moderate staffing ratios but spend a lot per employee (such as Delaware, Maryland, Ohio, Pennsylvania, and Wisconsin).\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "NE"
@@ -967,7 +967,7 @@ var blurbs = {
           "state": "NV"
         }, 
         "image": "k123.png", 
-        "text": "\r\nStates with low staffing ratios (units) often have low test scores in reading and math. <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/2000484-Breaking-the-Curve-Promises-and-Pitfalls-of-Using-NAEP-Data-to-Assess-the-State-Role-in-Student-Achievement.pdf\">Adjusting</a> for family income, languages spoken at home, and other factors, however, eliminates this link almost entirely.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with low staffing ratios (units) often have low test scores in reading and math. <a target = \"_blank\" href = \"http://www.urban.org/research/publication/breaking-curve-promises-and-pitfalls-using-naep-data-assess-state-role-student-achievement\">Adjusting</a> for family income, languages spoken at home, and other factors, however, eliminates this link almost entirely.\r\n\r\n\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "ID"
