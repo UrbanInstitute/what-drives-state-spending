@@ -1,4 +1,5 @@
 var GLOBAL_DATA; 
+var FIREFOX  = navigator.userAgent.indexOf('Firefox') > -1;
 
 var COLUMNS = {
 	"higher": ["spending","demographics","eligibility","takeup","units","payroll","nonpayroll"],
@@ -250,7 +251,7 @@ function renderHeatmap(category, userLocation){
 					var infoHeight = "80px";
 					switch (category){
 						case "medicaid":
-							infoHeight = "180px"
+							infoHeight = "100px"
 							break;
 						case "ssi":
 							infoHeight = "90px"
@@ -646,6 +647,9 @@ function mouseover(cell, datum, column, category){
 
 	switch (format){
 		case "dollars":
+			if(value < 0 && value > -.5){
+				value = 0;
+			}
 			formatter = d3.format("$,.0f");
 			break;
 		case "percent":
@@ -1014,6 +1018,10 @@ function drawBlurb(blurbList, column, numCols, passed_data, initOpac){
 				}else{
 					return "block"
 				}
+			})
+			.style("pointer-events", function(){
+				if(FIREFOX) return "none"
+				else return "visible"
 			})
 			.attr("data-checked",0)
 			.style("position","absolute")

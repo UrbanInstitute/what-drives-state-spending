@@ -423,6 +423,15 @@ text-align: center;
     top: 17px;
 }
 /**************** Animated elements ***************/
+.line.fade.num.s3.grey3, .line.fade.num.s6.grey4, .line.fade.num.s12.grey5{
+  padding-bottom: 8px;
+}
+.forumula_smallest.left.f10{
+  margin-top: 23px;
+}
+.f6-2.line.fade.num.s15, .line.fade.num.s15.f9-2.g{
+  padding-bottom: 25px;
+}
 .f1{
         clear: both;
     margin-left: -67px;

@@ -339,7 +339,7 @@ Bottom right State: NJ
 Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
-Nonpayroll spending is a broad category that includes everything from employee benefits to rehabilitation services, vocational training, and health care for inmates and parolees to building leases and payments to outside contractors. About 5 percent of all state and local corrections spending goes toward capital projects. In states such as Mississippi, North Dakota, and Iowa, the share is much higher (over 15 percent), but only Mississippi shows up as a <a target = "_blank" href = "data-depot.html#current-vs-capital-expenditures">high capital spending</a> and high nonpayroll spending state. 
+Nonpayroll spending is a broad category that includes everything from employee benefits to rehabilitation services, vocational training, and health care for inmates and parolees to building leases and payments to outside contractors. About 5 percent of all state and local corrections spending goes toward capital projects. In states such as Mississippi, North Dakota, and Iowa, the share is much higher (over 15 percent), but only Mississippi shows up as a <a target = "_blank" href = "data-depot.html#current-vs-capital-expenditures">high-capital-spending</a> and high-nonpayroll-spending state. 
 
 ### Blurb text ends here ###
 
@@ -366,7 +366,7 @@ Bottom right Column: demographics
 Image: medicaid1.png
 
 ### Blurb text starts here ###
-States that spend the most per capita on <a target = "_blank" href = "https://www.macpac.gov/medicaid-101/">Medicaid</a> and the <a target = "_blank" href = "https://www.fas.org/sgp/crs/misc/R43627.pdf">Children’s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of <a target = "_blank" href = "data-depot.html#medicaid-by-subgroup">enrollees who are elderly and disabled</a> compared to the national average (e.g., Maine, Massachusetts, Pennsylvania, Rhode Island, and DC). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. 
+States that spend the most per capita on <a target = "_blank" href = "https://www.macpac.gov/medicaid-101/">Medicaid</a> and the <a target = "_blank" href = "https://www.fas.org/sgp/crs/misc/R43627.pdf">Children’s Health Insurance Program</a> generally do not have higher than average shares of low-income residents (demographics). They do, however, often have higher shares of <a target = "_blank" href = "data-depot.html#medicaid-by-subgroup">enrollees who are elderly and disabled</a> compared to the national average (such as Maine, Massachusetts, Pennsylvania, Rhode Island, and DC). Elderly and disabled adults account for roughly two-thirds of US Medicaid spending even though they are a small fraction of total recipients. 
 
 
 
@@ -448,7 +448,7 @@ Bottom right State: US
 Bottom right Column: spending-per
 
 ### Blurb text starts here ###
-We do not see a systematic relationship between Medicaid and CHIP participation, spending, and health <a target = "_blank" href = "http://www.urban.org/sites/default/files/publication/85211/health-of-the-states_3.pdf">status in the states</a>. But implementation of the Affordable Care Act has provided better <a target = "_blank" href = "https://www.macpac.gov/subtopic/changes-in-coverage-and-access/">experimental evidence</a> about the relationship among Medicaid coverage, Medicaid use, and health status.
+We do not see a systematic relationship between Medicaid and CHIP participation, spending, and health <a target = "_blank" href = "http://www.urban.org/research/publication/health-states">status in the states</a>. But implementation of the Affordable Care Act has provided better <a target = "_blank" href = "https://www.macpac.gov/subtopic/changes-in-coverage-and-access/">experimental evidence</a> about the relationship among Medicaid coverage, Medicaid use, and health status.
 
 ### Blurb text ends here ###
 
@@ -679,7 +679,7 @@ Bottom right Column: takeup
 Image: tanf2.png
 
 ### Blurb text starts here ###
-States that spend the least per capita on TANF (not including spending on child care through transfers to the Child Care Development Fund program) often have the most low-income families as a share of the overall population (demographics). Many, however, have also made <a target = "_blank" href = "http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412635-State-Approaches-to-the-TANF-Block-Grant-Welfare-Is-Not-What-You-Think-It-Is.PDF">policy decisions</a> that restrict the number of families qualifying for assistance (eligibility). Further, low-spending states tend to spend less on cash assistance than on other benefits, such as work-related activities and programs geared toward preventing out-of-wedlock pregnancies and promoting two-parent family formation and maintenance.
+States that spend the least per capita on TANF (not including spending on child care through transfers to the Child Care and Development Fund) often have the most low-income families as a share of the overall population (demographics). Many, however, have also made <a target = "_blank" href = "http://www.urban.org/research/publication/state-approaches-tanf-block-grant-welfare-not-what-you-think-it">policy decisions</a> that restrict the number of families qualifying for assistance (eligibility). Further, low-spending states tend to spend less on cash assistance than on other benefits, such as work-related activities and programs geared toward preventing out-of-wedlock pregnancies and promoting two-parent family formation and maintenance.
 
 
 
@@ -729,7 +729,7 @@ Image: tanf3.png
 
 ### Blurb text starts here ###
 
-Our eligibility measure combines several different types of TANF cases, including single- and two-parent families as well as <a target = "_blank" href = "http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412573-TANF-Child-Only-Cases.PDF">child-only cases</a>, where children may live with nonparental relatives or where their parents are no longer eligible for benefits because of time limits or other reasons. 
+Our eligibility measure combines several different types of TANF cases, including single- and two-parent families as well as <a target = "_blank" href = "http://www.urban.org/research/publication/tanf-child-only-cases">child-only cases</a>, where children may live with nonparental relatives or where their parents are no longer eligible for benefits because of time limits or other reasons. 
 
 
 
@@ -878,7 +878,7 @@ Bottom right State: WY
 Bottom right Column: spending
 
 ### Blurb text starts here ###
-Roughly ¾ of the state and local spending budget on housing and community development nationwide comes from federal grants to states [add link to supplemental table]. Although there is no consistent relationship between state spending in this area and federal grants received, three of the lowest spending states in 2012 (Idaho, Nevada, and Wyoming) also took in the fewest federal dollars as a share of all housing funds in that year and spent more from their own funds.       
+Roughly ¾ of state and local spending budget on housing and community development nationwide comes from <a target = "_blank" href = "data-depot.html#share-govt-expenditures">federal grants to states</a>. Although there is no consistent relationship between state spending in this area and federal grants received, three of the lowest spending states in 2012 (Idaho, Nevada, and Wyoming) also took in the fewest federal dollars as a share of all housing funds in that year and spent more from their own funds.       
 
 
 ### Blurb text ends here ###
@@ -896,7 +896,7 @@ Bottom right State: HI
 Bottom right Column: takeup
 
 ### Blurb text starts here ###
-States with many low-income families (demographics) often have high per capita spending on housing and community development. However, participation in federal public housing and rental assistance in these states varies dramatically. States with high spending but low-take up by this measure may focus more of their attention on community development than traditional housing assistance which are not captured in our data. 
+States with many low-income families (demographics) often have high per capita spending on housing and community development. However, participation in federal public housing and rental assistance in these states varies dramatically. States with high spending but low take-up by this measure may focus more of their attention on community development than on traditional housing assistance which are not captured in our data. 
 
 ### Blurb text ends here ###
 
@@ -988,7 +988,7 @@ Bottom right State: SD
 Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
-States with high non-payroll costs per employee tend to also be high-spending states on a per capita basis. Capital spending, however, does not seem to drive this spending. Among the highest non-payroll spending states, capital spending ranged from 3 percent of total non-payroll costs in Michigan to 18 percent in Louisiana.
+States with high nonpayroll costs per employee tend to also be high-spending states on a per capita basis. Capital spending, however, does not seem to drive this spending. Among the highest nonpayroll-spending states, capital spending ranged from 3 percent of total nonpayroll costs in Michigan to 18 percent in Louisiana.
 
 
 
@@ -1003,7 +1003,7 @@ Bottom right State: ME
 Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
-Among high-spending states, large and urban states such as California, Massachusetts, and New York have high payroll costs, while Louisiana, Maine, and Vermont spend more on non-payroll costs. Beyond construction and maintenance, non-payroll costs may include homelessness support or mortgage lending programs. 
+Among high-spending states, large and urban states such as California, Massachusetts, and New York have high payroll costs, while Louisiana, Maine, and Vermont spend more on nonpayroll costs. Beyond construction and maintenance, nonpayroll costs may include homelessness support or mortgage lending programs. 
 ### Blurb text ends here ###
 
 ####### END_SECTION #######
@@ -1030,7 +1030,6 @@ Image: admin1.png
 
 ### Blurb text starts here ###
 State and local government spending per capita on administration varies greatly, ranging from $249 in Missouri to $1,335 in Alaska. High-spending states often have more employees per state resident. This pattern is most dramatic among the highest-spending states, where employment relative to population jumps from three staff per 1,000 residents nationally to eight per 1,000 in DC.  
-
 
 
 ### Blurb text ends here ###
@@ -1652,9 +1651,7 @@ Bottom right Column: units
 Image: water3.png
 
 ### Blurb text starts here ###
-States with more water supply employees per capita tend to me more sparsely populated [add link to Population, Area, Density and Economics supplemental table]. This could be because of the fixed costs of building and maintaining a public water system over a given land area regardless of the number of people and businesses served. Less-populated states also have fewer rate payers.
-
-
+States with more water supply employees per capita tend to be <a target = "_blank" href = "data-depot.html#state-characteristics">more sparsely populated</a>. This could be because of the fixed costs of building and maintaining a public water system over a given land area regardless of the number of people and businesses served. Less-populated states also have fewer rate payers.
 
 
 ### Blurb text ends here ###
@@ -2203,7 +2200,7 @@ Bottom right Column: nonpayroll
 Image: fire2.png
 
 ### Blurb text starts here ###
-Capital spending is a small fraction of local fire protection expenditures. Only six percent of all fire spending went toward capital projects in 2012. North Dakota had the highest capital spending as a share of total fire protection expenditure in 2012 (28 percent). This is perhaps why the state’s nonpayroll costs were among the highest in the nation. However, the state was near the bottom in capital spending per capita.
+Capital spending is a small fraction of local fire protection expenditures. Only 6 percent of all fire spending went toward capital projects in 2012. North Dakota had the highest capital spending as a share of total fire protection expenditure in 2012 (28 percent). This is perhaps why the state’s nonpayroll costs were among the highest in the nation. However, the state was near the bottom in capital spending per capita.
 ### Blurb text ends here ###
  
 
@@ -2307,7 +2304,7 @@ Image: police3.png
 
 ### Blurb text starts here ###
 
-Police employees include sworn officers who have the power to make arrests and nonsworn employees who do not have such power. In the United States, 76 percent of police employees are sworn officers. DC has the highest sworn-officer share, at 87 percent, and Alaska has the lowest at 62 percent. Sworn officers also earn higher wages and salaries than nonsworn employees (nearly double nationally and even more in some jurisdictions). The share of sworn offers does not vary much by state, however, and it is therefore unlikely that this factor exerts a major effect on spending differences. 
+Police employees include sworn officers, who have the power to make arrests, and nonsworn employees who do not have such power. In the United States, 76 percent of police employees are sworn officers. DC has the highest sworn-officer share, at 87 percent, and Alaska has the lowest, at 62 percent. Sworn officers also earn higher wages and salaries than nonsworn employees (nearly double nationally and even more in some jurisdictions). The share of sworn offers does not vary much by state, however, and it is therefore unlikely that this factor exerts a major effect on spending differences. 
 
 
 
@@ -2342,7 +2339,7 @@ Image: police4.png
 
 ### Blurb text starts here ###
 
-Payroll rankings seem to be driven both by labor market conditions and policy decisions. States with the highest payroll expenditures per employee were often expensive places to live.  But some high-spending states paid their police employees even more than this location premium.  In California, for example, we would expect workers with some college to earn about 20 percent more than in the United States as a whole. Yet state and local governments paid nearly 40 percent more to police employees. This may reflect other, unmeasured worker attributes that contribute to quality or a policy decision to pay these employees more. (<a target = "_blank" href = "data-depot.html#wages">For comparisons using other education reference groups, see our data appendix</a>.)
+Payroll rankings seem to be driven both by labor market conditions and policy decisions. States with the highest payroll expenditures per employee were often expensive places to live.  But some high-spending states paid their police employees even more than this location premium.  In California, for example, we would expect workers with some college education to earn about 20 percent more than in the United States as a whole. Yet state and local governments paid nearly 40 percent more to police employees. This may reflect other, unmeasured worker attributes that contribute to quality or a policy decision to pay these employees more. (<a target = "_blank" href = "data-depot.html#wages">For comparisons using other education reference groups, see our data depot</a>.)
 
 
 
@@ -2387,7 +2384,7 @@ Bottom right State: UT
 Bottom right Column: units, nonpayroll
 
 ### Blurb text starts here ###
-Two types of states spend a lot per capita on highways, roads, and bridges. The first group includes states with small populations spread over large distances (such as Alaska, Montana, North Dakota, South Dakota, Utah, and Wyoming). Roads are used relatively lightly (units), so they don’t require extensive maintenance and repairs, but lane miles are still high, which adds to the overall highways tab. The second group includes states such as Maryland and DC, where lane miles are lower but traffic volume is greater, which <a target = "_blank" href = "https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/50150-Federal_Highway_Spending.pdf">contributes to higher costs</a> per road mile (payroll and nonpayroll). 
+Two types of states spend a lot per capita on highways, roads, and bridges. The first group includes states with small populations spread over large distances (such as Alaska, Montana, North Dakota, South Dakota, Utah, and Wyoming). Roads are used relatively lightly (units), so they don’t require extensive maintenance and repairs, but lane miles are still high, which adds to the overall highways tab. The second group includes places such as Maryland and DC, where lane miles are lower but traffic volume is greater, which <a target = "_blank" href = "https://www.cbo.gov/sites/default/files/114th-congress-2015-2016/reports/50150-Federal_Highway_Spending.pdf">contributes to higher costs</a> per road mile (payroll and nonpayroll). 
 
 ### Blurb text ends here ###
 
@@ -2420,7 +2417,7 @@ Bottom right State: MT
 Bottom right Column: demographics
 
 ### Blurb text starts here ###
-States with a lot of driving-age residents (demographics) are at the high end (Montana, Vermont, West Virginia, and DC) and low end (Florida, New Hampshire, and Rhode Island) of spending rankings. That suggests that demographics are not a key determinant of highway spending. More important are how many miles people drive each year (take-up), how many lane miles they cover (units), and the costs of building and maintaining each lane mile (payroll and nonpayroll). 
+Places with a lot of driving-age residents (demographics) are at the high end (Montana, Vermont, West Virginia, and DC) and low end (Florida, New Hampshire, and Rhode Island) of spending rankings. That suggests that demographics are not a key determinant of highway spending. More important are how many miles people drive each year (take-up), how many lane miles they cover (units), and the costs of building and maintaining each lane mile (payroll and nonpayroll). 
 
 ### Blurb text ends here ###
 
@@ -2493,7 +2490,7 @@ Image: highway2.png
 
 ### Blurb text starts here ###
 
-States with the highest payroll expenditures per highway mile are often expensive places to live. All public and private employers in these states must pay higher wages and salaries to attract workers of a given education level. When we compare actual highway payroll expenses per employee to what we would expect based on averages for all workers with some college education (comparisons for other educational categories are <a target = "_blank" href = "data-depot.html#wages">available here</a>), high payroll spending is largely explained by labor market conditions in states such as New Jersey and New York, but not California. 
+States with the highest payroll expenditures per highway mile are often expensive places to live. All public and private employers in these states must pay higher wages and salaries to attract workers of a given education level. When we compare actual highway payroll expenses per employee to what we would expect based on averages for all workers with some college education (comparisons for other educational categories are <a target = "_blank" href = "data-depot.html#wages">available here</a>), high payroll spending is largely explained by labor market conditions in states such as New Jersey and New York, but not in California. 
 
 
 
@@ -2526,7 +2523,7 @@ Bottom right State: CA
 Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
-California and Hawaii are among the highest spenders per mile on payroll and non-payroll expenses. They provide relatively few lane miles given their vehicle miles traveled (units). This high ratio of usage to capacity leads to slower travel speeds and delays. For example, the five most congested cities – as measured by the Commuter <a target = "_blank" href = "data-depot.html#urban-congestion">Stress Index</a> from Texas A&M’s Transportation Institute – are all in California and Hawaii. 
+California and Hawaii are among the highest spenders per mile on payroll and nonpayroll expenses. They provide relatively few lane miles given their vehicle miles traveled (units). This high ratio of usage to capacity leads to slower travel speeds and delays. For example, the five most congested cities&mdash;as measured by the Commuter <a target = "_blank" href = "data-depot.html#urban-congestion">Stress Index</a> from Texas A&M’s Transportation Institute&mdash;are all in California and Hawaii. 
 
 
 ### Blurb text ends here ###
@@ -2556,7 +2553,7 @@ Bottom right Column: nonpayroll
 Image: transit1.png
 
 ### Blurb text starts here ###
-States with the highest transit spending per capita tend to be large and densely populated [link to supplemental Population, Area, Density and Economics table]. Residents take many trips on buses, subways, street cars, commuter railroads, and other mass transit. However, the average length of each trip (take-up) is generally not long. In many of these states (especially Hawaii, New York, Massachusetts, and DC), the ratio of transit system miles to miles people ride (units) is low, suggesting that people use the whole system intensively rather than only a few routes. Payroll and nonpayroll costs per transit way mile are often high, perhaps reflecting this heavy use. Transit systems in high-spending states also collect the most in fares.
+States with the highest transit spending per capita <a target = "_blank" href = "data-depot.html#state-characteristics">tend to be large and densely populated</a>. Residents take many trips on buses, subways, street cars, commuter railroads, and other mass transit. However, the average length of each trip (take-up) is generally not long. In many of these states (especially Hawaii, New York, Massachusetts, and DC), the ratio of transit system miles to miles people ride (units) is low, suggesting that people use the whole system intensively rather than only a few routes. Payroll and nonpayroll costs per transit way mile are often high, perhaps reflecting this heavy use. Transit systems in high-spending states also collect the most in fares.
 
 
 
@@ -2670,7 +2667,7 @@ Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
 
-States with the highest nonpayroll costs per mile are almost all among the top ten spenders overall. Nonpayroll costs are also highly related to capital spending. In some states (such as California, Colorado, New York, Oregon, Texas and DC), payroll and nonpayroll spending move in concert; in other states (such as Connecticut, Hawaii, Massachusetts, and Nevada) there appears to be a trade-off. In general, states with more-intensively used systems (units) have higher spending per transit mile (payroll and nonpayroll).
+States with the highest nonpayroll costs per mile are almost all among the top 10 spenders overall. Nonpayroll costs are also highly related to capital spending. In some states (such as California, Colorado, New York, Oregon, Texas and DC), payroll and nonpayroll spending move in concert; in other states (such as Connecticut, Hawaii, Massachusetts, and Nevada) there appears to be a trade-off. In general, states with more-intensively used systems (units) have higher spending per transit mile (payroll and nonpayroll).
 
 ### Blurb text ends here ###
 

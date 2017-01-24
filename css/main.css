@@ -471,7 +471,7 @@ body{
 }
 .styled-select select {
    background: transparent;
-   width: 376px;
+   width: 396px;
    height: 45px;
    padding-left: 10px;
    font: 26px crimson_textsemibold;
@@ -619,6 +619,9 @@ body{
 .blurbBox, .connector{
 	/*pointer-events: none;*/
 }
+.connector{
+	pointer-events: none;
+}
 .boxLabel{
 	width: 23px;
 	padding-top: 4px;
@@ -732,7 +735,7 @@ body{
   margin-top: 100px;
   background: #101b44;
   color: white;
-  min-height: 435px;
+  min-height: 465px;
   top: -12px;
   position: relative;
 }

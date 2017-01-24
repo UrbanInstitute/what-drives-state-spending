@@ -144,8 +144,8 @@ var mouseoverText	 = {
 	},
 	"highway": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "percent", "label" : "driving age"},
-		"eligibility":{"format": "percent", "label" : "of driving age residents with license"},
+		"demographics":{"format": "percent", "label" : "residents of driving age"},
+		"eligibility":{"format": "percent", "label" : "driving-age residents have license"},
 		"takeup":{"format": "comma", "label" : "miles driven per driver"},
 		"units":{"format": "number", "label" : "lane miles per mile driven"},
 		"payroll":{"format": "dollars", "label" : "on employees per lane mile"},
