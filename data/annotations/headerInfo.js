@@ -85,7 +85,7 @@ var HEADER_INFO = {
   }, 
   "highway": {
     "demographics": "People old enough to drive as a share of state population", 
-    "eligibility": "State residents with a driver’s license as a share of the driving-age population", 
+    "eligibility": "State residents with a driver's license as a share of the driving-age population", 
     "nonpayroll": "Dollars spent on nonpersonnel costs per mile of road", 
     "payroll": "Dollars spent on wages and salaries per mile of road", 
     "spending": "State and local dollars spent on highways per state resident", 
