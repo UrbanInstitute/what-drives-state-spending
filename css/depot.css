@@ -73,3 +73,6 @@ a.dd-download{
 		width: calc(100% - 50px);
 	}
 }
+.right{
+	float: right;
+}
