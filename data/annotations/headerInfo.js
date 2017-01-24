@@ -31,7 +31,7 @@ var HEADER_INFO = {
     "spending": "State and local dollars spent on corrections per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
-    "takeup": "People under correctional control as a share of state population", 
+    "takeup": "People under correctional supervision as a share of state population", 
     "takeup2": ".", 
     "units": "Corrections employees per prisoner or parolee"
   }, 
@@ -85,7 +85,7 @@ var HEADER_INFO = {
   }, 
   "highway": {
     "demographics": "People old enough to drive as a share of state population", 
-    "eligibility": "Residents of driving age who have a drivers license as a share of state population", 
+    "eligibility": "State residents with a driver’s license as a share of the driving-age population", 
     "nonpayroll": "Dollars spent on nonpersonnel costs per mile of road", 
     "payroll": "Dollars spent on wages and salaries per mile of road", 
     "spending": "State and local dollars spent on highways per state resident", 
@@ -121,7 +121,7 @@ var HEADER_INFO = {
   }, 
   "medicaid": {
     "demographics": "People living at or below 200% of the federal poverty level as a share of state population", 
-    "eligibility": "Low-income people eligible for Medicaid under state and federal rules as a share of state population", 
+    "eligibility": "Low-income people eligible for Medicaid under state and federal rules as a share of state low-income population", 
     "nonpayroll": ".", 
     "payroll": ".", 
     "spending": "State and local dollars spent on Medicaid per state resident", 
@@ -181,7 +181,7 @@ var HEADER_INFO = {
   }, 
   "tanf": {
     "demographics": "People living at or below 200% of the federal poverty level with children as a share of state population", 
-    "eligibility": "Low-income people with children who are eligible for TANF based on state rules as a share of state population", 
+    "eligibility": "Low-income people eligible for TANF based on state rules as a share of state low-income population with children", 
     "nonpayroll": ".", 
     "payroll": ".", 
     "spending": "State and local dollars spent on TANF per state resident", 

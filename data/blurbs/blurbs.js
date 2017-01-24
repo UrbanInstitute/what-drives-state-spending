@@ -19,6 +19,7 @@ var blurbs = {
           "column": "payroll", 
           "state": "CO"
         }, 
+        "image": "admin3.png", 
         "text": "High payroll costs can reflect policy choices or background conditions, such as costs of living, that are beyond policymakers\u2019 control. Isolating these factors for government employees is difficult, however, because the category encompasses so many different fields and types of workers. In DC, for example, attorneys working in local government are paid less than the average DC lawyer, but government financial officers are paid $17,000 more than the average DC financial officer. \r\n\r\n", 
         "top_left": {
           "column": "payroll", 
@@ -45,7 +46,7 @@ var blurbs = {
           "state": "MO"
         }, 
         "image": "admin2.png", 
-        "text": "Administration spending comes from four government functions: financial administration, judicial and legal services, central staff services, and general public buildings. In most states, spending on financial, judicial, and legal services is the largest category. \r\n\r\n\r\n\r\n\r\n", 
+        "text": "Administration spending comes from four government functions: financial administration, judicial and legal services, central staff services, and general public buildings. In most states, spending on financial administration is the largest category.\r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "TN"
@@ -323,7 +324,7 @@ var blurbs = {
           "state": "NJ, MS"
         }, 
         "image": "fire1.png", 
-        "text": "States with high payroll costs are often expensive places to live. But in some states with the highest local fire-protection payroll expenses (especially California and Nevada), local governments paid their employees more than this location premium would suggest. Other states at the low end of payroll costs per employee actually paid less than what other employers in the state paid for comparable workers. Higher salaries may reflect a higher level of firefighter quality or a level of education beyond what we assumed (some college) in our comparisons.\r\n\r\n\r\n\r\n", 
+        "text": "States with high payroll costs are often expensive places to live. But in some states with the highest local fire-protection payroll expenses (especially California and Nevada), local governments paid their employees more than this location premium would suggest. Other states at the low end of payroll costs per employee actually paid less than what other employers in the state paid for comparable workers. Higher salaries may reflect a higher level of firefighter quality or a level of education beyond what we assumed (some college) <a target = \"_blank\" href = \"data-depot.html#wages\">in our comparisons</a>.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "payroll, payroll", 
           "state": "CA, ME"
@@ -1099,7 +1100,7 @@ var blurbs = {
           "state": "PA"
         }, 
         "image": "parks3.png", 
-        "text": "\r\nStates with high payroll spending per park employee are expensive places to live. However, DC and the four highest-paying states all choose to pay their workers more than the labor market demands, suggesting policy decisions at work or employee attributes not captured here. \r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with high payroll spending per park employee are expensive places to live. However, DC and the four highest-paying states all choose to pay their workers more than the labor market demands, suggesting policy decisions at work or employee attributes not <a target = \"_blank\" href = \"data-depot.html#wages\">captured here</a>. \r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "Payroll", 
           "state": "DC"
@@ -1283,7 +1284,7 @@ var blurbs = {
           "state": "NV"
         }, 
         "image": "resources2.png", 
-        "text": "States with high payroll spending per worker were generally expensive places to live in 2012. One exception is Iowa, where average compensation was below the national average, but natural resources employees earned more than other workers with some college education. This may be because Iowa hires a different category of worker or because of policy decisions.\r\n\r\n\r\n\r\n", 
+        "text": "States with high payroll spending per worker were generally expensive places to live in 2012. One exception is Iowa, where average compensation was below the national average, but natural resources employees earned more than other workers with some college education. This may be because Iowa hires a <a target = \"_blank\" href = \"data-depot.html#wages\">different category of worker</a> or because of policy decisions.\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "Spending", 
           "state": "DC"

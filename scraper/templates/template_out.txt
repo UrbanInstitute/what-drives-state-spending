@@ -1042,7 +1042,7 @@ Bottom right Column: nonpayroll
 Image: admin2.png
 
 ### Blurb text starts here ###
-Administration spending comes from four government functions: financial administration, judicial and legal services, central staff services, and general public buildings. In most states, spending on financial, judicial, and legal services is the largest category. 
+Administration spending comes from four government functions: financial administration, judicial and legal services, central staff services, and general public buildings. In most states, spending on financial administration is the largest category.
 
 
 
@@ -1077,6 +1077,7 @@ Top left Column: payroll
 
 Bottom right State: CO
 Bottom right Column: payroll
+Image: admin3.png
 
 ### Blurb text starts here ###
 High payroll costs can reflect policy choices or background conditions, such as costs of living, that are beyond policymakers’ control. Isolating these factors for government employees is difficult, however, because the category encompasses so many different fields and types of workers. In DC, for example, attorneys working in local government are paid less than the average DC lawyer, but government financial officers are paid $17,000 more than the average DC financial officer. 
@@ -1195,7 +1196,7 @@ Bottom right Column: Nonpayroll
 Image: resources2.png
 
 ### Blurb text starts here ###
-States with high payroll spending per worker were generally expensive places to live in 2012. One exception is Iowa, where average compensation was below the national average, but natural resources employees earned more than other workers with some college education. This may be because Iowa hires a different category of worker or because of policy decisions.
+States with high payroll spending per worker were generally expensive places to live in 2012. One exception is Iowa, where average compensation was below the national average, but natural resources employees earned more than other workers with some college education. This may be because Iowa hires a <a target = "_blank" href = "data-depot.html#wages">different category of worker</a> or because of policy decisions.
 
 
 
@@ -1313,7 +1314,7 @@ Image: parks3.png
 
 ### Blurb text starts here ###
 
-States with high payroll spending per park employee are expensive places to live. However, DC and the four highest-paying states all choose to pay their workers more than the labor market demands, suggesting policy decisions at work or employee attributes not captured here. 
+States with high payroll spending per park employee are expensive places to live. However, DC and the four highest-paying states all choose to pay their workers more than the labor market demands, suggesting policy decisions at work or employee attributes not <a target = "_blank" href = "data-depot.html#wages">captured here</a>. 
 
 
 
@@ -2181,7 +2182,7 @@ Bottom right Column: payroll, payroll
 Image: fire1.png
 
 ### Blurb text starts here ###
-States with high payroll costs are often expensive places to live. But in some states with the highest local fire-protection payroll expenses (especially California and Nevada), local governments paid their employees more than this location premium would suggest. Other states at the low end of payroll costs per employee actually paid less than what other employers in the state paid for comparable workers. Higher salaries may reflect a higher level of firefighter quality or a level of education beyond what we assumed (some college) in our comparisons.
+States with high payroll costs are often expensive places to live. But in some states with the highest local fire-protection payroll expenses (especially California and Nevada), local governments paid their employees more than this location premium would suggest. Other states at the low end of payroll costs per employee actually paid less than what other employers in the state paid for comparable workers. Higher salaries may reflect a higher level of firefighter quality or a level of education beyond what we assumed (some college) <a target = "_blank" href = "data-depot.html#wages">in our comparisons</a>.
 
 
 
@@ -2453,7 +2454,7 @@ Bottom right State: DC
 Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
-Most states with low vehicle miles traveled (take-up) also have low to moderate spending on highways, roads, and bridges. Exceptions include Alaska, Pennsylvania, and DC, where high spending per lane mile may offset any savings from people driving less. In many states with few vehicle miles traveled, people use relatively few miles of roadway intensively (units). This is not the case in Alaska, but high spending per lane mile in 2012 may have been caused by extreme weather conditions or simply access to additional revenue from oil-related sources. 
+Most states with low vehicle miles traveled per driver (take-up) also have low to moderate spending on highways, roads, and bridges. Exceptions include Alaska, Pennsylvania, and DC, where high spending per lane mile may offset any savings from people driving less. In many states with few vehicle miles traveled, people use relatively few miles of roadway intensively (units). This is not the case in Alaska, but high spending per lane mile in 2012 may have been caused by extreme weather conditions or simply access to additional revenue from oil-related sources. 
 
 ### Blurb text ends here ###
 

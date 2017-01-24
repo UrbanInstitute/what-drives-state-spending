@@ -1937,7 +1937,10 @@ function scrollCheck(){
 
 $(window).scroll(scrollCheck);
 
-$(document).ready(scrollCheck);
+$(document).ready(function(){
+	d3.select("#navMenu select").node().value = "k12"
+	scrollCheck();
+});
 $(window).resize(function(e){
 	TABLET = d3.select(".gutter").style("display") == "none"
 	PHONE = d3.select(".mobileTest").style("display") == "block"
