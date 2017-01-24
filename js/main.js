@@ -1653,12 +1653,12 @@ image.onload = function() {
   var h = this.height;
   var W = window.innerWidth;
   var H = window.innerHeight;
-  if(w > W){
+  if(w > W*.7){
   	tmp = W * .7
   	h = h * (W *.7)/w
   	w = tmp 
   }
-  else if(h > H){
+  else if(h > H*.7){
   	tmp = H * .7
   	w = w * (H *.7)/h
   	h = tmp 
