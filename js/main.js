@@ -667,6 +667,10 @@ function mouseover(cell, datum, column, category){
 		case "foo":
 			formatter = d3.format("");
 			break;
+		case "thousandNumber":
+			value = value * 1000
+			formatter = d3.format(".3f");
+			break;
 	}
 	d3.select(cell)
 		.append("div")

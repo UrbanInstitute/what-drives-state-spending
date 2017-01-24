@@ -53,13 +53,13 @@ var mouseoverText	 = {
 	},
 	"admin": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
 	"resources": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
@@ -73,41 +73,41 @@ var mouseoverText	 = {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
 		"units":{"format": "number", "label" : "employees per resident"},
-		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"parks": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
-		"units":{"format": "number", "label" : "employees per resident"},
-		"payroll":{"format": "dollars", "label" : "per each employee"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
+		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
 	},
 	"electric": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
 	"gas": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
 	"sewage": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
 	"waste": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
@@ -115,7 +115,7 @@ var mouseoverText	 = {
 	"water": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
@@ -131,7 +131,7 @@ var mouseoverText	 = {
 	},
 	"fire": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"units":{"format": "number", "label" : "employees per resident"},
+		"units":{"format": "thousandNumber", "label" : "employees per 1,000 state residents"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
@@ -147,7 +147,7 @@ var mouseoverText	 = {
 		"demographics":{"format": "percent", "label" : "residents of driving age"},
 		"eligibility":{"format": "percent", "label" : "driving-age residents have license"},
 		"takeup":{"format": "comma", "label" : "miles driven per driver"},
-		"units":{"format": "number", "label" : "lane miles per mile driven"},
+		"units":{"format": "thousandNumber", "label" : "miles of highway per 1,000 miles driven"},
 		"payroll":{"format": "dollars", "label" : "on employees per lane mile"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per lane mile"}
 	},
@@ -155,7 +155,7 @@ var mouseoverText	 = {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "small", "label" : "transit trips per resident"},
 		"takeup":{"format": "small", "label" : "miles per trip"},
-		"units":{"format": "number", "label" : "transit miles per mile traveled on transit"},
+		"units":{"format": "thousandNumber", "label" : "miles of transit route per 1,000 miles traveled on public transit"},
 		"payroll":{"format": "dollars", "label" : "on employees per transit mile"},
 		"nonpayroll":{"format": "dollars", "label" : "on other costs per transit mile"}
 	}
