@@ -289,14 +289,14 @@ var blurbs = {
       }, 
       {
         "bottom_right": {
-          "column": "spending, spending", 
-          "state": "GA, TN"
+          "column": "spending", 
+          "state": "UT"
         }, 
         "image": "electric2.png", 
         "text": "As with water supply, state and local government net spending (total spending minus user charges) on electricity is often zero or negative because providers use rate payments to recoup current generation charges and the costs of capital projects from previous years. \r\n\r\n\r\n\r\n", 
         "top_left": {
-          "column": "spending, spending", 
-          "state": "GA, TN"
+          "column": "spending", 
+          "state": "AK"
         }
       }
     ]
@@ -993,7 +993,7 @@ var blurbs = {
           "column": "eligibility", 
           "state": "NH"
         }, 
-        "text": "States with relatively few low-income residents often have a high percentage of <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/eligibility/\">people eligible</a> for Medicaid and the Children\u2019s Health Insurance Program. This may be because of policy decisions within <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/eligibility/\">federal rules</a> or particular features of their low-income populations. For example, most states allow low-income pregnant women and children to qualify for Medicaid at higher income levels than other eligibility groups. States with more low-income kids may thus have more residents eligible for Medicaid. \r\n\r\n", 
+        "text": "States with relatively few low-income residents often have a high percentage of people eligible for Medicaid and the Children\u2019s Health Insurance Program. This may be because of policy decisions within <a target = \"_blank\" href = \"https://www.macpac.gov/medicaid-101/eligibility/\">federal rules</a> or particular features of their low-income populations. For example, most states allow low-income pregnant women and children to qualify for Medicaid at higher income levels than other eligibility groups. States with more low-income kids may thus have more residents eligible for Medicaid. \r\n\r\n", 
         "top_left": {
           "column": "demographics", 
           "state": "VT"
@@ -1211,13 +1211,13 @@ var blurbs = {
       }, 
       {
         "bottom_right": {
-          "column": "nonpayroll, nonpayroll", 
-          "state": "CA, KY"
+          "column": "nonpayroll", 
+          "state": "KY"
         }, 
         "text": "\r\nPolice protection is a labor-intensive public service, so it is unsurprising that payroll spending is a major driver of spending, constituting nearly two-thirds of US police expenditures in 2012. Some high-spending states (such as California, New Jersey, and New York) had very high payroll expenditures per employee in 2012; low-spending states had very low payroll per employee. Nonpayroll spending also contributes to state spending differences, but there are notable exceptions, such as New York and New Jersey, where nonpayroll spending was low despite high spending per capita. \r\n\r\n", 
         "top_left": {
-          "column": "spending, spending", 
-          "state": "DC, AR"
+          "column": "payroll", 
+          "state": "DC"
         }
       }
     ], 

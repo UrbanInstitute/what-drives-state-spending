@@ -411,7 +411,7 @@ Bottom right State: NH
 Bottom right Column: eligibility
 
 ### Blurb text starts here ###
-States with relatively few low-income residents often have a high percentage of <a target = "_blank" href = "https://www.macpac.gov/medicaid-101/eligibility/">people eligible</a> for Medicaid and the Children’s Health Insurance Program. This may be because of policy decisions within <a target = "_blank" href = "https://www.macpac.gov/medicaid-101/eligibility/">federal rules</a> or particular features of their low-income populations. For example, most states allow low-income pregnant women and children to qualify for Medicaid at higher income levels than other eligibility groups. States with more low-income kids may thus have more residents eligible for Medicaid. 
+States with relatively few low-income residents often have a high percentage of people eligible for Medicaid and the Children’s Health Insurance Program. This may be because of policy decisions within <a target = "_blank" href = "https://www.macpac.gov/medicaid-101/eligibility/">federal rules</a> or particular features of their low-income populations. For example, most states allow low-income pregnant women and children to qualify for Medicaid at higher income levels than other eligibility groups. States with more low-income kids may thus have more residents eligible for Medicaid. 
 
 ### Blurb text ends here ###
 
@@ -1401,11 +1401,11 @@ States that spend the most per capita on public electric power systems (includin
 
 ### Blurb text ends here ###
 
-Top left State: GA, TN
-Top left Column: spending, spending
+Top left State: AK
+Top left Column: spending
 
-Bottom right State: GA, TN
-Bottom right Column: spending, spending
+Bottom right State: UT
+Bottom right Column: spending
 Image: electric2.png
 
 ### Blurb text starts here ###
@@ -2239,11 +2239,11 @@ States with the highest police expenditures per capita generally do not have the
 
 ### Blurb text ends here ###
 
-Top left State: DC, AR
-Top left Column: spending, spending
+Top left State: DC
+Top left Column: payroll
 
-Bottom right State: CA, KY
-Bottom right Column: nonpayroll, nonpayroll
+Bottom right State: KY
+Bottom right Column: nonpayroll
 
 ### Blurb text starts here ###
 
