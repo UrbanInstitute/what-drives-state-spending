@@ -69,13 +69,6 @@ var mouseoverText	 = {
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
-	"resources": {
-		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "foo", "label" : "bar"},
-		"units":{"format": "number", "label" : "employees per resident"},
-		"payroll":{"format": "dollars", "label" : "per employee"},
-		"nonpayroll":{"format": "dollars", "label" : "on other costs per employee"}
-	},
 	"parks": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "foo", "label" : "bar"},

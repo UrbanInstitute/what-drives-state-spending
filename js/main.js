@@ -256,6 +256,15 @@ function renderHeatmap(category, userLocation){
 						case "ssi":
 							infoHeight = "90px"
 							break;
+						case "corrections":
+							infoHeight = "100px";
+							break;
+						case "fire":
+							infoHeight = "100px"
+							break;
+						case "admin":
+							infoHeight = "100px"
+							break;
 					}
 
 					var left = d3.select(this).node().getBoundingClientRect().left

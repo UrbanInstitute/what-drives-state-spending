@@ -1,7 +1,7 @@
 var HEADER_INFO = {
   "admin": {
-    "demographics": "Any state resident could benefit from administrative services, so the entire population is potentially eligible", 
-    "eligibility": "Any state resident could benefit from administrative services, so the entire population is eligible", 
+    "demographics": "Any state resident could use administrative services, so the entire population is potentially eligible", 
+    "eligibility": "Any state resident could use administrative services, so the entire population is eligible", 
     "nonpayroll": "Dollars spent on nonpersonnel administrative costs per administrative employee", 
     "payroll": "Dollars spent on wages and salaries per administrative employee", 
     "spending": "State and local dollars spent on administration per state resident", 
@@ -9,7 +9,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "Any state resident could use government administrative services", 
     "takeup2": ".", 
-    "units": "Administrative employees per state resident"
+    "units": "Administrative employees per 1,000 state residents"
   }, 
   "ccdf": {
     "demographics": "People living at or below 200% of the federal poverty level with children as a share of state population", 
@@ -45,7 +45,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "As of publication, we did not have detailed data on public electricity utility customers", 
     "takeup2": ".", 
-    "units": "Electric employees per state resident"
+    "units": "Electric employees per 1,000 state residents"
   }, 
   "fire": {
     "demographics": "Any state resident could benefit from fire protection services, so the entire population is potentially eligible", 
@@ -57,7 +57,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "All state residents could benefit from fire protection services", 
     "takeup2": ".", 
-    "units": "Fire employees per state resident"
+    "units": "Fire employees per 1,000 state residents"
   }, 
   "gas": {
     "demographics": "Any state resident could receive gas services, so the entire population is potentially eligible", 
@@ -69,7 +69,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "As of publication, we did not have detailed data on gas utility customers", 
     "takeup2": ".", 
-    "units": "Gas employees per state resident"
+    "units": "Gas employees per 1,000 state residents"
   }, 
   "higher": {
     "demographics": "18- to 24-year-olds in the state as a share of state population", 
@@ -93,7 +93,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "Average number of miles each driver in the state drives", 
     "takeup2": ".", 
-    "units": "Miles of highway per mile driven"
+    "units": "Miles of highway per 1,000 miles driven"
   }, 
   "housing": {
     "demographics": "People living at or below 200% of the federal poverty level as a share of state population", 
@@ -141,7 +141,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "Any state resident could use state parks", 
     "takeup2": ".", 
-    "units": "Park employees per resident"
+    "units": "Park employees per 1,000 state residents"
   }, 
   "police": {
     "demographics": "Any state resident could benefit from police protection, so the entire population is potentially eligible", 
@@ -165,7 +165,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "Any state resident could benefit from state natural resource programs", 
     "takeup2": ".", 
-    "units": "Natural resources employees per state resident"
+    "units": "Natural resources employees per 1,000 state residents"
   }, 
   "sewage": {
     "demographics": "Any state resident could use sewerage services, so the entire population is potentially eligible", 
@@ -177,7 +177,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "As of publication, we did not have detailed data on sewerage customers", 
     "takeup2": ".", 
-    "units": "Sewerage employees per state resident"
+    "units": "Sewerage employees per 1,000 state residents"
   }, 
   "tanf": {
     "demographics": "People living at or below 200% of the federal poverty level with children as a share of state population", 
@@ -201,7 +201,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "Average length, in miles, of a public transit trip in the state", 
     "takeup2": ".", 
-    "units": "Miles of transit infrastructure per mile traveled on transit"
+    "units": "Miles of transit infrastructure per 1,000 miles traveled on transit"
   }, 
   "waste": {
     "demographics": "Any state resident could use solid waste services, so the entire population is potentially eligible", 
@@ -213,7 +213,7 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "As of publication, we did not have detailed data on solid waste customers", 
     "takeup2": ".", 
-    "units": "Waste employees per state resident"
+    "units": "Waste employees per 1,000 state residents"
   }, 
   "water": {
     "demographics": "Any state resident could use water services, so the entire population is potentially eligibile", 
@@ -225,6 +225,6 @@ var HEADER_INFO = {
     "spending-per-u": ".", 
     "takeup": "As of publication, we did not have detailed data on water utility customers", 
     "takeup2": ".", 
-    "units": "Water employees per state resident"
+    "units": "Water employees per 1,000 state residents"
   }
 }

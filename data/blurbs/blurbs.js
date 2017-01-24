@@ -124,7 +124,7 @@ var blurbs = {
           "state": "WA"
         }, 
         "image": "ccdf2.png", 
-        "text": "\r\nStates with high participation in subsidized child care among eligible families are at the top (such as Nebraska and Vermont) and bottom (such as Alabama and Michigan) of the per capita spending rankings. Some high-spending states had more generous <a target = \"_blank\" href = \"http://www.urban.org/sites/default/files/alfresco/publication-pdfs/412977-The-CCDF-Policies-Database-Book-of-Tables-Key-Cross-State-Variations-in-CCDF-Policies-as-of-October--.PDF\">maximum reimbursement rates</a> (such as Minnesota, New York, and Washington); others had low <a target = \"_blank\" href = \"http://www.urban.org/urban-wire/child-care-subsidies-family-copayments-vary-widely-across-states\">copayment requirements</a> (such as Nebraska, Rhode Island, and Vermont). \r\n\r\n\r\n\r\n\r\n", 
+        "text": "\r\nStates with high participation in subsidized child care among eligible families are at the top (such as Nebraska and Vermont) and bottom (such as Alabama and Michigan) of the per capita spending rankings. Some high-spending states had more generous <a target = \"_blank\" href = \"http://www.urban.org/research/publication/ccdf-policies-database-book-tables-key-cross-state-variations-ccdf-policies-october-1-2012\">maximum reimbursement rates</a> (such as Minnesota, New York, and Washington); others had low <a target = \"_blank\" href = \"http://www.urban.org/urban-wire/child-care-subsidies-family-copayments-vary-widely-across-states\">copayment requirements</a> (such as Nebraska, Rhode Island, and Vermont). \r\n\r\n\r\n\r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "MO"
@@ -699,7 +699,7 @@ var blurbs = {
           "column": "nonpayroll", 
           "state": "DC"
         }, 
-        "text": "Most states with low vehicle miles traveled (take-up) also have low to moderate spending on highways, roads, and bridges. Exceptions include Alaska, Pennsylvania, and DC, where high spending per lane mile may offset any savings from people driving less. In many states with few vehicle miles traveled, people use relatively few miles of roadway intensively (units). This is not the case in Alaska, but high spending per lane mile in 2012 may have been caused by extreme weather conditions or simply access to additional revenue from oil-related sources. \r\n\r\n", 
+        "text": "Most states with low vehicle miles traveled per driver (take-up) also have low to moderate spending on highways, roads, and bridges. Exceptions include Alaska, Pennsylvania, and DC, where high spending per lane mile may offset any savings from people driving less. In many states with few vehicle miles traveled, people use relatively few miles of roadway intensively (units). This is not the case in Alaska, but high spending per lane mile in 2012 may have been caused by extreme weather conditions or simply access to additional revenue from oil-related sources. \r\n\r\n", 
         "top_left": {
           "column": "spending", 
           "state": "NH"
