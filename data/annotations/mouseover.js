@@ -18,9 +18,9 @@ var mouseoverText	 = {
 	"medicaid": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "percent", "label" : "below 200% of the poverty line"},
-		"eligibility":{"format": "percent", "label" : "of low-income residents eligible for Medicaid"},
+		"eligibility":{"format": "percent", "label" : "of low-income residents eligible for Medicaid or CHIP"},
 		"takeup":{"format": "percent", "label" : "of eligible residents enrolled"},
-		"spending-per":{"format": "dollars", "label" : "per Medicaid recipient"}
+		"spending-per":{"format": "dollars", "label" : "per Medicaid or CHIP recipient"}
 	},
 	"ssi": {
 		"spending":{"format": "dollars", "label" : "per non-institutionalized {{STATE}} resident"},
@@ -45,7 +45,7 @@ var mouseoverText	 = {
 	},	
 	"housing": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"demographics":{"format": "percent", "label" : "low-income residents"},
+		"demographics":{"format": "percent", "label" : "below 50% of area median income"},
 		"takeup":{"format": "percent", "label" : "low-income residents receiving housing support"},
 		"units":{"format": "number", "label" : "employees per resident receiving housing support"},
 		"payroll":{"format": "dollars", "label" : "per employee"},

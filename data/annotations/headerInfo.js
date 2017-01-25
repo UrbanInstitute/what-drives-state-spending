@@ -7,7 +7,7 @@ var HEADER_INFO = {
     "spending": "State and local dollars spent on administration per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
-    "takeup": "Any state resident could use government administrative services", 
+    "takeup": "All state residents benefit from government administrative services", 
     "takeup2": ".", 
     "units": "Administrative employees per 1,000 state residents"
   }, 
@@ -55,7 +55,7 @@ var HEADER_INFO = {
     "spending": "Local dollars spent on fire protection per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
-    "takeup": "All state residents could benefit from fire protection services", 
+    "takeup": "All state residents benefit from fire protection services", 
     "takeup2": ".", 
     "units": "Fire employees per 1,000 state residents"
   }, 
@@ -74,14 +74,14 @@ var HEADER_INFO = {
   "higher": {
     "demographics": "18- to 24-year-olds in the state as a share of state population", 
     "eligibility": "Students enrolled in college in the state as a share of 18- to 24-year-olds", 
-    "nonpayroll": "Dollars spent on nonpersonnel costs per college employee", 
-    "payroll": "Dollars spent on wages and salaries per college employee", 
+    "nonpayroll": "Dollars spent on nonpersonnel costs per public college employee", 
+    "payroll": "Dollars spent on wages and salaries per public college employee", 
     "spending": "State and local dollars spent on higher education per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
     "takeup": "Students enrolled in public colleges in the state as a share of college students", 
     "takeup2": ".", 
-    "units": "College employees per student in public colleges"
+    "units": "Public college employees per student in public colleges"
   }, 
   "highway": {
     "demographics": "People old enough to drive as a share of state population", 
@@ -96,7 +96,7 @@ var HEADER_INFO = {
     "units": "Miles of highway per 1,000 miles driven"
   }, 
   "housing": {
-    "demographics": "People living at or below 200% of the federal poverty level as a share of state population", 
+    "demographics": "Households below 50% of area median income as a share of state population", 
     "eligibility": "We do not have eligibility information for the diverse range of housing programs", 
     "nonpayroll": "Dollars spent on nonpersonnel housing costs per housing employee", 
     "payroll": "Dollars spent on wages and salaries per housing employee", 
@@ -121,13 +121,13 @@ var HEADER_INFO = {
   }, 
   "medicaid": {
     "demographics": "People living at or below 200% of the federal poverty level as a share of state population", 
-    "eligibility": "Low-income people eligible for Medicaid under state and federal rules as a share of state low-income population", 
+    "eligibility": "Low-income people eligible for Medicaid or CHIP under state and federal rules as a share of state low-income population", 
     "nonpayroll": ".", 
     "payroll": ".", 
-    "spending": "State and local dollars spent on Medicaid per state resident", 
+    "spending": "State and local dollars spent on Medicaid and CHIP per state resident", 
     "spending-per": "Dollars spent on Medicaid and CHIP per recipient", 
     "spending-per-u": ".", 
-    "takeup": "Medicaid enrollees per eligible resident", 
+    "takeup": "Medicaid and CHIP enrollees per eligible resident", 
     "takeup2": ".", 
     "units": "."
   }, 
@@ -139,7 +139,7 @@ var HEADER_INFO = {
     "spending": "State and local dollars spent on parks per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
-    "takeup": "Any state resident could use state parks", 
+    "takeup": "All state residents benefit from state parks", 
     "takeup2": ".", 
     "units": "Park employees per 1,000 state residents"
   }, 
@@ -163,7 +163,7 @@ var HEADER_INFO = {
     "spending": "State and local dollars spent on natural resources per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
-    "takeup": "Any state resident could benefit from state natural resource programs", 
+    "takeup": "All state residents benefit from state natural resource programs", 
     "takeup2": ".", 
     "units": "Natural resources employees per 1,000 state residents"
   }, 
