@@ -764,6 +764,11 @@ promise.then(function(result){
 		resizePhone()
 	}
 	setTimeout(function(){
+		// console.log(result)
+		if(result == ""){
+			result = undefined;
+		}
+		console.log(result)
 		renderHeatmap("k12", result);
 	}, 200)
 		
