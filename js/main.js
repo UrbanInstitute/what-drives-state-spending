@@ -768,9 +768,8 @@ promise.then(function(result){
 		if(result == ""){
 			result = undefined;
 		}
-		console.log(result)
 		renderHeatmap("k12", result);
-	}, 200)
+	}, 400)
 		
 
 })
