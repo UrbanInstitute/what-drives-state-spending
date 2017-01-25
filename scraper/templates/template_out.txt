@@ -878,7 +878,7 @@ Bottom right State: WY
 Bottom right Column: spending
 
 ### Blurb text starts here ###
-Roughly ¾ of state and local spending budget on housing and community development nationwide comes from <a target = "_blank" href = "data-depot.html#share-govt-expenditures">federal grants to states</a>. Although there is no consistent relationship between state spending in this area and federal grants received, three of the lowest spending states in 2012 (Idaho, Nevada, and Wyoming) also took in the fewest federal dollars as a share of all housing funds in that year and spent more from their own funds.       
+Roughly ¾ of the state and local spending budget on housing and community development nationwide comes from <a target = "_blank" href = "data-depot.html#share-govt-expenditures">federal grants to states</a>. Although there is no consistent relationship between state spending in this area and federal grants received, three of the lowest spending states in 2012 (Idaho, Nevada, and Wyoming) also took in the fewest federal dollars as a share of all housing funds in that year and spent more from their own funds.       
 
 
 ### Blurb text ends here ###

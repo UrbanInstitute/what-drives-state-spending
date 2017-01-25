@@ -35,7 +35,7 @@ var HEADERS ={
 	"spending-per-u":"<div class = \"innerHeader recipient\"><span>&times;</span>spending per<br/>unit</div>",
 	"takeup2":"<div class = \"innerHeader takeup\"><span>&times;</span>take-up rate 2</div>"
 }
-ROW_HEIGHT = 32;
+var ROW_HEIGHT = 32;
 var COLUMN_WIDTH = 99;
 var headerHeight = 116-56;
 var LAST_HIGHLIGHT = Date.now()
@@ -263,6 +263,9 @@ function renderHeatmap(category, userLocation){
 							infoHeight = "100px"
 							break;
 						case "admin":
+							infoHeight = "100px"
+							break;
+						case "tanf":
 							infoHeight = "100px"
 							break;
 					}

@@ -2,7 +2,7 @@ var mouseoverText	 = {
 	"higher": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
 		"demographics":{"format": "percent", "label" : "18- to 24-year-olds"},
-		"takeup":{"format": "percent", "label" : "of 18- to 24-year-olds enrolled in public colleges"},
+		"takeup":{"format": "percent", "label" : "of college students enrolled in public colleges"},
 		"eligibility":{"format": "percent", "label" : "of 18- to 24-year-olds enrolled in college"},
 		"units":{"format": "number", "label" : "employees per student"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
@@ -10,8 +10,8 @@ var mouseoverText	 = {
 	},
 	"corrections": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
-		"takeup":{"format": "percent", "label" : "in prison or on parole"},
-		"units":{"format": "number", "label" : "employees per prisoner or parolee"},
+		"takeup":{"format": "percent", "label" : "under correctional supervision"},
+		"units":{"format": "number", "label" : "employees per person under correctional supervision"},
 		"payroll":{"format": "dollars", "label" : "per employee"},
 		"nonpayroll":{"format": "dollars", "label" : "per employee"}
 	},
@@ -34,7 +34,7 @@ var mouseoverText	 = {
 		"demographics":{"format": "percent", "label" : "low-income residents with children"},
 		"eligibility":{"format": "percent", "label" : "of low-income residents with children eligible for TANF"},
 		"takeup":{"format": "percent", "label" : "of eligible residents receiving TANF"},
-		"spending-per":{"format": "dollars", "label" : "per TANF recipient"}
+		"spending-per":{"format": "dollars", "label" : "on TANF per recipient"}
 	},
 	"ccdf": {
 		"spending":{"format": "dollars", "label" : "per {{STATE}} resident"},
