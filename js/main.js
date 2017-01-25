@@ -459,13 +459,7 @@ function renderHeatmap(category, userLocation){
 				drawBlurbs(category, "spending", false, data)
 			});
 		}
-		var rows = d3.selectAll(".row")[0]
-		if(rows.length > 52){
-			for(var i = 0; i < 52; i++){
-				rows[i].remove()
-			}
-			d3.select(".header").remove()
-		}
+
 		d3.selectAll(".garbage").remove()
 		d3.selectAll(".blurbBox:not(.garbage)")
 				.transition()
@@ -1962,6 +1956,16 @@ $(window).scroll(scrollCheck);
 
 $(document).ready(function(){
 	d3.select("#navMenu select").node().value = "k12"
+	setTimeout(function(){
+		var rows = d3.selectAll(".row")[0]
+		if(rows.length > 52){
+			console.log("baleted")
+			for(var i = 0; i < 52; i++){
+				rows[i].remove()
+			}
+			d3.select(".header").remove()
+		}
+	},1000);		
 	scrollCheck();
 });
 $(window).resize(function(e){
