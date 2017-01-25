@@ -459,6 +459,13 @@ function renderHeatmap(category, userLocation){
 				drawBlurbs(category, "spending", false, data)
 			});
 		}
+		var rows = d3.selectAll(".row")[0]
+		if(rows.length > 52){
+			for(var i = 0; i < 52; i++){
+				rows[i].remove()
+			}
+			d3.select(".header").remove()
+		}
 		d3.selectAll(".garbage").remove()
 		d3.selectAll(".blurbBox:not(.garbage)")
 				.transition()
