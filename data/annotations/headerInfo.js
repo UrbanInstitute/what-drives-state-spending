@@ -26,14 +26,14 @@ var HEADER_INFO = {
   "corrections": {
     "demographics": "Any state resident could be under correctional supervision, so the entire population is potentially eligible", 
     "eligibility": "Any state resident could be under correctional supervision, so the entire population is eligible", 
-    "nonpayroll": "Dollars spent on nonpersonnel corrections costs per corrections employee", 
+    "nonpayroll": "Dollars spent on nonpersonnel costs per corrections employee", 
     "payroll": "Dollars spent on wages and salaries per corrections employee", 
     "spending": "State and local dollars spent on corrections per state resident", 
     "spending-per": ".", 
     "spending-per-u": ".", 
     "takeup": "People under correctional supervision as a share of state population", 
     "takeup2": ".", 
-    "units": "Corrections employees per prisoner or parolee"
+    "units": "Corrections employee per person under correctional supervision"
   }, 
   "electric": {
     "demographics": "Any state resident could use electricity services, so the entire population is potentially eligible", 
@@ -50,7 +50,7 @@ var HEADER_INFO = {
   "fire": {
     "demographics": "Any state resident could benefit from fire protection services, so the entire population is potentially eligible", 
     "eligibility": "Any state resident could benefit from fire protection services, so the entire population is eligible", 
-    "nonpayroll": "Dollars spent on nonpersonnel fire protection costs per fire employee", 
+    "nonpayroll": "Dollars spent on nonpersonnel costs per fire employee", 
     "payroll": "Dollars spent on wages and salaries per fire employee", 
     "spending": "Local dollars spent on fire protection per state resident", 
     "spending-per": ".", 
@@ -110,7 +110,7 @@ var HEADER_INFO = {
   "k12": {
     "demographics": "Children who could be in school as a share of state population", 
     "eligibility": "Children who are enrolled in school as a share of children who could be in school", 
-    "nonpayroll": "Dollars spent on facilities and other costs per school employee", 
+    "nonpayroll": "Dollars spent on nonpersonnel costs per school employee", 
     "payroll": "Dollars spent on wages and salaries per school employee", 
     "spending": "State and local dollars spent on K&ndash;12 education per state resident", 
     "spending-per": ".", 
@@ -146,7 +146,7 @@ var HEADER_INFO = {
   "police": {
     "demographics": "Any state resident could benefit from police protection, so the entire population is potentially eligible", 
     "eligibility": "Any state resident could benefit from police protection, so the entire population is eligible", 
-    "nonpayroll": "Dollars spent on nonpersonnel police costs per police employee", 
+    "nonpayroll": "Dollars spent on nonpersonnel costs per police employee", 
     "payroll": "Dollars spent on wages and salaries per police employee", 
     "spending": "State and local dollars spent on police per state resident", 
     "spending-per": ".", 
