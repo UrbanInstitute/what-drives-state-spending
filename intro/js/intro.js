@@ -71,7 +71,6 @@ function step1(){
 	// console.log(bar)
 	moveIn("#s2",DURATION,0)
 	fadeIn(".s3",SHORT_DURATION,DELAY)
-	console.log(ELEMS.length)
 }
 function step2(){
 	// var bar = moveIn("#s1",0,0)

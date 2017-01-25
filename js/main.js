@@ -1957,10 +1957,8 @@ $(window).scroll(scrollCheck);
 $(document).ready(function(){
 	d3.select("#navMenu select").node().value = "k12"
 	setTimeout(function(){
-		console.log("foo")
 		var rows = d3.selectAll(".row")[0]
 		if(rows.length > 52){
-			console.log("baleted")
 			for(var i = 0; i < 52; i++){
 				rows[i].remove()
 			}
