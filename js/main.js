@@ -1254,8 +1254,8 @@ function drawBlurb(blurbList, column, numCols, passed_data, initOpac){
 				.attr("width", centers[right]["x"] - centers[left]["x"])
 				.attr("height", ROW_HEIGHT)
 				.style("position","absolute")
-				.style("left",centers[left]["x"])
-				.style("top",centers[top]["y"] - ROW_HEIGHT/2)	
+				.style("left",centers[left]["x"] + "px")
+				.style("top",(centers[top]["y"] - ROW_HEIGHT/2) + "px")	
 
 			svg
 				.append("defs")

@@ -341,11 +341,11 @@ body{
 	font: 13px crimson_textsemibolditalic;
 	text-align: center;
 	color: #666666;
-    width: 99;
-    height: 100;
+    width: 99px;
+    height: 100px;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     padding-top:10px;
     border-top: none;
     pointer-events: none;
