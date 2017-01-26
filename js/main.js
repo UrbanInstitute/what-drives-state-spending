@@ -324,7 +324,7 @@ function renderHeatmap(category, userLocation){
 					// 	.style("opacity",1)
 					d3.select("#info")
 						.html(info)
-						.style("left", left)
+						.style("left", left + "px")
 						.style("top","-" + infoHeight)
 						.style("border-top","3px solid #eb3f1c")
 
