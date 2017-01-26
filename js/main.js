@@ -1,3 +1,30 @@
+// var IS_IE;
+
+// function getInternetExplorerVersion()
+// {
+//   var rv = -1;
+//   if (navigator.appName == 'Microsoft Internet Explorer')
+//   {
+//     var ua = navigator.userAgent;
+//     var re  = new RegExp("MSIE ([0-9]{1,}[\.0-9]{0,})");
+//     if (re.exec(ua) != null)
+//       rv = parseFloat( RegExp.$1 );
+//   }
+//   else if (navigator.appName == 'Netscape')
+//   {
+//     var ua = navigator.userAgent;
+//     var re  = new RegExp("Trident/.*rv:([0-9]{1,}[\.0-9]{0,})");
+//     if (re.exec(ua) != null)
+//       rv = parseFloat( RegExp.$1 );
+//   }
+//   return rv;
+// }
+
+// if(getInternetExplorerVersion() != -1){
+// 	IS_IE = true;
+// }
+
+
 var GLOBAL_DATA; 
 var FIREFOX  = navigator.userAgent.indexOf('Firefox') > -1;
 
@@ -428,7 +455,6 @@ function renderHeatmap(category, userLocation){
 		if(typeof(userLocation) != "undefined"){
 			var small_promise =  new Promise(function(resolve, reject){
 				d3.csv("data/" + category + ".csv", function(data){
-					console.log(category)
 					var test = drawBlurbs(category, "spending", false, data)
 					resolve(test)
 				});	
@@ -455,7 +481,6 @@ function renderHeatmap(category, userLocation){
 			
 		}else{
 			d3.csv("data/" + category + ".csv", function(data){
-				console.log(category)
 				drawBlurbs(category, "spending", false, data)
 			});
 		}
@@ -765,7 +790,6 @@ promise.then(function(result){
 		resizePhone()
 	}
 	setTimeout(function(){
-		// console.log(result)
 		if(result == ""){
 			result = undefined;
 		}
@@ -941,12 +965,6 @@ function drawBlurb(blurbList, column, numCols, passed_data, initOpac){
 	var centers = []
 	for (var j = 0; j < blurbList.length; j++){
 		var blurb = blurbList[j]
-		// console.log(blurb.top_left.state, d3.select(".row." + blurb.top_left.state + ":not(.garbage)").node())
-		// console.log(GLOBAL_DATA)
-
-		// var topD = d3.select(".row." + blurb.top_left.state + ":not(.garbage)").datum()
-		
-		// var bottomD = d3.select(".row." + blurb.bottom_right.state+ ":not(.garbage)").datum()
 		var topD = passed_data.filter(function(o){ return o.state == blurb.top_left.state})[0]
 		var bottomD = passed_data.filter(function(o){ return o.state == blurb.bottom_right.state})[0]
 
@@ -1819,7 +1837,7 @@ function scrollCheck(){
       // upscroll code
    }
    lastScrollTop = st;
-	var y = window.scrollY
+	var y = window.pageYOffset
 	if(y >= 2700 && !s1_done){
 		s1_done = true
 		step1();
