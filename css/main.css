@@ -771,7 +771,7 @@ hr{
 
 .right.footer{
   display: inline-block;
-  width: 380px;
+  width: 400px;
   left: 84px;
   float: left;
   position: relative;
@@ -816,7 +816,7 @@ hr{
   color: #fff;
 }
 
-.footer.read, .footer.data, .footer.print{
+.footer.read, .footer.data, .footer.print, .footer.demo{
   float: left;
   color: #f2f2f2 !important;
   /*clear: both;*/
@@ -872,6 +872,9 @@ hr{
 .footer.doc{
 	width: 130px;
 }
+.footer.demo{
+	width: 128px;
+}
 
 .left.credits{
   float: left;
@@ -895,7 +898,7 @@ hr{
 
 @media (max-width: 1178px){
   .footerRow{
-  height: 690px;   
+  height: 720px;   
   }
   .right.footer{
    left: 0;   
@@ -906,6 +909,9 @@ hr{
   }
 }
 @media (max-width: 525px){
+	.footer.read.demo{
+		margin-top: -50px;
+	}
 	.left.footer, .right.footer{
 		margin-left: -20px;
 		width: 100%;
@@ -918,7 +924,7 @@ hr{
 	}
 }
 @media (max-width: 368px){
-	.footer.read.doc{
+	.footer.read.doc, .footer.read.demo{
 		margin-top: -50px;
 	}
 }
